@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wireman Tracker</title>
+    <meta
+      name="description"
+      content="Daily apprentice electrician and inside wireman lead tracker with a bias toward data center and mission critical work."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Space Grotesk', 'ui-sans-serif', 'sans-serif'],
+              serif: ['Instrument Serif', 'Georgia', 'serif']
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(34,211,238,0.16),_transparent_26%),radial-gradient(circle_at_82%_18%,_rgba(251,191,36,0.14),_transparent_20%),linear-gradient(180deg,#020617_0%,#0f172a_40%,#111827_100%)] text-slate-100">
+    <main class="mx-auto max-w-7xl px-6 py-10 lg:px-10">
+      <section class="overflow-hidden rounded-[2.2rem] border border-white/10 bg-slate-950/82 text-white shadow-[0_30px_100px_rgba(2,6,23,0.55)] backdrop-blur">
+        <div class="grid gap-8 px-8 py-10 lg:grid-cols-[1.4fr_0.8fr] lg:px-12 lg:py-14">
+          <div>
+            <p class="text-sm uppercase tracking-[0.35em] text-cyan-200">Donovan's Live Wire</p>
+            <h1 class="mt-4 max-w-3xl text-4xl font-bold leading-[0.95] text-white lg:text-6xl">
+              Daily apprentice electrician leads with an Oregon-first lens.
+            </h1>
+            <p class="mt-6 max-w-2xl text-base leading-8 text-slate-300 lg:text-lg">
+              Priority leads stay at the top, West Coast and nearby options get their own lane, and the broader national market stays visible underneath so relocation-worthy openings never disappear from view.
+            </p>
+            <div class="mt-8 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+              <div class="rounded-2xl border border-white/10 bg-white/6 p-4">
+                <p class="text-xs uppercase tracking-[0.22em] text-slate-400">Active Leads</p>
+                <p class="mt-2 text-3xl font-bold text-white">26</p>
+              </div>
+              <div class="rounded-2xl border border-amber-200/10 bg-amber-300/8 p-4">
+                <p class="text-xs uppercase tracking-[0.22em] text-amber-100/80">Priority</p>
+                <p class="mt-2 text-3xl font-bold text-white">6</p>
+              </div>
+              <div class="rounded-2xl border border-sky-200/10 bg-sky-300/8 p-4">
+                <p class="text-xs uppercase tracking-[0.22em] text-sky-100/80">West Coast Lane</p>
+                <p class="mt-2 text-3xl font-bold text-white">4</p>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/6 p-4">
+                <p class="text-xs uppercase tracking-[0.22em] text-slate-400">National Lane</p>
+                <p class="mt-2 text-3xl font-bold text-white">16</p>
+              </div>
+            </div>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-emerald-300/16 text-emerald-100 ring-1 ring-emerald-300/22">26 new today</span>
+              <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-fuchsia-300/14 text-fuchsia-100 ring-1 ring-fuchsia-300/24">0 mention relocation</span>
+              <a class="inline-flex rounded-full border border-white/12 px-4 py-2 text-sm font-semibold text-slate-200 hover:border-cyan-300/40 hover:text-white" href="#priority-leads">Jump to priority</a>
+              <a class="inline-flex rounded-full border border-white/12 px-4 py-2 text-sm font-semibold text-slate-200 hover:border-cyan-300/40 hover:text-white" href="#west-coast-lane">Jump to West Coast</a>
+              <a class="inline-flex rounded-full border border-white/12 px-4 py-2 text-sm font-semibold text-slate-200 hover:border-cyan-300/40 hover:text-white" href="#national-watchlist">Jump to national</a>
+            </div>
+          </div>
+          <div class="rounded-[1.75rem] bg-white/6 p-6 ring-1 ring-white/10">
+            <p class="text-sm uppercase tracking-[0.25em] text-slate-300">Latest Run</p>
+            <p class="mt-3 text-3xl font-bold">2026-03-21T01:36:33.369204-07:00</p>
+            <p class="mt-4 text-sm leading-7 text-slate-300">
+              Jobs can show as new, still active, or recently removed. Regional badges only appear when the role lands in Oregon, Washington, or California. Relocation badges appear only when a listing says that directly.
+            </p>
+            <p class="mt-6 text-sm text-slate-400">
+              Static output: <code class="rounded bg-white/10 px-2 py-1 text-xs">docs/index.html</code>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-10" id="priority-leads">
+        <div class="mb-5">
+          <p class="text-sm uppercase tracking-[0.28em] text-slate-400">Best Bets</p>
+          <h2 class="mt-2 text-3xl font-bold text-white">Priority Leads</h2>
+          <p class="mt-2 max-w-2xl text-sm leading-7 text-slate-400">
+            Highest-signal openings with stronger apprentice alignment, stronger hub signals, or direct mission-critical context.
+          </p>
+        </div>
+        <div class="grid gap-6">
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">Score 202</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-emerald-300/16 text-emerald-100 ring-1 ring-emerald-300/22">Columbus, OH</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-emerald-300/16 text-emerald-100 ring-1 ring-emerald-300/22">Plain City, OH</span>
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/48686/electrician---electrician-trainee/job?in_iframe=1">Electrician / Electrician Trainee</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Eagle Electrical Services | US-OH-Plain City | 3/11/2026 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Electrician / Electrician Trainee | Job Locations | US-OH-Plain City | ID | 2026-48686 | Company | Eagle Electrical Services | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 1 week ago | (3/11/2026 11:54 AM) | About Us | Eagle Electrical Services is a comprehensive commercial electrical contracting company with expertise ranging from complete lighting, power, and l...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">description includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">description includes &#x27;electrical&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/48686/electrician---electrician-trainee/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">Score 199</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-emerald-300/16 text-emerald-100 ring-1 ring-emerald-300/22">Monroe, OH</span>
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/48689/low-voltage-integration-technician---apprentice/job?in_iframe=1">Low Voltage Integration Technician / Apprentice</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Quebe Holdings, Inc. | US-OH-Monroe | 3/11/2026 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Low Voltage Integration Technician / Apprentice | Job Locations | US-OH-Monroe | ID | 2026-48689 | Company | Quebe Holdings, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 1 week ago | (3/11/2026 11:58 AM) | About Us | Through our six business units, we provide electrical construction and maintenance solutions from a team of highly trained professionals. Our...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;low voltage integration technician / apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;low voltage&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">description includes &#x27;apprenticeship&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/48689/low-voltage-integration-technician---apprentice/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">Score 199</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-emerald-300/16 text-emerald-100 ring-1 ring-emerald-300/22">Plain City, OH</span>
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/48687/low-voltage-integration-technician---apprentice/job?in_iframe=1">Low Voltage Integration Technician / Apprentice</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Quebe Holdings, Inc. | US-OH-Plain City | 3/11/2026 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Low Voltage Integration Technician / Apprentice | Job Locations | US-OH-Plain City | ID | 2026-48687 | Company | Quebe Holdings, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 1 week ago | (3/11/2026 11:57 AM) | About Us | Through our six business units, we provide electrical construction and maintenance solutions from a team of highly trained professionals....</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;low voltage integration technician / apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;low voltage&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">description includes &#x27;apprenticeship&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/48687/low-voltage-integration-technician---apprentice/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">Score 185</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/48694/low-voltage-integration-technician---apprentice/job?in_iframe=1">Low Voltage Integration Technician / Apprentice</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Quebe Holdings, Inc. | US-OH-Dayton | 3/11/2026 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Low Voltage Integration Technician / Apprentice | Job Locations | US-OH-Dayton | ID | 2026-48694 | Company | Quebe Holdings, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 1 week ago | (3/11/2026 12:11 PM) | About Us | Through our six business units, we provide electrical construction and maintenance solutions from a team of highly trained professionals. Our...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;low voltage integration technician / apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;low voltage&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">description includes &#x27;apprenticeship&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/48694/low-voltage-integration-technician---apprentice/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">Score 140</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Bergelectric</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-emerald-300/16 text-emerald-100 ring-1 ring-emerald-300/22">Dallas-Fort Worth, TX</span>
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-bergelectric.icims.com/jobs/1949/apprentice-electrician-shreveport%2c-la/job?in_iframe=1">Apprentice Electrician-Shreveport, LA</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Bergelectric Corp. | US-TX-Dallas | Bergelectric</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Apprentice Electrician-Shreveport, LA | Location | US-TX-Dallas | ID | 2026-1949 | Category | Skilled Trades | Position Type | Fulltime-Regular | Overview | Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and loc...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;apprentice electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-bergelectric.icims.com/jobs/1949/apprentice-electrician-shreveport%2c-la/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">Score 128</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/48674/electrician---electrician-trainee/job?in_iframe=1">Electrician / Electrician Trainee</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Chapel Electric Co LLC | US-OH-Dayton | 3/11/2026 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Electrician / Electrician Trainee | Job Locations | US-OH-Dayton | ID | 2026-48674 | Company | Chapel Electric Co LLC | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 1 week ago | (3/11/2026 11:37 AM) | About Us | Chapel Electric Co., LLC (“Chapel”) is a leading electrical services company providing preconstruction, construction, and energy solutions in a variety o...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">description includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">description includes &#x27;electrical&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/48674/electrician---electrician-trainee/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    </div>
+      </section>
+
+      <section class="mt-12" id="west-coast-lane">
+        <div class="mb-5">
+          <p class="text-sm uppercase tracking-[0.28em] text-slate-400">Regional Lane</p>
+          <h2 class="mt-2 text-3xl font-bold text-white">West Coast And Nearby</h2>
+          <p class="mt-2 max-w-2xl text-sm leading-7 text-slate-400">
+            Oregon, Washington, and California leads get surfaced here first so the local-to-relocatable path is easy to scan from a phone.
+          </p>
+        </div>
+        <div class="grid gap-6 lg:grid-cols-2">
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 142</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Mortenson</span>
+        
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-sky-300/14 text-sky-100 ring-1 ring-sky-300/22">Regional fit: West Coast region</span>
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://www.mortenson.com/careers/energy-storage-group/energy-storage-electrical-apprentice-ed-san-2b-19552">Energy Storage Electrical Apprentice - Ed San 2B</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Mortenson | CA, United States | 2025-12-01 | Mortenson</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">WHO WE ARE Building for the Greater Good TM Our purpose is building for the greater good. And our people are what makes redefining possible…possible. Unlocking authentic partnerships with our customers and partners allows us to bring transformative insights to you earlier in your capital project planning process. The result? Better projects, better experiences and better impact. | ABOUT | OUR APPROACH | OUR TEAM | WH...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrical apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrical&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://www.mortenson.com/careers/energy-storage-group/energy-storage-electrical-apprentice-ed-san-2b-19552">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 142</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Mortenson</span>
+        
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-sky-300/14 text-sky-100 ring-1 ring-sky-300/22">Regional fit: West Coast region</span>
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://www.mortenson.com/careers/energy-storage-group/union-energy-storage-electrical-apprentice-darden-21600">Union Energy Storage Electrical Apprentice - Darden</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Mortenson | CA, United States | 2026-03-18 | Mortenson</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">WHO WE ARE Building for the Greater Good TM Our purpose is building for the greater good. And our people are what makes redefining possible…possible. Unlocking authentic partnerships with our customers and partners allows us to bring transformative insights to you earlier in your capital project planning process. The result? Better projects, better experiences and better impact. | ABOUT | OUR APPROACH | OUR TEAM | WH...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrical apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrical&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://www.mortenson.com/careers/energy-storage-group/union-energy-storage-electrical-apprentice-darden-21600">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 142</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Mortenson</span>
+        
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-sky-300/14 text-sky-100 ring-1 ring-sky-300/22">Regional fit: West Coast region</span>
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://www.mortenson.com/careers/energy-storage-group/union-energy-storage-electrical-apprentice-edsan-2b-19983">Union Energy Storage Electrical Apprentice - EdSan 2B</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Mortenson | CA, United States | 2026-01-14 | Mortenson</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">WHO WE ARE Building for the Greater Good TM Our purpose is building for the greater good. And our people are what makes redefining possible…possible. Unlocking authentic partnerships with our customers and partners allows us to bring transformative insights to you earlier in your capital project planning process. The result? Better projects, better experiences and better impact. | ABOUT | OUR APPROACH | OUR TEAM | WH...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrical apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrical&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://www.mortenson.com/careers/energy-storage-group/union-energy-storage-electrical-apprentice-edsan-2b-19983">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 142</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Mortenson</span>
+        
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-sky-300/14 text-sky-100 ring-1 ring-sky-300/22">Regional fit: West Coast region</span>
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://www.mortenson.com/careers/energy-storage-group/union-energy-storage-electrical-apprentice-gabriel-bess-21320">Union Energy Storage Electrical Apprentice - Gabriel BESS</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Mortenson | CA, United States | 2026-03-19 | Mortenson</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">WHO WE ARE Building for the Greater Good TM Our purpose is building for the greater good. And our people are what makes redefining possible…possible. Unlocking authentic partnerships with our customers and partners allows us to bring transformative insights to you earlier in your capital project planning process. The result? Better projects, better experiences and better impact. | ABOUT | OUR APPROACH | OUR TEAM | WH...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrical apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrical&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://www.mortenson.com/careers/energy-storage-group/union-energy-storage-electrical-apprentice-gabriel-bess-21320">Open listing</a>
+      </div>
+    </article>
+    </div>
+      </section>
+
+      <section class="mt-12" id="national-watchlist">
+        <div class="mb-5">
+          <p class="text-sm uppercase tracking-[0.28em] text-slate-400">Broader Net</p>
+          <h2 class="mt-2 text-3xl font-bold text-white">National Watchlist</h2>
+          <p class="mt-2 max-w-2xl text-sm leading-7 text-slate-400">
+            This keeps Texas, Ohio, Mountain West, and other travel-ready openings in view without letting them bury the regional picture.
+          </p>
+        </div>
+        <div class="grid gap-6 lg:grid-cols-2">
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 166</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Bergelectric</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-bergelectric.icims.com/jobs/1984/apprentice-electrician/job?in_iframe=1">Apprentice Electrician</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Bergelectric Corp. | US-CO-Denver | Bergelectric</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Apprentice Electrician | Location | US-CO-Denver | ID | 2026-1984 | Category | Skilled Trades | Position Type | Fulltime-Regular | Overview | Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical c...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;apprentice electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-bergelectric.icims.com/jobs/1984/apprentice-electrician/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 166</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Bergelectric</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-bergelectric.icims.com/jobs/1940/apprentice-electrician/job?in_iframe=1">Apprentice Electrician</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Bergelectric Corp. | US-LA-Shreveport | Bergelectric</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Apprentice Electrician | Location | US-LA-Shreveport | ID | 2025-1940 | Category | Skilled Trades | Position Type | Fulltime-Regular | Overview | Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electric...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;apprentice electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-bergelectric.icims.com/jobs/1940/apprentice-electrician/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 166</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Bergelectric</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-bergelectric.icims.com/jobs/1770/electrician-apprentice/job?in_iframe=1">Electrician Apprentice</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Bergelectric Corp. | US-NM-Santa Fe | Bergelectric</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Electrician Apprentice | Location | US-NM-Santa Fe | ID | 2025-1770 | Category | Skilled Trades | Position Type | Fulltime-Regular | Overview | Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrician apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-bergelectric.icims.com/jobs/1770/electrician-apprentice/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 166</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Bergelectric</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-bergelectric.icims.com/jobs/1768/electrician-apprentice/job?in_iframe=1">Electrician Apprentice</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Bergelectric Corp. | US-TX-Laredo | Bergelectric</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Electrician Apprentice | Location | US-TX-Laredo | ID | 2025-1768 | Category | Skilled Trades | Position Type | Fulltime-Regular | Overview | Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical c...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrician apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-bergelectric.icims.com/jobs/1768/electrician-apprentice/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 166</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Bergelectric</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-bergelectric.icims.com/jobs/1767/electrician-apprentice/job?in_iframe=1">Electrician Apprentice</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Bergelectric Corp. | US-TX-El Paso | Bergelectric</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Electrician Apprentice | Location | US-TX-El Paso | ID | 2025-1767 | Category | Skilled Trades | Position Type | Fulltime-Regular | Overview | Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical ...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrician apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-bergelectric.icims.com/jobs/1767/electrician-apprentice/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 166</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Bergelectric</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-bergelectric.icims.com/jobs/1666/electrician-apprentice/job?in_iframe=1">Electrician Apprentice</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Bergelectric Corp. | US-SD-Rapid City | Bergelectric</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Electrician Apprentice | Location | US-SD-Rapid City | ID | 2024-1666 | Category | Skilled Trades | Position Type | Fulltime-Regular | Overview | Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electric...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrician apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-bergelectric.icims.com/jobs/1666/electrician-apprentice/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 166</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/47749/apprentice-electrician/job?in_iframe=1">Apprentice Electrician</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Native Energy Solutions | US-TX-Midland | 1/21/2026 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Apprentice Electrician | Job Locations | US-TX-Midland | ID | 2026-47749 | Company | Native Energy Solutions | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 months ago | (1/21/2026 4:35 PM) | About Us | We are an automation and electrical integrator providing services to the oil and gas, industrial, and related industries. Our expertise covers virtually all face...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;apprentice electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/47749/apprentice-electrician/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 166</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/47747/apprentice-electrician/job?in_iframe=1">Apprentice Electrician</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Native Energy Solutions | US-NM-Hobbs | 1/21/2026 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Apprentice Electrician | Job Locations | US-NM-Hobbs | ID | 2026-47747 | Company | Native Energy Solutions | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 months ago | (1/21/2026 4:31 PM) | About Us | We are an automation and electrical integrator providing services to the oil and gas, industrial, and related industries. Our expertise covers virtually all facets...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;apprentice electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/47747/apprentice-electrician/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 166</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/47745/apprentice-electrician/job?in_iframe=1">Apprentice Electrician</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Native Energy Solutions | US-MT-Bainville, US-ND-Tioga | 1/21/2026 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Apprentice Electrician | Job Locations | US-MT-Bainville | US-ND-Tioga | ID | 2026-47745 | Company | Native Energy Solutions | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 months ago | (1/21/2026 4:24 PM) | About Us | We are an automation and electrical integrator providing services to the oil and gas, industrial, and related industries. Our expertise covers vi...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;apprentice electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/47745/apprentice-electrician/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 166</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/47720/apprentice-electrician/job?in_iframe=1">Apprentice Electrician</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Native Energy Solutions | US-WY-Casper | 1/20/2026 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Apprentice Electrician | Job Locations | US-WY-Casper | ID | 2026-47720 | Company | Native Energy Solutions | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 months ago | (1/20/2026 12:53 PM) | About Us | We are an automation and electrical integrator providing services to the oil and gas, industrial, and related industries. Our expertise covers virtually all face...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;apprentice electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/47720/apprentice-electrician/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 166</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/47687/apprentice-electrician/job?in_iframe=1">Apprentice Electrician</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Native Energy Solutions | US-ND-Tioga, US-MT-Bainville | 1/19/2026 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Apprentice Electrician | Job Locations | US-ND-Tioga | US-MT-Bainville | ID | 2026-47687 | Company | Native Energy Solutions | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 months ago | (1/19/2026 5:06 PM) | About Us | We are an automation and electrical integrator providing services to the oil and gas, industrial, and related industries. Our expertise covers vi...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;apprentice electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrician&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/47687/apprentice-electrician/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 160</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/5369/ardent-services%2c-llc-job-template---electrical-apprentice/job?in_iframe=1">Ardent Services, LLC Job Template - Electrical Apprentice</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Ardent Services, LLC | US-TX-Houston, US-TX-Baytown | 11/13/2025 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Ardent Services, LLC Job Template - Electrical Apprentice | Job Locations | US-TX-Houston | US-TX-Baytown | ID | 2025-5369 | Company | Ardent Services, LLC | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 4 months ago | (11/13/2025 2:37 PM) | About Us | We are among the premier providers of specialty electrical and instrumentation (E&amp;I) services for the nation’s pr...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrical apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrical&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/5369/ardent-services%2c-llc-job-template---electrical-apprentice/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 160</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">EMCOR Group</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://careers-emcorgroup.icims.com/jobs/47616/electrical-apprentice--texas-city/job?in_iframe=1">Electrical Apprentice- Texas City</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">EMCOR Group, Inc. | US-TX-Houston, US-TX-Houston, US-TX-Texas City, US-TX-Corpus Christi, US-TX-Beaumont | 2/13/2026 | EMCOR Group</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">Electrical Apprentice- Texas City | Job Locations | US-TX-Houston | US-TX-Houston | US-TX-Texas City | US-TX-Corpus Christi | US-TX-Beaumont | ID | 2026-47616 | Company | EMCOR Group, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 1 month ago | (2/13/2026 12:00 PM) | About Us | A Fortune 500® company, EMCOR Group, Inc. (NYSE: EME) is a leader in mechanical a...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrical apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;apprentice&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrical&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://careers-emcorgroup.icims.com/jobs/47616/electrical-apprentice--texas-city/job?in_iframe=1">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 96</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Mortenson</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://www.mortenson.com/careers/power-delivery-solutions/power-electrical-helper-leb-21455">Power Electrical Helper - LEB</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Mortenson | Lebanon, IN, United States | 2026-03-05 | Mortenson</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">WHO WE ARE Building for the Greater Good TM Our purpose is building for the greater good. And our people are what makes redefining possible…possible. Unlocking authentic partnerships with our customers and partners allows us to bring transformative insights to you earlier in your capital project planning process. The result? Better projects, better experiences and better impact. | ABOUT | OUR APPROACH | OUR TEAM | WH...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrical helper&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrical&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes electrical helper signal</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://www.mortenson.com/careers/power-delivery-solutions/power-electrical-helper-leb-21455">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 96</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Mortenson</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://www.mortenson.com/careers/power-delivery-solutions/power-electrical-helper-i-us-20288">Power Electrical Helper I-US</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Mortenson | United States | 2026-03-20 | Mortenson</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">WHO WE ARE Building for the Greater Good TM Our purpose is building for the greater good. And our people are what makes redefining possible…possible. Unlocking authentic partnerships with our customers and partners allows us to bring transformative insights to you earlier in your capital project planning process. The result? Better projects, better experiences and better impact. | ABOUT | OUR APPROACH | OUR TEAM | WH...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrical helper&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrical&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes electrical helper signal</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://www.mortenson.com/careers/power-delivery-solutions/power-electrical-helper-i-us-20288">Open listing</a>
+      </div>
+    </article>
+    
+    <article class="rounded-[1.8rem] border border-white/10 bg-slate-950/78 p-5 shadow-[0_22px_70px_rgba(2,6,23,0.45)] backdrop-blur lg:p-6">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Score 96</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-amber-300/90 text-slate-950 ring-1 ring-amber-100/30">New today</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Mortenson</span>
+        
+        
+        
+      </div>
+      <h3 class="text-xl font-bold text-white lg:text-2xl">
+        <a class="decoration-cyan-300 underline-offset-4 hover:text-cyan-100 hover:underline" href="https://www.mortenson.com/careers/bluvera/production-worker-electrical-helper-a-plus-forney-tx-20985">Production Worker (Electrical Helper a Plus) - Forney, TX</a>
+      </h3>
+      <p class="mt-2 text-sm uppercase tracking-[0.22em] text-slate-400">Mortenson | Forney, TX, United States | 2026-02-24 | Mortenson</p>
+      <p class="mt-4 text-sm leading-7 text-slate-200 lg:text-base">WHO WE ARE Building for the Greater Good TM Our purpose is building for the greater good. And our people are what makes redefining possible…possible. Unlocking authentic partnerships with our customers and partners allows us to bring transformative insights to you earlier in your capital project planning process. The result? Better projects, better experiences and better impact. | ABOUT | OUR APPROACH | OUR TEAM | WH...</p>
+      <div class="mt-5 flex flex-wrap gap-2"><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title matches &#x27;electrical helper&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electrical&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes &#x27;electric&#x27;</span><span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">title includes electrical helper signal</span></div>
+      <div class="mt-5 flex items-center justify-between border-t border-white/8 pt-4">
+        <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Daily tracked lead</p>
+        <a class="text-sm font-semibold text-cyan-200 hover:text-white" href="https://www.mortenson.com/careers/bluvera/production-worker-electrical-helper-a-plus-forney-tx-20985">Open listing</a>
+      </div>
+    </article>
+    </div>
+      </section>
+
+      <section class="mt-12">
+        <div class="mb-5">
+          <p class="text-sm uppercase tracking-[0.28em] text-slate-400">Source Health</p>
+          <h2 class="mt-2 text-3xl font-bold text-white">What Each Feed Produced</h2>
+        </div>
+        <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+    <article class="rounded-[1.6rem] border border-white/10 bg-slate-950/72 p-5">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Ok</span>
+        
+      </div>
+      <h3 class="text-xl font-bold text-white">Cupertino Electric</h3>
+      <p class="mt-2 text-sm text-slate-300">
+        Fetched 74 listings | Relevant leads 0
+      </p>
+      <ul class="mt-4 space-y-2"><li class='text-sm leading-6 text-slate-500'>No extra notes.</li></ul>
+    </article>
+    
+    <article class="rounded-[1.6rem] border border-white/10 bg-slate-950/72 p-5">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Ok</span>
+        
+      </div>
+      <h3 class="text-xl font-bold text-white">EMCOR Group</h3>
+      <p class="mt-2 text-sm text-slate-300">
+        Fetched 108 listings | Relevant leads 12
+      </p>
+      <ul class="mt-4 space-y-2"><li class='text-sm leading-6 text-slate-500'>No extra notes.</li></ul>
+    </article>
+    
+    <article class="rounded-[1.6rem] border border-white/10 bg-slate-950/72 p-5">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Ok</span>
+        
+      </div>
+      <h3 class="text-xl font-bold text-white">Bergelectric</h3>
+      <p class="mt-2 text-sm text-slate-300">
+        Fetched 44 listings | Relevant leads 7
+      </p>
+      <ul class="mt-4 space-y-2"><li class='text-sm leading-6 text-slate-500'>No extra notes.</li></ul>
+    </article>
+    
+    <article class="rounded-[1.6rem] border border-white/10 bg-slate-950/72 p-5">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Ok</span>
+        
+      </div>
+      <h3 class="text-xl font-bold text-white">PRIME Electric</h3>
+      <p class="mt-2 text-sm text-slate-300">
+        Fetched 22 listings | Relevant leads 0
+      </p>
+      <ul class="mt-4 space-y-2"><li class='text-sm leading-6 text-slate-500'>No extra notes.</li></ul>
+    </article>
+    
+    <article class="rounded-[1.6rem] border border-white/10 bg-slate-950/72 p-5">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Ok</span>
+        
+      </div>
+      <h3 class="text-xl font-bold text-white">Mortenson</h3>
+      <p class="mt-2 text-sm text-slate-300">
+        Fetched 96 listings | Relevant leads 7
+      </p>
+      <ul class="mt-4 space-y-2"><li class='text-sm leading-6 text-slate-500'>No extra notes.</li></ul>
+    </article>
+    
+    <article class="rounded-[1.6rem] border border-white/10 bg-slate-950/72 p-5">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-white/8 text-slate-100 ring-1 ring-white/10">Ok</span>
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-cyan-300/16 text-cyan-100 ring-1 ring-cyan-300/22">Browser fallback</span>
+      </div>
+      <h3 class="text-xl font-bold text-white">Turner Construction</h3>
+      <p class="mt-2 text-sm text-slate-300">
+        Fetched 28 listings | Relevant leads 0
+      </p>
+      <ul class="mt-4 space-y-2"><li class='text-sm leading-6 text-slate-500'>No extra notes.</li></ul>
+    </article>
+    
+    <article class="rounded-[1.6rem] border border-white/10 bg-slate-950/72 p-5">
+      <div class="mb-3 flex flex-wrap items-center gap-2">
+        <span class="inline-flex rounded-full px-3 py-1 text-xs font-semibold tracking-[0.04em] bg-orange-300/16 text-orange-100 ring-1 ring-orange-300/22">Warning</span>
+        
+      </div>
+      <h3 class="text-xl font-bold text-white">Kiewit</h3>
+      <p class="mt-2 text-sm text-slate-300">
+        Fetched 0 listings | Relevant leads 0
+      </p>
+      <ul class="mt-4 space-y-2"><li class='text-sm leading-6 text-slate-300'>The Kiewit union craft page currently behaves like an interest form rather than an openings feed.</li></ul>
+    </article>
+    </div>
+      </section>
+
+      <section class="mt-12">
+        <div class="mb-5">
+          <p class="text-sm uppercase tracking-[0.28em] text-slate-400">Recently Removed</p>
+          <h2 class="mt-2 text-3xl font-bold text-white">No Longer Seen</h2>
+        </div>
+        <div class="grid gap-6 lg:grid-cols-2"><p class='rounded-[1.8rem] border border-dashed border-white/12 bg-slate-950/60 p-6 text-slate-300'>Nothing relevant has dropped off recently.</p></div>
+      </section>
+    </main>
+  </body>
+</html>

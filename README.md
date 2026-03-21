@@ -1,0 +1,63 @@
+# Wireman Tracker
+
+Wireman Tracker is a daily lead-generation scraper built for finding apprentice electrician and inside wireman opportunities, with extra weight given to data center and mission critical work.
+
+## What It Does
+
+- Scrapes contractor and careers sources with `requests` + `BeautifulSoup` first.
+- Uses a lightweight browser fallback only where a source genuinely needs hydrated DOM output.
+- Scores roles by trade fit, data center / mission critical context, and priority hub geography.
+- Expands coverage across Oregon, the Pacific Northwest, California, and national data center hubs.
+- Flags listings that explicitly mention relocation help.
+- Persists history so the generated site can show jobs that are new, still active, or no longer seen.
+- Publishes a static `docs/index.html` page suitable for GitHub Pages.
+
+## Sources In This Version
+
+- Cupertino Electric
+- EMCOR apprenticeships and related trade listings
+- Bergelectric trade listings
+- PRIME Electric careers
+- Mortenson careers
+- Turner labor and skilled trade careers
+- Kiewit union craft page health check
+
+## Local Usage
+
+Create a virtual environment if you want one, then install the package:
+
+```powershell
+python -m pip install -e .[dev]
+```
+
+Run the pipeline from the repository root:
+
+```powershell
+python -m wireman_tracker
+```
+
+That will update:
+
+- `data/current/`
+- `data/history/`
+- `docs/index.html`
+- `docs/latest.json`
+
+## Browser Fallback
+
+Turner requires a hydrated DOM to expose listings cleanly. The scraper will try to find a Chromium-family browser automatically. You can also point it explicitly at a browser binary:
+
+```powershell
+$env:WIREMAN_BROWSER_PATH='C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+python -m wireman_tracker
+```
+
+## GitHub Automation
+
+The repository includes `.github/workflows/scrape.yml`, which:
+
+- runs twice in UTC to cover `6:07 AM` America/Los_Angeles through DST shifts
+- exits early unless the current local time is in the target hour
+- regenerates `data/` and `docs/`
+- commits changes back to the repository
+- deploys the site with GitHub Pages
