@@ -1,6 +1,7 @@
 __pycache__/
 .pytest_cache/
 .venv/
+*.egg-info/
 *.pyc
 *.pyo
 *.pyd
@@ -9,4 +10,3 @@ edge_out.txt
 edge_turner_hydrated.txt
 cei_dom.html
 turner_dom.html
-

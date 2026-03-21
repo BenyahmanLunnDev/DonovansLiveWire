@@ -1,2 +1,0 @@
-[console_scripts]
-wireman-tracker = wireman_tracker.main:main
