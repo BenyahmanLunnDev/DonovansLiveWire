@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T01:36:33.369204-07:00",
+  "generated_at": "2026-03-21T02:46:14.235923-07:00",
   "reports": [
     {
       "source_key": "cei",
@@ -58,14 +58,16 @@
     },
     {
       "source_key": "turner",
-      "source_name": "Turner Construction",
+      "source_name": "Turner",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
-      "status": "ok",
-      "total_fetched": 28,
+      "status": "error",
+      "total_fetched": 0,
       "total_relevant": 0,
-      "used_browser": true,
+      "used_browser": false,
       "notes": [],
-      "errors": []
+      "errors": [
+        "Browser dump for https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice did not return HTML. Exit code: -6"
+      ]
     },
     {
       "source_key": "kiewit",
