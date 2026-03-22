@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-21T07:41:30.114457-07:00",
+  "generated_at": "2026-03-22T06:51:54.451953-07:00",
   "reports": [
     {
       "source_key": "cei",
       "source_name": "Cupertino Electric",
       "source_url": "https://www.cei.com/careers/current-openings",
       "status": "ok",
-      "total_fetched": 74,
+      "total_fetched": 65,
       "total_relevant": 0,
       "used_browser": false,
       "notes": [],
