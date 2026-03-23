@@ -1,6 +1,1405 @@
 {
-  "generated_at": "2026-03-23T02:52:56.218739-07:00",
+  "generated_at": "2026-03-23T04:28:21.362258-07:00",
   "jobs": [
+    {
+      "job_key": "washingtonapprenticeship:940ba86618c4d231993c846b98af0a49d9d6163a",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Titan Electrical Apprenticeship & Training",
+      "title": "Inside Wireman Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2225&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Yakima, WA; Serves All counties in Washington, All counties in Idaho, All counties in Oregon",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: All counties in Washington, All counties in Idaho, All counties in Oregon | Oregon-facing coverage: Oregon statewide coverage | Contact: Michael Yusi, Training Director | Phone: (509) 941-8306 | Email: apprenticeship@titan-electrical.com | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2225.pdf | Term hours: 8000 | Journey wage: $45.0",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Wireman"
+        ],
+        "county_names": [
+          "All counties in Washington",
+          "All counties in Idaho",
+          "All counties in Oregon"
+        ],
+        "contact": "Michael Yusi, Training Director",
+        "phone": "(509) 941-8306",
+        "email": "apprenticeship@titan-electrical.com",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2225.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$45.0",
+        "regional_matches": [
+          "Oregon statewide coverage"
+        ],
+        "program_id": 2225
+      },
+      "score": 399,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'inside wireman'",
+        "title matches 'wireman apprentice'",
+        "title includes 'apprentice'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "washingtonapprenticeship:1d513c0bcbe33b2e7440e5e14d0b22ef95c9d673",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Columbia Basin Electrical Training Alliance Committee",
+      "title": "Inside Wireman Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=81&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Kennewick, WA; Serves Asotin, Benton, Columbia, Franklin, Garfield, Walla Walla, Yakima, Kittitas, Baker, Gilliam, Grant, Morrow, Umatilla, U\u2026",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Asotin, Benton, Columbia, Franklin, Garfield, Walla Walla, Yakima, Kittitas, +8 more | Oregon-facing coverage: Eastern Oregon | Contact: Geoff Arends, Training Director | Phone: 509-783-0589 | Email: office@jatc112.org | Website: https://www.jatc112.org/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0081.pdf | Term hours: 4000 | Journey wage: $31.05",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Wireman"
+        ],
+        "county_names": [
+          "Asotin",
+          "Benton",
+          "Columbia",
+          "Franklin",
+          "Garfield",
+          "Walla Walla",
+          "Yakima",
+          "Kittitas",
+          "Baker",
+          "Gilliam",
+          "Grant",
+          "Morrow",
+          "Umatilla",
+          "Union",
+          "Wallowa",
+          "Wheeler"
+        ],
+        "contact": "Geoff Arends, Training Director",
+        "phone": "509-783-0589",
+        "email": "office@jatc112.org",
+        "website": "https://www.jatc112.org/",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0081.pdf",
+        "term_hours": "4000",
+        "journey_wage": "$31.05",
+        "regional_matches": [
+          "Eastern Oregon",
+          "Umatilla, OR"
+        ],
+        "program_id": 81
+      },
+      "score": 397,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'inside wireman'",
+        "title matches 'wireman apprentice'",
+        "title includes 'apprentice'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:edeed144a5ab2ff45e4982d63277c9b5bd3e663b",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "AREA I INSIDE ELECTRICAL JATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://area1jatc.us/Applications",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "PORTLAND, OR; Areas 1 & 6",
+      "posted_date": "2026-02-16",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Area I applications for 2026 are open from February 16th to October 29th. | Areas 1 & 6 | Counties: Clackamas, Columbia, Hood River, Multnomah, Wasco, Washington, +2 more | Contact: IRENE WEBER, TRAINING COORD | Phone: 503-459-4056 | Email: irenew@area1jatc.com | Website: http://www.nwelectricaltech.com | Avg journey wage: $53.86",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "committee site",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "committee site",
+        "program_status_note": "Area I applications for 2026 are open from February 16th to October 29th.",
+        "committee": "AREA I INSIDE ELECTRICAL JATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Areas 1 & 6",
+        "counties": [
+          "Clackamas",
+          "Columbia",
+          "Hood River",
+          "Multnomah",
+          "Wasco",
+          "Washington",
+          "Yamhill",
+          "Wa State"
+        ],
+        "contact": "IRENE WEBER, TRAINING COORD",
+        "phone": "503-459-4056",
+        "email": "irenew@area1jatc.com",
+        "website": "http://www.nwelectricaltech.com",
+        "average_wage": "$53.86",
+        "application_window": "February 16th, 2026 to October 29th, 2026",
+        "regional_matches": [
+          "Portland, OR"
+        ]
+      },
+      "score": 392,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "committee site confirms the current application window",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:a1b0851b8964bec4a2873826b1cfe6acaf7f6e88",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "AREA VI INSIDE ELECTRICAL JATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=60130159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "PENDLETON, OR; Areas 6 & 7",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Areas 6 & 7 | Counties: Baker, Gilliam, Morrow, Umatilla, Union, Wallowa, +1 more | Contact: JENNIFER HILLS, ADMINISTRATOR | Phone: 541-278-5854 | Email: jhills@bluecc.edu | Website: www.bluecc.edu/ | Avg journey wage: $46.85",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "AREA VI INSIDE ELECTRICAL JATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Elec (Govt)",
+        "areas": "Areas 6 & 7",
+        "counties": [
+          "Baker",
+          "Gilliam",
+          "Morrow",
+          "Umatilla",
+          "Union",
+          "Wallowa",
+          "Wheeler"
+        ],
+        "contact": "JENNIFER HILLS, ADMINISTRATOR",
+        "phone": "541-278-5854",
+        "email": "jhills@bluecc.edu",
+        "website": "www.bluecc.edu/",
+        "average_wage": "$46.85",
+        "regional_matches": [
+          "Umatilla, OR",
+          "Pendleton, OR"
+        ]
+      },
+      "score": 380,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:b7bfcb8bc0272ffc162af6e5e3f03ed952920b68",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "PACIFIC INSIDE ELECTRICAL JATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=40090159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "NORTH BEND, OR; Areas 2, 3, & 4",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Areas 2, 3, & 4 | Counties: Coos, Curry, Douglas, Lane, Lincoln | Contact: Nicholas Brening, Training Coord | Phone: 541-756-6997 | Email: pacificjatc@piejatc.com | Avg journey wage: $53.20",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "PACIFIC INSIDE ELECTRICAL JATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Areas 2, 3, & 4",
+        "counties": [
+          "Coos",
+          "Curry",
+          "Douglas",
+          "Lane",
+          "Lincoln"
+        ],
+        "contact": "Nicholas Brening, Training Coord",
+        "phone": "541-756-6997",
+        "email": "pacificjatc@piejatc.com",
+        "average_wage": "$53.20",
+        "regional_matches": [
+          "North Bend, OR",
+          "Bend, OR"
+        ]
+      },
+      "score": 380,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "washingtonapprenticeship:13682ac418603aa0966369d46bbf282f562acf47",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Southwest Washington Electrical Joint Apprenticeship and Training Committee",
+      "title": "Inside Wireman Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=150&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Tacoma, WA; Serves Pacific, Lewis, Grays Harbor, Mason, Pierce, Thurston",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Pacific, Lewis, Grays Harbor, Mason, Pierce, Thurston | Contact: Barry Blackburn, Training Director | Phone: 253-475-2922 | Email: barry@swjatc.org | Website: http://www.swjatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0150.pdf | Term hours: 8000 | Journey wage: $28.0",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Wireman"
+        ],
+        "county_names": [
+          "Pacific",
+          "Lewis",
+          "Grays Harbor",
+          "Mason",
+          "Pierce",
+          "Thurston"
+        ],
+        "contact": "Barry Blackburn, Training Director",
+        "phone": "253-475-2922",
+        "email": "barry@swjatc.org",
+        "website": "http://www.swjatc.org",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0150.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$28.0",
+        "program_id": 150,
+        "regional_matches": [
+          "Tacoma, WA"
+        ]
+      },
+      "score": 377,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'inside wireman'",
+        "title matches 'wireman apprentice'",
+        "title includes 'apprentice'",
+        "description includes 'apprenticeship'",
+        "description includes 'inside wireman'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "washingtonapprenticeship:2a459380709e2fe4ac2dae5733c73225ff6cfee1",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Northwest Washington Electrical Industry Joint Apprenticeship and Training Committee",
+      "title": "Inside Wireman Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=65&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Mount Vernon, WA; Serves Chelan, Douglas, Grant, Island, Okanogan, San Juan, Skagit, Snohomish, Whatcom",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Chelan, Douglas, Grant, Island, Okanogan, San Juan, Skagit, Snohomish, +1 more | Contact: Rob Bartel, Training Director | Phone: 360-428-5080 | Email: rob.bartel@nwejatc.org | Website: http://www.nwejatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0065.pdf | Term hours: 4000 | Journey wage: $33.07",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Wireman"
+        ],
+        "county_names": [
+          "Chelan",
+          "Douglas",
+          "Grant",
+          "Island",
+          "Okanogan",
+          "San Juan",
+          "Skagit",
+          "Snohomish",
+          "Whatcom"
+        ],
+        "contact": "Rob Bartel, Training Director",
+        "phone": "360-428-5080",
+        "email": "rob.bartel@nwejatc.org",
+        "website": "http://www.nwejatc.org",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0065.pdf",
+        "term_hours": "4000",
+        "journey_wage": "$33.07",
+        "program_id": 65,
+        "regional_matches": [
+          "West Coast region"
+        ]
+      },
+      "score": 375,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'inside wireman'",
+        "title matches 'wireman apprentice'",
+        "title includes 'apprentice'",
+        "description includes 'apprenticeship'",
+        "description includes 'inside wireman'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "washingtonapprenticeship:95e815d1541bf6f358cfffbe66ab3af0d0c09d09",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Puget Sound Electrical Joint Apprenticeship and Training Committee",
+      "title": "Inside Wireman Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=134&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Renton, WA; Serves Jefferson, King, Kitsap, Clallam",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Jefferson, King, Kitsap, Clallam | Contact: Ryan Bradt, Training Director | Phone: 425-228-1777 | Email: ryan@psejatc.org | Website: http://www.psejatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0134.pdf | Term hours: 4000 | Journey wage: $60.82",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Wireman"
+        ],
+        "county_names": [
+          "Jefferson",
+          "King",
+          "Kitsap",
+          "Clallam"
+        ],
+        "contact": "Ryan Bradt, Training Director",
+        "phone": "425-228-1777",
+        "email": "ryan@psejatc.org",
+        "website": "http://www.psejatc.org",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0134.pdf",
+        "term_hours": "4000",
+        "journey_wage": "$60.82",
+        "program_id": 134,
+        "regional_matches": [
+          "West Coast region"
+        ]
+      },
+      "score": 375,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'inside wireman'",
+        "title matches 'wireman apprentice'",
+        "title includes 'apprentice'",
+        "description includes 'apprenticeship'",
+        "description includes 'inside wireman'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:e64e124d466556c21b282480fddba22dd9e2eb1c",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "AREA II INSIDE ELECTRICAL JATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=20160159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "TIGARD, OR; Areas 1, 2, & 7",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Areas 1, 2, & 7 | Counties: Benton, Harney, Lincoln, Linn, Marion, Polk, +1 more | Contact: KAYLEEN WILLIAMS | Phone: 503-598-7789 | Email: kayleen@iecoregon.org | Website: www.iecoregon.org | Avg journey wage: $49.86",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "AREA II INSIDE ELECTRICAL JATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Areas 1, 2, & 7",
+        "counties": [
+          "Benton",
+          "Harney",
+          "Lincoln",
+          "Linn",
+          "Marion",
+          "Polk",
+          "Yamhill"
+        ],
+        "contact": "KAYLEEN WILLIAMS",
+        "phone": "503-598-7789",
+        "email": "kayleen@iecoregon.org",
+        "website": "www.iecoregon.org",
+        "average_wage": "$49.86",
+        "regional_matches": [
+          "Tigard, OR"
+        ]
+      },
+      "score": 372,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:8df18d0670116b8d860f06b85ac8fb88f70f6612",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "AREA IV INDEPENDENT TAC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=40150159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "EUGENE, OR; Areas 3 & 4",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Areas 3 & 4 | Counties: Coos, Curry, Douglas, Lane | Contact: RANDALL TYLE-ADMINISTRATOR | Phone: 541-344-6473 | Email: midoregon@aol.com | Avg journey wage: $48.00",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "AREA IV INDEPENDENT TAC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Areas 3 & 4",
+        "counties": [
+          "Coos",
+          "Curry",
+          "Douglas",
+          "Lane"
+        ],
+        "contact": "RANDALL TYLE-ADMINISTRATOR",
+        "phone": "541-344-6473",
+        "email": "midoregon@aol.com",
+        "average_wage": "$48.00",
+        "regional_matches": [
+          "Eugene, OR"
+        ]
+      },
+      "score": 372,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:fb77797930028312de8c85687b51f8623ac1b6f9",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "AREA IV INSIDE ELECTRICAL JATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=40160159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "ROSEBURG, OR; Area 4",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Area 4 | Counties: Douglas | Contact: Tracy Placido, Coordinator | Phone: 541-440-4675 | Email: Tracy.Placido@umpqua.edu | Website: www.umpqua.edu | Avg journey wage: $42.00",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "AREA IV INSIDE ELECTRICAL JATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Area 4",
+        "counties": [
+          "Douglas"
+        ],
+        "contact": "Tracy Placido, Coordinator",
+        "phone": "541-440-4675",
+        "email": "Tracy.Placido@umpqua.edu",
+        "website": "www.umpqua.edu",
+        "average_wage": "$42.00",
+        "regional_matches": [
+          "Roseburg, OR"
+        ]
+      },
+      "score": 372,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:31b8d89c06d98ae58bbd52f91ff5d5fcdb9a0366",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "AREA V INSIDE ELECTRICAL JATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=50090159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "WHITE CITY, OR; Area 5",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Area 5 | Counties: Jackson, Josephine | Contact: ANDIE ANDERSON | Phone: 541-245-7912 | Email: ALAnderson@roguecc.edu | Website: https://go.roguecc.edu/department/apprenticeship | Avg journey wage: $38.00",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "AREA V INSIDE ELECTRICAL JATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Area 5",
+        "counties": [
+          "Jackson",
+          "Josephine"
+        ],
+        "contact": "ANDIE ANDERSON",
+        "phone": "541-245-7912",
+        "email": "ALAnderson@roguecc.edu",
+        "website": "https://go.roguecc.edu/department/apprenticeship",
+        "average_wage": "$38.00",
+        "regional_matches": [
+          "White City, OR"
+        ]
+      },
+      "score": 372,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:6da990252fc5ee61436a91dc21811378883643d1",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "AREA VII INSIDE ELECTRICAL JATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=70010159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "BEND, OR; Area 7",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Area 7 | Counties: Crook, Deschutes, Jefferson | Contact: Ursie Chamberlain, ADMINISTRATOR | Phone: 541-410-7278 | Email: ursie@highdesertapprenticeship.com | Website: www.highdesertapprenticeship.com | Avg journey wage: $50.01",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "AREA VII INSIDE ELECTRICAL JATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Area 7",
+        "counties": [
+          "Crook",
+          "Deschutes",
+          "Jefferson"
+        ],
+        "contact": "Ursie Chamberlain, ADMINISTRATOR",
+        "phone": "541-410-7278",
+        "email": "ursie@highdesertapprenticeship.com",
+        "website": "www.highdesertapprenticeship.com",
+        "average_wage": "$50.01",
+        "regional_matches": [
+          "Bend, OR"
+        ]
+      },
+      "score": 372,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:233c7ac6005ac2642d5ebfb61c2215ada634c38a",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "BAKER TECHNICAL INSTITUTE TATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://oregonapprenticeship.org/search-openings/",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "BAKER CITY, OR; Area 6",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Area 6 | Counties: Baker | Contact: Tonia Springer, Coordinator | Phone: 541-524-2651 | Email: tonia.springer@bakersd.org",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "BAKER TECHNICAL INSTITUTE TATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Area 6",
+        "counties": [
+          "Baker"
+        ],
+        "contact": "Tonia Springer, Coordinator",
+        "phone": "541-524-2651",
+        "email": "tonia.springer@bakersd.org",
+        "regional_matches": [
+          "Baker City, OR"
+        ]
+      },
+      "score": 372,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:22802c71aff52fed4d8e92f365e99e812f08439b",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "CENTRAL ELECTRICAL JATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=30010159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "TANGENT, OR; Areas 1, 2, 3, & 7",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Areas 1, 2, 3, & 7 | Counties: Benton, Crook, Deschutes, Jefferson, Lane, Linn, +3 more | Contact: Dave Baker | Phone: 541-917-6199 | Email: dbaker@cjatc.org | Website: www.cjatc.org | Avg journey wage: $59.34",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "CENTRAL ELECTRICAL JATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Areas 1, 2, 3, & 7",
+        "counties": [
+          "Benton",
+          "Crook",
+          "Deschutes",
+          "Jefferson",
+          "Lane",
+          "Linn",
+          "Marion",
+          "Polk",
+          "Yamhill"
+        ],
+        "contact": "Dave Baker",
+        "phone": "541-917-6199",
+        "email": "dbaker@cjatc.org",
+        "website": "www.cjatc.org",
+        "average_wage": "$59.34",
+        "regional_matches": [
+          "Tangent, OR"
+        ]
+      },
+      "score": 372,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:f813ebccba322437bafc2ee879936e99718b93f2",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "CRATER LAKE ELECTRICAL JATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=50010159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "Central Point, OR; Areas 4, 5, & 7",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Areas 4, 5, & 7 | Counties: Douglas, Harney, Jackson, Josephine, Klamath, Lake | Contact: Lance Corley, Training Coordinator | Phone: 541-773-5888 | Email: licorley@clejatc.org | Website: http://www.clejatc.org/applicant.html | Avg journey wage: $45.58",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "CRATER LAKE ELECTRICAL JATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Areas 4, 5, & 7",
+        "counties": [
+          "Douglas",
+          "Harney",
+          "Jackson",
+          "Josephine",
+          "Klamath",
+          "Lake"
+        ],
+        "contact": "Lance Corley, Training Coordinator",
+        "phone": "541-773-5888",
+        "email": "licorley@clejatc.org",
+        "website": "http://www.clejatc.org/applicant.html",
+        "average_wage": "$45.58",
+        "regional_matches": [
+          "Central Point, OR"
+        ]
+      },
+      "score": 372,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:431f94e59837e4ea63a5178f5bd4bb77d2e6c622",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "KLAMATH BASIN INSIDE ELECTRICIAN JATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=70240159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "KLAMATH FALLS, OR; Area 5",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Area 5 | Counties: Klamath, Lake | Contact: Patti Springer, COORDINATOR | Phone: 541-880-2234 | Email: springer@klamathcc.edu | Avg journey wage: $35.25",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "KLAMATH BASIN INSIDE ELECTRICIAN JATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Area 5",
+        "counties": [
+          "Klamath",
+          "Lake"
+        ],
+        "contact": "Patti Springer, COORDINATOR",
+        "phone": "541-880-2234",
+        "email": "springer@klamathcc.edu",
+        "average_wage": "$35.25",
+        "regional_matches": [
+          "Klamath Falls, OR"
+        ]
+      },
+      "score": 372,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:6d0d77743cacfcf9ae2d345c819501361806b1a1",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "NORTH COAST MECH &ELECTRICAL TRADES JATC",
+      "title": "Inside Electrician Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=12440159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "EUGENE, OR; Area 1",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Area 1 | Counties: Clatsop, Columbia, Tillamook | Contact: Randall Tyle | Phone: 541-344-6473 | Email: midoregon@aol.com | Avg journey wage: $52.77",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "NORTH COAST MECH &ELECTRICAL TRADES JATC",
+        "state_title": "Inside Electrician",
+        "trade_name": "Inside Electrician",
+        "areas": "Area 1",
+        "counties": [
+          "Clatsop",
+          "Columbia",
+          "Tillamook"
+        ],
+        "contact": "Randall Tyle",
+        "phone": "541-344-6473",
+        "email": "midoregon@aol.com",
+        "average_wage": "$52.77",
+        "regional_matches": [
+          "Eugene, OR"
+        ]
+      },
+      "score": 372,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "washingtonapprenticeship:d869b04564bc4b4c6adcf3ad6f00e45c1150bc41",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Frontier Electric Apprenticeship & Training",
+      "title": "Inside Electrician Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2168&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Battle Ground, WA; Serves Clark, Cowlitz, Lewis, Skamania, Marion, Multnomah, Clackamas, Yamhill, King, Pierce, Thurston, Lane, Linn",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Clark, Cowlitz, Lewis, Skamania, Marion, Multnomah, Clackamas, Yamhill, +5 more | Oregon-facing coverage: Willamette Valley, Portland metro, Eugene corridor | Contact: Don Ritterskamp, Training Director | Phone: (360) 892-4342 | Email: don@frontiereow.com | Website: https://frontierat.com/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2168.pdf | Term hours: 8000 | Journey wage: $53.86",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Electrician"
+        ],
+        "county_names": [
+          "Clark",
+          "Cowlitz",
+          "Lewis",
+          "Skamania",
+          "Marion",
+          "Multnomah",
+          "Clackamas",
+          "Yamhill",
+          "King",
+          "Pierce",
+          "Thurston",
+          "Lane",
+          "Linn"
+        ],
+        "contact": "Don Ritterskamp, Training Director",
+        "phone": "(360) 892-4342",
+        "email": "don@frontiereow.com",
+        "website": "https://frontierat.com/",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2168.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$53.86",
+        "regional_matches": [
+          "Willamette Valley",
+          "Portland metro",
+          "Eugene corridor",
+          "Eugene, OR"
+        ],
+        "program_id": 2168
+      },
+      "score": 352,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "washingtonapprenticeship:5ec475005d2a5e68419080231b038c154aefaeed",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Electrical Management Group of Washington",
+      "title": "Inside Electrician Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2214&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Vancouver, WA; Serves Clark, Cowlitz, Wahkiakum, Pacific, Lewis, Asotin, Benton, Columbia, Franklin, Garfield, Kittitas, Walla Walla",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Clark, Cowlitz, Wahkiakum, Pacific, Lewis, Asotin, Benton, Columbia, +4 more | Contact: Jen Tumlinson, Interim Executive Director | Phone: (360) 996-1560 | Email: jen@emgow.com | Website: https://emgow.com/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2214.pdf | Term hours: 8000 | Journey wage: $53.86",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Electrician"
+        ],
+        "county_names": [
+          "Clark",
+          "Cowlitz",
+          "Wahkiakum",
+          "Pacific",
+          "Lewis",
+          "Asotin",
+          "Benton",
+          "Columbia",
+          "Franklin",
+          "Garfield",
+          "Kittitas",
+          "Walla Walla"
+        ],
+        "contact": "Jen Tumlinson, Interim Executive Director",
+        "phone": "(360) 996-1560",
+        "email": "jen@emgow.com",
+        "website": "https://emgow.com/",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2214.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$53.86",
+        "program_id": 2214,
+        "regional_matches": [
+          "Vancouver, WA"
+        ]
+      },
+      "score": 332,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "washingtonapprenticeship:f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Inland Empire Electrical Training Trust",
+      "title": "Inside Electrician Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=143&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Spokane, WA; Serves Adams, Ferry, Lincoln, Pend Oreille, Spokane, Stevens, Whitman, Benewah, Bonner, Boundary, Clearwater, Idaho, Kootenai,\u2026",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Adams, Ferry, Lincoln, Pend Oreille, Spokane, Stevens, Whitman, Benewah, +9 more | Contact: Jon Medaris, Training Director | Phone: 509-534-0922 | Email: jon.medaris@73jatc.org | Website: http://www.73jatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0143.pdf | Term hours: 4000 | Journey wage: $30.27",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Electrician"
+        ],
+        "county_names": [
+          "Adams",
+          "Ferry",
+          "Lincoln",
+          "Pend Oreille",
+          "Spokane",
+          "Stevens",
+          "Whitman",
+          "Benewah",
+          "Bonner",
+          "Boundary",
+          "Clearwater",
+          "Idaho",
+          "Kootenai",
+          "Latah",
+          "Lewis",
+          "Nez Perce",
+          "Shoshone"
+        ],
+        "contact": "Jon Medaris, Training Director",
+        "phone": "509-534-0922",
+        "email": "jon.medaris@73jatc.org",
+        "website": "http://www.73jatc.org",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0143.pdf",
+        "term_hours": "4000",
+        "journey_wage": "$30.27",
+        "program_id": 143,
+        "regional_matches": [
+          "West Coast region"
+        ]
+      },
+      "score": 330,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "washingtonapprenticeship:579e06390ad287f4684215440d340ed487da63dd",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Performance Electrical Apprenticeship Committee",
+      "title": "Inside Electrician Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2224&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Puyallup, WA; Serves Pierce, King, Thurston, Lewis, Snohomish, Spokane, Pend Oreille, Stevens, Lincoln, Whitman",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Pierce, King, Thurston, Lewis, Snohomish, Spokane, Pend Oreille, Stevens, +2 more | Contact: Amy Simondet, HR Manager | Phone: (253) 848-6990 | Email: amys@boonenw.com | Website: https://www.peacapprenticeship.com/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2224.pdf | Term hours: 8000 | Journey wage: $38.0",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Electrician"
+        ],
+        "county_names": [
+          "Pierce",
+          "King",
+          "Thurston",
+          "Lewis",
+          "Snohomish",
+          "Spokane",
+          "Pend Oreille",
+          "Stevens",
+          "Lincoln",
+          "Whitman"
+        ],
+        "contact": "Amy Simondet, HR Manager",
+        "phone": "(253) 848-6990",
+        "email": "amys@boonenw.com",
+        "website": "https://www.peacapprenticeship.com/",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2224.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$38.0",
+        "program_id": 2224,
+        "regional_matches": [
+          "West Coast region"
+        ]
+      },
+      "score": 330,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "washingtonapprenticeship:c3780f1bf13c6a9506ae61d45f775ef2a2a515c4",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Tradesmen Apprenticeship & Comprehensive Training",
+      "title": "Inside Electrician Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2182&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Battle Ground, WA; Serves Clark, Cowlitz, Lewis, Skamania, King",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Clark, Cowlitz, Lewis, Skamania, King | Contact: Steve Niemi | Phone: (360) 666-1199 | Email: steve@tradesmenelectric.com | Website: http://Tradesmenelectric.com | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2182.pdf | Term hours: 8000 | Journey wage: $54.0",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Electrician"
+        ],
+        "county_names": [
+          "Clark",
+          "Cowlitz",
+          "Lewis",
+          "Skamania",
+          "King"
+        ],
+        "contact": "Steve Niemi",
+        "phone": "(360) 666-1199",
+        "email": "steve@tradesmenelectric.com",
+        "website": "http://Tradesmenelectric.com",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2182.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$54.0",
+        "program_id": 2182,
+        "regional_matches": [
+          "West Coast region"
+        ]
+      },
+      "score": 330,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
+    {
+      "job_key": "oregonapprenticeship:12f6bfeba768afb1faa70459e5e36349b930e84b",
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "company": "AREA IV INSIDE ELECTRICAL JATC",
+      "title": "Inside Electrician (Cow Creek) Apprenticeship Intake Open",
+      "detail_url": "https://www.oregon.gov/boli/apprenticeship/Pages/apprenticeship-details.aspx?appid=40160159",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "location": "ROSEBURG, OR; Area 4",
+      "posted_date": "",
+      "description": "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician. | Area 4 | Counties: Douglas | Contact: Tracy Placido, Coordinator | Phone: 541-440-4675 | Email: Tracy.Placido@umpqua.edu | Website: www.umpqua.edu | Avg journey wage: $42.00",
+      "source_context": "Official Oregon Apprenticeship openings board",
+      "discovered_via": "state openings board",
+      "metadata": {
+        "lead_type": "program",
+        "program_status": "open",
+        "program_status_source": "state openings board",
+        "committee": "AREA IV INSIDE ELECTRICAL JATC",
+        "state_title": "Inside Electrician (Cow Creek)",
+        "trade_name": "Inside Elec (CowCrk)",
+        "areas": "Area 4",
+        "counties": [
+          "Douglas"
+        ],
+        "contact": "Tracy Placido, Coordinator",
+        "phone": "541-440-4675",
+        "email": "Tracy.Placido@umpqua.edu",
+        "website": "www.umpqua.edu",
+        "average_wage": "$42.00",
+        "regional_matches": [
+          "Roseburg, OR"
+        ]
+      },
+      "score": 292,
+      "reasons": [
+        "official apprenticeship intake is currently open",
+        "program targets inside electrician pathway",
+        "state openings board lists current availability",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'",
+        "description includes 'electrician'"
+      ],
+      "hub_matches": [],
+      "bucket": "priority",
+      "status": "active",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "expired_on": "",
+      "seen_count": 1
+    },
     {
       "job_key": "emcor:b327d5de60c9c7ccec7c10444bab8b276fb4b9f5",
       "source_key": "emcor",
@@ -38,7 +1437,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "emcor:788ff163833200a304ac40556ac239dd98742848",
@@ -76,7 +1475,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "emcor:7aefca5df37df17f058a23d58c1199a9d95d2916",
@@ -114,7 +1513,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "emcor:47eb7a64f2cd03951bd41964bb3eb3c7a37ae86d",
@@ -150,7 +1549,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "bergelectric:ec16a03bf4a3ec343b9c9db021577da0e23b6447",
@@ -184,7 +1583,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "bergelectric:7c75f209c7c6aaf175c8919baa6581d2ed91ca77",
@@ -218,7 +1617,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "bergelectric:1fed2f50a8aa0fe181c8b30bee233878b91f6d0b",
@@ -252,7 +1651,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "bergelectric:dd785adabef65ad2865927dd5108b224d46f44c8",
@@ -286,7 +1685,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "bergelectric:fb0f4b4f68f683387f441dbfc86fd59295b58436",
@@ -320,7 +1719,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "emcor:46ca6f73c28761ff7a77d5b83c40d0c5a24c8d76",
@@ -354,7 +1753,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "emcor:66d047611aa5b006db55891434e06aed1dfa3986",
@@ -388,7 +1787,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "emcor:583b58f3fb03972653cd89077c0d6df19576d65f",
@@ -422,7 +1821,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "emcor:19953bc50b9b68eeae496f3f763ab0ae8e6a3a5c",
@@ -456,7 +1855,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "emcor:adfc0e401cdf5ac72cec9430696792d72535513a",
@@ -490,7 +1889,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "emcor:acabc31786951806415b79f53e3ff4fa8da80cb1",
@@ -524,7 +1923,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "mortenson:57b72792b0123b01ff613ad1848e168f8e79592c",
@@ -561,7 +1960,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "mortenson:727bfdba7e8ccf2e83795d63b3557bffd9d414b1",
@@ -598,7 +1997,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "mortenson:3712886393397d028fd6e80cee881ce28e77fc2e",
@@ -635,7 +2034,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "mortenson:228a1dc37ade8a786f294a11093164ca211bafcf",
@@ -672,7 +2071,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "bergelectric:1d800baacb5ac0189706e6afcf0db6c6d9c5a458",
@@ -689,9 +2088,10 @@
       "discovered_via": "iCIMS iframe search",
       "metadata": {
         "category": "Skilled Trades",
-        "position_type": "Fulltime-Regular, Overview, Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical codes along with all Bergelectric Corp. policies and procedures. Support activities at commercial, industrial, institutional and residential project locations. This is considered to be a safety sensitive position., Responsibilities, Assist with the installation, repair, maintenance and testing of commercial, industrial and residential electrical systems in full support of Bergelectric Corp. safety, operations and productivity initiatives., Use industry related hand tools and power tools, under supervision., Assist the Electrician with measuring, cutting, bending, threading and installing wire and electrical cable systems, conduit systems and other wire raceway systems., Assist the Electrician with wires and cables within control centers, distribution boxes, transformers, transducers, switch gear, receptacles, switches, etc., Work with an Electrician to splice and terminate wires at junction points., Clean, gather and transport materials to electricians on the construction site., Communicate effectively with Foremen and crew members., Maintain workflow schedule to ensure all Bergelectric Corp. productivity objectives are met., Demonstrate the highest level of professionalism and courtesy when interacting with colleagues, customers and vendors., Adhere to all Bergelectric Corp.\u2019s safety policies and procedures., Qualifications, Must be currently enrolled or working on enrollment in an approved Apprentice program., Knowledge of electrical theory, basic circuits, branch circuits, and specialty systems., Knowledge of magnetic induction, three-phase transformers, conductors and wiring methods., The ability to read and understand electrical single line blueprints., Familiar with aspects of operation, maintenance and repair of electrical systems., Basic knowledge of tools and equipment and how to safely use them., Physical Demands, Lift 50 lbs. from the ground and pull 50 lbs. of force., Perform ladder climbing, wire p\u2026"
+        "position_type": "Fulltime-Regular, Overview, Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical codes along with all Bergelectric Corp. policies and procedures. Support activities at commercial, industrial, institutional and residential project locations. This is considered to be a safety sensitive position., Responsibilities, Assist with the installation, repair, maintenance and testing of commercial, industrial and residential electrical systems in full support of Bergelectric Corp. safety, operations and productivity initiatives., Use industry related hand tools and power tools, under supervision., Assist the Electrician with measuring, cutting, bending, threading and installing wire and electrical cable systems, conduit systems and other wire raceway systems., Assist the Electrician with wires and cables within control centers, distribution boxes, transformers, transducers, switch gear, receptacles, switches, etc., Work with an Electrician to splice and terminate wires at junction points., Clean, gather and transport materials to electricians on the construction site., Communicate effectively with Foremen and crew members., Maintain workflow schedule to ensure all Bergelectric Corp. productivity objectives are met., Demonstrate the highest level of professionalism and courtesy when interacting with colleagues, customers and vendors., Adhere to all Bergelectric Corp.\u2019s safety policies and procedures., Qualifications, Must be currently enrolled or working on enrollment in an approved Apprentice program., Knowledge of electrical theory, basic circuits, branch circuits, and specialty systems., Knowledge of magnetic induction, three-phase transformers, conductors and wiring methods., The ability to read and understand electrical single line blueprints., Familiar with aspects of operation, maintenance and repair of electrical systems., Basic knowledge of tools and equipment and how to safely use them., Physical Demands, Lift 50 lbs. from the ground and pull 50 lbs. of force., Perform ladder climbing, wire p\u2026",
+        "title_location_hint": "Shreveport, LA"
       },
-      "score": 140,
+      "score": 148,
       "reasons": [
         "title matches 'apprentice electrician'",
         "title includes 'apprentice'",
@@ -700,17 +2100,17 @@
         "description includes 'electrician'",
         "description includes 'electrical'",
         "priority hub match: Dallas-Fort Worth, TX",
-        "title penalty for 'hr'"
+        "title location does not match the listing location"
       ],
       "hub_matches": [
         "Dallas-Fort Worth, TX"
       ],
-      "bucket": "priority",
+      "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "emcor:5297c73de20628ff1597a4700334cc7a34526777",
@@ -745,7 +2145,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     }
   ],
   "reports": [
@@ -794,17 +2194,45 @@
       "errors": []
     },
     {
-      "source_key": "oeg",
-      "source_name": "Oeg",
-      "source_url": "https://oeg.us.com/careers/",
-      "status": "error",
-      "total_fetched": 0,
-      "total_relevant": 0,
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "status": "ok",
+      "total_fetched": 14,
+      "total_relevant": 14,
       "used_browser": false,
+      "notes": [
+        "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
+        "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
+        "NIETC lists the Inside Program as closed due to the current work slowdown and pause on new apprentice classes. Updated 3/3/26."
+      ],
+      "errors": []
+    },
+    {
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "status": "ok",
+      "total_fetched": 10,
+      "total_relevant": 10,
+      "used_browser": false,
+      "notes": [
+        "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
+        "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
+        "Washington directory entries are shown as pathways to check directly, not guaranteed-open application windows."
+      ],
+      "errors": []
+    },
+    {
+      "source_key": "oeg",
+      "source_name": "OEG",
+      "source_url": "https://oeg.us.com/careers/",
+      "status": "ok",
+      "total_fetched": 10,
+      "total_relevant": 0,
+      "used_browser": true,
       "notes": [],
-      "errors": [
-        "Browser dump for https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst= did not return HTML. Exit code: -6"
-      ]
+      "errors": []
     },
     {
       "source_key": "mortenson",
@@ -819,16 +2247,14 @@
     },
     {
       "source_key": "turner",
-      "source_name": "Turner",
+      "source_name": "Turner Construction",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
-      "status": "error",
-      "total_fetched": 0,
+      "status": "ok",
+      "total_fetched": 28,
       "total_relevant": 0,
-      "used_browser": false,
+      "used_browser": true,
       "notes": [],
-      "errors": [
-        "Browser dump for https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice did not return HTML. Exit code: -6"
-      ]
+      "errors": []
     },
     {
       "source_key": "kiewit",

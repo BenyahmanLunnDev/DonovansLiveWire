@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json
+import re
 from datetime import datetime, timezone
 from typing import Iterable
 from urllib.parse import quote_plus
@@ -9,13 +11,18 @@ from bs4 import BeautifulSoup
 
 from wireman_tracker.browser import dump_dom
 from wireman_tracker.config import (
+    AREA1_APPLICATIONS_URL,
     BERGELECTRIC_QUERY_TERMS,
     EMCOR_QUERY_TERMS,
     MAX_DESCRIPTION_CHARS,
     MORTENSON_QUERY_TERMS,
+    NIETC_CURRENT_OPENINGS_URL,
     OEG_BOARD_URL,
+    OREGON_APPRENTICESHIP_OPENINGS_URL,
+    OREGON_INSIDE_ELECTRICIAN_DETAILS_URL,
     SOURCE_URLS,
     TURNER_QUERY_TERMS,
+    WASHINGTON_ARTS_PROXY_URL,
 )
 from wireman_tracker.models import JobLead, SourceReport
 from wireman_tracker.utils import (
@@ -52,6 +59,187 @@ def _safe_fetch_text(session: requests.Session, url: str) -> str:
         return fetch_text(session, url)
     except Exception:
         return ""
+
+
+def _committee_key(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", value.lower())
+
+
+def _format_area_label(areas: Iterable[int]) -> str:
+    unique = sorted({int(area) for area in areas if str(area).strip().isdigit()})
+    if not unique:
+        return ""
+    if len(unique) == 1:
+        return f"Area {unique[0]}"
+    if len(unique) == 2:
+        return f"Areas {unique[0]} & {unique[1]}"
+    head = ", ".join(str(area) for area in unique[:-1])
+    return f"Areas {head}, & {unique[-1]}"
+
+
+def _summarize_counties(county_names: list[str], limit: int = 6) -> str:
+    cleaned = [clean_text(name) for name in county_names if clean_text(name)]
+    if not cleaned:
+        return ""
+
+    unique = list(dict.fromkeys(cleaned))
+    if len(unique) <= limit:
+        return ", ".join(unique)
+    return ", ".join(unique[:limit]) + f", +{len(unique) - limit} more"
+
+
+OREGON_COUNTY_LABELS = {
+    "all counties in oregon": "Oregon statewide coverage",
+    "clackamas": "Portland metro",
+    "multnomah": "Portland metro",
+    "washington": "Portland metro",
+    "yamhill": "Willamette Valley",
+    "marion": "Willamette Valley",
+    "polk": "Willamette Valley",
+    "linn": "Willamette Valley",
+    "lane": "Eugene corridor",
+    "clatsop": "North Coast, OR",
+    "tillamook": "North Coast, OR",
+    "deschutes": "Central Oregon",
+    "crook": "Central Oregon",
+    "jackson": "Southern Oregon",
+    "josephine": "Southern Oregon",
+    "klamath": "Southern Oregon",
+    "lake": "Southern Oregon",
+    "morrow": "Eastern Oregon",
+    "umatilla": "Eastern Oregon",
+    "union": "Eastern Oregon",
+    "wallowa": "Eastern Oregon",
+    "baker": "Eastern Oregon",
+    "gilliam": "Eastern Oregon",
+    "wheeler": "Eastern Oregon",
+}
+
+
+def _dedupe_labels(values: Iterable[str]) -> list[str]:
+    ordered: list[str] = []
+    for value in values:
+        cleaned = clean_text(value)
+        if cleaned and cleaned not in ordered:
+            ordered.append(cleaned)
+    return ordered
+
+
+def _canonicalize_washington_occupation(value: str) -> str:
+    cleaned = clean_text(re.sub(r"\s*\(.*?\)\s*", "", value))
+    if cleaned.lower() == "inside electrician":
+        return "Inside Electrician"
+    if cleaned.lower() == "inside wireman":
+        return "Inside Wireman"
+    return cleaned
+
+
+def _summarize_oregon_county_coverage(county_names: list[str]) -> list[str]:
+    labels: list[str] = []
+    for county in county_names:
+        normalized = clean_text(county).lower()
+        label = OREGON_COUNTY_LABELS.get(normalized)
+        if label and label not in labels:
+            labels.append(label)
+    return labels
+
+
+def _load_oregon_openings_payload(session: requests.Session) -> dict:
+    html = fetch_text(session, OREGON_APPRENTICESHIP_OPENINGS_URL)
+    match = re.search(r"var\s+heccData\s*=\s*(\{.*?\});", html, re.S)
+    if not match:
+        raise RuntimeError("Could not locate Oregon Apprenticeship heccData payload.")
+    return json.loads(match.group(1))
+
+
+def _load_inside_electrician_detail_map(session: requests.Session) -> dict[str, dict[str, str]]:
+    html = fetch_text(session, OREGON_INSIDE_ELECTRICIAN_DETAILS_URL)
+    soup = BeautifulSoup(html, "html.parser")
+    details: dict[str, dict[str, str]] = {}
+
+    for row in soup.select("table tr"):
+        cells = row.select("td")
+        link = row.select_one('a[href*="apprenticeship-details.aspx?appid="]')
+        if len(cells) < 3 or not link:
+            continue
+
+        committee = clean_text(cells[0].get_text(" ", strip=True))
+        if not committee:
+            continue
+
+        details[_committee_key(committee)] = {
+            "detail_url": absolute_url("https://www.oregon.gov", link["href"]),
+            "average_wage": clean_text(cells[2].get_text(" ", strip=True)),
+        }
+
+    return details
+
+
+def _fetch_area1_committee_status(session: requests.Session) -> dict:
+    text = clean_text(BeautifulSoup(fetch_text(session, AREA1_APPLICATIONS_URL), "html.parser").get_text(" ", strip=True))
+    match = re.search(
+        r"Applications\s+for\s+(\d{4})\s+will\s+be\s+open\s+from:\s+([A-Za-z]+\s+\d{1,2}\w*)\s+to\s+([A-Za-z]+\s+\d{1,2}\w*)",
+        text,
+        re.I,
+    )
+    note = "Area I applications page did not expose a clear application window."
+    window = ""
+    posted_date = ""
+    is_open = False
+
+    if match:
+        year, start_label, end_label = match.groups()
+        window = f"{start_label}, {year} to {end_label}, {year}"
+        note = f"Area I applications for {year} are open from {start_label} to {end_label}."
+        normalized_start = re.sub(r"(\d)(st|nd|rd|th)\b", r"\1", start_label, flags=re.I)
+        posted_date = f"{year}-{datetime.strptime(normalized_start, '%B %d').strftime('%m-%d')}"
+        is_open = True
+
+    return {
+        "committee": "AREA I INSIDE ELECTRICAL JATC",
+        "is_open": is_open,
+        "detail_url": AREA1_APPLICATIONS_URL,
+        "status_note": note,
+        "application_window": window,
+        "posted_date": posted_date,
+        "status_source": "committee site",
+    }
+
+
+def _fetch_nietc_inside_status(session: requests.Session) -> dict:
+    text = clean_text(
+        BeautifulSoup(fetch_text(session, NIETC_CURRENT_OPENINGS_URL), "html.parser").get_text(" ", strip=True)
+    )
+    status_line = ""
+    if "Inside Program – Closed" in text or "Inside Program - Closed" in text:
+        status_line = "Inside Program - Closed"
+
+    updated_match = re.search(r"updated\s+(\d{1,2}/\d{1,2}/\d{2,4})", text, re.I)
+    slowdown_note = ""
+    if "work slowdown" in text.lower():
+        slowdown_note = " due to the current work slowdown and pause on new apprentice classes"
+
+    note = "NIETC current application page did not expose a clear inside-electrician status."
+    if status_line:
+        note = f"NIETC lists the Inside Program as closed{slowdown_note}."
+        if updated_match:
+            note += f" Updated {updated_match.group(1)}."
+
+    return {
+        "committee": "NECA-IBEW ELECTRICAL JATC",
+        "is_open": False,
+        "detail_url": NIETC_CURRENT_OPENINGS_URL,
+        "status_note": note,
+        "posted_date": updated_match.group(1) if updated_match else "",
+        "status_source": "committee site",
+    }
+
+
+def _direct_committee_overrides(session: requests.Session) -> dict[str, dict]:
+    overrides = {}
+    for payload in (_fetch_area1_committee_status(session), _fetch_nietc_inside_status(session)):
+        overrides[_committee_key(payload["committee"])] = payload
+    return overrides
 
 
 def _build_icims_search_url(base_url: str, term: str) -> str:
@@ -255,6 +443,328 @@ def _parse_oeg_cards(html: str) -> list[JobLead]:
         )
 
     return dedupe_by_job_key(jobs)
+
+
+def scrape_oregon_apprenticeship(session: requests.Session) -> tuple[list[JobLead], SourceReport]:
+    report = SourceReport(
+        source_key="oregonapprenticeship",
+        source_name="Oregon Apprenticeship",
+        source_url=SOURCE_URLS["oregonapprenticeship"],
+    )
+    payload = _load_oregon_openings_payload(session)
+    detail_map = _load_inside_electrician_detail_map(session)
+    overrides = _direct_committee_overrides(session)
+    jobs: list[JobLead] = []
+    skipped_due_to_direct_status = 0
+    statewide_open_count = 0
+
+    for standard in payload.get("standards", []):
+        state_title = clean_text(standard.get("state_title"))
+        trade_name = clean_text(standard.get("trade_name"))
+        combined_title = f"{state_title} {trade_name}".lower()
+        if "inside electrician" not in combined_title:
+            continue
+
+        is_open = bool(standard.get("is_open"))
+        committee = clean_text(standard.get("committee"))
+        committee_lookup = _committee_key(committee)
+        override = overrides.get(committee_lookup)
+        if override is not None:
+            is_open = bool(override.get("is_open"))
+
+        if standard.get("state") == "OR" and bool(standard.get("is_open")):
+            statewide_open_count += 1
+
+        if not is_open or clean_text(standard.get("state")) != "OR":
+            if override and not override.get("is_open"):
+                skipped_due_to_direct_status += 1
+            continue
+
+        county_entries = standard.get("counties") or {}
+        county_names = [
+            clean_text(item.get("county_text"))
+            for item in county_entries.values()
+            if isinstance(item, dict)
+        ]
+        area_numbers = [
+            int(item.get("area"))
+            for item in county_entries.values()
+            if isinstance(item, dict) and str(item.get("area", "")).isdigit()
+        ]
+        area_label = _format_area_label(area_numbers)
+        counties_summary = _summarize_counties(county_names)
+        detail_info = detail_map.get(committee_lookup, {})
+        detail_url = clean_text(override.get("detail_url") if override else "") or clean_text(detail_info.get("detail_url")) or SOURCE_URLS["oregonapprenticeship"]
+        average_wage = clean_text(detail_info.get("average_wage"))
+        location = clean_text(
+            "; ".join(
+                value
+                for value in (
+                    clean_text(f"{standard.get('city')}, {standard.get('state')}"),
+                    area_label,
+                )
+                if value
+            )
+        )
+        status_note = clean_text(override.get("status_note") if override else "")
+        website = clean_text(standard.get("website"))
+        contact = clean_text(standard.get("contact"))
+        phone = clean_text(standard.get("phone"))
+        email = clean_text(standard.get("email"))
+        description_parts = [
+            "Official Oregon Apprenticeship openings board currently lists this committee as open for Inside Electrician.",
+            status_note,
+            area_label,
+            f"Counties: {counties_summary}" if counties_summary else "",
+            f"Contact: {contact}" if contact else "",
+            f"Phone: {phone}" if phone else "",
+            f"Email: {email}" if email else "",
+            f"Website: {website}" if website else "",
+            f"Avg journey wage: {average_wage}" if average_wage else "",
+        ]
+
+        jobs.append(
+            JobLead(
+                job_key=stable_job_key("oregonapprenticeship", standard.get("identifier") or detail_url),
+                source_key="oregonapprenticeship",
+                source_name="Oregon Apprenticeship",
+                company=committee,
+                title=f"{state_title} Apprenticeship Intake Open",
+                detail_url=detail_url,
+                source_url=SOURCE_URLS["oregonapprenticeship"],
+                location=location,
+                posted_date=clean_text(override.get("posted_date") if override else ""),
+                description=truncate_text(" | ".join(part for part in description_parts if part), MAX_DESCRIPTION_CHARS),
+                source_context="Official Oregon Apprenticeship openings board",
+                discovered_via=clean_text(override.get("status_source") if override else "state openings board"),
+                metadata={
+                    key: value
+                    for key, value in {
+                        "lead_type": "program",
+                        "program_status": "open",
+                        "program_status_source": clean_text(override.get("status_source") if override else "state openings board"),
+                        "program_status_note": status_note,
+                        "committee": committee,
+                        "state_title": state_title,
+                        "trade_name": trade_name,
+                        "areas": area_label,
+                        "counties": county_names,
+                        "contact": contact,
+                        "phone": phone,
+                        "email": email,
+                        "website": website,
+                        "average_wage": average_wage,
+                        "application_window": clean_text(override.get("application_window") if override else ""),
+                    }.items()
+                    if value
+                },
+            )
+        )
+
+    report.total_fetched = len(jobs)
+    report.notes.append(
+        f"Oregon Apprenticeship currently marks {statewide_open_count} Inside Electrician program entries as open statewide."
+    )
+    if skipped_due_to_direct_status:
+        report.notes.append(
+            f"Skipped {skipped_due_to_direct_status} committee entry where a direct committee page currently says applications are closed or paused."
+        )
+    nietc_override = overrides.get(_committee_key("NECA-IBEW ELECTRICAL JATC"))
+    if nietc_override and nietc_override.get("status_note"):
+        report.notes.append(clean_text(str(nietc_override["status_note"])))
+    return dedupe_by_job_key(jobs), report
+
+
+def _washington_arts_request(
+    session: requests.Session,
+    *,
+    service_name: str,
+    url_data: str,
+    method: str,
+    request_content: dict | None = None,
+) -> requests.Response:
+    payload: dict[str, str] = {
+        "ServiceName": service_name,
+        "UrlData": url_data,
+        "RestHttpMethod": method,
+    }
+    if request_content is not None:
+        payload["RequestContent"] = json.dumps(request_content)
+    response = session.post(WASHINGTON_ARTS_PROXY_URL, json=payload, timeout=30)
+    response.raise_for_status()
+    return response
+
+
+def _lookup_washington_programs(session: requests.Session, keyword: str) -> list[dict]:
+    response = _washington_arts_request(
+        session,
+        service_name="ArtsPublic",
+        url_data="api/ARTS/ExternalProgramOccupationLookup",
+        method="POST",
+        request_content={
+            "Counties": [str(index) for index in range(1, 78, 2)],
+            "KeywordSearch": keyword,
+            "SOCCode": "",
+            "SortByColumnName": "programName",
+            "SortDirection": "asc",
+            "StartRow": 0,
+            "NumberOfRows": 25,
+        },
+    )
+    payload = response.json()
+    return payload if isinstance(payload, list) else []
+
+
+def _fetch_washington_program_detail(session: requests.Session, program_id: int) -> dict:
+    response = _washington_arts_request(
+        session,
+        service_name="ARTSPublic",
+        url_data=f"api/ARTS/ExternalGetProgramDetail?programOccupationId=0&programId={program_id}",
+        method="GET",
+    )
+    payload = response.json()
+    return payload.get("returnValue", {}) if isinstance(payload, dict) else {}
+
+
+def scrape_washington_apprenticeship(session: requests.Session) -> tuple[list[JobLead], SourceReport]:
+    report = SourceReport(
+        source_key="washingtonapprenticeship",
+        source_name="Washington L&I Apprenticeship",
+        source_url=SOURCE_URLS["washingtonapprenticeship"],
+    )
+    keywords = ("inside electrician", "inside wireman")
+    grouped: dict[int, dict[str, object]] = {}
+
+    for keyword in keywords:
+        for item in _lookup_washington_programs(session, keyword):
+            try:
+                program_id = int(item.get("programId"))
+            except (TypeError, ValueError):
+                continue
+
+            entry = grouped.setdefault(
+                program_id,
+                {
+                    "program_id": program_id,
+                    "program_name": clean_text(item.get("programName")),
+                    "occupation_names": [],
+                    "county_names": [],
+                },
+            )
+            occupations = entry["occupation_names"]
+            counties = entry["county_names"]
+            if not isinstance(occupations, list) or not isinstance(counties, list):
+                continue
+
+            occupations.append(clean_text(item.get("occupationName")))
+            counties.extend(
+                clean_text(part)
+                for part in clean_text(item.get("countyName")).split(",")
+                if clean_text(part)
+            )
+
+    jobs: list[JobLead] = []
+    oregon_serving_count = 0
+
+    for program_id, entry in grouped.items():
+        detail = _fetch_washington_program_detail(session, program_id)
+        occupation_names = _dedupe_labels(
+            _canonicalize_washington_occupation(value)
+            for value in entry.get("occupation_names", [])
+            if isinstance(value, str)
+        )
+        county_names = _dedupe_labels(entry.get("county_names", []))
+        regional_matches = _summarize_oregon_county_coverage(county_names)
+        if regional_matches:
+            oregon_serving_count += 1
+
+        title = " / ".join(occupation_names) if occupation_names else "Inside Electrician / Inside Wireman"
+        title = f"{title} Apprenticeship Pathway"
+        city_name = clean_text(detail.get("cityName")).strip(" ,")
+        state_code = clean_text(detail.get("stateCode")).strip(" ,")
+        location = clean_text(
+            "; ".join(
+                value
+                for value in (
+                    clean_text(f"{city_name}, {state_code}") if city_name and state_code else "",
+                    f"Serves {truncate_text(', '.join(county_names), 120)}" if county_names else "",
+                )
+                if value
+            )
+        )
+        detail_url = (
+            f"{SOURCE_URLS['washingtonapprenticeship']}#/program-details"
+            f"?programId={program_id}&from=%2Fprogram-search"
+        )
+        term_hours = clean_text(str(detail.get("termHours") or ""))
+        journey_rate = clean_text(str(detail.get("journeyLevelRate") or ""))
+        website = clean_text(detail.get("webSiteAddress"))
+        standard_url = clean_text(detail.get("standardUrl"))
+        contact = clean_text(detail.get("contactName"))
+        phone = clean_text(detail.get("phoneNumber"))
+        email = clean_text(detail.get("email"))
+        description_parts = [
+            "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway.",
+            "Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly.",
+            f"Coverage: {_summarize_counties(county_names, limit=8)}" if county_names else "",
+            f"Oregon-facing coverage: {', '.join(regional_matches)}" if regional_matches else "",
+            f"Contact: {contact}" if contact else "",
+            f"Phone: {phone}" if phone else "",
+            f"Email: {email}" if email else "",
+            f"Website: {website}" if website else "",
+            f"Standards PDF: {standard_url}" if standard_url else "",
+            f"Term hours: {term_hours}" if term_hours else "",
+            f"Journey wage: ${journey_rate}" if journey_rate else "",
+        ]
+
+        jobs.append(
+            JobLead(
+                job_key=stable_job_key("washingtonapprenticeship", str(program_id)),
+                source_key="washingtonapprenticeship",
+                source_name="Washington L&I Apprenticeship",
+                company=clean_text(detail.get("programName")) or clean_text(str(entry.get("program_name", ""))),
+                title=title,
+                detail_url=detail_url,
+                source_url=SOURCE_URLS["washingtonapprenticeship"],
+                location=location,
+                description=truncate_text(" | ".join(part for part in description_parts if part), MAX_DESCRIPTION_CHARS),
+                source_context="Official Washington L&I apprenticeship directory",
+                discovered_via="state apprenticeship directory",
+                metadata={
+                    key: value
+                    for key, value in {
+                        "lead_type": "pathway",
+                        "program_status": "directory",
+                        "program_status_source": "state apprenticeship directory",
+                        "occupation_names": occupation_names,
+                        "county_names": county_names,
+                        "contact": contact,
+                        "phone": phone,
+                        "email": email,
+                        "website": website,
+                        "standard_url": standard_url,
+                        "term_hours": term_hours,
+                        "journey_wage": f"${journey_rate}" if journey_rate else "",
+                        "regional_matches": regional_matches,
+                        "program_id": program_id,
+                    }.items()
+                    if value
+                },
+            )
+        )
+
+    report.total_fetched = len(jobs)
+    report.notes.append(
+        f"Washington L&I currently lists {len(jobs)} inside wireman / inside electrician pathways from the public directory."
+    )
+    if oregon_serving_count:
+        report.notes.append(
+            f"{oregon_serving_count} Washington pathways explicitly cover Oregon counties or Oregon-wide service areas."
+        )
+    report.notes.append(
+        "Washington directory entries are shown as pathways to check directly, not guaranteed-open application windows."
+    )
+    return dedupe_by_job_key(jobs), report
 
 
 def _turner_detail_needed(title: str) -> bool:
@@ -620,6 +1130,8 @@ def scrape_all_sources(
         ("emcor", lambda: scrape_emcor(session)),
         ("bergelectric", lambda: scrape_bergelectric(session)),
         ("primeelectric", lambda: scrape_primeelectric(session)),
+        ("oregonapprenticeship", lambda: scrape_oregon_apprenticeship(session)),
+        ("washingtonapprenticeship", lambda: scrape_washington_apprenticeship(session)),
         ("oeg", lambda: scrape_oeg(session, browser_path=browser_path)),
         ("mortenson", lambda: scrape_mortenson(session)),
         ("turner", lambda: scrape_turner(session, browser_path=browser_path)),

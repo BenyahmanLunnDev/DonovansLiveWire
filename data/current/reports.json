@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T02:52:56.218749-07:00",
+  "generated_at": "2026-03-23T04:28:21.362273-07:00",
   "reports": [
     {
       "source_key": "cei",
@@ -46,17 +46,45 @@
       "errors": []
     },
     {
-      "source_key": "oeg",
-      "source_name": "Oeg",
-      "source_url": "https://oeg.us.com/careers/",
-      "status": "error",
-      "total_fetched": 0,
-      "total_relevant": 0,
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "status": "ok",
+      "total_fetched": 14,
+      "total_relevant": 14,
       "used_browser": false,
+      "notes": [
+        "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
+        "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
+        "NIETC lists the Inside Program as closed due to the current work slowdown and pause on new apprentice classes. Updated 3/3/26."
+      ],
+      "errors": []
+    },
+    {
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "status": "ok",
+      "total_fetched": 10,
+      "total_relevant": 10,
+      "used_browser": false,
+      "notes": [
+        "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
+        "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
+        "Washington directory entries are shown as pathways to check directly, not guaranteed-open application windows."
+      ],
+      "errors": []
+    },
+    {
+      "source_key": "oeg",
+      "source_name": "OEG",
+      "source_url": "https://oeg.us.com/careers/",
+      "status": "ok",
+      "total_fetched": 10,
+      "total_relevant": 0,
+      "used_browser": true,
       "notes": [],
-      "errors": [
-        "Browser dump for https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst= did not return HTML. Exit code: -6"
-      ]
+      "errors": []
     },
     {
       "source_key": "mortenson",
@@ -71,16 +99,14 @@
     },
     {
       "source_key": "turner",
-      "source_name": "Turner",
+      "source_name": "Turner Construction",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
-      "status": "error",
-      "total_fetched": 0,
+      "status": "ok",
+      "total_fetched": 28,
       "total_relevant": 0,
-      "used_browser": false,
+      "used_browser": true,
       "notes": [],
-      "errors": [
-        "Browser dump for https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice did not return HTML. Exit code: -6"
-      ]
+      "errors": []
     },
     {
       "source_key": "kiewit",

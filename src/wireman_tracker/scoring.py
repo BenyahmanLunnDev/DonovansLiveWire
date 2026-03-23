@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 from wireman_tracker.config import (
     DESCRIPTION_SIGNALS,
     NEGATIVE_DESCRIPTION_SIGNALS,
@@ -15,6 +17,25 @@ from wireman_tracker.config import (
 from wireman_tracker.models import JobLead
 
 
+def _matches_phrase(text: str, phrase: str) -> bool:
+    normalized = phrase.strip()
+    if not normalized:
+        return False
+    pattern = r"(?<![a-z0-9])" + re.escape(normalized).replace(r"\ ", r"\s+") + r"(?![a-z0-9])"
+    return re.search(pattern, text) is not None
+
+
+def _title_location_hint(title: str) -> str:
+    tail_segments = [segment.strip(" -()") for segment in re.split(r"[–-]", title) if segment.strip(" -()")]
+    candidates = list(reversed(tail_segments)) + [title]
+    for candidate in candidates:
+        match = re.search(r"([A-Za-z][A-Za-z .']+),\s*([A-Z]{2})\b", candidate)
+        if match:
+            city, state = match.groups()
+            return f"{city.strip()}, {state}"
+    return ""
+
+
 def evaluate_job(job: JobLead) -> JobLead:
     title = job.title.lower()
     description = job.description.lower()
@@ -22,11 +43,35 @@ def evaluate_job(job: JobLead) -> JobLead:
     context = f"{job.source_context} {job.discovered_via}".lower()
     combined = f"{title} {description} {location} {context}"
     content_only = f"{title} {description} {location}"
+    lead_type = str(job.metadata.get("lead_type", "")).lower()
+    program_open = lead_type == "program" and str(job.metadata.get("program_status", "")).lower() == "open"
+    pathway_directory = lead_type == "pathway"
+    program_status_source = str(job.metadata.get("program_status_source", "")).lower()
+    title_location_hint = _title_location_hint(job.title)
+    title_location_mismatch = False
+    if title_location_hint:
+        hint_city, hint_state = [part.strip().lower() for part in title_location_hint.split(",", 1)]
+        city_matches = hint_city in location
+        state_matches = any(
+            marker in location
+            for marker in (
+                f"us-{hint_state}-",
+                f", {hint_state}",
+                f"{hint_state},",
+                f" {hint_state} ",
+                f"({hint_state})",
+            )
+        )
+        title_location_mismatch = not (city_matches and state_matches)
 
     score = 0
     reasons: list[str] = []
     hub_matches: list[str] = []
-    regional_matches: list[str] = []
+    regional_matches = [
+        str(value).strip()
+        for value in job.metadata.get("regional_matches", [])
+        if str(value).strip()
+    ]
     apprentice_like = any(term in content_only for term in ("apprentice", "trainee", "helper", "wireman"))
     electrical_like = any(term in content_only for term in ("electric", "electrical", "low voltage", "fiber"))
     helper_like = "helper" in title or "helper" in description
@@ -39,6 +84,33 @@ def evaluate_job(job: JobLead) -> JobLead:
         ),
         "",
     )
+
+    if program_open:
+        score += 118
+        reasons.append("official apprenticeship intake is currently open")
+        if "inside electrician" in f"{job.title} {job.metadata.get('state_title', '')}".lower():
+            score += 42
+            reasons.append("program targets inside electrician pathway")
+        if program_status_source == "committee site":
+            score += 28
+            reasons.append("committee site confirms the current application window")
+        elif program_status_source:
+            score += 18
+            reasons.append("state openings board lists current availability")
+
+    if pathway_directory:
+        score += 74
+        reasons.append("official apprenticeship pathway fits Donovan's target trade")
+        occupation_names = " ".join(str(value).lower() for value in job.metadata.get("occupation_names", []))
+        if "inside wireman" in occupation_names or "inside electrician" in occupation_names:
+            score += 24
+            reasons.append("pathway targets inside wireman / inside electrician work")
+        if regional_matches:
+            score += 20
+            reasons.append("pathway coverage reaches Oregon or nearby Pacific Northwest areas")
+        if program_status_source:
+            score += 12
+            reasons.append("state directory provides direct program contact information")
 
     for phrase, points in STRONG_TITLE_SIGNALS.items():
         if phrase in title:
@@ -94,12 +166,12 @@ def evaluate_job(job: JobLead) -> JobLead:
         reasons.append("regional apprentice opportunity")
 
     for phrase, points in NEGATIVE_TITLE_SIGNALS.items():
-        if phrase in title:
+        if _matches_phrase(title, phrase):
             score += points
             reasons.append(f"title penalty for '{phrase}'")
 
     for phrase, points in NEGATIVE_DESCRIPTION_SIGNALS.items():
-        if phrase in description:
+        if _matches_phrase(description, phrase):
             score += points
             reasons.append(f"description penalty for '{phrase}'")
 
@@ -147,6 +219,13 @@ def evaluate_job(job: JobLead) -> JobLead:
         score -= 80
         reasons.append("templated listing is too generic to prioritize")
 
+    if title_location_mismatch:
+        score -= 32
+        reasons.append("title location does not match the listing location")
+        job.metadata["title_location_hint"] = title_location_hint
+    else:
+        job.metadata.pop("title_location_hint", None)
+
     if "electric" in title and any(
         phrase in title
         for phrase in ("manager", "superintendent", "director", "engineer", "commissioning")
@@ -172,12 +251,19 @@ def evaluate_job(job: JobLead) -> JobLead:
     job.reasons = unique_reasons[:8]
     job.hub_matches = sorted(set(hub_matches))
     if regional_matches:
-        job.metadata["regional_matches"] = sorted(set(regional_matches))
+        deduped: list[str] = []
+        for match in regional_matches:
+            if match not in deduped:
+                deduped.append(match)
+        job.metadata["regional_matches"] = deduped
     else:
         job.metadata.pop("regional_matches", None)
-    priority_context = bool(job.hub_matches) or bool(relocation_phrase) or any(
+    priority_context = program_open or bool(relocation_phrase) or any(
         phrase in content_only or phrase in context
         for phrase in ("data center", "mission critical", "critical facilities", "hyperscale", "colocation")
+    ) or (
+        bool(job.hub_matches)
+        and any(phrase in content_only for phrase in ("trainee", "low voltage", "inside wireman", "electrical apprentice"))
     )
 
     if score >= 95 and priority_context:

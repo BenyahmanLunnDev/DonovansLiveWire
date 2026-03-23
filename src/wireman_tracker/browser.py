@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 import shutil
 import subprocess
+import tempfile
 from pathlib import Path
 
 from wireman_tracker.config import BROWSER_VIRTUAL_TIME_BUDGET_MS
@@ -58,19 +59,34 @@ def dump_dom(
     virtual_time_budget_ms: int = BROWSER_VIRTUAL_TIME_BUDGET_MS,
 ) -> str:
     binary = discover_browser_path(browser_path)
-    result = subprocess.run(
-        [
+    with tempfile.TemporaryDirectory(prefix="wireman-browser-") as user_data_dir:
+        launch_args = [
             binary,
-            "--headless",
+            "--headless=new",
             "--disable-gpu",
+            "--disable-dev-shm-usage",
+            "--disable-software-rasterizer",
+            "--disable-background-networking",
+            "--disable-background-timer-throttling",
+            "--disable-breakpad",
+            "--disable-extensions",
+            "--disable-features=Translate,BackForwardCache",
+            "--hide-scrollbars",
+            "--mute-audio",
+            "--no-first-run",
+            "--no-default-browser-check",
+            "--no-sandbox",
+            f"--user-data-dir={user_data_dir}",
             f"--virtual-time-budget={virtual_time_budget_ms}",
             "--dump-dom",
             url,
-        ],
-        capture_output=True,
-        timeout=120,
-        check=False,
-    )
+        ]
+        result = subprocess.run(
+            launch_args,
+            capture_output=True,
+            timeout=120,
+            check=False,
+        )
 
     stdout = result.stdout.decode("utf-8", "ignore")
     stderr = result.stderr.decode("utf-8", "ignore")
@@ -92,4 +108,3 @@ def dump_dom(
         )
 
     return merged
-

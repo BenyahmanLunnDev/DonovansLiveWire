@@ -2,7 +2,13 @@ from wireman_tracker.models import JobLead
 from wireman_tracker.scoring import evaluate_job
 
 
-def make_job(title: str, description: str = "", location: str = "", context: str = "") -> JobLead:
+def make_job(
+    title: str,
+    description: str = "",
+    location: str = "",
+    context: str = "",
+    metadata: dict | None = None,
+) -> JobLead:
     return JobLead(
         job_key="test",
         source_key="test",
@@ -14,6 +20,7 @@ def make_job(title: str, description: str = "", location: str = "", context: str
         description=description,
         location=location,
         source_context=context,
+        metadata=metadata or {},
     )
 
 
@@ -108,3 +115,50 @@ def test_generic_helper_without_context_is_filtered_out() -> None:
     )
     evaluated = evaluate_job(job)
     assert evaluated.bucket == "discard"
+
+
+def test_open_inside_electrician_program_scores_as_priority() -> None:
+    job = make_job(
+        "Inside Electrician Apprenticeship Intake Open",
+        description="Official Oregon Apprenticeship openings board currently lists this committee as open.",
+        location="Portland, OR; Areas 1 & 6",
+        metadata={
+            "lead_type": "program",
+            "program_status": "open",
+            "program_status_source": "committee site",
+            "state_title": "Inside Electrician",
+        },
+    )
+    evaluated = evaluate_job(job)
+    assert evaluated.bucket == "priority"
+    assert any("official apprenticeship intake" in reason for reason in evaluated.reasons)
+
+
+def test_official_pathway_scores_as_watch_not_priority() -> None:
+    job = make_job(
+        "Inside Wireman / Inside Electrician Apprenticeship Pathway",
+        description="Official Washington L&I apprenticeship directory entry with Oregon-facing coverage.",
+        location="Battle Ground, WA; serves Clark, Multnomah, Clackamas, Lane, Linn",
+        metadata={
+            "lead_type": "pathway",
+            "program_status": "directory",
+            "program_status_source": "state apprenticeship directory",
+            "occupation_names": ["Inside Wireman", "Inside Electrician"],
+            "regional_matches": ["Portland metro", "Eugene corridor"],
+        },
+    )
+    evaluated = evaluate_job(job)
+    assert evaluated.bucket == "watch"
+    assert "Portland metro" in evaluated.metadata.get("regional_matches", [])
+    assert any("official apprenticeship pathway" in reason for reason in evaluated.reasons)
+
+
+def test_location_mismatch_apprentice_role_is_not_priority() -> None:
+    job = make_job(
+        "Apprentice Electrician-Shreveport, LA",
+        description="Function as an Apprentice Electrician under a licensed electrician.",
+        location="US-TX-Dallas",
+    )
+    evaluated = evaluate_job(job)
+    assert evaluated.bucket == "watch"
+    assert any("title location does not match" in reason for reason in evaluated.reasons)

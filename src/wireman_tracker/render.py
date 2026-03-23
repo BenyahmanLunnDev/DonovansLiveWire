@@ -107,6 +107,17 @@ def _format_location(value: str) -> str:
 
 def _reason_chips(job: JobLead) -> list[str]:
     labels: list[str] = []
+    if job.metadata.get("lead_type") == "program":
+        labels.append("Official intake open")
+        if str(job.metadata.get("program_status_source", "")).lower() == "committee site":
+            labels.append("Committee-confirmed")
+        else:
+            labels.append("State-board opening")
+    elif job.metadata.get("lead_type") == "pathway":
+        labels.append("Official pathway")
+        if job.metadata.get("regional_matches"):
+            labels.append("Oregon-serving")
+        labels.append("Check directly")
 
     if any("data center" in reason for reason in job.reasons):
         labels.append("Data center context")
@@ -159,6 +170,29 @@ def _job_card(job: JobLead, lane: str) -> str:
         if job.metadata.get("relocation_assistance")
         else ""
     )
+    program_badge = (
+        _badge("Program opening", "status")
+        if job.metadata.get("lead_type") == "program"
+        else ""
+    )
+    verification_badge = (
+        _badge("Committee site", "hub")
+        if str(job.metadata.get("program_status_source", "")).lower() == "committee site"
+        else (
+            _badge("State board", "watch")
+            if job.metadata.get("lead_type") == "program"
+            else (
+                _badge("State directory", "watch")
+                if job.metadata.get("lead_type") == "pathway"
+                else ""
+            )
+        )
+    )
+    pathway_badge = (
+        _badge("Regional pathway", "status")
+        if job.metadata.get("lead_type") == "pathway"
+        else ""
+    )
 
     meta_bits = [
         escape(job.company),
@@ -187,12 +221,16 @@ def _job_card(job: JobLead, lane: str) -> str:
       data-search="{escape(search_text)}"
       data-lane="{escape(lane)}"
       data-bucket="{escape(job.bucket)}"
+      data-kind="{'program' if job.metadata.get('lead_type') == 'program' else ('pathway' if job.metadata.get('lead_type') == 'pathway' else 'job')}"
       data-region="{'1' if job.metadata.get('regional_matches') else '0'}"
       data-relocation="{'1' if job.metadata.get('relocation_assistance') else '0'}"
       data-new="{'1' if job.first_seen == job.last_seen and job.status == 'active' else '0'}"
     >
       <div class="job-card__badges">
         {status_badge}
+        {program_badge}
+        {pathway_badge}
+        {verification_badge}
         {_badge(job.source_name, "source")}
         {hubs}
         {regional}
@@ -248,8 +286,15 @@ def _source_card(report: SourceReport) -> str:
 def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceReport]) -> str:
     active = [job for job in jobs if job.status == "active"]
     relevant_active = [job for job in active if job.bucket in {"priority", "watch"}]
-    priority_jobs = [job for job in relevant_active if job.bucket == "priority"]
-    watch_jobs = [job for job in relevant_active if job.bucket == "watch"]
+    program_jobs = [job for job in relevant_active if job.metadata.get("lead_type") == "program"]
+    pathway_jobs = [job for job in relevant_active if job.metadata.get("lead_type") == "pathway"]
+    standard_active = [
+        job
+        for job in relevant_active
+        if job.metadata.get("lead_type") not in {"program", "pathway"}
+    ]
+    priority_jobs = [job for job in standard_active if job.bucket == "priority"]
+    watch_jobs = [job for job in standard_active if job.bucket == "watch"]
     west_coast_watch = [job for job in watch_jobs if job.metadata.get("regional_matches")]
     national_watch = [job for job in watch_jobs if not job.metadata.get("regional_matches")]
     expired = [job for job in jobs if job.status == "expired" and job.bucket in {"priority", "watch"}]
@@ -261,6 +306,8 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
     national_count = len(national_watch)
     source_health = "".join(_source_card(report) for report in reports)
 
+    program_html = "".join(_job_card(job, "program") for job in program_jobs)
+    pathway_html = "".join(_job_card(job, "pathway") for job in pathway_jobs)
     priority_html = "".join(_job_card(job, "priority") for job in priority_jobs)
     west_coast_html = "".join(_job_card(job, "regional") for job in west_coast_watch)
     national_html = "".join(_job_card(job, "national") for job in national_watch)
@@ -803,12 +850,14 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
             <h2>Latest Snapshot</h2>
             <p class="hero__meta"><strong>{escape(_format_datetime_label(generated_at))}</strong></p>
             <p class="hero__meta">
-              {total_new} new this run | {relocation_count} mention relocation | {len(expired)} recently removed
+              {total_new} new this run | {len(program_jobs)} official program openings | {len(pathway_jobs)} regional pathways | {relocation_count} mention relocation | {len(expired)} recently removed
             </p>
             <p class="hero__meta">
-              Regional badges surface Oregon, Washington, and California leads first. National cards stay visible for strong out-of-state opportunities.
+              Oregon intake windows lead the board first, then nearby official pathways, then contractor jobs. National cards stay visible for strong out-of-state opportunities.
             </p>
             <div class="hero__links">
+              <a class="jump-link" href="#program-board">Jump to programs</a>
+              <a class="jump-link" href="#pathway-board">Jump to pathways</a>
               <a class="jump-link" href="#priority-board">Jump to priority</a>
               <a class="jump-link" href="#west-coast-board">Jump to West Coast</a>
               <a class="jump-link" href="#national-board">Jump to national</a>
@@ -831,6 +880,8 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
         </div>
         <div class="filter-row" style="margin-top: 14px;">
           <button class="filter-button is-active" data-filter-button data-filter="all" type="button">All leads</button>
+          <button class="filter-button" data-filter-button data-filter="program" type="button">Open programs</button>
+          <button class="filter-button" data-filter-button data-filter="pathway" type="button">Pathways</button>
           <button class="filter-button" data-filter-button data-filter="priority" type="button">Priority only</button>
           <button class="filter-button" data-filter-button data-filter="regional" type="button">West Coast only</button>
           <button class="filter-button" data-filter-button data-filter="national" type="button">National only</button>
@@ -840,11 +891,39 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
         <p class="toolbar__summary" id="filter-summary">Showing {total_active} visible active leads.</p>
       </section>
 
+      <section class="section" id="program-board" data-job-section>
+        <p class="section__eyebrow">Direct Intake</p>
+        <h2 class="section__title">Official Program Openings</h2>
+        <p class="section__copy">
+          These are apprenticeship intake windows and program-opening signals, not normal contractor job ads. For Donovan, this is the most important local lane when Oregon and regional entry points are tight.
+        </p>
+        <div class="section__grid">
+          {program_html}
+        </div>
+        <p class="empty-state" data-empty-message{" hidden" if program_html else ""}>
+          No official apprenticeship intake openings cleared the current filter in this run.
+        </p>
+      </section>
+
+      <section class="section" id="pathway-board" data-job-section>
+        <p class="section__eyebrow">Regional Backup</p>
+        <h2 class="section__title">Official Nearby Apprenticeship Pathways</h2>
+        <p class="section__copy">
+          These are official state-directory programs that fit Donovan's inside wireman path but do not currently confirm an open application window. They stay separate so the board is honest about what is open now versus what is worth checking directly.
+        </p>
+        <div class="section__grid">
+          {pathway_html}
+        </div>
+        <p class="empty-state" data-empty-message{" hidden" if pathway_html else ""}>
+          No nearby official pathways cleared the current filter in this run.
+        </p>
+      </section>
+
       <section class="section" id="priority-board" data-job-section>
         <p class="section__eyebrow">Best Bets</p>
         <h2 class="section__title">Priority Board</h2>
         <p class="section__copy">
-          Highest-signal apprentice-track openings with stronger hub alignment or clearer mission-critical context.
+          Highest-signal apprentice-track jobs with stronger hub alignment or clearer mission-critical context.
         </p>
         <div class="section__grid">
           {priority_html}
@@ -912,6 +991,10 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
 
       function matchesFilter(card) {{
         switch (activeFilter) {{
+          case 'program':
+            return card.dataset.kind === 'program';
+          case 'pathway':
+            return card.dataset.kind === 'pathway';
           case 'priority':
             return card.dataset.bucket === 'priority';
           case 'regional':

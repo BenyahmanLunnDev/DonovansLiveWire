@@ -23,12 +23,24 @@ SOURCE_URLS = {
     "emcor": "https://emcorgroup.com/careers/trade-apprenticeships",
     "bergelectric": "https://www.bergelectric.com/careers/",
     "primeelectric": "https://www.primeelectric.com/careers/",
+    "oregonapprenticeship": "https://oregonapprenticeship.org/search-openings/",
+    "washingtonapprenticeship": "https://secure.lni.wa.gov/arts-public/",
     "oeg": "https://oeg.us.com/careers/",
     "mortenson": "https://www.mortenson.com/careers/data-center",
     "turner": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
     "kiewit": "https://join.kiewit.com/union-craft-us/",
 }
 
+OREGON_APPRENTICESHIP_OPENINGS_URL = "https://oregonapprenticeship.org/search-openings/"
+OREGON_INSIDE_ELECTRICIAN_DETAILS_URL = (
+    "https://www.oregon.gov/boli/apprenticeship/pages/trade-details.aspx?trade=Inside+Electrician"
+)
+WASHINGTON_ARTS_PUBLIC_URL = "https://secure.lni.wa.gov/arts-public/"
+WASHINGTON_ARTS_PROXY_URL = (
+    "https://secure.lni.wa.gov/arts-public/GatewayProxy/UiProxy.aspx?op=UiGatewayRestfulOperation"
+)
+AREA1_APPLICATIONS_URL = "https://area1jatc.us/Applications"
+NIETC_CURRENT_OPENINGS_URL = "https://nietc.org/applicants/preparing-to-apply/current-application-openings/"
 OEG_BOARD_URL = (
     "https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/"
     "fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst="
@@ -84,6 +96,7 @@ REGIONAL_HUBS = {
     "Portland, OR": ("portland, or", "us-or-portland"),
     "Beaverton, OR": ("beaverton",),
     "Tualatin, OR": ("tualatin",),
+    "Tigard, OR": ("tigard",),
     "Vancouver, WA": ("vancouver, wa", "us-wa-vancouver"),
     "Seattle, WA": ("seattle, wa", "us-wa-seattle"),
     "Bellevue, WA": ("bellevue",),
@@ -93,6 +106,16 @@ REGIONAL_HUBS = {
     "The Dalles, OR": ("the dalles",),
     "Salem, OR": ("salem, or", "us-or-salem"),
     "Eugene, OR": ("eugene",),
+    "Springfield, OR": ("springfield, or",),
+    "Tangent, OR": ("tangent",),
+    "Roseburg, OR": ("roseburg",),
+    "North Bend, OR": ("north bend",),
+    "Central Point, OR": ("central point",),
+    "White City, OR": ("white city",),
+    "Klamath Falls, OR": ("klamath falls",),
+    "Baker City, OR": ("baker city",),
+    "Pendleton, OR": ("pendleton",),
+    "Bend, OR": ("bend, or",),
     "San Jose, CA": ("san jose",),
     "Santa Clara, CA": ("santa clara",),
     "Sacramento, CA": ("sacramento",),
@@ -182,7 +205,6 @@ NEGATIVE_TITLE_SIGNALS = {
     "developer": -25,
     "recruiter": -42,
     "sourcer": -42,
-    "hr": -40,
     "human resources": -40,
     "safety": -45,
     "coordinator": -22,
