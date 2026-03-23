@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T07:44:04.917473-07:00",
+  "generated_at": "2026-03-23T02:37:23.357496-07:00",
   "jobs": [
     {
       "job_key": "emcor:b327d5de60c9c7ccec7c10444bab8b276fb4b9f5",
@@ -36,9 +36,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "emcor:788ff163833200a304ac40556ac239dd98742848",
@@ -74,9 +74,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "emcor:7aefca5df37df17f058a23d58c1199a9d95d2916",
@@ -112,9 +112,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "emcor:47eb7a64f2cd03951bd41964bb3eb3c7a37ae86d",
@@ -148,41 +148,7 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
-      "expired_on": "",
-      "seen_count": 10
-    },
-    {
-      "job_key": "bergelectric:9342b79dbeb70467b37490d98313f802dcc4fc0d",
-      "source_key": "bergelectric",
-      "source_name": "Bergelectric",
-      "company": "Bergelectric Corp.",
-      "title": "Apprentice Electrician",
-      "detail_url": "https://careers-bergelectric.icims.com/jobs/1984/apprentice-electrician/job?in_iframe=1",
-      "source_url": "https://www.bergelectric.com/careers/",
-      "location": "US-CO-Denver",
-      "posted_date": "",
-      "description": "Apprentice Electrician | Location | US-CO-Denver | ID | 2026-1984 | Category | Skilled Trades | Position Type | Fulltime-Regular | Overview | Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical codes along with all Bergelectric Corp. policies and procedures. Support activities at commercial, industrial, institutional and residential project locations. This is considered to be a safety sensitive position. | Responsibilities | Assist with the installation, repair, maintenance and testing of commercial, industrial and residential electrical systems in full support of Bergelectric Corp. safety, operations and productivity initiatives. | Use industry related hand tools and power tools, under supervision. | Assist the Electrician with measuring, cutting, bending, threading and installing wire and electrical cable systems, conduit systems and other wire raceway systems. | Assist the Electrician with wires and cables within control centers, distribution boxes, transformers, transducers, switch gear, receptacles, switches, etc. | Work with an Electrician to splice and terminate wires at junction points. | Clean, gather and transport materials to electricians on the construction site. | Communicate effectively with Foremen and crew members. | Maintain workflow schedule to ensure all Bergelectric Corp. productivity objectives are met. | Demonstrate the highest level of professionalism and courtesy when interacting with colleagues, customers and vendors. | Adhere to all Bergelectric Corp.\u2019s safety policies and procedures. | Qualifications | Must be currently enrolled or working on enrollment in an approved Apprentice program. | Knowledge of electrical theory, basic circuits, branch circuits, and specialty systems. | Knowledge of magnetic induction, three-phase transformers, conductors and wiring methods. | The ability to read and understand electrical single line blueprints. | Familiar with aspects of operation, maintenance and repair of electrical systems. | Basic knowledge of tools and equipment and how to safely use them. | Physical Demands | Lift 50 lbs. from the ground and pull 50 lbs. of force. | Perform ladder climbing, wire pulling and cond\u2026",
-      "source_context": "Bergelectric iCIMS search query 'apprentice'",
-      "discovered_via": "iCIMS iframe search",
-      "metadata": {
-        "category": "Skilled Trades",
-        "position_type": "Fulltime-Regular, Overview, Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical codes along with all Bergelectric Corp. policies and procedures. Support activities at commercial, industrial, institutional and residential project locations. This is considered to be a safety sensitive position., Responsibilities, Assist with the installation, repair, maintenance and testing of commercial, industrial and residential electrical systems in full support of Bergelectric Corp. safety, operations and productivity initiatives., Use industry related hand tools and power tools, under supervision., Assist the Electrician with measuring, cutting, bending, threading and installing wire and electrical cable systems, conduit systems and other wire raceway systems., Assist the Electrician with wires and cables within control centers, distribution boxes, transformers, transducers, switch gear, receptacles, switches, etc., Work with an Electrician to splice and terminate wires at junction points., Clean, gather and transport materials to electricians on the construction site., Communicate effectively with Foremen and crew members., Maintain workflow schedule to ensure all Bergelectric Corp. productivity objectives are met., Demonstrate the highest level of professionalism and courtesy when interacting with colleagues, customers and vendors., Adhere to all Bergelectric Corp.\u2019s safety policies and procedures., Qualifications, Must be currently enrolled or working on enrollment in an approved Apprentice program., Knowledge of electrical theory, basic circuits, branch circuits, and specialty systems., Knowledge of magnetic induction, three-phase transformers, conductors and wiring methods., The ability to read and understand electrical single line blueprints., Familiar with aspects of operation, maintenance and repair of electrical systems., Basic knowledge of tools and equipment and how to safely use them., Physical Demands, Lift 50 lbs. from the ground and pull 50 lbs. of force., Perform ladder climbing, wire pulling and cond\u2026"
-      },
-      "score": 166,
-      "reasons": [
-        "title matches 'apprentice electrician'",
-        "title includes 'apprentice'",
-        "title includes 'electrician'",
-        "title includes 'electric'",
-        "description includes 'electrician'",
-        "description includes 'electrical'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
       "seen_count": 7
     },
@@ -216,9 +182,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 4
     },
     {
       "job_key": "bergelectric:7c75f209c7c6aaf175c8919baa6581d2ed91ca77",
@@ -250,9 +216,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 4
     },
     {
       "job_key": "bergelectric:1fed2f50a8aa0fe181c8b30bee233878b91f6d0b",
@@ -284,9 +250,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 4
     },
     {
       "job_key": "bergelectric:dd785adabef65ad2865927dd5108b224d46f44c8",
@@ -318,9 +284,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 4
     },
     {
       "job_key": "bergelectric:fb0f4b4f68f683387f441dbfc86fd59295b58436",
@@ -352,9 +318,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 4
     },
     {
       "job_key": "emcor:46ca6f73c28761ff7a77d5b83c40d0c5a24c8d76",
@@ -386,9 +352,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "emcor:66d047611aa5b006db55891434e06aed1dfa3986",
@@ -420,9 +386,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "emcor:583b58f3fb03972653cd89077c0d6df19576d65f",
@@ -454,9 +420,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "emcor:19953bc50b9b68eeae496f3f763ab0ae8e6a3a5c",
@@ -488,9 +454,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "emcor:adfc0e401cdf5ac72cec9430696792d72535513a",
@@ -522,43 +488,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
-    },
-    {
-      "job_key": "emcor:e72104e0004db6beb4ff9c12be3048fa42e7dbe2",
-      "source_key": "emcor",
-      "source_name": "EMCOR Group",
-      "company": "Ardent Services, LLC",
-      "title": "Ardent Services, LLC Job Template - Electrical Apprentice",
-      "detail_url": "https://careers-emcorgroup.icims.com/jobs/5369/ardent-services%2c-llc-job-template---electrical-apprentice/job?in_iframe=1",
-      "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
-      "location": "US-TX-Houston, US-TX-Baytown",
-      "posted_date": "11/13/2025",
-      "description": "Ardent Services, LLC Job Template - Electrical Apprentice | Job Locations | US-TX-Houston | US-TX-Baytown | ID | 2025-5369 | Company | Ardent Services, LLC | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 4 months ago | (11/13/2025 2:37 PM) | About Us | We are among the premier providers of specialty electrical and instrumentation (E&I) services for the nation\u2019s process industries. Our offerings include high-quality power, control, and process automation services, as well as panel fabrication, renewable energy, and energy retrofit solutions. | Job Summary | Ardent Services | An Electrical Apprentice must provide reasonable level of assistance to the Electrician I and must work under constant supervision. | #ardent | #CB1 #LI-KL1 | Essential Duties & Responsibilities | Reasonable knowledge of Installations for electrical raceway systems comprised of rigid aluminum, galvanized steel, PVC and PVC coated conduit and aluminum, galvanized steel and fiberglass cable tray. | Installation of electrical devices such as light fixtures and start/stop stations. | Safe operation of hand and power tools such as band saws, drills, conduit threaders, hole punches and wire tuggers. | Assist in Accurate measurements for bending up to 6\u201d conduit using manual, mechanical, hydraulic and electric conduit benders. | Assist in Installation of electrical conductors (cable pulling) including accurately measuring, cutting, pulling, tagging, shaping and securing cable to wireways. | Properly pack and pour seals. | Reasonable knowledge of the OSHA Electrical Safe Work Practices | Knowledge of use, limitations and maintenance of all Personal Protective Equipment required for the assigned work. | Knowledge of hazards and safe work procedures associated with working form elevated work areas and personnel lift equipment. | Knowledge of hazards and safe work procedures associated with the assigned work including but not limited to Lockout/Tagout, Confined Spaces, Emergency Action Plans, Safe Work Permits, Incident Reporting, and Hazcom procedures. | Qualifications | TDLR or NCCER | Equal Opportunity Employer | As a leading provider of mechanical and electrical construction, facilities services, and energy infrastructure, we offer employees a competitive salary and benefits package and we are always looking for individuals with the talent a\u2026",
-      "source_context": "EMCOR Group iCIMS search query 'apprentice'",
-      "discovered_via": "iCIMS iframe search",
-      "metadata": {
-        "category": "Operations Services",
-        "position_type": "Full-Time"
-      },
-      "score": 160,
-      "reasons": [
-        "title matches 'electrical apprentice'",
-        "title includes 'apprentice'",
-        "title includes 'electrical'",
-        "title includes 'electric'",
-        "description includes 'electrician'",
-        "description includes 'electrical'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
-      "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "emcor:acabc31786951806415b79f53e3ff4fa8da80cb1",
@@ -590,9 +522,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "mortenson:57b72792b0123b01ff613ad1848e168f8e79592c",
@@ -614,21 +546,22 @@
           "West Coast region"
         ]
       },
-      "score": 142,
+      "score": 150,
       "reasons": [
         "title matches 'electrical apprentice'",
         "title includes 'apprentice'",
         "title includes 'electrical'",
         "title includes 'electric'",
-        "regional coverage match: West Coast region"
+        "regional coverage match: West Coast region",
+        "regional apprentice opportunity"
       ],
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "mortenson:727bfdba7e8ccf2e83795d63b3557bffd9d414b1",
@@ -650,21 +583,22 @@
           "West Coast region"
         ]
       },
-      "score": 142,
+      "score": 150,
       "reasons": [
         "title matches 'electrical apprentice'",
         "title includes 'apprentice'",
         "title includes 'electrical'",
         "title includes 'electric'",
-        "regional coverage match: West Coast region"
+        "regional coverage match: West Coast region",
+        "regional apprentice opportunity"
       ],
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "mortenson:3712886393397d028fd6e80cee881ce28e77fc2e",
@@ -686,21 +620,22 @@
           "West Coast region"
         ]
       },
-      "score": 142,
+      "score": 150,
       "reasons": [
         "title matches 'electrical apprentice'",
         "title includes 'apprentice'",
         "title includes 'electrical'",
         "title includes 'electric'",
-        "regional coverage match: West Coast region"
+        "regional coverage match: West Coast region",
+        "regional apprentice opportunity"
       ],
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "mortenson:228a1dc37ade8a786f294a11093164ca211bafcf",
@@ -722,21 +657,22 @@
           "West Coast region"
         ]
       },
-      "score": 142,
+      "score": 150,
       "reasons": [
         "title matches 'electrical apprentice'",
         "title includes 'apprentice'",
         "title includes 'electrical'",
         "title includes 'electric'",
-        "regional coverage match: West Coast region"
+        "regional coverage match: West Coast region",
+        "regional apprentice opportunity"
       ],
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     },
     {
       "job_key": "bergelectric:1d800baacb5ac0189706e6afcf0db6c6d9c5a458",
@@ -772,9 +708,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 4
     },
     {
       "job_key": "emcor:5297c73de20628ff1597a4700334cc7a34526777",
@@ -807,105 +743,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
+      "last_seen": "2026-03-23",
       "expired_on": "",
-      "seen_count": 10
-    },
-    {
-      "job_key": "mortenson:84b3a613b51badd8ccbdc5f83b225cfe5e2b7228",
-      "source_key": "mortenson",
-      "source_name": "Mortenson",
-      "company": "Mortenson",
-      "title": "Power Electrical Helper - LEB",
-      "detail_url": "https://www.mortenson.com/careers/power-delivery-solutions/power-electrical-helper-leb-21455",
-      "source_url": "https://www.mortenson.com/careers/data-center",
-      "location": "Lebanon, IN, United States",
-      "posted_date": "2026-03-05",
-      "description": "WHO WE ARE Building for the Greater Good TM Our purpose is building for the greater good. And our people are what makes redefining possible\u2026possible. Unlocking authentic partnerships with our customers and partners allows us to bring transformative insights to you earlier in your capital project planning process. The result? Better projects, better experiences and better impact. | ABOUT | OUR APPROACH | OUR TEAM | WHAT WE DO We're builders at heart. We are focused on improving the way capital projects get done. From design to operations, we love to solve complex challenges and exceed expectations. Discover how our comprehensive solutions can help you achieve more with your next investment. | INDUSTRIES Together, everything is possible. With our experts at your side every step of the way, learn what it\u2019s like to have a partner who really cares about your business and understands your goals. | LOCATIONS We thrive on solving complex challenges across diverse locations. Every project, no matter how small, is crucial to your business. Working together, we deliver high-performing assets tailored to the unique requirements of your region. | Lebanon, IN, United States | Power Delivery Solutions",
-      "source_context": "Power Delivery Solutions | Craft | query electric",
-      "discovered_via": "Mortenson Coveo search",
-      "metadata": {
-        "team": "Power Delivery Solutions",
-        "category": "Craft"
-      },
-      "score": 96,
-      "reasons": [
-        "title matches 'electrical helper'",
-        "title includes 'electrical'",
-        "title includes 'electric'",
-        "title includes electrical helper signal"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
-      "expired_on": "",
-      "seen_count": 10
-    },
-    {
-      "job_key": "mortenson:fe365038cb8a572b92331b34e07f704963f6d7e9",
-      "source_key": "mortenson",
-      "source_name": "Mortenson",
-      "company": "Mortenson",
-      "title": "Power Electrical Helper I-US",
-      "detail_url": "https://www.mortenson.com/careers/power-delivery-solutions/power-electrical-helper-i-us-20288",
-      "source_url": "https://www.mortenson.com/careers/data-center",
-      "location": "United States",
-      "posted_date": "2026-03-20",
-      "description": "WHO WE ARE Building for the Greater Good TM Our purpose is building for the greater good. And our people are what makes redefining possible\u2026possible. Unlocking authentic partnerships with our customers and partners allows us to bring transformative insights to you earlier in your capital project planning process. The result? Better projects, better experiences and better impact. | ABOUT | OUR APPROACH | OUR TEAM | WHAT WE DO We're builders at heart. We are focused on improving the way capital projects get done. From design to operations, we love to solve complex challenges and exceed expectations. Discover how our comprehensive solutions can help you achieve more with your next investment. | INDUSTRIES Together, everything is possible. With our experts at your side every step of the way, learn what it\u2019s like to have a partner who really cares about your business and understands your goals. | LOCATIONS We thrive on solving complex challenges across diverse locations. Every project, no matter how small, is crucial to your business. Working together, we deliver high-performing assets tailored to the unique requirements of your region. | United States | Power Delivery Solutions",
-      "source_context": "Power Delivery Solutions | Craft | query electrical apprentice",
-      "discovered_via": "Mortenson Coveo search",
-      "metadata": {
-        "team": "Power Delivery Solutions",
-        "category": "Craft"
-      },
-      "score": 96,
-      "reasons": [
-        "title matches 'electrical helper'",
-        "title includes 'electrical'",
-        "title includes 'electric'",
-        "title includes electrical helper signal"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
-      "expired_on": "",
-      "seen_count": 10
-    },
-    {
-      "job_key": "mortenson:b391dffcc79c3361eebaf59bcbaabe5d33a81055",
-      "source_key": "mortenson",
-      "source_name": "Mortenson",
-      "company": "Mortenson",
-      "title": "Production Worker (Electrical Helper a Plus) - Forney, TX",
-      "detail_url": "https://www.mortenson.com/careers/bluvera/production-worker-electrical-helper-a-plus-forney-tx-20985",
-      "source_url": "https://www.mortenson.com/careers/data-center",
-      "location": "Forney, TX, United States",
-      "posted_date": "2026-02-24",
-      "description": "WHO WE ARE Building for the Greater Good TM Our purpose is building for the greater good. And our people are what makes redefining possible\u2026possible. Unlocking authentic partnerships with our customers and partners allows us to bring transformative insights to you earlier in your capital project planning process. The result? Better projects, better experiences and better impact. | ABOUT | OUR APPROACH | OUR TEAM | WHAT WE DO We're builders at heart. We are focused on improving the way capital projects get done. From design to operations, we love to solve complex challenges and exceed expectations. Discover how our comprehensive solutions can help you achieve more with your next investment. | INDUSTRIES Together, everything is possible. With our experts at your side every step of the way, learn what it\u2019s like to have a partner who really cares about your business and understands your goals. | LOCATIONS We thrive on solving complex challenges across diverse locations. Every project, no matter how small, is crucial to your business. Working together, we deliver high-performing assets tailored to the unique requirements of your region. | Forney, TX, United States | BLUvera",
-      "source_context": "BLUvera | Craft | query electrical apprentice",
-      "discovered_via": "Mortenson Coveo search",
-      "metadata": {
-        "team": "BLUvera",
-        "category": "Craft"
-      },
-      "score": 96,
-      "reasons": [
-        "title matches 'electrical helper'",
-        "title includes 'electrical'",
-        "title includes 'electric'",
-        "title includes electrical helper signal"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-22",
-      "expired_on": "",
-      "seen_count": 10
+      "seen_count": 7
     }
   ],
   "reports": [
@@ -925,8 +765,8 @@
       "source_name": "EMCOR Group",
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "status": "ok",
-      "total_fetched": 108,
-      "total_relevant": 12,
+      "total_fetched": 107,
+      "total_relevant": 11,
       "used_browser": false,
       "notes": [],
       "errors": []
@@ -936,8 +776,8 @@
       "source_name": "Bergelectric",
       "source_url": "https://www.bergelectric.com/careers/",
       "status": "ok",
-      "total_fetched": 44,
-      "total_relevant": 7,
+      "total_fetched": 42,
+      "total_relevant": 6,
       "used_browser": false,
       "notes": [],
       "errors": []
@@ -954,28 +794,37 @@
       "errors": []
     },
     {
+      "source_key": "oeg",
+      "source_name": "OEG",
+      "source_url": "https://oeg.us.com/careers/",
+      "status": "ok",
+      "total_fetched": 10,
+      "total_relevant": 0,
+      "used_browser": true,
+      "notes": [],
+      "errors": []
+    },
+    {
       "source_key": "mortenson",
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
       "total_fetched": 96,
-      "total_relevant": 7,
+      "total_relevant": 4,
       "used_browser": false,
       "notes": [],
       "errors": []
     },
     {
       "source_key": "turner",
-      "source_name": "Turner",
+      "source_name": "Turner Construction",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
-      "status": "error",
-      "total_fetched": 0,
+      "status": "ok",
+      "total_fetched": 28,
       "total_relevant": 0,
-      "used_browser": false,
+      "used_browser": true,
       "notes": [],
-      "errors": [
-        "Browser dump for https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice did not return HTML. Exit code: -6"
-      ]
+      "errors": []
     },
     {
       "source_key": "kiewit",

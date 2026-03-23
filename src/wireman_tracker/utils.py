@@ -14,6 +14,13 @@ from wireman_tracker.config import DEFAULT_HEADERS, REQUEST_TIMEOUT_SECONDS, TIM
 
 WHITESPACE_RE = re.compile(r"\s+")
 DATE_RE = re.compile(r"\b(\d{1,2}/\d{1,2}/\d{4})\b")
+MONTH_DATE_RE = re.compile(
+    r"\b("
+    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)"
+    r"[a-z]*\s+\d{1,2},\s+\d{4}"
+    r")\b",
+    re.IGNORECASE,
+)
 
 
 def clean_text(value: str | None) -> str:
@@ -80,7 +87,10 @@ def now_iso() -> str:
 
 def extract_date(value: str) -> str:
     match = DATE_RE.search(value)
-    return match.group(1) if match else ""
+    if match:
+        return match.group(1)
+    month_match = MONTH_DATE_RE.search(value)
+    return month_match.group(1) if month_match else ""
 
 
 def keep_best_text(*values: str) -> str:
@@ -106,4 +116,3 @@ def dedupe_by_job_key(jobs: Iterable) -> list:
 
 def repo_path(root: Path, *parts: str) -> Path:
     return root.joinpath(*parts)
-

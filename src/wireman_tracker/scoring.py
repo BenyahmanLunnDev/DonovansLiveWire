@@ -19,7 +19,7 @@ def evaluate_job(job: JobLead) -> JobLead:
     title = job.title.lower()
     description = job.description.lower()
     location = job.location.lower()
-    context = f"{job.source_context} {job.discovered_via} {job.source_url}".lower()
+    context = f"{job.source_context} {job.discovered_via}".lower()
     combined = f"{title} {description} {location} {context}"
     content_only = f"{title} {description} {location}"
 
@@ -29,6 +29,8 @@ def evaluate_job(job: JobLead) -> JobLead:
     regional_matches: list[str] = []
     apprentice_like = any(term in content_only for term in ("apprentice", "trainee", "helper", "wireman"))
     electrical_like = any(term in content_only for term in ("electric", "electrical", "low voltage", "fiber"))
+    helper_like = "helper" in title or "helper" in description
+    generic_location = location.strip() in {"", "united states", "usa", "us"}
     relocation_phrase = next(
         (
             phrase
@@ -87,6 +89,10 @@ def evaluate_job(job: JobLead) -> JobLead:
         regional_matches.append("West Coast region")
         reasons.append("regional coverage match: West Coast region")
 
+    if regional_matches and apprentice_like and electrical_like:
+        score += 8
+        reasons.append("regional apprentice opportunity")
+
     for phrase, points in NEGATIVE_TITLE_SIGNALS.items():
         if phrase in title:
             score += points
@@ -124,6 +130,23 @@ def evaluate_job(job: JobLead) -> JobLead:
         job.metadata.pop("relocation_assistance", None)
         job.metadata.pop("relocation_signal", None)
 
+    high_value_context = bool(hub_matches or regional_matches) or any(
+        phrase in content_only or phrase in context
+        for phrase in ("data center", "mission critical", "critical facilities", "hyperscale", "colocation")
+    ) or bool(relocation_phrase)
+
+    if helper_like and not high_value_context:
+        score -= 45
+        reasons.append("generic helper role without stronger project or location context")
+
+    if generic_location:
+        score -= 28
+        reasons.append("location is too broad to be immediately actionable")
+
+    if "job template" in combined:
+        score -= 80
+        reasons.append("templated listing is too generic to prioritize")
+
     if "electric" in title and any(
         phrase in title
         for phrase in ("manager", "superintendent", "director", "engineer", "commissioning")
@@ -152,10 +175,10 @@ def evaluate_job(job: JobLead) -> JobLead:
         job.metadata["regional_matches"] = sorted(set(regional_matches))
     else:
         job.metadata.pop("regional_matches", None)
-    priority_context = any(
+    priority_context = bool(job.hub_matches) or bool(relocation_phrase) or any(
         phrase in content_only or phrase in context
         for phrase in ("data center", "mission critical", "critical facilities", "hyperscale", "colocation")
-    ) or bool(job.hub_matches)
+    )
 
     if score >= 95 and priority_context:
         job.bucket = "priority"

@@ -88,3 +88,23 @@ def test_journeyman_role_is_filtered_out() -> None:
     )
     evaluated = evaluate_job(job)
     assert evaluated.bucket == "discard"
+
+
+def test_job_template_is_filtered_out() -> None:
+    job = make_job(
+        "Ardent Services, LLC Job Template - Electrical Apprentice",
+        description="Template listing for electrical apprentice candidates.",
+        location="Houston, TX",
+    )
+    evaluated = evaluate_job(job)
+    assert evaluated.bucket == "discard"
+
+
+def test_generic_helper_without_context_is_filtered_out() -> None:
+    job = make_job(
+        "Power Electrical Helper I-US",
+        description="Support electrical field work across the business.",
+        location="United States",
+    )
+    evaluated = evaluate_job(job)
+    assert evaluated.bucket == "discard"

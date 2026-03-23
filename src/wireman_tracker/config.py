@@ -23,10 +23,16 @@ SOURCE_URLS = {
     "emcor": "https://emcorgroup.com/careers/trade-apprenticeships",
     "bergelectric": "https://www.bergelectric.com/careers/",
     "primeelectric": "https://www.primeelectric.com/careers/",
+    "oeg": "https://oeg.us.com/careers/",
     "mortenson": "https://www.mortenson.com/careers/data-center",
     "turner": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
     "kiewit": "https://join.kiewit.com/union-craft-us/",
 }
+
+OEG_BOARD_URL = (
+    "https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/"
+    "fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst="
+)
 
 EMCOR_QUERY_TERMS = [
     "apprentice",
@@ -163,11 +169,13 @@ SOURCE_CONTEXT_SIGNALS = {
 NEGATIVE_TITLE_SIGNALS = {
     "intern": -55,
     "internship": -55,
+    "template": -65,
     "manager": -48,
     "superintendent": -55,
     "director": -50,
     "engineer": -35,
     "estimator": -42,
+    "buyer": -34,
     "controller": -38,
     "accountant": -42,
     "designer": -28,
@@ -187,6 +195,7 @@ NEGATIVE_TITLE_SIGNALS = {
     "pipefitter": -60,
     "welder": -55,
     "mechanic": -48,
+    "production worker": -55,
     "journeyman": -45,
     "journeyperson": -45,
     "civil": -36,

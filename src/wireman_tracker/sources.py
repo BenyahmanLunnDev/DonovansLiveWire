@@ -13,6 +13,7 @@ from wireman_tracker.config import (
     EMCOR_QUERY_TERMS,
     MAX_DESCRIPTION_CHARS,
     MORTENSON_QUERY_TERMS,
+    OEG_BOARD_URL,
     SOURCE_URLS,
     TURNER_QUERY_TERMS,
 )
@@ -200,6 +201,62 @@ def _parse_turner_cards(html: str, query_term: str) -> list[JobLead]:
     return jobs
 
 
+def _parse_oeg_cards(html: str) -> list[JobLead]:
+    soup = BeautifulSoup(html, "html.parser")
+    jobs: list[JobLead] = []
+
+    for card in soup.select('div.opportunity[data-automation="opportunity"]'):
+        link = card.select_one('a[data-automation="job-title"][href]')
+        if not link:
+            continue
+
+        title = clean_text(link.get_text(" ", strip=True))
+        detail_url = absolute_url(OEG_BOARD_URL, link["href"])
+        posted_date = clean_text(
+            (card.select_one('small[data-automation="opportunity-posted-date"]') or card).get_text(
+                " ",
+                strip=True,
+            )
+        )
+        locations = [
+            clean_text(node.get_text(" ", strip=True))
+            for node in card.select('span[data-automation="city-state-zip-country-label"]')
+        ]
+        location = clean_text("; ".join(dict.fromkeys(value for value in locations if value)))
+        description = truncate_text(card.get_text(" | ", strip=True), MAX_DESCRIPTION_CHARS)
+        metadata = {
+            "category": clean_text(
+                (card.select_one('span[data-automation="job-category"]') or card).get_text(" ", strip=True)
+            ),
+            "schedule": clean_text(
+                (card.select_one('span[data-automation="job-hours"]') or card).get_text(" ", strip=True)
+            ),
+            "job_location_type": clean_text(
+                (card.select_one('span[data-automation="job-location-type"]') or card).get_text(" ", strip=True)
+            ),
+        }
+
+        jobs.append(
+            JobLead(
+                job_key=stable_job_key("oeg", detail_url),
+                source_key="oeg",
+                source_name="OEG",
+                company="OEG",
+                title=title,
+                detail_url=detail_url,
+                source_url=SOURCE_URLS["oeg"],
+                location=location,
+                posted_date=posted_date,
+                description=description,
+                source_context="OEG UKG careers board",
+                discovered_via="hydrated Chromium DOM",
+                metadata={key: value for key, value in metadata.items() if value},
+            )
+        )
+
+    return dedupe_by_job_key(jobs)
+
+
 def _turner_detail_needed(title: str) -> bool:
     title_lower = title.lower()
     return any(
@@ -370,6 +427,34 @@ def scrape_primeelectric(session: requests.Session) -> tuple[list[JobLead], Sour
     return dedupe_by_job_key(jobs), report
 
 
+def scrape_oeg(
+    session: requests.Session,
+    browser_path: str | None = None,
+) -> tuple[list[JobLead], SourceReport]:
+    report = SourceReport(
+        source_key="oeg",
+        source_name="OEG",
+        source_url=SOURCE_URLS["oeg"],
+        used_browser=True,
+    )
+
+    html = dump_dom(OEG_BOARD_URL, browser_path=browser_path)
+    jobs = _parse_oeg_cards(html)
+
+    for job in jobs:
+        if not _turner_detail_needed(job.title):
+            continue
+        detail_html = dump_dom(job.detail_url, browser_path=browser_path)
+        detail_soup = BeautifulSoup(detail_html, "html.parser")
+        detail_text = clean_text(detail_soup.get_text(" | ", strip=True))
+        if detail_text:
+            job.description = truncate_text(detail_text, MAX_DESCRIPTION_CHARS)
+            job.posted_date = extract_date(detail_text) or job.posted_date
+
+    report.total_fetched = len(jobs)
+    return jobs, report
+
+
 def scrape_mortenson(session: requests.Session) -> tuple[list[JobLead], SourceReport]:
     report = SourceReport(
         source_key="mortenson",
@@ -535,6 +620,7 @@ def scrape_all_sources(
         ("emcor", lambda: scrape_emcor(session)),
         ("bergelectric", lambda: scrape_bergelectric(session)),
         ("primeelectric", lambda: scrape_primeelectric(session)),
+        ("oeg", lambda: scrape_oeg(session, browser_path=browser_path)),
         ("mortenson", lambda: scrape_mortenson(session)),
         ("turner", lambda: scrape_turner(session, browser_path=browser_path)),
         ("kiewit", lambda: scrape_kiewit(session)),

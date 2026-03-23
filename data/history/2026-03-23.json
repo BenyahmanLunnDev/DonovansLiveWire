@@ -12835,5 +12835,97 @@
       "expired_on": "2026-03-23",
       "seen_count": 5
     }
+  ],
+  "reports": [
+    {
+      "source_key": "cei",
+      "source_name": "Cupertino Electric",
+      "source_url": "https://www.cei.com/careers/current-openings",
+      "status": "ok",
+      "total_fetched": 65,
+      "total_relevant": 0,
+      "used_browser": false,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "emcor",
+      "source_name": "EMCOR Group",
+      "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
+      "status": "ok",
+      "total_fetched": 107,
+      "total_relevant": 11,
+      "used_browser": false,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "bergelectric",
+      "source_name": "Bergelectric",
+      "source_url": "https://www.bergelectric.com/careers/",
+      "status": "ok",
+      "total_fetched": 42,
+      "total_relevant": 6,
+      "used_browser": false,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "primeelectric",
+      "source_name": "PRIME Electric",
+      "source_url": "https://www.primeelectric.com/careers/",
+      "status": "ok",
+      "total_fetched": 22,
+      "total_relevant": 0,
+      "used_browser": false,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "oeg",
+      "source_name": "OEG",
+      "source_url": "https://oeg.us.com/careers/",
+      "status": "ok",
+      "total_fetched": 10,
+      "total_relevant": 0,
+      "used_browser": true,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "mortenson",
+      "source_name": "Mortenson",
+      "source_url": "https://www.mortenson.com/careers/data-center",
+      "status": "ok",
+      "total_fetched": 96,
+      "total_relevant": 4,
+      "used_browser": false,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "turner",
+      "source_name": "Turner Construction",
+      "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
+      "status": "ok",
+      "total_fetched": 28,
+      "total_relevant": 0,
+      "used_browser": true,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "kiewit",
+      "source_name": "Kiewit",
+      "source_url": "https://join.kiewit.com/union-craft-us/",
+      "status": "warning",
+      "total_fetched": 0,
+      "total_relevant": 0,
+      "used_browser": false,
+      "notes": [
+        "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
+      ],
+      "errors": []
+    }
   ]
 }

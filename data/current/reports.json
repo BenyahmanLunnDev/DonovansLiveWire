@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T07:44:04.917481-07:00",
+  "generated_at": "2026-03-23T02:37:23.357518-07:00",
   "reports": [
     {
       "source_key": "cei",
@@ -17,8 +17,8 @@
       "source_name": "EMCOR Group",
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "status": "ok",
-      "total_fetched": 108,
-      "total_relevant": 12,
+      "total_fetched": 107,
+      "total_relevant": 11,
       "used_browser": false,
       "notes": [],
       "errors": []
@@ -28,8 +28,8 @@
       "source_name": "Bergelectric",
       "source_url": "https://www.bergelectric.com/careers/",
       "status": "ok",
-      "total_fetched": 44,
-      "total_relevant": 7,
+      "total_fetched": 42,
+      "total_relevant": 6,
       "used_browser": false,
       "notes": [],
       "errors": []
@@ -46,28 +46,37 @@
       "errors": []
     },
     {
+      "source_key": "oeg",
+      "source_name": "OEG",
+      "source_url": "https://oeg.us.com/careers/",
+      "status": "ok",
+      "total_fetched": 10,
+      "total_relevant": 0,
+      "used_browser": true,
+      "notes": [],
+      "errors": []
+    },
+    {
       "source_key": "mortenson",
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
       "total_fetched": 96,
-      "total_relevant": 7,
+      "total_relevant": 4,
       "used_browser": false,
       "notes": [],
       "errors": []
     },
     {
       "source_key": "turner",
-      "source_name": "Turner",
+      "source_name": "Turner Construction",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
-      "status": "error",
-      "total_fetched": 0,
+      "status": "ok",
+      "total_fetched": 28,
       "total_relevant": 0,
-      "used_browser": false,
+      "used_browser": true,
       "notes": [],
-      "errors": [
-        "Browser dump for https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice did not return HTML. Exit code: -6"
-      ]
+      "errors": []
     },
     {
       "source_key": "kiewit",
