@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T04:28:21.362273-07:00",
+  "generated_at": "2026-03-23T04:38:03.450498-07:00",
   "reports": [
     {
       "source_key": "cei",
@@ -77,14 +77,16 @@
     },
     {
       "source_key": "oeg",
-      "source_name": "OEG",
+      "source_name": "Oeg",
       "source_url": "https://oeg.us.com/careers/",
-      "status": "ok",
-      "total_fetched": 10,
+      "status": "error",
+      "total_fetched": 0,
       "total_relevant": 0,
-      "used_browser": true,
+      "used_browser": false,
       "notes": [],
-      "errors": []
+      "errors": [
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1603368/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-tn34uihc', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
+      ]
     },
     {
       "source_key": "mortenson",
@@ -99,14 +101,16 @@
     },
     {
       "source_key": "turner",
-      "source_name": "Turner Construction",
+      "source_name": "Turner",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
-      "status": "ok",
-      "total_fetched": 28,
+      "status": "error",
+      "total_fetched": 0,
       "total_relevant": 0,
-      "used_browser": true,
+      "used_browser": false,
       "notes": [],
-      "errors": []
+      "errors": [
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1603368/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-dxg814oj', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
+      ]
     },
     {
       "source_key": "kiewit",
