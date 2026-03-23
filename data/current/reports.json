@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T07:26:41.766087-07:00",
+  "generated_at": "2026-03-23T08:19:08.018227-07:00",
   "reports": [
     {
       "source_key": "cei",
@@ -17,7 +17,7 @@
       "source_name": "EMCOR Group",
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "status": "ok",
-      "total_fetched": 107,
+      "total_fetched": 108,
       "total_relevant": 11,
       "used_browser": false,
       "notes": [],
@@ -85,7 +85,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1603429/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-l2e36qeq', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1603429/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-t7iqoqtu', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
       ]
     },
     {
@@ -93,7 +93,7 @@
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
-      "total_fetched": 96,
+      "total_fetched": 95,
       "total_relevant": 4,
       "used_browser": false,
       "notes": [],
@@ -109,7 +109,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1603429/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-9dmo9rkt', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1603429/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-xpwbfi6r', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
       ]
     },
     {
