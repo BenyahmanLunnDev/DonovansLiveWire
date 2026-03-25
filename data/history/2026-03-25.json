@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T07:27:58.011244-07:00",
+  "generated_at": "2026-03-25T08:24:03.387541-07:00",
   "timezone": "America/Los_Angeles",
   "jobs": [
     {
@@ -55,7 +55,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "washingtonapprenticeship:1d513c0bcbe33b2e7440e5e14d0b22ef95c9d673",
@@ -125,7 +125,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:edeed144a5ab2ff45e4982d63277c9b5bd3e663b",
@@ -186,7 +186,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:a1b0851b8964bec4a2873826b1cfe6acaf7f6e88",
@@ -245,7 +245,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:b7bfcb8bc0272ffc162af6e5e3f03ed952920b68",
@@ -301,7 +301,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "washingtonapprenticeship:13682ac418603aa0966369d46bbf282f562acf47",
@@ -360,7 +360,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "washingtonapprenticeship:2a459380709e2fe4ac2dae5733c73225ff6cfee1",
@@ -422,7 +422,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "washingtonapprenticeship:95e815d1541bf6f358cfffbe66ab3af0d0c09d09",
@@ -479,7 +479,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:e64e124d466556c21b282480fddba22dd9e2eb1c",
@@ -537,7 +537,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:8df18d0670116b8d860f06b85ac8fb88f70f6612",
@@ -591,7 +591,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:fb77797930028312de8c85687b51f8623ac1b6f9",
@@ -643,7 +643,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:31b8d89c06d98ae58bbd52f91ff5d5fcdb9a0366",
@@ -696,7 +696,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:6da990252fc5ee61436a91dc21811378883643d1",
@@ -750,7 +750,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:233c7ac6005ac2642d5ebfb61c2215ada634c38a",
@@ -800,7 +800,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:22802c71aff52fed4d8e92f365e99e812f08439b",
@@ -860,7 +860,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:f813ebccba322437bafc2ee879936e99718b93f2",
@@ -917,7 +917,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:431f94e59837e4ea63a5178f5bd4bb77d2e6c622",
@@ -969,7 +969,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:6d0d77743cacfcf9ae2d345c819501361806b1a1",
@@ -1022,7 +1022,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "washingtonapprenticeship:d869b04564bc4b4c6adcf3ad6f00e45c1150bc41",
@@ -1091,7 +1091,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "washingtonapprenticeship:5ec475005d2a5e68419080231b038c154aefaeed",
@@ -1156,7 +1156,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "washingtonapprenticeship:f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1",
@@ -1226,7 +1226,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "washingtonapprenticeship:579e06390ad287f4684215440d340ed487da63dd",
@@ -1289,7 +1289,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "washingtonapprenticeship:c3780f1bf13c6a9506ae61d45f775ef2a2a515c4",
@@ -1347,7 +1347,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "oregonapprenticeship:12f6bfeba768afb1faa70459e5e36349b930e84b",
@@ -1399,7 +1399,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 7
+      "seen_count": 8
     },
     {
       "job_key": "emcor:b327d5de60c9c7ccec7c10444bab8b276fb4b9f5",
@@ -1438,7 +1438,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:788ff163833200a304ac40556ac239dd98742848",
@@ -1476,7 +1476,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:7aefca5df37df17f058a23d58c1199a9d95d2916",
@@ -1514,7 +1514,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:47eb7a64f2cd03951bd41964bb3eb3c7a37ae86d",
@@ -1550,7 +1550,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:9342b79dbeb70467b37490d98313f802dcc4fc0d",
@@ -1584,7 +1584,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "bergelectric:ec16a03bf4a3ec343b9c9db021577da0e23b6447",
@@ -1618,7 +1618,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:7c75f209c7c6aaf175c8919baa6581d2ed91ca77",
@@ -1652,7 +1652,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:1fed2f50a8aa0fe181c8b30bee233878b91f6d0b",
@@ -1686,7 +1686,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:dd785adabef65ad2865927dd5108b224d46f44c8",
@@ -1720,7 +1720,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:fb0f4b4f68f683387f441dbfc86fd59295b58436",
@@ -1754,7 +1754,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:46ca6f73c28761ff7a77d5b83c40d0c5a24c8d76",
@@ -1788,7 +1788,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:66d047611aa5b006db55891434e06aed1dfa3986",
@@ -1822,7 +1822,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:583b58f3fb03972653cd89077c0d6df19576d65f",
@@ -1856,7 +1856,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:19953bc50b9b68eeae496f3f763ab0ae8e6a3a5c",
@@ -1890,7 +1890,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:adfc0e401cdf5ac72cec9430696792d72535513a",
@@ -1924,7 +1924,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:acabc31786951806415b79f53e3ff4fa8da80cb1",
@@ -1958,7 +1958,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:57b72792b0123b01ff613ad1848e168f8e79592c",
@@ -1995,7 +1995,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:727bfdba7e8ccf2e83795d63b3557bffd9d414b1",
@@ -2032,7 +2032,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:3712886393397d028fd6e80cee881ce28e77fc2e",
@@ -2069,7 +2069,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:228a1dc37ade8a786f294a11093164ca211bafcf",
@@ -2106,7 +2106,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:1d800baacb5ac0189706e6afcf0db6c6d9c5a458",
@@ -2145,7 +2145,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:5297c73de20628ff1597a4700334cc7a34526777",
@@ -2180,7 +2180,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:660b7070bd028a464bb4b23874c8cbb4f21cf7db",
@@ -2218,7 +2218,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "job_key": "primeelectric:95b0685952d0e51afdccda5b2b0307ec1a5fc397",
@@ -2259,7 +2259,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:287825a107e1845b68712059f47e56dbed1d245a",
@@ -2293,7 +2293,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:85ad13641347954442e22abdef7a353f293c0f08",
@@ -2325,7 +2325,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:e368ccacb0fbcf0be5c66ce41f562c8b1f6259f8",
@@ -2357,7 +2357,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:939e40204f15e394bb59a6c2b21e159e57d76837",
@@ -2389,7 +2389,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "mortenson:84b3a613b51badd8ccbdc5f83b225cfe5e2b7228",
@@ -2422,7 +2422,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:3f7c24d810bb3ef9c8b0e4dd998ecb49fe122bab",
@@ -2456,7 +2456,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:2d251d9bbc0b7c837a1f3f0710c7cebd31b3b8d6",
@@ -2468,7 +2468,7 @@
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "location": "US-OH-Toledo",
       "posted_date": "3/24/2026",
-      "description": "Electrician | Job Locations | US-OH-Toledo | ID | 2026-48920 | Company | Romanoff Electric Co., LLC | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 21 hours ago | (3/24/2026 10:45 AM) | About Us | Romanoff Electric is a leading electrical services company providing preconstruction, construction, systems integration, and energy solutions in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. Romanoff is one of six Ohio-based business units under parent company Quebe Holdings, Inc. These business units include Chapel Electric Co., LLC; Romanoff Electric Co., LLC; Kastle Electric Company; Kastle Technologies Co., LLC, and Eagle Electrical Services. | Job Summary | Job Title: Electrician | Reports to: General Foreman | Location: Toledo, OH (Surrounding Areas) | FLSA Status: Full-Time / Non-Exempt | Updated: March 2026 | COMPANY OVERVIEW | Romanoff Electric Co., LLC (\u201cRomanoff\u201d), an EMCOR Company, is a leading electrical services company providing preconstruction, construction, and energy solutions in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | Romanoff is one of six Ohio-based business units under parent company Quebe Holdings, Inc. These business units include Chapel Electric Co., LLC, Kastle Electric, Chapel-Romanoff Technologies; Eagle Electrical Services, and Kastle Technologies Co., LLC | SUMMARY | Romanoff Electric has immediate openings for electricians. Our workforce is expanding, and we welcome anyone interested in the electrical field to apply! Excellent benefits, retirement plan, and paid health insurance (at no cost to you). | Essential Duties & Responsibilities | GENERAL DUTIES AND RESPONSIBILITIES | Plan layout and installation of electrical wiring, equipment, or fixtures, based on job specifications and local codes. | Test electrical systems or continuity of circuits in electrical wiring, equipment, or fixtures, using testing devices, such as ohmmeters, voltmeters, or oscilloscopes, to ensure compatibility and safety of system. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment, such as oscilloscopes, ammeters, or test lamps. | Repair and install electrical devices such as receptacles,\u2026",
+      "description": "Electrician | Job Locations | US-OH-Toledo | ID | 2026-48920 | Company | Romanoff Electric Co., LLC | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 22 hours ago | (3/24/2026 10:45 AM) | About Us | Romanoff Electric is a leading electrical services company providing preconstruction, construction, systems integration, and energy solutions in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. Romanoff is one of six Ohio-based business units under parent company Quebe Holdings, Inc. These business units include Chapel Electric Co., LLC; Romanoff Electric Co., LLC; Kastle Electric Company; Kastle Technologies Co., LLC, and Eagle Electrical Services. | Job Summary | Job Title: Electrician | Reports to: General Foreman | Location: Toledo, OH (Surrounding Areas) | FLSA Status: Full-Time / Non-Exempt | Updated: March 2026 | COMPANY OVERVIEW | Romanoff Electric Co., LLC (\u201cRomanoff\u201d), an EMCOR Company, is a leading electrical services company providing preconstruction, construction, and energy solutions in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | Romanoff is one of six Ohio-based business units under parent company Quebe Holdings, Inc. These business units include Chapel Electric Co., LLC, Kastle Electric, Chapel-Romanoff Technologies; Eagle Electrical Services, and Kastle Technologies Co., LLC | SUMMARY | Romanoff Electric has immediate openings for electricians. Our workforce is expanding, and we welcome anyone interested in the electrical field to apply! Excellent benefits, retirement plan, and paid health insurance (at no cost to you). | Essential Duties & Responsibilities | GENERAL DUTIES AND RESPONSIBILITIES | Plan layout and installation of electrical wiring, equipment, or fixtures, based on job specifications and local codes. | Test electrical systems or continuity of circuits in electrical wiring, equipment, or fixtures, using testing devices, such as ohmmeters, voltmeters, or oscilloscopes, to ensure compatibility and safety of system. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment, such as oscilloscopes, ammeters, or test lamps. | Repair and install electrical devices such as receptacles,\u2026",
       "source_context": "EMCOR Group iCIMS search query 'electrician'",
       "discovered_via": "iCIMS iframe search",
       "metadata": {
@@ -2490,7 +2490,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "bergelectric:c922b821b6e001a0d788312ece55b8ec90d3bb51",
@@ -2528,7 +2528,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:fb1a5a6ce15ece7b74255d3b295a91730eb7b0a9",
@@ -2540,7 +2540,7 @@
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "location": "US-OH-Toledo",
       "posted_date": "3/24/2026",
-      "description": "Low Voltage Integration Technician | Job Locations | US-OH-Toledo | ID | 2026-48924 | Company | Chapel-Romanoff Technologies, LLC | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 20 hours ago | (3/24/2026 11:17 AM) | About Us | Chapel-Romanoff Technologies, LLC (\u201cCRT\u201d), an EMCOR Company, is a leading low voltage integration services company providing preconstruction, construction, and services in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. CRT is one of six Ohio-based business units under parent company Quebe Holdings, Inc. These business units include Chapel Electric Co., LLC; Romanoff Electric Co., LLC; Kastle Electric Company; Kastle Technologies Co., LLC, and Eagle Electrical Services. | Job Summary | Job Title: | Low Voltage Integration Technician | Reports to: | General Foreman | Location: | Toledo, OH | FLSA Status: | Full-Time / Non-Exempt | Updated: | March 2026 | COMPANY OVERVIEW | Chapel Romanoff Technologies, LLC | (\u201c | CRT | \u201d), an EMCOR Company, is a leading low voltage integration services company providing preconstruction, construction, and services in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | CRT is one of six Ohio-based business units under parent company Quebe Holdings, Inc. These business units include Chapel Electric Co., LLC, Kastle Electric, Eagle Electrical Services, Kastle Technologies Co., LLC, and Romanoff Electric Co., LLC. | SUMMARY | Chapel Romanoff Technologies, LLC | (\u201c | CRT | \u201d), | is looking to expand our workforce and welcome anyone interested in low voltage cabling, AV and security fields to apply! Excellent benefits, paid health insurance (no cost to you) and retirement plan. | Essential Duties & Responsibilities | GENERAL DUTIES AND RESPONSIBILITIES | Install low voltage copper and fiber optic cabling. | Terminate, test copper and fiber cabling systems using certified test equipment. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment. | Repair and install network enabled systems such as CCTV, Access Control, AV Control Systems, Central Sound, Video Management Servers, Projectors, Screens, Interactive Displays, etc. | Assists in keeping building comm\u2026",
+      "description": "Low Voltage Integration Technician | Job Locations | US-OH-Toledo | ID | 2026-48924 | Company | Chapel-Romanoff Technologies, LLC | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 21 hours ago | (3/24/2026 11:17 AM) | About Us | Chapel-Romanoff Technologies, LLC (\u201cCRT\u201d), an EMCOR Company, is a leading low voltage integration services company providing preconstruction, construction, and services in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. CRT is one of six Ohio-based business units under parent company Quebe Holdings, Inc. These business units include Chapel Electric Co., LLC; Romanoff Electric Co., LLC; Kastle Electric Company; Kastle Technologies Co., LLC, and Eagle Electrical Services. | Job Summary | Job Title: | Low Voltage Integration Technician | Reports to: | General Foreman | Location: | Toledo, OH | FLSA Status: | Full-Time / Non-Exempt | Updated: | March 2026 | COMPANY OVERVIEW | Chapel Romanoff Technologies, LLC | (\u201c | CRT | \u201d), an EMCOR Company, is a leading low voltage integration services company providing preconstruction, construction, and services in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | CRT is one of six Ohio-based business units under parent company Quebe Holdings, Inc. These business units include Chapel Electric Co., LLC, Kastle Electric, Eagle Electrical Services, Kastle Technologies Co., LLC, and Romanoff Electric Co., LLC. | SUMMARY | Chapel Romanoff Technologies, LLC | (\u201c | CRT | \u201d), | is looking to expand our workforce and welcome anyone interested in low voltage cabling, AV and security fields to apply! Excellent benefits, paid health insurance (no cost to you) and retirement plan. | Essential Duties & Responsibilities | GENERAL DUTIES AND RESPONSIBILITIES | Install low voltage copper and fiber optic cabling. | Terminate, test copper and fiber cabling systems using certified test equipment. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment. | Repair and install network enabled systems such as CCTV, Access Control, AV Control Systems, Central Sound, Video Management Servers, Projectors, Screens, Interactive Displays, etc. | Assists in keeping building comm\u2026",
       "source_context": "EMCOR Group iCIMS search query 'low voltage'",
       "discovered_via": "iCIMS iframe search",
       "metadata": {
@@ -2562,7 +2562,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "bergelectric:5da7e0e1f838b86850e885828b807781d9fa46e7",
@@ -2600,7 +2600,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:b58080fbd845f9154b463c1e22567eab471281ee",
@@ -2638,7 +2638,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:5314c27b1c0d0132ee17868a86274cc0fdf7757e",
@@ -2676,7 +2676,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:a7b81a82dd0275a1fe52f598c7c0c74f3f039c93",
@@ -2712,7 +2712,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:2aae8599d90ca364a74ebba797bd7589c94f6c65",
@@ -2748,7 +2748,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:63797aebfd4a8fa5ef270136249cd7657627028a",
@@ -2778,7 +2778,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:df519945b3af124c8b94b73cff24fab9d8bec23b",
@@ -2808,7 +2808,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "mortenson:fe365038cb8a572b92331b34e07f704963f6d7e9",
@@ -2842,7 +2842,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:c178d68b3fc8349d050498bcd7854d50077754f3",
@@ -2875,7 +2875,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:5b8cc98d890e647cf8f5fd010df00d9086df7f6a",
@@ -2908,7 +2908,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:ec3c0d41a9205549b9b8c63ecf6c7d2db5d8c110",
@@ -2941,7 +2941,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:ff81663e3afabd8ed85993f3d25525b400fb3270",
@@ -2974,7 +2974,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:2eabb520c15b410e9698f0fa39869767269d25f3",
@@ -3007,7 +3007,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:454dba2434ee51a7152b820df58775d8e8cfc1ce",
@@ -3019,7 +3019,7 @@
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "location": "US-SC-Georgetown",
       "posted_date": "3/25/2026",
-      "description": "PPM Instrumentation Electrician-- (WINYAH) 6.3 | Job Locations | US-SC-Georgetown | ID | 2026-48939 | Company | MOR PPM, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 52 minutes ago | (3/25/2026 6:30 AM) | About Us | We are a leading industrial mechanical, electrical, and civil construction services provider for the fossil and nuclear power, pulp and paper, chemical, mining, and general manufacturing industries. We provide a full range of industrial facilities maintenance and process maintenance services. | Job Summary | Job Summary: | -- Instrumentation Electricians must balance a high level of surveillance and maintenance to maintain the integrity of the plant. The Technician will take a proactive approach in mitigating developing threats and ongoing events. Candidates must demonstrate the ability to recognize, analyze, and respond to abnormal conditions in a timely manner to minimize potential impact to people and the environment as well as eliminating risk to the liability of the company. The position requires working outside in various weather conditions and in various areas where contact with local wildlife could be dangerous. Troubleshoot/repair electrical equip., controllers, transformers, electrical valves, pressure switches, bailey system knowledge. Will perform periodic inspections and routine maintenance on the plant system and complete maintenance records, service/ calibration reports, and other required documents. | Essential Duties and Responsibilities: | - | Plan and perform all assignments in a safe manner by utilizing the proper tools, safety, environmental precautions, reporting, permitting, and Process Safety Management. | Ensures proper operation of all electrical/control system components including electronic components, motors, solenoids, limit switches, PLC I/O modules. Fabrication and repair of electrical equipment and instrumentation. | Able to trouble shoot and diagnose problems, including voltage and loop test , replace or repair parts of equipment utilizing appropriate tooling, equipment and materials to accomplish maintenance functions including but not limited working with cable tray, conduits, feeder cables, build control panels, terminate controls, motors and instrumentation. | Serves as a vital resource for the manufacturing machinery preventative and predictive m\u2026",
+      "description": "PPM Instrumentation Electrician-- (WINYAH) 6.3 | Job Locations | US-SC-Georgetown | ID | 2026-48939 | Company | MOR PPM, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 hours ago | (3/25/2026 6:30 AM) | About Us | We are a leading industrial mechanical, electrical, and civil construction services provider for the fossil and nuclear power, pulp and paper, chemical, mining, and general manufacturing industries. We provide a full range of industrial facilities maintenance and process maintenance services. | Job Summary | Job Summary: | -- Instrumentation Electricians must balance a high level of surveillance and maintenance to maintain the integrity of the plant. The Technician will take a proactive approach in mitigating developing threats and ongoing events. Candidates must demonstrate the ability to recognize, analyze, and respond to abnormal conditions in a timely manner to minimize potential impact to people and the environment as well as eliminating risk to the liability of the company. The position requires working outside in various weather conditions and in various areas where contact with local wildlife could be dangerous. Troubleshoot/repair electrical equip., controllers, transformers, electrical valves, pressure switches, bailey system knowledge. Will perform periodic inspections and routine maintenance on the plant system and complete maintenance records, service/ calibration reports, and other required documents. | Essential Duties and Responsibilities: | - | Plan and perform all assignments in a safe manner by utilizing the proper tools, safety, environmental precautions, reporting, permitting, and Process Safety Management. | Ensures proper operation of all electrical/control system components including electronic components, motors, solenoids, limit switches, PLC I/O modules. Fabrication and repair of electrical equipment and instrumentation. | Able to trouble shoot and diagnose problems, including voltage and loop test , replace or repair parts of equipment utilizing appropriate tooling, equipment and materials to accomplish maintenance functions including but not limited working with cable tray, conduits, feeder cables, build control panels, terminate controls, motors and instrumentation. | Serves as a vital resource for the manufacturing machinery preventative and predictive main\u2026",
       "source_context": "EMCOR Group iCIMS search query 'electrician'",
       "discovered_via": "iCIMS iframe search",
       "metadata": {
@@ -3040,7 +3040,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "emcor:eb3bdee85389a5b218b856733d262ae0ae19867d",
@@ -3073,7 +3073,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:e72104e0004db6beb4ff9c12be3048fa42e7dbe2",
@@ -3109,7 +3109,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:9007dff8c889042b6299417bcb7313c042cd5324",
@@ -3142,7 +3142,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "bergelectric:37ecf74add0f67ad1811a7211942a9515d5f8f3b",
@@ -3175,7 +3175,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:83715f83180673bda948b15951a6be5f479c6393",
@@ -3208,7 +3208,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:8fc30429ae7ca194bea392e756b53d1837caf0bd",
@@ -3241,7 +3241,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:f31b28c9aee84187786076220f6c733db2051d85",
@@ -3274,7 +3274,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:e5989f7267cf5ffd1c04bb05923da7ca2582bf02",
@@ -3307,7 +3307,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:2643b1b0a58cba0fb3d1bf53c0fdb3c828bdfdcf",
@@ -3340,7 +3340,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:36cc981ffcb77a33055a441dca537d2203c68f31",
@@ -3373,7 +3373,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:e072f1044d503426eb2689343fdee7f86fd00f7c",
@@ -3405,7 +3405,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:243881569f88f662ce0f2498b44a74d4a26513f4",
@@ -3437,7 +3437,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:60fb6b73c4df276d7ab0f3b2728b44c02c8f0e11",
@@ -3469,7 +3469,7 @@
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "job_key": "emcor:1c0f8890109d50649c0f76f0ff162c8728f8c54b",
@@ -3501,7 +3501,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:7ab15a63c4fab4a8248e100fef2deb41ec4612af",
@@ -3533,7 +3533,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:ff28e679d8565e597662a28a8a3202115f4784d7",
@@ -3565,19 +3565,19 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
-      "job_key": "emcor:7aa775e091d79c57fd37533aeb783f1251987512",
+      "job_key": "emcor:3436a849839e5eafb263e9335c40c0d32ec69cd7",
       "source_key": "emcor",
       "source_name": "EMCOR Group",
       "company": "Southern Industrial Constructors, Inc.",
       "title": "Electrician (RAL PFIZER WB)",
-      "detail_url": "https://careers-emcorgroup.icims.com/jobs/48936/sic-electrician-%28ral-pfizer-wb%29/job?in_iframe=1",
+      "detail_url": "https://careers-emcorgroup.icims.com/jobs/48936/electrician-%28ral-pfizer-wb%29/job?in_iframe=1",
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "location": "US-NC-Rocky Mount",
       "posted_date": "3/25/2026",
-      "description": "Electrician (RAL PFIZER WB) | Job Locations | US-NC-Rocky Mount | ID | 2026-48936 | Company | Southern Industrial Constructors, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 hours ago | (3/25/2026 5:48 AM) | About Us | We perform installation, rigging, millwrighting, and maintenance for manufacturing and industrial markets across the Southeast. | Job Summary | Southern Industrial Constructors, Inc. seeks an Electrician for a project in Rocky Mount, NC. | #SIC | #LI On-Site | #LI-VB1 | Essential Duties & Responsibilities | Install power circuits by fabricating conduit and wire 30' in the air from power panels out to cooling tower frame work at the VFD's. | Knowledgeable with blueprints, sketches and building plans pertaining to type of material | Work within precise limits or standards of accuracy. | Prepares layout, using voltage tester, wire strippers, level, pipe benders etc... | Terminates panels utilizing LOTO | Plan sequence of installation to avoid obstructions and activities of other construction workers. | Run cable tray, pulls wire and bend various types of conduit. | Understands motor controls and metering. | Size branch circuit overcurrent protection devices. | Calculate loads for single phase and three-phase branch circuits. | Rates information using standards, which can be measured or checked. | Reviews and compares differences in the size, shape, and form of lines, figures, and objects. | Follow directions, plans, and blueprints. | Perform work overhead, beneath structure, and from various other positions as required by working conditions. | Make decisions based on measurable criteria. | Visualize objects in three dimensions from plans and drawings. | Lift and carry objects of varying weights. | Detect, recognize and respond to dangerous conditions or situations. | Regular attendance is required. | Significant travel may be required. | Performs other duties as required. | Qualifications | Skilled in both written and verbal communication. | Complete all Safety and general job training as required by SIC. | Observe SIC and Customer safety and quality processes and procedures at all times. | Physical Demands | Must be able to effectively use all required PPE equipment and lift up to fifty pounds. | Conditions include working in office, shop, busy traffic areas, warehouses, and undevel\u2026",
+      "description": "Electrician (RAL PFIZER WB) | Job Locations | US-NC-Rocky Mount | ID | 2026-48936 | Company | Southern Industrial Constructors, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 3 hours ago | (3/25/2026 5:48 AM) | About Us | We perform installation, rigging, millwrighting, and maintenance for manufacturing and industrial markets across the Southeast. | Job Summary | Southern Industrial Constructors, Inc. seeks an Electrician for a project in Rocky Mount, NC. | #SIC | #LI On-Site | #LI-VB1 | Essential Duties & Responsibilities | Install power circuits by fabricating conduit and wire 30' in the air from power panels out to cooling tower frame work at the VFD's. | Knowledgeable with blueprints, sketches and building plans pertaining to type of material | Work within precise limits or standards of accuracy. | Prepares layout, using voltage tester, wire strippers, level, pipe benders etc... | Terminates panels utilizing LOTO | Plan sequence of installation to avoid obstructions and activities of other construction workers. | Run cable tray, pulls wire and bend various types of conduit. | Understands motor controls and metering. | Size branch circuit overcurrent protection devices. | Calculate loads for single phase and three-phase branch circuits. | Rates information using standards, which can be measured or checked. | Reviews and compares differences in the size, shape, and form of lines, figures, and objects. | Follow directions, plans, and blueprints. | Perform work overhead, beneath structure, and from various other positions as required by working conditions. | Make decisions based on measurable criteria. | Visualize objects in three dimensions from plans and drawings. | Lift and carry objects of varying weights. | Detect, recognize and respond to dangerous conditions or situations. | Regular attendance is required. | Significant travel may be required. | Performs other duties as required. | Qualifications | Skilled in both written and verbal communication. | Complete all Safety and general job training as required by SIC. | Observe SIC and Customer safety and quality processes and procedures at all times. | Physical Demands | Must be able to effectively use all required PPE equipment and lift up to fifty pounds. | Conditions include working in office, shop, busy traffic areas, warehouses, and undevel\u2026",
       "source_context": "EMCOR Group iCIMS search query 'electrician'",
       "discovered_via": "iCIMS iframe search",
       "metadata": {
@@ -3629,7 +3629,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:a07677d87fb233d6612381c9a5ceb1eb71eff28f",
@@ -3663,7 +3663,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:e0fa879b5cedef2f8b501c3393b5215a9cce4823",
@@ -3697,7 +3697,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:f2b681589d03d7b36e17f011cd8b8c57c0b2da96",
@@ -3726,7 +3726,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:f763c77f5001481b51a5e1252028e9aea711f5ab",
@@ -3755,7 +3755,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:970a883f45c9c2a967377ae46a4f5df74764a7ec",
@@ -3785,7 +3785,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:19aeaba427becb0950f95780c3b8d6e325890f40",
@@ -3815,7 +3815,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:f537a4fec5f2b68809543e7dbb5ba4d80609c018",
@@ -3845,7 +3845,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:4189d76eb327ab0b63b7e33e858a8ef1073699a3",
@@ -3875,7 +3875,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:1cae559b68d71fcceedc149d0ab71f33879a96f4",
@@ -3907,7 +3907,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:a72fa40540241a7889ceb52fbf1e69159e27a083",
@@ -3939,7 +3939,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:3b891a400a8e990c7dcefccec6875b09223ce664",
@@ -3971,7 +3971,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:130b360992f44d9bb6c0b4bfa73eaca91ce720d9",
@@ -4003,7 +4003,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:cad18a5ec46e7cd434fd0476f24858f02d6e01c4",
@@ -4035,7 +4035,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:ed75cf232d44a0885d1dd3bee1971ed60e907e5f",
@@ -4067,7 +4067,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:d323c658f9e012663a6286978a7e9c2c4caf429b",
@@ -4099,7 +4099,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:ad91d10dcc262335b0fb47bfdb125dd2680314c0",
@@ -4131,7 +4131,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:c60353281799a3ce1a6db0431a4e699804c61af3",
@@ -4163,7 +4163,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:4c950e2cd40f139d4d15bcaec2026ad10f72c9ab",
@@ -4195,7 +4195,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:d4e445e11db266ffe2a08c025620ba588d2a15f6",
@@ -4227,7 +4227,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:ca85ac322eae1daaaf24f7d9f7130c348de5d66a",
@@ -4259,7 +4259,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:f7a18649ecc5ea38d0b95b596488900b692c71b5",
@@ -4291,7 +4291,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:adc429c5eb165fb129d8eb2c6db8d3eb15a19808",
@@ -4321,7 +4321,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:7fab1a4de08df485eb95f6782b93bc82c551be7d",
@@ -4355,7 +4355,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:1afde070a994cd49095554fdb290776e8ff395b6",
@@ -4393,7 +4393,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:9431da18ba938ff110251a5678efdff11ffd0c5a",
@@ -4425,7 +4425,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:b391dffcc79c3361eebaf59bcbaabe5d33a81055",
@@ -4459,7 +4459,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:3853f34f6f2cd868bc6be288177c5f39be0eb352",
@@ -4497,7 +4497,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:34cc3fa12c2e71fde20f2a25a27ee3d44a461ce5",
@@ -4530,7 +4530,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:6e876f74df348cb7dc314b17b8eed6b691d9a47a",
@@ -4567,7 +4567,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:2b8ac4c150bd2c2beb0f7665b457f784e32e534a",
@@ -4601,7 +4601,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:18d4bf05ff8c2a84eb55c10646f367e0c905f011",
@@ -4632,7 +4632,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:0c2d186e2a409d21d902ed2a1cdacb3c9128adf6",
@@ -4663,7 +4663,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "mortenson:d3eee063678c7ebffbb51c5adc3e6fd303fc603a",
@@ -4694,7 +4694,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:3884b4145d2309f49e44de8a13766b94ecb70316",
@@ -4725,7 +4725,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:2ccba10f9387a11aedeb408e8bda16d2194afc99",
@@ -4756,7 +4756,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:124ecadeb0658ee5fb0d6e5fb2d3ed80cf918169",
@@ -4787,7 +4787,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:0de98c35d0185a3701ad4030a7fbe7fed2470127",
@@ -4824,7 +4824,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "primeelectric:b9f47f70775fa36a8e8b129063957aeb1bd141d1",
@@ -4861,7 +4861,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:1c5372ea2df3fce81212f4a79cfa5fa0654d86ce",
@@ -4896,7 +4896,7 @@
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "job_key": "emcor:30a88164bf7d375e14c3b177a4468cf628e5a184",
@@ -4935,7 +4935,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:fb399e117edcb3937de1a8123b988b8240181cf1",
@@ -4966,7 +4966,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:11130be309a4d9e2821e945dbe2220067156f613",
@@ -5002,7 +5002,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:e97557305836ae93c2650f5bcb38193471c49fc2",
@@ -5033,7 +5033,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:7a6b2ed34bec3572132c0c4d6b21cf0228e9afe8",
@@ -5070,7 +5070,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:80a0528c564d4183266183449096e38587372558",
@@ -5103,7 +5103,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:0143efb07d9e267ef1cad00c27ef4157cbd0da77",
@@ -5136,36 +5136,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
-    },
-    {
-      "job_key": "cei:430c4dcf5e2ebecc6a4745a4b58dc2e02e42dcfb",
-      "source_key": "cei",
-      "source_name": "Cupertino Electric",
-      "company": "Cupertino Electric",
-      "title": "Project Administrative Assistant",
-      "detail_url": "https://jobs.jobvite.com/cei/job/owNBzfwd?nl=1",
-      "source_url": "https://www.cei.com/careers/current-openings",
-      "location": "Eagle Mountain, Utah",
-      "posted_date": "",
-      "description": "Cupertino Electric, Inc. Careers | Project Administrative Assistant | Administrative | Eagle Mountain, Utah | Apply | Description | Posting Title: | Project Administrative Assistant | Reports To: | Assistant Project Manager | Location: | Eagle Mountain, Utah | Salary Range: | $19.50/hour to $25.00/hour | Final determination of a successful candidate\u2019s starting pay will vary based on a number of factors, including market location and may vary depending on job-related knowledge, skills, education and experience. The pay scale listed for this position is generally for candidates that meet the specified qualifications and requirements listed on this specific job description. We provide a competitive compensation package that recognizes your experience, credentials, and education alongside a robust benefits program to meet your needs. Our compensation reflects the cost of labor across several US geographic markets. | WHO WE ARE | Since 1954, Cupertino Electric, Inc. (CEI) | has been powered by people who\u2019ve built a reputation for delivering high-profile, complex projects. Real, tangible things that alter the landscape and improve lives. And we've done it with integrity for more than 70 years. We\u2019re problem solvers and innovation seekers. We\u2019re team players and safety fanatics. And we're proud to be part of Quanta Services (PWR:NYSE), North America's largest employer of skilled craft labor. Because what we do is important, but | how | we do it is everything. | THE DATA CENTER TEAM | We build mission-critical data centers throughout the U.S. to ensure crucial information accessed by millions of people is always available and secure. For decades, CEI is a leading provider of design, installation and commissioning of 20M+ square feet of data center space totaling over 4 GW of electrical systems\u2014including infrastructure built to support AI-driven technologies. | ABOUT THE ROLE | The Project Administrative Assistant at Cupertino Electric provides daily support to Senior Project Managers, Project Managers, Assistant Project Managers, and Project Engineers. This role is vital in ensuring information flow between office, field, vendors, and general contractors. | Support the team that may consist of Senior Project Manager's, Project Managers, APM\u2019s and Project Engineers including information flow between office, field, vendors and general contractors. | Coordination of j\u2026",
-      "source_context": "CEI Jobvite careers feed",
-      "discovered_via": "Jobvite no-layout listing",
-      "metadata": {},
-      "score": -18,
-      "reasons": [
-        "description includes 'electrical'",
-        "description includes 'data center'",
-        "description penalty for 'salary range'",
-        "missing apprentice / trainee / helper / wireman signal"
-      ],
-      "hub_matches": [],
-      "bucket": "discard",
-      "status": "active",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-25",
-      "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:e3d0fdd8ec92885b2c1df12ae87ae3babd44aa9d",
@@ -5194,7 +5165,36 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
+    },
+    {
+      "job_key": "cei:430c4dcf5e2ebecc6a4745a4b58dc2e02e42dcfb",
+      "source_key": "cei",
+      "source_name": "Cupertino Electric",
+      "company": "Cupertino Electric",
+      "title": "Project Administrative Assistant",
+      "detail_url": "https://jobs.jobvite.com/cei/job/owNBzfwd?nl=1",
+      "source_url": "https://www.cei.com/careers/current-openings",
+      "location": "Eagle Mountain, Utah",
+      "posted_date": "",
+      "description": "Cupertino Electric, Inc. Careers | Project Administrative Assistant | Administrative | Eagle Mountain, Utah | Apply | Description | Posting Title: | Project Administrative Assistant | Reports To: | Assistant Project Manager | Location: | Eagle Mountain, Utah | Salary Range: | $19.50/hour to $25.00/hour | Final determination of a successful candidate\u2019s starting pay will vary based on a number of factors, including market location and may vary depending on job-related knowledge, skills, education and experience. The pay scale listed for this position is generally for candidates that meet the specified qualifications and requirements listed on this specific job description. We provide a competitive compensation package that recognizes your experience, credentials, and education alongside a robust benefits program to meet your needs. Our compensation reflects the cost of labor across several US geographic markets. | WHO WE ARE | Since 1954, Cupertino Electric, Inc. (CEI) | has been powered by people who\u2019ve built a reputation for delivering high-profile, complex projects. Real, tangible things that alter the landscape and improve lives. And we've done it with integrity for more than 70 years. We\u2019re problem solvers and innovation seekers. We\u2019re team players and safety fanatics. And we're proud to be part of Quanta Services (PWR:NYSE), North America's largest employer of skilled craft labor. Because what we do is important, but | how | we do it is everything. | THE DATA CENTER TEAM | We build mission-critical data centers throughout the U.S. to ensure crucial information accessed by millions of people is always available and secure. For decades, CEI is a leading provider of design, installation and commissioning of 20M+ square feet of data center space totaling over 4 GW of electrical systems\u2014including infrastructure built to support AI-driven technologies. | ABOUT THE ROLE | The Project Administrative Assistant at Cupertino Electric provides daily support to Senior Project Managers, Project Managers, Assistant Project Managers, and Project Engineers. This role is vital in ensuring information flow between office, field, vendors, and general contractors. | Support the team that may consist of Senior Project Manager's, Project Managers, APM\u2019s and Project Engineers including information flow between office, field, vendors and general contractors. | Coordination of j\u2026",
+      "source_context": "CEI Jobvite careers feed",
+      "discovered_via": "Jobvite no-layout listing",
+      "metadata": {},
+      "score": -18,
+      "reasons": [
+        "description includes 'electrical'",
+        "description includes 'data center'",
+        "description penalty for 'salary range'",
+        "missing apprentice / trainee / helper / wireman signal"
+      ],
+      "hub_matches": [],
+      "bucket": "discard",
+      "status": "active",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-25",
+      "expired_on": "",
+      "seen_count": 16
     },
     {
       "job_key": "cei:ab6692030eac706990fe8113d9f5cf825deacdb7",
@@ -5223,7 +5223,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:b324c7b4f216e99fc46b236b1e96933a1745ea82",
@@ -5254,7 +5254,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:f77ebc343200793c7aab9812f6fb14170212782f",
@@ -5285,7 +5285,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:f2a441d4a769f0803a05abad15b55e0ae6d36e35",
@@ -5320,7 +5320,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:5a49741c2f0a4fd8d23eeec88b674664732fb8a6",
@@ -5359,7 +5359,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:24b0ac6d4f8eef2d5190719666f17ac222a7cb01",
@@ -5390,7 +5390,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:776108a621ae757811ab013618c146ef936c47f4",
@@ -5425,7 +5425,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:cb22072a1ecf674708fa2a60d22939b10b67bad7",
@@ -5459,7 +5459,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:37a42b95db728c6ebe3fb89b26f652de25cc9974",
@@ -5493,7 +5493,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:fe17374c5881cad154d765582768de8849de3e42",
@@ -5526,7 +5526,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:2bf6ef20aaba6a1f6e08301d2399cbe215224450",
@@ -5566,7 +5566,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "primeelectric:fb136b2b40b517a7d1b2c3c74c10595cce66e182",
@@ -5606,7 +5606,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:807faa9f6d4fcc12c98d3f94e5942e494b715dd2",
@@ -5635,7 +5635,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:0ce03a7c9aa4c67d6877c8cc35c6ce55c262520e",
@@ -5664,7 +5664,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:31f02f72823078bcda5d6c0f5185491843c9554b",
@@ -5698,7 +5698,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:8f7c95f7b4f7b327ba9986818d43081fcbaf46c8",
@@ -5710,7 +5710,7 @@
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "location": "US-MD-Bethesda",
       "posted_date": "3/24/2026",
-      "description": "Maintenance Journeyman Electrician (Atlas) | Job Locations | US-MD-Bethesda | ID | 2026-48914 | Company | EMCOR Government Services, Inc. | Category | Maintenance | Position Type | Full-Time | Location Type | Onsite | Posted Date | 23 hours ago | (3/24/2026 8:16 AM) | About Us | When military bases, national security agencies, federal buildings, healthcare facilities, and leading commercial clients in Washington D.C and across the nation need superior facility support services, we answer the call. We offer a unique combination of government experience and facilities expertise that has helped us earn a position as one of the country\u2019s leading integrated service providers. | Job Summary | EMCOR Government Services has an opportunity for a | Journeyman Maintenance Electrician | in | Bethesda MD | . This role is covered by the CBA for Local 99. The Journeyman Maintenance Electrician troubleshoots and maintains the electrical equipment in Central Mechanical Plant and ICC-B Buildings | #EGS | #LI-NS1 | Essential Duties & Responsibilities | \u2022 Troubleshooting of all equipment on site. | \u2022 Be available off hour for emergencies. | \u2022 Performance of the preventive maintenance of all electrical equipment on site. | \u2022 Institute the corrective action and/or inform his supervisor on any deficiencies found in the course of performing the job. | \u2022 Attend meetings with Client and USG and be prepared to provide corrective solution to site issues. | \u2022 Monitor Electrical Subcontractors in their task and provide reports when needed. | \u2022 Perform other task as directed by his Supervisor. | Qualifications | Must possess and maintain a Journeyman License or higher | Seven (7) or more years experience in maintenance and repairs on Commercial-Industrial building electrical equipment to include but not limited to: | Switchgear =/-13.2kv Motors Control Systems | Transformers Electrical Panels MCC\u2019s | VFD\u2019s | Demonstrate the ability to read and understand Blueprints, schematics and specifications. | Be able to demonstrate practical knowledge of Electrical Switchgear. | Be able to demonstrate practical knowledge of Building Electrical Systems. | Must be able to obtain and maintain an ISSA TS/SCI w/Poly | Physical Demands | Heavy physical effort (lift/carry up to 50 lbs / push up to 100 lbs) | Prolong, extensive or considerable standing/walking. | Push/pull or move/lift equipment, supplies\u2026",
+      "description": "Maintenance Journeyman Electrician (Atlas) | Job Locations | US-MD-Bethesda | ID | 2026-48914 | Company | EMCOR Government Services, Inc. | Category | Maintenance | Position Type | Full-Time | Location Type | Onsite | Posted Date | 1 day ago | (3/24/2026 8:16 AM) | About Us | When military bases, national security agencies, federal buildings, healthcare facilities, and leading commercial clients in Washington D.C and across the nation need superior facility support services, we answer the call. We offer a unique combination of government experience and facilities expertise that has helped us earn a position as one of the country\u2019s leading integrated service providers. | Job Summary | EMCOR Government Services has an opportunity for a | Journeyman Maintenance Electrician | in | Bethesda MD | . This role is covered by the CBA for Local 99. The Journeyman Maintenance Electrician troubleshoots and maintains the electrical equipment in Central Mechanical Plant and ICC-B Buildings | #EGS | #LI-NS1 | Essential Duties & Responsibilities | \u2022 Troubleshooting of all equipment on site. | \u2022 Be available off hour for emergencies. | \u2022 Performance of the preventive maintenance of all electrical equipment on site. | \u2022 Institute the corrective action and/or inform his supervisor on any deficiencies found in the course of performing the job. | \u2022 Attend meetings with Client and USG and be prepared to provide corrective solution to site issues. | \u2022 Monitor Electrical Subcontractors in their task and provide reports when needed. | \u2022 Perform other task as directed by his Supervisor. | Qualifications | Must possess and maintain a Journeyman License or higher | Seven (7) or more years experience in maintenance and repairs on Commercial-Industrial building electrical equipment to include but not limited to: | Switchgear =/-13.2kv Motors Control Systems | Transformers Electrical Panels MCC\u2019s | VFD\u2019s | Demonstrate the ability to read and understand Blueprints, schematics and specifications. | Be able to demonstrate practical knowledge of Electrical Switchgear. | Be able to demonstrate practical knowledge of Building Electrical Systems. | Must be able to obtain and maintain an ISSA TS/SCI w/Poly | Physical Demands | Heavy physical effort (lift/carry up to 50 lbs / push up to 100 lbs) | Prolong, extensive or considerable standing/walking. | Push/pull or move/lift equipment, supplies & p\u2026",
       "source_context": "EMCOR Group iCIMS search query 'electrician'",
       "discovered_via": "iCIMS iframe search",
       "metadata": {
@@ -5732,7 +5732,7 @@
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "emcor:2b6e21c44adbd4e7ba258d447a7e5de0f671764e",
@@ -5766,7 +5766,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:89979645f8559fbeec80bb23aa6307a1c333cff2",
@@ -5800,7 +5800,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:ae92f469861ed0d6d1063c95945efb34601773ed",
@@ -5834,7 +5834,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:46f06cfc0173fc06280e87501005220cd8ad3c3a",
@@ -5868,7 +5868,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:7883434e673a09dd1aea2dc318796d7b3b91e24e",
@@ -5902,7 +5902,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:a23adde77c3f367fb2f7d867ac72f656b99674b6",
@@ -5932,7 +5932,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "cei:f523c7b7d10f03234f7c02c5e2ba81b177c251be",
@@ -5960,7 +5960,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:cd1cd086f4291eb5da9e592c41597d973242523c",
@@ -5988,7 +5988,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "cei:cb2e09d0d59c4bdc4c70b90acbbb42f3997527c3",
@@ -6016,7 +6016,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:6a65d3955622be655d11c43e0b160b543ac244ce",
@@ -6046,7 +6046,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:169bd7b8f3613fe485c38a487497fde3d442ce59",
@@ -6076,7 +6076,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:ff7a19401516616fd24059c5d81a4f6185c042cc",
@@ -6106,7 +6106,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:fdd8e809a30169d4170c4d9b2edccdb426c3ec43",
@@ -6136,7 +6136,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:bb4d28e26e25470d3498b8a1e19e7e74e247ec2c",
@@ -6166,7 +6166,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:7f0f7551c4306d1c57a2a85c42b675decd596c74",
@@ -6196,7 +6196,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:2c1ce561603744b0a8452fe4d28faff98cf3a199",
@@ -6226,7 +6226,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:925ab3b54d4b626257622fc9a09c013da7dc8369",
@@ -6256,7 +6256,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:8dc1e289bfeaeb0a391f4af8508f141ff3fa5cf1",
@@ -6290,7 +6290,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:aa2e887bd9fd83db0a223e83be17598e6d819ccb",
@@ -6324,7 +6324,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:68bd1017fd94963745fbb49d23bc6693db0e020b",
@@ -6358,7 +6358,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:7e97baae21768109568e95e60fe7ffb46d849c56",
@@ -6392,7 +6392,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:b97b11cbdcb00bb444e8955b83d6e16006ac7fc4",
@@ -6424,7 +6424,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:3b9b320370c02673aae9d9ec3e36e569acaa34cd",
@@ -6436,7 +6436,7 @@
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "location": "US-NY-New York",
       "posted_date": "3/25/2026",
-      "description": "Low Voltage Installation Manager (Utah) | Job Locations | US-NY-New York | ID | 2026-48935 | Company | Control Solutions Group, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 hours ago | (3/25/2026 5:42 AM) | About Us | We offer complete building controls and engineering solutions, including precision design, software programming, graphics, and commissioning. Combining leading-edge technology, open-protocol solutions, and customized service, we help clients improve building management for greater efficiency, comfort, and security. | Job Summary | Ignite your career with Control Solutions Group (CSG), an EMCOR Group company! We are searching for a high-level Low Voltage Installation Manager to lead our installation department. This role is the backbone of our field operations, requiring a leader who can manage and grow a full team of Installation Leads and Specialists. | We are looking for a 'working manager' who is equally comfortable in a high-level coordination meeting as they are on a ladder demonstrating a complex termination to a junior team member. | You will be the primary architect of our manpower scheduling, ensuring the right people are on the right sites at the right time, while maintaining a heavy focus on the technical training and onboarding of new personnel. | Essential Duties & Responsibilities | Key Responsibilities: | Manpower Coordination and Deployment: | Directly manage the installation schedule, ensuring manpower is strategically allocated to project sites exactly when needed to meet construction milestones. | Monitor project labor budgets and adjust staffing levels to maintain peak efficiency across the Wasatch Front and throughout Utah. | Act as the primary point of contact for field labor availability, resolving scheduling conflicts and ensuring 100% site coverage. | Active Field Leadership and Execution: | Be prepared to \"strap on the tool belt\" and perform physical installation tasks\u2014including conduit bending, wiring, and terminations\u2014to demonstrate best practices and high-quality standards to trainees. | Step in to perform direct installation work when necessary to ensure critical project milestones are met or to overcome complex technical hurdles on-site. | Use \"on-the-tools\" sessions as a primary training method, providing real-time feedback and correction to Install\u2026",
+      "description": "Low Voltage Installation Manager (Utah) | Job Locations | US-NY-New York | ID | 2026-48935 | Company | Control Solutions Group, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 3 hours ago | (3/25/2026 5:42 AM) | About Us | We offer complete building controls and engineering solutions, including precision design, software programming, graphics, and commissioning. Combining leading-edge technology, open-protocol solutions, and customized service, we help clients improve building management for greater efficiency, comfort, and security. | Job Summary | Ignite your career with Control Solutions Group (CSG), an EMCOR Group company! We are searching for a high-level Low Voltage Installation Manager to lead our installation department. This role is the backbone of our field operations, requiring a leader who can manage and grow a full team of Installation Leads and Specialists. | We are looking for a 'working manager' who is equally comfortable in a high-level coordination meeting as they are on a ladder demonstrating a complex termination to a junior team member. | You will be the primary architect of our manpower scheduling, ensuring the right people are on the right sites at the right time, while maintaining a heavy focus on the technical training and onboarding of new personnel. | Essential Duties & Responsibilities | Key Responsibilities: | Manpower Coordination and Deployment: | Directly manage the installation schedule, ensuring manpower is strategically allocated to project sites exactly when needed to meet construction milestones. | Monitor project labor budgets and adjust staffing levels to maintain peak efficiency across the Wasatch Front and throughout Utah. | Act as the primary point of contact for field labor availability, resolving scheduling conflicts and ensuring 100% site coverage. | Active Field Leadership and Execution: | Be prepared to \"strap on the tool belt\" and perform physical installation tasks\u2014including conduit bending, wiring, and terminations\u2014to demonstrate best practices and high-quality standards to trainees. | Step in to perform direct installation work when necessary to ensure critical project milestones are met or to overcome complex technical hurdles on-site. | Use \"on-the-tools\" sessions as a primary training method, providing real-time feedback and correction to Install\u2026",
       "source_context": "EMCOR Group iCIMS search query 'low voltage'",
       "discovered_via": "iCIMS iframe search",
       "metadata": {
@@ -6456,7 +6456,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "emcor:35c7334640a68c8eeb31acc3d246df84377560d7",
@@ -6491,7 +6491,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:2c0fed879a22fca76e490625c6a2ec81c72d2fde",
@@ -6526,7 +6526,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:a8c90d87245e4049defaacc52a7bb69186d4f6eb",
@@ -6561,7 +6561,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:c05d81f77039c081eba2dd8fb6c0780a1175d5f3",
@@ -6596,7 +6596,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:00165e4984c8d105bda7366ed200b1f444a44a41",
@@ -6629,7 +6629,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:632440b9dfea9d4c0391aa1fb80cb2a624fc5af0",
@@ -6667,7 +6667,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:4de772d4c479002d280cd4a4c49baf7cda64801e",
@@ -6703,7 +6703,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:b24c78bdb44448d69a0468df1de8360f1885b5ff",
@@ -6735,7 +6735,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:0d3626e934c77c46b5b0a261de933b47ee150943",
@@ -6774,7 +6774,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "mortenson:a914b529894e2c812bfea54ea4acdcd89dfc7b03",
@@ -6808,7 +6808,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:65c932a15fb5f7ae038af52ea86a36fe16e899b0",
@@ -6840,7 +6840,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:5bd28fdbc023241752c57083b8c79da97408f01a",
@@ -6872,7 +6872,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:b9fd8f32db22e1a18b68353489073863dcaaf650",
@@ -6904,7 +6904,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:af61a9e4d7426e85f4813cf6f7bd4fdc366d17fc",
@@ -6939,7 +6939,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:919f8d429a653bd59d31388e05c182784c945bc6",
@@ -6971,7 +6971,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:6fc6b39418043521c1872811ebabf9b1e1539dad",
@@ -7002,7 +7002,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:3f0a93b38a6f40e3013facab9fb421e0bf79a992",
@@ -7033,7 +7033,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "cei:c40ffaf329ba3fb75fe8b993889f86ba1115ea66",
@@ -7068,7 +7068,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:120ea76775049634d0af183d28a6875906ff3b09",
@@ -7103,7 +7103,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:90c601bea1054cf0c41bc187ae0df8b7af6a0ee2",
@@ -7138,7 +7138,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:b3fb815173a8223d59ac999055a547d01c7a2f93",
@@ -7173,7 +7173,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:56e8a2231347398de8a662b4f219b3d8a3508acf",
@@ -7200,7 +7200,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:691d2298b3f10a2d1ee0bab77001f756456af473",
@@ -7227,7 +7227,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:f1fc8f499dd8d4b20d008815e864ba2c0a45fc4b",
@@ -7254,7 +7254,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:e7e1b22e2d825545af48d372f0cb411579d2e756",
@@ -7290,7 +7290,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:d2c1b8974613f2e9ec7824c34347f251df09bf0a",
@@ -7326,7 +7326,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:c294bf0623a5ef51709f42b67807d6cd505ba816",
@@ -7362,7 +7362,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:7308c3002670686b24648c138d0a15add9fc74d7",
@@ -7398,7 +7398,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:e78349406c50a0c7cd0cc896a03fd926fa15aec1",
@@ -7428,7 +7428,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:861931909e4b07b9f590b783158e16cedda072eb",
@@ -7460,7 +7460,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:991ee282670693c870843c733e4176526db37ebb",
@@ -7492,7 +7492,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:f6a22c36ceb35f8504dcf86aec559f966c1f64de",
@@ -7523,7 +7523,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:c7660f339935115f969e532fb002a170412e33da",
@@ -7554,7 +7554,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:afad184b77a63bec6a17cccc216fc97d3eb00edb",
@@ -7585,7 +7585,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:a6c4d635c4b9babc4f1f40d659a315da2a815c59",
@@ -7616,7 +7616,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:c2454b5f5a238d23cdcd4d0d10da6c9b9eb6f40c",
@@ -7647,7 +7647,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:ea3798643c69e0a90053ee8220f07bea5ac9ed88",
@@ -7678,7 +7678,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:843f3a22dbc84eebb6101c583d7cd915aed8b200",
@@ -7716,7 +7716,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "primeelectric:6ab56262435c2fc79316e910da60741c1fc11553",
@@ -7754,7 +7754,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "mortenson:078b905ed48389a8249e73eb74a7cb3de95c37a0",
@@ -7786,7 +7786,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:73b16120b41f83cadb81bed47167a3fdabda8af4",
@@ -7818,7 +7818,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:726bdbc207b31d49ba24cfaf1f28ab8a04a61347",
@@ -7850,7 +7850,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:9db424f73cb1bd1135ee6fc0f6ab1b7b270b75c7",
@@ -7882,7 +7882,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:be9f7e9a010149d40c8e2a9c5dff377aebf4806e",
@@ -7914,7 +7914,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:cbb73ede804744ae0f51c18448c9a30b60432ac6",
@@ -7947,7 +7947,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:d8f92813baa96967689a8ede8cc0e17d0280670b",
@@ -7980,7 +7980,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:778ddaffa353efa005f8b73b165f2d19cc51ae52",
@@ -8016,7 +8016,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:52f8b46abe847936e158eccfadd8657927069c9f",
@@ -8049,7 +8049,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:d1c3f6eaf63cec8b332ef1fca563ef647139f174",
@@ -8079,7 +8079,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:77aa93010255173684436fd62534de5e761ff900",
@@ -8109,7 +8109,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:17122205eae56d548df44aa64fecac0c52fa1448",
@@ -8139,7 +8139,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:246b4bd90b7a32828329a62ca377b984f6f19fe5",
@@ -8169,7 +8169,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:7479e6f51e61759795b6ecffca1d8d4323338c24",
@@ -8199,7 +8199,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:ed1224fee17dda2bd63d39ff37fb139c3d192c33",
@@ -8233,7 +8233,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:9cf9fda58058898e0235a22291b621dbe0594d86",
@@ -8263,7 +8263,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:e41adf6d7fad609d72256d6623f21dd22b1a85cc",
@@ -8296,7 +8296,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "emcor:6b79e87d1326ec85237d5e43e8c573adc1eda39b",
@@ -8330,7 +8330,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:5762f1d1c7f122e2c34fe120b7d7895296f84839",
@@ -8364,7 +8364,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:43e08e3ed83125e6f6823f88bf41b608209a67a8",
@@ -8396,7 +8396,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:6fd71cef46458595d51c0e0ef3caa09eabfbeb39",
@@ -8437,7 +8437,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "primeelectric:58a1a895035518484eece2eb416adbb05aaa44cc",
@@ -8478,7 +8478,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "cei:c7612940845e81160d502377a08c7bf5d65e29a0",
@@ -8507,7 +8507,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:2f5d2942dc35bc33b1c6da402a42e9d1e16ac047",
@@ -8536,7 +8536,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:b18dd2b503a5a1c1ed94feacd3643cce371addba",
@@ -8565,7 +8565,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:4f2f2955e8522059408aea233dba3252dbdaefaa",
@@ -8602,7 +8602,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:539c7a5e301926af6d820ae9388048657d22721e",
@@ -8638,7 +8638,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:059243152b3a095c73102a2636271c4ae75a90d9",
@@ -8676,7 +8676,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:ecbf98146c6fb4a2548db281e9a8507e9881227f",
@@ -8707,7 +8707,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:651eb5f282da7870854d6d63416d8512ac4a270f",
@@ -8741,7 +8741,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:3604ef1307a8b033052f0259e2eddefd4e71cc77",
@@ -8775,7 +8775,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:c0a33fb9eebdb27a5ba73e4df0bc28276b815b66",
@@ -8811,7 +8811,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:792d2919edaded9c3b87d282191465c29f412d7a",
@@ -8843,7 +8843,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:cd5897688a2a92dfbc26602885d749e82ed3028a",
@@ -8875,7 +8875,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:a4d3f031504738cd78e3104b5dca9e977fcefd35",
@@ -8909,7 +8909,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:d9c038e6fe706fdcd2f64f5e40df234cf00e423b",
@@ -8945,7 +8945,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:a549b9396897300153b84eee5bff4630066eff5b",
@@ -8977,7 +8977,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:a3ac50d1eb5e4bd5676d3380f629e32282c46ec6",
@@ -9012,7 +9012,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:74fb8860a418754f49c2ec1ec3101c0a0d71f4a9",
@@ -9051,7 +9051,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "cei:71d4ba8afb8c90574a04d381fc58c825084ae0cb",
@@ -9082,7 +9082,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "emcor:ab1fdf70da3c044592feb93af8cef0ff884292ae",
@@ -9116,7 +9116,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:b3a7631e84a1f00ed3caa7cce5452067c9cf810e",
@@ -9150,7 +9150,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:f0cb02a3bfa5b2ec7e8297980a8225ae77ae9933",
@@ -9190,7 +9190,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "cei:25cc6904a6d0192bc8e00882b7d8b46cf3b3a671",
@@ -9219,7 +9219,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:2a3436f653a76b72c41d3b451b9e0dbb9070940e",
@@ -9248,7 +9248,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:c3637427cfc6fb0f6109d9c9f1a3c56d258296f0",
@@ -9282,7 +9282,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:5c52de447d6ae933d687e1d17ee7b2f76607ffc7",
@@ -9316,7 +9316,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:1404525f18407b7d88e27367c032e34b7fd0e539",
@@ -9350,7 +9350,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:9bd3186e47c569ce0e902f4dcefafb419e70ce1b",
@@ -9384,7 +9384,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:e914c236693b42b65c196730ddabc779243774c5",
@@ -9420,7 +9420,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:65985d5d2385f1a031fc09691ba6714e1dea32eb",
@@ -9454,7 +9454,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:a09ef8804232c0cc5a4c8ebc7bb0a02c06b11898",
@@ -9486,7 +9486,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:8b542fce988a98eb5c9c31e5a6c6581e940b39ed",
@@ -9521,7 +9521,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:732dcb14a47eb9f267b110ab82d9cc9f6113a584",
@@ -9561,7 +9561,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "primeelectric:ed43ed962a68ec43b73833a18d13e8360c0c7cd3",
@@ -9601,7 +9601,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "primeelectric:087ec4d8a853c167b89443b23edefd892dd3c60f",
@@ -9641,7 +9641,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "cei:8f60327ed231e3dbd16932199aa0ec0e6554c3d7",
@@ -9672,7 +9672,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:49760c98da501117ba9a4709c0439125be8af323",
@@ -9707,7 +9707,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:a4b2bad46666906ee5a224ebdbffa9d21d5393e7",
@@ -9739,7 +9739,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:95e1ebaa8501f949a51f89230ddfd37b0b7ff719",
@@ -9777,7 +9777,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:ea3fbefe2789010177dea415dda8600da3c43b0d",
@@ -9812,7 +9812,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:771dd18d4153af419c911d29178aaf8e0712135c",
@@ -9843,7 +9843,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "mortenson:85f31a228f603e084288c04c04af8283f226dfdc",
@@ -9874,7 +9874,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:c94faaf75a9b2a7ae5ff0e90d84463bb57c75fef",
@@ -9905,7 +9905,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:6d850a4d6eaff5cfbe1e97cb6a45461bbc60faff",
@@ -9936,7 +9936,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:79e01e804919af025ca518ea415a29512ce6bd89",
@@ -9967,7 +9967,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:fd11b3f004aca2b3dcd916d82b29da9cd49251bb",
@@ -9998,7 +9998,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:c39e7811a11100e19a98f23f9d3b07d26e5523eb",
@@ -10031,7 +10031,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:3941e7c6eb799098866fcb293c98634d69712d78",
@@ -10069,7 +10069,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:114ee8587fcb5b85fdc29328b7feb1f6c7f71c3e",
@@ -10107,7 +10107,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:d144cfb5f26fd7aa56bf679cd05af4d4f5f6fa49",
@@ -10144,7 +10144,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:4ec5fc85f2871c2219213f2243a4df7d7327fd75",
@@ -10181,7 +10181,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:fea19b5f2b5784196824a141ecfdb6cb3f96fb06",
@@ -10215,7 +10215,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:776e72edcd3e9615d4cf80a4472560e52630a923",
@@ -10249,7 +10249,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:2560e29f92d38307294be1145f61018c95af047a",
@@ -10284,7 +10284,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:41902b1eee6415e59e78dad646e75840f38e1089",
@@ -10317,7 +10317,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:9a5b99957fbd97e376955bf1db60474683d55b94",
@@ -10352,7 +10352,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "cei:19b0cf0e39629cdeafbe0c57a6375204826fe28f",
@@ -10385,7 +10385,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:c1cf9d479724ba88cbcfd109ee74b79ce58593c1",
@@ -10416,7 +10416,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:69451577dfceed086df2d2ca0ad8faea23c69d67",
@@ -10446,7 +10446,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:43f5a63dab89a61ecfb5ee2d509153a707694224",
@@ -10476,7 +10476,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:971a64bce4cb0eae59ab979eb1c885782dcefcca",
@@ -10510,7 +10510,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:6d33d1a9becfb42e3a991ec9f0e58181999701ec",
@@ -10550,7 +10550,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "mortenson:f800c9c7e81a943a732e726f4c75f29b23845bd7",
@@ -10589,7 +10589,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:605f84175c68a71a1f766d0e7144f50e04afd909",
@@ -10622,7 +10622,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:7cde5bb927f364bb6ab4df2626e70b1d76cf6405",
@@ -10655,7 +10655,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:19553e05e0912c0d70268f8981f0a73d1d4981de",
@@ -10688,7 +10688,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:b260ca89f4db7e03fd8f77a3b149c53f133c335a",
@@ -10718,7 +10718,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:f91e0ee7e19dd042b7b7bc63725ea8dd69ca6a40",
@@ -10748,7 +10748,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:a7f1f5966c264538c437e94500ac6717d827f8c3",
@@ -10788,7 +10788,7 @@
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "job_key": "cei:dba9a921cd4dcb37ae3bce74a4fc46e7a858018d",
@@ -10818,7 +10818,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "primeelectric:2177f0758101c778c3bd735158d2a4f6590afd32",
@@ -10858,7 +10858,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "primeelectric:3a6a4fe2557265c619e536092a81a97f6e8a3380",
@@ -10898,7 +10898,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "primeelectric:1da214622a328fc3fd9113a7951d4fc8bd4a6195",
@@ -10938,7 +10938,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "primeelectric:34231f585cff6f2f6444bdb627fdb53668665c00",
@@ -10978,7 +10978,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "primeelectric:128e6587d3c52c01ef4d990185b6c5943e8a13a1",
@@ -11018,7 +11018,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "primeelectric:5e6851f0ec0ac15b4da373b24387e49444ce2fd3",
@@ -11058,7 +11058,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "mortenson:82273202f1f00a682e23dfe1ea8199168f1f9e21",
@@ -11093,7 +11093,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:fd3a7d1bb108e3eead17bbd5080035c1a0d92fbc",
@@ -11128,7 +11128,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:e1c55af68ac5f6a18baf33153d0836f1dcfa55f6",
@@ -11163,7 +11163,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:1e5e98788f02b554369de46b51d7d21ac316bcf3",
@@ -11198,7 +11198,7 @@
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "job_key": "cei:93176f3f22b2427602ed4dd8dd287ddd8e329011",
@@ -11228,7 +11228,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:e93c734ed53126f7f149472665a6082f44562aef",
@@ -11258,7 +11258,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "cei:8f1a316cc9bb7cead75a4b9cc602438383a99c9a",
@@ -11288,7 +11288,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "cei:76c432bf153edd3f0047013c1695d7daaa07754c",
@@ -11318,7 +11318,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:532186d93092c4b7378f0d218d2b79fec6535982",
@@ -11354,7 +11354,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:7cb6ee3428b383f9f8ab095e000bf0f4052df037",
@@ -11389,7 +11389,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:6cc6e587e94d5dc843f461bdf7af79815bfac037",
@@ -11424,7 +11424,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:5c30be9f57836cbeeadc645a865ca3e1bda8c7ab",
@@ -11456,7 +11456,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:78b50d861a19d17fbacf80b01af5c7640f6e3144",
@@ -11488,7 +11488,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:1cdbc239d0c15da841dc283383a4f468265bbd64",
@@ -11520,7 +11520,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:1c792a7e70d3cc6aaefcb688265705c8bd616a34",
@@ -11556,7 +11556,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:5b6b0f67acfba278d70ef45a16ca53db80ccd809",
@@ -11592,7 +11592,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:a9d31f99f5b3e66cd840e650ba4fcde1b1eef5af",
@@ -11627,7 +11627,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:36937520ab5dfc07bdf6f6a98f177cc9f1aad6ab",
@@ -11662,7 +11662,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:b5947410bb3531284dab9bc2080b521ada13c8aa",
@@ -11699,7 +11699,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:5d167b49e016a17338e88635be10dddb42d57357",
@@ -11730,7 +11730,7 @@
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "job_key": "cei:988a36e793b6bfe5ca8d3c8eb6ae6cde8c0f62f9",
@@ -11761,7 +11761,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:d498802a6eec7636d7d1ddb60253d8a64defb63b",
@@ -11792,7 +11792,7 @@
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "job_key": "cei:47eb81c15b1c07b4ec0e8f9d040306f5311e5476",
@@ -11823,7 +11823,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:d4b5af986c45e9dc4eda520dadec8c06030f4fd8",
@@ -11859,7 +11859,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:d614625213e4a94816856ee28f529fc31ae5b77c",
@@ -11895,7 +11895,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:b12b7683acf5657f632e0ac0e7b921293bed6d62",
@@ -11928,7 +11928,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:1a2a230df7bd52b47048acd13a4edcd1d3b0301b",
@@ -11961,7 +11961,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:a5e17291eb4af4318d4395a44e69a6fb0c8c29d1",
@@ -11994,7 +11994,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:530a85b6bd81ae64c804cd1c3fabfa63e091f66b",
@@ -12027,7 +12027,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:b0809a4bfa8df496f0fc07f83085cc7c85f8aafc",
@@ -12064,7 +12064,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:11f82de3ca83d36747353c75c28c76a76bff56b8",
@@ -12098,7 +12098,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:09ddd5e83fe170b95a6a8725f37ea8a092d64b5a",
@@ -12130,7 +12130,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:3113a85e9bf423e9b548295ed41ad4e533bf96cc",
@@ -12162,7 +12162,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:9f8f61f58bce4e4b55a0574be26a4d40fc52eca4",
@@ -12194,7 +12194,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:db6c53e25c7f5afad324e4dcb305f9eabc4cea9a",
@@ -12226,7 +12226,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:e75783a39ed928bd928769fbc62a5a1f8882f3a5",
@@ -12265,7 +12265,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:1cb76fa25b7a280bc2e6e4e77ab823e42a5217b6",
@@ -12295,7 +12295,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:0c69ae9f6eaee6ad3eaa7a01f85c57233b8fac42",
@@ -12327,7 +12327,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:e32945e758bc05d6081e5940a10f7ba0dafabde0",
@@ -12364,7 +12364,7 @@
       "first_seen": "2026-03-25",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "mortenson:3dbbe519c5913c0503d22658a81f2cdde17b4fa7",
@@ -12400,7 +12400,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:71fd5c78a7221b235b32a799c1be54585af48466",
@@ -12436,7 +12436,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:1e361918d3a497b307eb13ebc19b774d928a633a",
@@ -12472,7 +12472,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:10091ee49f47ce8f23ebdc3853faa20faf68cd99",
@@ -12505,7 +12505,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:c83076cde95381397a392973fa2662ba979ee939",
@@ -12536,7 +12536,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:a0325dc1c54b99845f26fd90d6a205f42f4cd4dd",
@@ -12567,7 +12567,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "cei:a4d82fc5f9137380fec4888f55bfeb657dc65511",
@@ -12598,7 +12598,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:2b95fcadf3355bae4f8baff7f4e56f07c5338b29",
@@ -12635,7 +12635,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:5abd56c5228a8b0f238307edc0bd4f5054247647",
@@ -12668,7 +12668,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:bebba671154d73aa25940e0325577826d3434ff4",
@@ -12701,7 +12701,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:e3a28f1c5633709e4286f1fedf7384f8ce4f0dcc",
@@ -12734,7 +12734,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:548910ebe7edfe1cc7d797cecd416357c41f6824",
@@ -12768,7 +12768,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-25",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:d1e3e464d822640593ceeb105b443fee73f174e9",
@@ -12906,6 +12906,38 @@
       "last_seen": "2026-03-23",
       "expired_on": "2026-03-23",
       "seen_count": 11
+    },
+    {
+      "job_key": "emcor:7aa775e091d79c57fd37533aeb783f1251987512",
+      "source_key": "emcor",
+      "source_name": "EMCOR Group",
+      "company": "Southern Industrial Constructors, Inc.",
+      "title": "Electrician (RAL PFIZER WB)",
+      "detail_url": "https://careers-emcorgroup.icims.com/jobs/48936/sic-electrician-%28ral-pfizer-wb%29/job?in_iframe=1",
+      "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
+      "location": "US-NC-Rocky Mount",
+      "posted_date": "3/25/2026",
+      "description": "Electrician (RAL PFIZER WB) | Job Locations | US-NC-Rocky Mount | ID | 2026-48936 | Company | Southern Industrial Constructors, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 hours ago | (3/25/2026 5:48 AM) | About Us | We perform installation, rigging, millwrighting, and maintenance for manufacturing and industrial markets across the Southeast. | Job Summary | Southern Industrial Constructors, Inc. seeks an Electrician for a project in Rocky Mount, NC. | #SIC | #LI On-Site | #LI-VB1 | Essential Duties & Responsibilities | Install power circuits by fabricating conduit and wire 30' in the air from power panels out to cooling tower frame work at the VFD's. | Knowledgeable with blueprints, sketches and building plans pertaining to type of material | Work within precise limits or standards of accuracy. | Prepares layout, using voltage tester, wire strippers, level, pipe benders etc... | Terminates panels utilizing LOTO | Plan sequence of installation to avoid obstructions and activities of other construction workers. | Run cable tray, pulls wire and bend various types of conduit. | Understands motor controls and metering. | Size branch circuit overcurrent protection devices. | Calculate loads for single phase and three-phase branch circuits. | Rates information using standards, which can be measured or checked. | Reviews and compares differences in the size, shape, and form of lines, figures, and objects. | Follow directions, plans, and blueprints. | Perform work overhead, beneath structure, and from various other positions as required by working conditions. | Make decisions based on measurable criteria. | Visualize objects in three dimensions from plans and drawings. | Lift and carry objects of varying weights. | Detect, recognize and respond to dangerous conditions or situations. | Regular attendance is required. | Significant travel may be required. | Performs other duties as required. | Qualifications | Skilled in both written and verbal communication. | Complete all Safety and general job training as required by SIC. | Observe SIC and Customer safety and quality processes and procedures at all times. | Physical Demands | Must be able to effectively use all required PPE equipment and lift up to fifty pounds. | Conditions include working in office, shop, busy traffic areas, warehouses, and undevel\u2026",
+      "source_context": "EMCOR Group iCIMS search query 'electrician'",
+      "discovered_via": "iCIMS iframe search",
+      "metadata": {
+        "category": "Operations Services",
+        "position_type": "Full-Time"
+      },
+      "score": 12,
+      "reasons": [
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'electrician'",
+        "missing apprentice / trainee / helper / wireman signal"
+      ],
+      "hub_matches": [],
+      "bucket": "discard",
+      "status": "expired",
+      "first_seen": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "expired_on": "2026-03-25",
+      "seen_count": 1
     },
     {
       "job_key": "cei:e89e6b0a52bbbe6cbe19a67decbce8ab5f266d47",
@@ -15082,7 +15114,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1604741/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-oxxye7wq', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1604771/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-5g5to140', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
       ]
     },
     {
@@ -15106,7 +15138,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1604741/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-s_xvke23', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1604771/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-h2g7ucvw', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
       ]
     },
     {
