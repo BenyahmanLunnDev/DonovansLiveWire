@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T08:29:35.213347-07:00",
+  "generated_at": "2026-03-27T07:22:07.667398-07:00",
   "jobs": [
     {
       "job_key": "washingtonapprenticeship:940ba86618c4d231993c846b98af0a49d9d6163a",
@@ -52,9 +52,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "washingtonapprenticeship:1d513c0bcbe33b2e7440e5e14d0b22ef95c9d673",
@@ -122,9 +122,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:edeed144a5ab2ff45e4982d63277c9b5bd3e663b",
@@ -183,9 +183,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:a1b0851b8964bec4a2873826b1cfe6acaf7f6e88",
@@ -242,9 +242,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:b7bfcb8bc0272ffc162af6e5e3f03ed952920b68",
@@ -298,9 +298,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "washingtonapprenticeship:13682ac418603aa0966369d46bbf282f562acf47",
@@ -357,9 +357,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "washingtonapprenticeship:2a459380709e2fe4ac2dae5733c73225ff6cfee1",
@@ -419,9 +419,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "washingtonapprenticeship:95e815d1541bf6f358cfffbe66ab3af0d0c09d09",
@@ -476,9 +476,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:e64e124d466556c21b282480fddba22dd9e2eb1c",
@@ -534,9 +534,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:8df18d0670116b8d860f06b85ac8fb88f70f6612",
@@ -588,9 +588,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:fb77797930028312de8c85687b51f8623ac1b6f9",
@@ -640,9 +640,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:31b8d89c06d98ae58bbd52f91ff5d5fcdb9a0366",
@@ -693,9 +693,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:6da990252fc5ee61436a91dc21811378883643d1",
@@ -747,9 +747,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:233c7ac6005ac2642d5ebfb61c2215ada634c38a",
@@ -797,9 +797,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:22802c71aff52fed4d8e92f365e99e812f08439b",
@@ -857,9 +857,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:f813ebccba322437bafc2ee879936e99718b93f2",
@@ -914,9 +914,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:431f94e59837e4ea63a5178f5bd4bb77d2e6c622",
@@ -966,9 +966,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:6d0d77743cacfcf9ae2d345c819501361806b1a1",
@@ -1019,9 +1019,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "washingtonapprenticeship:d869b04564bc4b4c6adcf3ad6f00e45c1150bc41",
@@ -1088,9 +1088,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "washingtonapprenticeship:5ec475005d2a5e68419080231b038c154aefaeed",
@@ -1153,9 +1153,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "washingtonapprenticeship:f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1",
@@ -1223,9 +1223,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "washingtonapprenticeship:579e06390ad287f4684215440d340ed487da63dd",
@@ -1286,9 +1286,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "washingtonapprenticeship:c3780f1bf13c6a9506ae61d45f775ef2a2a515c4",
@@ -1344,9 +1344,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "oregonapprenticeship:12f6bfeba768afb1faa70459e5e36349b930e84b",
@@ -1396,9 +1396,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "emcor:b327d5de60c9c7ccec7c10444bab8b276fb4b9f5",
@@ -1435,9 +1435,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "emcor:788ff163833200a304ac40556ac239dd98742848",
@@ -1473,9 +1473,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "emcor:7aefca5df37df17f058a23d58c1199a9d95d2916",
@@ -1511,9 +1511,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "emcor:47eb7a64f2cd03951bd41964bb3eb3c7a37ae86d",
@@ -1547,9 +1547,48 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
+    },
+    {
+      "job_key": "bergelectric:1d9f6bc6512f53d419b9643365e73d2404ca1443",
+      "source_key": "bergelectric",
+      "source_name": "Bergelectric",
+      "company": "Bergelectric Corp.",
+      "title": "Apprentice Electrician",
+      "detail_url": "https://careers-bergelectric.icims.com/jobs/2009/apprentice-electrician/job?in_iframe=1",
+      "source_url": "https://www.bergelectric.com/careers/",
+      "location": "US-CA-Fresno",
+      "posted_date": "",
+      "description": "Apprentice Electrician | Location | US-CA-Fresno | ID | 2026-2009 | Category | Skilled Trades | Position Type | Fulltime-Regular | Overview | Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical codes along with all Bergelectric Corp. policies and procedures. Support activities at commercial, industrial, institutional and residential project locations. This is considered to be a safety sensitive position. | Responsibilities | Assist with the installation, repair, maintenance and testing of commercial, industrial and residential electrical systems in full support of Bergelectric Corp. safety, operations and productivity initiatives. | Use industry related hand tools and power tools, under supervision. | Assist the Electrician with measuring, cutting, bending, threading and installing wire and electrical cable systems, conduit systems and other wire raceway systems. | Assist the Electrician with wires and cables within control centers, distribution boxes, transformers, transducers, switch gear, receptacles, switches, etc. | Work with an Electrician to splice and terminate wires at junction points. | Clean, gather and transport materials to electricians on the construction site. | Communicate effectively with Foremen and crew members. | Maintain workflow schedule to ensure all Bergelectric Corp. productivity objectives are met. | Demonstrate the highest level of professionalism and courtesy when interacting with colleagues, customers and vendors. | Adhere to all Bergelectric Corp.\u2019s safety policies and procedures. | Qualifications | Must be currently enrolled or working on enrollment in an approved Apprentice program. | Knowledge of electrical theory, basic circuits, branch circuits, and specialty systems. | Knowledge of magnetic induction, three-phase transformers, conductors and wiring methods. | The ability to read and understand electrical single line blueprints. | Familiar with aspects of operation, maintenance and repair of electrical systems. | Basic knowledge of tools and equipment and how to safely use them. | Physical Demands | Lift 50 lbs. from the ground and pull 50 lbs. of force. | Perform ladder climbing, wire pulling and cond\u2026",
+      "source_context": "Bergelectric iCIMS search query 'apprentice'",
+      "discovered_via": "iCIMS iframe search",
+      "metadata": {
+        "category": "Skilled Trades",
+        "position_type": "Fulltime-Regular, Overview, Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical codes along with all Bergelectric Corp. policies and procedures. Support activities at commercial, industrial, institutional and residential project locations. This is considered to be a safety sensitive position., Responsibilities, Assist with the installation, repair, maintenance and testing of commercial, industrial and residential electrical systems in full support of Bergelectric Corp. safety, operations and productivity initiatives., Use industry related hand tools and power tools, under supervision., Assist the Electrician with measuring, cutting, bending, threading and installing wire and electrical cable systems, conduit systems and other wire raceway systems., Assist the Electrician with wires and cables within control centers, distribution boxes, transformers, transducers, switch gear, receptacles, switches, etc., Work with an Electrician to splice and terminate wires at junction points., Clean, gather and transport materials to electricians on the construction site., Communicate effectively with Foremen and crew members., Maintain workflow schedule to ensure all Bergelectric Corp. productivity objectives are met., Demonstrate the highest level of professionalism and courtesy when interacting with colleagues, customers and vendors., Adhere to all Bergelectric Corp.\u2019s safety policies and procedures., Qualifications, Must be currently enrolled or working on enrollment in an approved Apprentice program., Knowledge of electrical theory, basic circuits, branch circuits, and specialty systems., Knowledge of magnetic induction, three-phase transformers, conductors and wiring methods., The ability to read and understand electrical single line blueprints., Familiar with aspects of operation, maintenance and repair of electrical systems., Basic knowledge of tools and equipment and how to safely use them., Physical Demands, Lift 50 lbs. from the ground and pull 50 lbs. of force., Perform ladder climbing, wire pulling and cond\u2026",
+        "regional_matches": [
+          "West Coast region"
+        ]
+      },
+      "score": 180,
+      "reasons": [
+        "title matches 'apprentice electrician'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'electrician'",
+        "description includes 'electrical'",
+        "regional coverage match: West Coast region",
+        "regional apprentice opportunity"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "first_seen": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "expired_on": "",
+      "seen_count": 1
     },
     {
       "job_key": "bergelectric:9342b79dbeb70467b37490d98313f802dcc4fc0d",
@@ -1581,9 +1620,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "bergelectric:ec16a03bf4a3ec343b9c9db021577da0e23b6447",
@@ -1615,9 +1654,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:7c75f209c7c6aaf175c8919baa6581d2ed91ca77",
@@ -1649,9 +1688,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:1fed2f50a8aa0fe181c8b30bee233878b91f6d0b",
@@ -1683,9 +1722,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:dd785adabef65ad2865927dd5108b224d46f44c8",
@@ -1717,9 +1756,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:fb0f4b4f68f683387f441dbfc86fd59295b58436",
@@ -1751,9 +1790,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:46ca6f73c28761ff7a77d5b83c40d0c5a24c8d76",
@@ -1785,9 +1824,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "emcor:66d047611aa5b006db55891434e06aed1dfa3986",
@@ -1819,9 +1858,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "emcor:583b58f3fb03972653cd89077c0d6df19576d65f",
@@ -1853,9 +1892,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "emcor:19953bc50b9b68eeae496f3f763ab0ae8e6a3a5c",
@@ -1887,9 +1926,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "emcor:adfc0e401cdf5ac72cec9430696792d72535513a",
@@ -1921,9 +1960,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "emcor:acabc31786951806415b79f53e3ff4fa8da80cb1",
@@ -1955,9 +1994,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "mortenson:57b72792b0123b01ff613ad1848e168f8e79592c",
@@ -1992,9 +2031,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "mortenson:727bfdba7e8ccf2e83795d63b3557bffd9d414b1",
@@ -2029,9 +2068,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "mortenson:3712886393397d028fd6e80cee881ce28e77fc2e",
@@ -2066,9 +2105,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "mortenson:228a1dc37ade8a786f294a11093164ca211bafcf",
@@ -2103,9 +2142,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "bergelectric:1d800baacb5ac0189706e6afcf0db6c6d9c5a458",
@@ -2142,9 +2181,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:5297c73de20628ff1597a4700334cc7a34526777",
@@ -2177,9 +2216,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-26",
+      "last_seen": "2026-03-27",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     }
   ],
   "reports": [
@@ -2188,7 +2227,7 @@
       "source_name": "Cupertino Electric",
       "source_url": "https://www.cei.com/careers/current-openings",
       "status": "ok",
-      "total_fetched": 63,
+      "total_fetched": 67,
       "total_relevant": 0,
       "used_browser": false,
       "notes": [],
@@ -2210,8 +2249,8 @@
       "source_name": "Bergelectric",
       "source_url": "https://www.bergelectric.com/careers/",
       "status": "ok",
-      "total_fetched": 44,
-      "total_relevant": 7,
+      "total_fetched": 49,
+      "total_relevant": 8,
       "used_browser": false,
       "notes": [],
       "errors": []
@@ -2267,7 +2306,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1605500/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-sviwu_89', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606150/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-qjlbwx54', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
       ]
     },
     {
@@ -2275,7 +2314,7 @@
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
-      "total_fetched": 97,
+      "total_fetched": 96,
       "total_relevant": 4,
       "used_browser": false,
       "notes": [],
@@ -2291,7 +2330,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1605500/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-eftu3gxh', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606150/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-wq28unp6', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
       ]
     },
     {
