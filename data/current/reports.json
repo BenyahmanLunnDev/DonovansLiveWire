@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-27T08:11:38.296711-07:00",
+  "generated_at": "2026-03-28T07:00:57.642502-07:00",
   "reports": [
     {
       "source_key": "cei",
       "source_name": "Cupertino Electric",
       "source_url": "https://www.cei.com/careers/current-openings",
       "status": "ok",
-      "total_fetched": 67,
+      "total_fetched": 68,
       "total_relevant": 0,
       "used_browser": false,
       "notes": [],
@@ -17,7 +17,7 @@
       "source_name": "EMCOR Group",
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "status": "ok",
-      "total_fetched": 114,
+      "total_fetched": 115,
       "total_relevant": 11,
       "used_browser": false,
       "notes": [],
@@ -29,7 +29,7 @@
       "source_url": "https://www.bergelectric.com/careers/",
       "status": "ok",
       "total_fetched": 49,
-      "total_relevant": 8,
+      "total_relevant": 7,
       "used_browser": false,
       "notes": [],
       "errors": []
@@ -85,7 +85,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606194/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-iaku4xwc', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606679/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-yfcmk987', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
       ]
     },
     {
@@ -93,7 +93,7 @@
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
-      "total_fetched": 96,
+      "total_fetched": 98,
       "total_relevant": 4,
       "used_browser": false,
       "notes": [],
@@ -109,7 +109,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606194/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-l_axzedm', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606679/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-pf35tp5y', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
       ]
     },
     {
