@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T07:04:23.381059-07:00",
+  "generated_at": "2026-03-29T07:55:30.915957-07:00",
   "jobs": [
     {
       "job_key": "oregonapprenticeship:edeed144a5ab2ff45e4982d63277c9b5bd3e663b",
@@ -60,7 +60,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:a1b0851b8964bec4a2873826b1cfe6acaf7f6e88",
@@ -119,7 +119,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:b7bfcb8bc0272ffc162af6e5e3f03ed952920b68",
@@ -175,7 +175,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:e64e124d466556c21b282480fddba22dd9e2eb1c",
@@ -233,7 +233,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:8df18d0670116b8d860f06b85ac8fb88f70f6612",
@@ -287,7 +287,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:fb77797930028312de8c85687b51f8623ac1b6f9",
@@ -339,7 +339,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:31b8d89c06d98ae58bbd52f91ff5d5fcdb9a0366",
@@ -392,7 +392,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:6da990252fc5ee61436a91dc21811378883643d1",
@@ -446,7 +446,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:233c7ac6005ac2642d5ebfb61c2215ada634c38a",
@@ -496,7 +496,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:22802c71aff52fed4d8e92f365e99e812f08439b",
@@ -556,7 +556,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:f813ebccba322437bafc2ee879936e99718b93f2",
@@ -613,7 +613,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:431f94e59837e4ea63a5178f5bd4bb77d2e6c622",
@@ -665,7 +665,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:6d0d77743cacfcf9ae2d345c819501361806b1a1",
@@ -718,7 +718,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "oregonapprenticeship:12f6bfeba768afb1faa70459e5e36349b930e84b",
@@ -770,7 +770,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "emcor:b327d5de60c9c7ccec7c10444bab8b276fb4b9f5",
@@ -809,7 +809,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "emcor:788ff163833200a304ac40556ac239dd98742848",
@@ -847,7 +847,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "emcor:7aefca5df37df17f058a23d58c1199a9d95d2916",
@@ -885,7 +885,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "emcor:47eb7a64f2cd03951bd41964bb3eb3c7a37ae86d",
@@ -921,7 +921,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "bergelectric:9342b79dbeb70467b37490d98313f802dcc4fc0d",
@@ -955,7 +955,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 13
+      "seen_count": 14
     },
     {
       "job_key": "bergelectric:ec16a03bf4a3ec343b9c9db021577da0e23b6447",
@@ -989,7 +989,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 20
+      "seen_count": 21
     },
     {
       "job_key": "bergelectric:7c75f209c7c6aaf175c8919baa6581d2ed91ca77",
@@ -1023,7 +1023,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 20
+      "seen_count": 21
     },
     {
       "job_key": "bergelectric:1fed2f50a8aa0fe181c8b30bee233878b91f6d0b",
@@ -1057,7 +1057,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 20
+      "seen_count": 21
     },
     {
       "job_key": "bergelectric:dd785adabef65ad2865927dd5108b224d46f44c8",
@@ -1091,7 +1091,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 20
+      "seen_count": 21
     },
     {
       "job_key": "bergelectric:fb0f4b4f68f683387f441dbfc86fd59295b58436",
@@ -1125,7 +1125,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 20
+      "seen_count": 21
     },
     {
       "job_key": "emcor:46ca6f73c28761ff7a77d5b83c40d0c5a24c8d76",
@@ -1159,7 +1159,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "emcor:66d047611aa5b006db55891434e06aed1dfa3986",
@@ -1193,7 +1193,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "emcor:583b58f3fb03972653cd89077c0d6df19576d65f",
@@ -1227,7 +1227,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "emcor:19953bc50b9b68eeae496f3f763ab0ae8e6a3a5c",
@@ -1261,7 +1261,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "emcor:adfc0e401cdf5ac72cec9430696792d72535513a",
@@ -1295,7 +1295,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "emcor:acabc31786951806415b79f53e3ff4fa8da80cb1",
@@ -1329,7 +1329,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "mortenson:57b72792b0123b01ff613ad1848e168f8e79592c",
@@ -1366,7 +1366,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "mortenson:727bfdba7e8ccf2e83795d63b3557bffd9d414b1",
@@ -1403,7 +1403,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "mortenson:3712886393397d028fd6e80cee881ce28e77fc2e",
@@ -1440,7 +1440,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "mortenson:228a1dc37ade8a786f294a11093164ca211bafcf",
@@ -1477,7 +1477,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "bergelectric:1d800baacb5ac0189706e6afcf0db6c6d9c5a458",
@@ -1516,7 +1516,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 20
+      "seen_count": 21
     },
     {
       "job_key": "emcor:5297c73de20628ff1597a4700334cc7a34526777",
@@ -1551,7 +1551,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     }
   ],
   "reports": [
@@ -1637,7 +1637,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606796/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-yg7x67ds', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606800/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-pwhdosso', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
       ]
     },
     {
@@ -1645,7 +1645,7 @@
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
-      "total_fetched": 98,
+      "total_fetched": 99,
       "total_relevant": 4,
       "used_browser": false,
       "notes": [],
@@ -1661,7 +1661,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606796/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-hz7r_evm', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606800/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-thq4ccht', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
       ]
     },
     {
