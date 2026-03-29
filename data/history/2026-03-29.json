@@ -16130,5 +16130,129 @@
       "expired_on": "2026-03-23",
       "seen_count": 3
     }
+  ],
+  "reports": [
+    {
+      "source_key": "cei",
+      "source_name": "Cupertino Electric",
+      "source_url": "https://www.cei.com/careers/current-openings",
+      "status": "ok",
+      "total_fetched": 69,
+      "total_relevant": 0,
+      "used_browser": false,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "emcor",
+      "source_name": "EMCOR Group",
+      "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
+      "status": "ok",
+      "total_fetched": 115,
+      "total_relevant": 11,
+      "used_browser": false,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "bergelectric",
+      "source_name": "Bergelectric",
+      "source_url": "https://www.bergelectric.com/careers/",
+      "status": "ok",
+      "total_fetched": 49,
+      "total_relevant": 7,
+      "used_browser": false,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "primeelectric",
+      "source_name": "PRIME Electric",
+      "source_url": "https://www.primeelectric.com/careers/",
+      "status": "ok",
+      "total_fetched": 23,
+      "total_relevant": 0,
+      "used_browser": false,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "status": "ok",
+      "total_fetched": 14,
+      "total_relevant": 14,
+      "used_browser": false,
+      "notes": [
+        "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
+        "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
+        "NIETC lists the Inside Program as closed due to the current work slowdown and pause on new apprentice classes. Updated 3/3/26."
+      ],
+      "errors": []
+    },
+    {
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washingtonapprenticeship",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "status": "error",
+      "total_fetched": 0,
+      "total_relevant": 0,
+      "used_browser": false,
+      "notes": [],
+      "errors": [
+        "503 Server Error: Service Unavailable for url: https://secure.lni.wa.gov/home/LocalResponseRedirect.aspx?TAM_OP=error&USERNAME=unauthenticated&ERROR_CODE=0x38cf04d7&ERROR_TEXT=DPWWA1239E%20%20%20A%20third-party%20server%20is%20not%20responding.%20%20Possible%20causes%3A%20the%20server%20is%20down%2C%20there%20is%20a%20hung%20application%20on%20the%20server%2C%20or%20network%20problems.%20%20This%20is%20not%20a%20problem%20with%20the%20WebSEAL%20server.&URL=%2Farts-public%2FGatewayProxy%2FUiProxy.aspx%3Fop%3DUiGatewayRestfulOperation"
+      ]
+    },
+    {
+      "source_key": "oeg",
+      "source_name": "Oeg",
+      "source_url": "https://oeg.us.com/careers/",
+      "status": "error",
+      "total_fetched": 0,
+      "total_relevant": 0,
+      "used_browser": false,
+      "notes": [],
+      "errors": [
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606796/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-yg7x67ds', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
+      ]
+    },
+    {
+      "source_key": "mortenson",
+      "source_name": "Mortenson",
+      "source_url": "https://www.mortenson.com/careers/data-center",
+      "status": "ok",
+      "total_fetched": 98,
+      "total_relevant": 4,
+      "used_browser": false,
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "turner",
+      "source_name": "Turner",
+      "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
+      "status": "error",
+      "total_fetched": 0,
+      "total_relevant": 0,
+      "used_browser": false,
+      "notes": [],
+      "errors": [
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606796/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-hz7r_evm', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
+      ]
+    },
+    {
+      "source_key": "kiewit",
+      "source_name": "Kiewit",
+      "source_url": "https://join.kiewit.com/union-craft-us/",
+      "status": "warning",
+      "total_fetched": 0,
+      "total_relevant": 0,
+      "used_browser": false,
+      "notes": [
+        "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
+      ],
+      "errors": []
+    }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-28T07:53:30.328261-07:00",
+  "generated_at": "2026-03-29T07:04:23.381070-07:00",
   "reports": [
     {
       "source_key": "cei",
       "source_name": "Cupertino Electric",
       "source_url": "https://www.cei.com/careers/current-openings",
       "status": "ok",
-      "total_fetched": 68,
+      "total_fetched": 69,
       "total_relevant": 0,
       "used_browser": false,
       "notes": [],
@@ -62,18 +62,16 @@
     },
     {
       "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
+      "source_name": "Washingtonapprenticeship",
       "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "status": "ok",
-      "total_fetched": 10,
-      "total_relevant": 10,
+      "status": "error",
+      "total_fetched": 0,
+      "total_relevant": 0,
       "used_browser": false,
-      "notes": [
-        "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
-        "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
-        "Washington directory entries are shown as pathways to check directly, not guaranteed-open application windows."
-      ],
-      "errors": []
+      "notes": [],
+      "errors": [
+        "503 Server Error: Service Unavailable for url: https://secure.lni.wa.gov/home/LocalResponseRedirect.aspx?TAM_OP=error&USERNAME=unauthenticated&ERROR_CODE=0x38cf04d7&ERROR_TEXT=DPWWA1239E%20%20%20A%20third-party%20server%20is%20not%20responding.%20%20Possible%20causes%3A%20the%20server%20is%20down%2C%20there%20is%20a%20hung%20application%20on%20the%20server%2C%20or%20network%20problems.%20%20This%20is%20not%20a%20problem%20with%20the%20WebSEAL%20server.&URL=%2Farts-public%2FGatewayProxy%2FUiProxy.aspx%3Fop%3DUiGatewayRestfulOperation"
+      ]
     },
     {
       "source_key": "oeg",
@@ -85,7 +83,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606684/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-4ecgbz1a', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606796/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-yg7x67ds', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
       ]
     },
     {
@@ -109,7 +107,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606684/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-r7a7vqr1', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606796/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-hz7r_evm', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
       ]
     },
     {

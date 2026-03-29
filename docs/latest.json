@@ -1,131 +1,6 @@
 {
-  "generated_at": "2026-03-28T07:53:30.328253-07:00",
+  "generated_at": "2026-03-29T07:04:23.381059-07:00",
   "jobs": [
-    {
-      "job_key": "washingtonapprenticeship:940ba86618c4d231993c846b98af0a49d9d6163a",
-      "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
-      "company": "Titan Electrical Apprenticeship & Training",
-      "title": "Inside Wireman Apprenticeship Pathway",
-      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2225&from=%2Fprogram-search",
-      "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "location": "Yakima, WA; Serves All counties in Washington, All counties in Idaho, All counties in Oregon",
-      "posted_date": "",
-      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: All counties in Washington, All counties in Idaho, All counties in Oregon | Oregon-facing coverage: Oregon statewide coverage | Contact: Michael Yusi, Training Director | Phone: (509) 941-8306 | Email: apprenticeship@titan-electrical.com | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2225.pdf | Term hours: 8000 | Journey wage: $45.0",
-      "source_context": "Official Washington L&I apprenticeship directory",
-      "discovered_via": "state apprenticeship directory",
-      "metadata": {
-        "lead_type": "pathway",
-        "program_status": "directory",
-        "program_status_source": "state apprenticeship directory",
-        "occupation_names": [
-          "Inside Wireman"
-        ],
-        "county_names": [
-          "All counties in Washington",
-          "All counties in Idaho",
-          "All counties in Oregon"
-        ],
-        "contact": "Michael Yusi, Training Director",
-        "phone": "(509) 941-8306",
-        "email": "apprenticeship@titan-electrical.com",
-        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2225.pdf",
-        "term_hours": "8000",
-        "journey_wage": "$45.0",
-        "regional_matches": [
-          "Oregon statewide coverage"
-        ],
-        "program_id": 2225
-      },
-      "score": 399,
-      "reasons": [
-        "official apprenticeship pathway fits Donovan's target trade",
-        "pathway targets inside wireman / inside electrician work",
-        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
-        "state directory provides direct program contact information",
-        "title matches 'inside wireman'",
-        "title matches 'wireman apprentice'",
-        "title includes 'apprentice'",
-        "description includes 'apprenticeship'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
-      "expired_on": "",
-      "seen_count": 14
-    },
-    {
-      "job_key": "washingtonapprenticeship:1d513c0bcbe33b2e7440e5e14d0b22ef95c9d673",
-      "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
-      "company": "Columbia Basin Electrical Training Alliance Committee",
-      "title": "Inside Wireman Apprenticeship Pathway",
-      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=81&from=%2Fprogram-search",
-      "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "location": "Kennewick, WA; Serves Asotin, Benton, Columbia, Franklin, Garfield, Walla Walla, Yakima, Kittitas, Baker, Gilliam, Grant, Morrow, Umatilla, U\u2026",
-      "posted_date": "",
-      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Asotin, Benton, Columbia, Franklin, Garfield, Walla Walla, Yakima, Kittitas, +8 more | Oregon-facing coverage: Eastern Oregon | Contact: Geoff Arends, Training Director | Phone: 509-783-0589 | Email: office@jatc112.org | Website: https://www.jatc112.org/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0081.pdf | Term hours: 4000 | Journey wage: $31.05",
-      "source_context": "Official Washington L&I apprenticeship directory",
-      "discovered_via": "state apprenticeship directory",
-      "metadata": {
-        "lead_type": "pathway",
-        "program_status": "directory",
-        "program_status_source": "state apprenticeship directory",
-        "occupation_names": [
-          "Inside Wireman"
-        ],
-        "county_names": [
-          "Asotin",
-          "Benton",
-          "Columbia",
-          "Franklin",
-          "Garfield",
-          "Walla Walla",
-          "Yakima",
-          "Kittitas",
-          "Baker",
-          "Gilliam",
-          "Grant",
-          "Morrow",
-          "Umatilla",
-          "Union",
-          "Wallowa",
-          "Wheeler"
-        ],
-        "contact": "Geoff Arends, Training Director",
-        "phone": "509-783-0589",
-        "email": "office@jatc112.org",
-        "website": "https://www.jatc112.org/",
-        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0081.pdf",
-        "term_hours": "4000",
-        "journey_wage": "$31.05",
-        "regional_matches": [
-          "Eastern Oregon",
-          "Umatilla, OR"
-        ],
-        "program_id": 81
-      },
-      "score": 397,
-      "reasons": [
-        "official apprenticeship pathway fits Donovan's target trade",
-        "pathway targets inside wireman / inside electrician work",
-        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
-        "state directory provides direct program contact information",
-        "title matches 'inside wireman'",
-        "title matches 'wireman apprentice'",
-        "title includes 'apprentice'",
-        "description includes 'apprenticeship'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
-      "expired_on": "",
-      "seen_count": 14
-    },
     {
       "job_key": "oregonapprenticeship:edeed144a5ab2ff45e4982d63277c9b5bd3e663b",
       "source_key": "oregonapprenticeship",
@@ -183,9 +58,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:a1b0851b8964bec4a2873826b1cfe6acaf7f6e88",
@@ -242,9 +117,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:b7bfcb8bc0272ffc162af6e5e3f03ed952920b68",
@@ -298,187 +173,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
-    },
-    {
-      "job_key": "washingtonapprenticeship:13682ac418603aa0966369d46bbf282f562acf47",
-      "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
-      "company": "Southwest Washington Electrical Joint Apprenticeship and Training Committee",
-      "title": "Inside Wireman Apprenticeship Pathway",
-      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=150&from=%2Fprogram-search",
-      "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "location": "Tacoma, WA; Serves Pacific, Lewis, Grays Harbor, Mason, Pierce, Thurston",
-      "posted_date": "",
-      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Pacific, Lewis, Grays Harbor, Mason, Pierce, Thurston | Contact: Barry Blackburn, Training Director | Phone: 253-475-2922 | Email: barry@swjatc.org | Website: http://www.swjatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0150.pdf | Term hours: 8000 | Journey wage: $28.0",
-      "source_context": "Official Washington L&I apprenticeship directory",
-      "discovered_via": "state apprenticeship directory",
-      "metadata": {
-        "lead_type": "pathway",
-        "program_status": "directory",
-        "program_status_source": "state apprenticeship directory",
-        "occupation_names": [
-          "Inside Wireman"
-        ],
-        "county_names": [
-          "Pacific",
-          "Lewis",
-          "Grays Harbor",
-          "Mason",
-          "Pierce",
-          "Thurston"
-        ],
-        "contact": "Barry Blackburn, Training Director",
-        "phone": "253-475-2922",
-        "email": "barry@swjatc.org",
-        "website": "http://www.swjatc.org",
-        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0150.pdf",
-        "term_hours": "8000",
-        "journey_wage": "$28.0",
-        "program_id": 150,
-        "regional_matches": [
-          "Tacoma, WA"
-        ]
-      },
-      "score": 377,
-      "reasons": [
-        "official apprenticeship pathway fits Donovan's target trade",
-        "pathway targets inside wireman / inside electrician work",
-        "state directory provides direct program contact information",
-        "title matches 'inside wireman'",
-        "title matches 'wireman apprentice'",
-        "title includes 'apprentice'",
-        "description includes 'apprenticeship'",
-        "description includes 'inside wireman'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
-      "expired_on": "",
-      "seen_count": 14
-    },
-    {
-      "job_key": "washingtonapprenticeship:2a459380709e2fe4ac2dae5733c73225ff6cfee1",
-      "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
-      "company": "Northwest Washington Electrical Industry Joint Apprenticeship and Training Committee",
-      "title": "Inside Wireman Apprenticeship Pathway",
-      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=65&from=%2Fprogram-search",
-      "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "location": "Mount Vernon, WA; Serves Chelan, Douglas, Grant, Island, Okanogan, San Juan, Skagit, Snohomish, Whatcom",
-      "posted_date": "",
-      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Chelan, Douglas, Grant, Island, Okanogan, San Juan, Skagit, Snohomish, +1 more | Contact: Rob Bartel, Training Director | Phone: 360-428-5080 | Email: rob.bartel@nwejatc.org | Website: http://www.nwejatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0065.pdf | Term hours: 4000 | Journey wage: $33.07",
-      "source_context": "Official Washington L&I apprenticeship directory",
-      "discovered_via": "state apprenticeship directory",
-      "metadata": {
-        "lead_type": "pathway",
-        "program_status": "directory",
-        "program_status_source": "state apprenticeship directory",
-        "occupation_names": [
-          "Inside Wireman"
-        ],
-        "county_names": [
-          "Chelan",
-          "Douglas",
-          "Grant",
-          "Island",
-          "Okanogan",
-          "San Juan",
-          "Skagit",
-          "Snohomish",
-          "Whatcom"
-        ],
-        "contact": "Rob Bartel, Training Director",
-        "phone": "360-428-5080",
-        "email": "rob.bartel@nwejatc.org",
-        "website": "http://www.nwejatc.org",
-        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0065.pdf",
-        "term_hours": "4000",
-        "journey_wage": "$33.07",
-        "program_id": 65,
-        "regional_matches": [
-          "West Coast region"
-        ]
-      },
-      "score": 375,
-      "reasons": [
-        "official apprenticeship pathway fits Donovan's target trade",
-        "pathway targets inside wireman / inside electrician work",
-        "state directory provides direct program contact information",
-        "title matches 'inside wireman'",
-        "title matches 'wireman apprentice'",
-        "title includes 'apprentice'",
-        "description includes 'apprenticeship'",
-        "description includes 'inside wireman'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
-      "expired_on": "",
-      "seen_count": 14
-    },
-    {
-      "job_key": "washingtonapprenticeship:95e815d1541bf6f358cfffbe66ab3af0d0c09d09",
-      "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
-      "company": "Puget Sound Electrical Joint Apprenticeship and Training Committee",
-      "title": "Inside Wireman Apprenticeship Pathway",
-      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=134&from=%2Fprogram-search",
-      "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "location": "Renton, WA; Serves Jefferson, King, Kitsap, Clallam",
-      "posted_date": "",
-      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Jefferson, King, Kitsap, Clallam | Contact: Ryan Bradt, Training Director | Phone: 425-228-1777 | Email: ryan@psejatc.org | Website: http://www.psejatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0134.pdf | Term hours: 4000 | Journey wage: $60.82",
-      "source_context": "Official Washington L&I apprenticeship directory",
-      "discovered_via": "state apprenticeship directory",
-      "metadata": {
-        "lead_type": "pathway",
-        "program_status": "directory",
-        "program_status_source": "state apprenticeship directory",
-        "occupation_names": [
-          "Inside Wireman"
-        ],
-        "county_names": [
-          "Jefferson",
-          "King",
-          "Kitsap",
-          "Clallam"
-        ],
-        "contact": "Ryan Bradt, Training Director",
-        "phone": "425-228-1777",
-        "email": "ryan@psejatc.org",
-        "website": "http://www.psejatc.org",
-        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0134.pdf",
-        "term_hours": "4000",
-        "journey_wage": "$60.82",
-        "program_id": 134,
-        "regional_matches": [
-          "West Coast region"
-        ]
-      },
-      "score": 375,
-      "reasons": [
-        "official apprenticeship pathway fits Donovan's target trade",
-        "pathway targets inside wireman / inside electrician work",
-        "state directory provides direct program contact information",
-        "title matches 'inside wireman'",
-        "title matches 'wireman apprentice'",
-        "title includes 'apprentice'",
-        "description includes 'apprenticeship'",
-        "description includes 'inside wireman'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
-      "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:e64e124d466556c21b282480fddba22dd9e2eb1c",
@@ -534,9 +231,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:8df18d0670116b8d860f06b85ac8fb88f70f6612",
@@ -588,9 +285,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:fb77797930028312de8c85687b51f8623ac1b6f9",
@@ -640,9 +337,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:31b8d89c06d98ae58bbd52f91ff5d5fcdb9a0366",
@@ -693,9 +390,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:6da990252fc5ee61436a91dc21811378883643d1",
@@ -747,9 +444,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:233c7ac6005ac2642d5ebfb61c2215ada634c38a",
@@ -797,9 +494,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:22802c71aff52fed4d8e92f365e99e812f08439b",
@@ -857,9 +554,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:f813ebccba322437bafc2ee879936e99718b93f2",
@@ -914,9 +611,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:431f94e59837e4ea63a5178f5bd4bb77d2e6c622",
@@ -966,9 +663,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:6d0d77743cacfcf9ae2d345c819501361806b1a1",
@@ -1019,334 +716,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
-    },
-    {
-      "job_key": "washingtonapprenticeship:d869b04564bc4b4c6adcf3ad6f00e45c1150bc41",
-      "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
-      "company": "Frontier Electric Apprenticeship & Training",
-      "title": "Inside Electrician Apprenticeship Pathway",
-      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2168&from=%2Fprogram-search",
-      "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "location": "Battle Ground, WA; Serves Clark, Cowlitz, Lewis, Skamania, Marion, Multnomah, Clackamas, Yamhill, King, Pierce, Thurston, Lane, Linn",
-      "posted_date": "",
-      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Clark, Cowlitz, Lewis, Skamania, Marion, Multnomah, Clackamas, Yamhill, +5 more | Oregon-facing coverage: Willamette Valley, Portland metro, Eugene corridor | Contact: Don Ritterskamp, Training Director | Phone: (360) 892-4342 | Email: don@frontiereow.com | Website: https://frontierat.com/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2168.pdf | Term hours: 8000 | Journey wage: $53.86",
-      "source_context": "Official Washington L&I apprenticeship directory",
-      "discovered_via": "state apprenticeship directory",
-      "metadata": {
-        "lead_type": "pathway",
-        "program_status": "directory",
-        "program_status_source": "state apprenticeship directory",
-        "occupation_names": [
-          "Inside Electrician"
-        ],
-        "county_names": [
-          "Clark",
-          "Cowlitz",
-          "Lewis",
-          "Skamania",
-          "Marion",
-          "Multnomah",
-          "Clackamas",
-          "Yamhill",
-          "King",
-          "Pierce",
-          "Thurston",
-          "Lane",
-          "Linn"
-        ],
-        "contact": "Don Ritterskamp, Training Director",
-        "phone": "(360) 892-4342",
-        "email": "don@frontiereow.com",
-        "website": "https://frontierat.com/",
-        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2168.pdf",
-        "term_hours": "8000",
-        "journey_wage": "$53.86",
-        "regional_matches": [
-          "Willamette Valley",
-          "Portland metro",
-          "Eugene corridor",
-          "Eugene, OR"
-        ],
-        "program_id": 2168
-      },
-      "score": 352,
-      "reasons": [
-        "official apprenticeship pathway fits Donovan's target trade",
-        "pathway targets inside wireman / inside electrician work",
-        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
-        "state directory provides direct program contact information",
-        "title matches 'electrician apprentice'",
-        "title includes 'apprentice'",
-        "title includes 'electrician'",
-        "title includes 'electric'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
-      "expired_on": "",
-      "seen_count": 14
-    },
-    {
-      "job_key": "washingtonapprenticeship:5ec475005d2a5e68419080231b038c154aefaeed",
-      "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
-      "company": "Electrical Management Group of Washington",
-      "title": "Inside Electrician Apprenticeship Pathway",
-      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2214&from=%2Fprogram-search",
-      "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "location": "Vancouver, WA; Serves Clark, Cowlitz, Wahkiakum, Pacific, Lewis, Asotin, Benton, Columbia, Franklin, Garfield, Kittitas, Walla Walla",
-      "posted_date": "",
-      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Clark, Cowlitz, Wahkiakum, Pacific, Lewis, Asotin, Benton, Columbia, +4 more | Contact: Jen Tumlinson, Interim Executive Director | Phone: (360) 996-1560 | Email: jen@emgow.com | Website: https://emgow.com/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2214.pdf | Term hours: 8000 | Journey wage: $53.86",
-      "source_context": "Official Washington L&I apprenticeship directory",
-      "discovered_via": "state apprenticeship directory",
-      "metadata": {
-        "lead_type": "pathway",
-        "program_status": "directory",
-        "program_status_source": "state apprenticeship directory",
-        "occupation_names": [
-          "Inside Electrician"
-        ],
-        "county_names": [
-          "Clark",
-          "Cowlitz",
-          "Wahkiakum",
-          "Pacific",
-          "Lewis",
-          "Asotin",
-          "Benton",
-          "Columbia",
-          "Franklin",
-          "Garfield",
-          "Kittitas",
-          "Walla Walla"
-        ],
-        "contact": "Jen Tumlinson, Interim Executive Director",
-        "phone": "(360) 996-1560",
-        "email": "jen@emgow.com",
-        "website": "https://emgow.com/",
-        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2214.pdf",
-        "term_hours": "8000",
-        "journey_wage": "$53.86",
-        "program_id": 2214,
-        "regional_matches": [
-          "Vancouver, WA"
-        ]
-      },
-      "score": 332,
-      "reasons": [
-        "official apprenticeship pathway fits Donovan's target trade",
-        "pathway targets inside wireman / inside electrician work",
-        "state directory provides direct program contact information",
-        "title matches 'electrician apprentice'",
-        "title includes 'apprentice'",
-        "title includes 'electrician'",
-        "title includes 'electric'",
-        "description includes 'apprenticeship'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
-      "expired_on": "",
-      "seen_count": 14
-    },
-    {
-      "job_key": "washingtonapprenticeship:f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1",
-      "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
-      "company": "Inland Empire Electrical Training Trust",
-      "title": "Inside Electrician Apprenticeship Pathway",
-      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=143&from=%2Fprogram-search",
-      "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "location": "Spokane, WA; Serves Adams, Ferry, Lincoln, Pend Oreille, Spokane, Stevens, Whitman, Benewah, Bonner, Boundary, Clearwater, Idaho, Kootenai,\u2026",
-      "posted_date": "",
-      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Adams, Ferry, Lincoln, Pend Oreille, Spokane, Stevens, Whitman, Benewah, +9 more | Contact: Jon Medaris, Training Director | Phone: 509-534-0922 | Email: jon.medaris@73jatc.org | Website: http://www.73jatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0143.pdf | Term hours: 4000 | Journey wage: $30.27",
-      "source_context": "Official Washington L&I apprenticeship directory",
-      "discovered_via": "state apprenticeship directory",
-      "metadata": {
-        "lead_type": "pathway",
-        "program_status": "directory",
-        "program_status_source": "state apprenticeship directory",
-        "occupation_names": [
-          "Inside Electrician"
-        ],
-        "county_names": [
-          "Adams",
-          "Ferry",
-          "Lincoln",
-          "Pend Oreille",
-          "Spokane",
-          "Stevens",
-          "Whitman",
-          "Benewah",
-          "Bonner",
-          "Boundary",
-          "Clearwater",
-          "Idaho",
-          "Kootenai",
-          "Latah",
-          "Lewis",
-          "Nez Perce",
-          "Shoshone"
-        ],
-        "contact": "Jon Medaris, Training Director",
-        "phone": "509-534-0922",
-        "email": "jon.medaris@73jatc.org",
-        "website": "http://www.73jatc.org",
-        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0143.pdf",
-        "term_hours": "4000",
-        "journey_wage": "$30.27",
-        "program_id": 143,
-        "regional_matches": [
-          "West Coast region"
-        ]
-      },
-      "score": 330,
-      "reasons": [
-        "official apprenticeship pathway fits Donovan's target trade",
-        "pathway targets inside wireman / inside electrician work",
-        "state directory provides direct program contact information",
-        "title matches 'electrician apprentice'",
-        "title includes 'apprentice'",
-        "title includes 'electrician'",
-        "title includes 'electric'",
-        "description includes 'apprenticeship'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
-      "expired_on": "",
-      "seen_count": 14
-    },
-    {
-      "job_key": "washingtonapprenticeship:579e06390ad287f4684215440d340ed487da63dd",
-      "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
-      "company": "Performance Electrical Apprenticeship Committee",
-      "title": "Inside Electrician Apprenticeship Pathway",
-      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2224&from=%2Fprogram-search",
-      "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "location": "Puyallup, WA; Serves Pierce, King, Thurston, Lewis, Snohomish, Spokane, Pend Oreille, Stevens, Lincoln, Whitman",
-      "posted_date": "",
-      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Pierce, King, Thurston, Lewis, Snohomish, Spokane, Pend Oreille, Stevens, +2 more | Contact: Amy Simondet, HR Manager | Phone: (253) 848-6990 | Email: amys@boonenw.com | Website: https://www.peacapprenticeship.com/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2224.pdf | Term hours: 8000 | Journey wage: $38.0",
-      "source_context": "Official Washington L&I apprenticeship directory",
-      "discovered_via": "state apprenticeship directory",
-      "metadata": {
-        "lead_type": "pathway",
-        "program_status": "directory",
-        "program_status_source": "state apprenticeship directory",
-        "occupation_names": [
-          "Inside Electrician"
-        ],
-        "county_names": [
-          "Pierce",
-          "King",
-          "Thurston",
-          "Lewis",
-          "Snohomish",
-          "Spokane",
-          "Pend Oreille",
-          "Stevens",
-          "Lincoln",
-          "Whitman"
-        ],
-        "contact": "Amy Simondet, HR Manager",
-        "phone": "(253) 848-6990",
-        "email": "amys@boonenw.com",
-        "website": "https://www.peacapprenticeship.com/",
-        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2224.pdf",
-        "term_hours": "8000",
-        "journey_wage": "$38.0",
-        "program_id": 2224,
-        "regional_matches": [
-          "West Coast region"
-        ]
-      },
-      "score": 330,
-      "reasons": [
-        "official apprenticeship pathway fits Donovan's target trade",
-        "pathway targets inside wireman / inside electrician work",
-        "state directory provides direct program contact information",
-        "title matches 'electrician apprentice'",
-        "title includes 'apprentice'",
-        "title includes 'electrician'",
-        "title includes 'electric'",
-        "description includes 'apprenticeship'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
-      "expired_on": "",
-      "seen_count": 14
-    },
-    {
-      "job_key": "washingtonapprenticeship:c3780f1bf13c6a9506ae61d45f775ef2a2a515c4",
-      "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
-      "company": "Tradesmen Apprenticeship & Comprehensive Training",
-      "title": "Inside Electrician Apprenticeship Pathway",
-      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2182&from=%2Fprogram-search",
-      "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "location": "Battle Ground, WA; Serves Clark, Cowlitz, Lewis, Skamania, King",
-      "posted_date": "",
-      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Clark, Cowlitz, Lewis, Skamania, King | Contact: Steve Niemi | Phone: (360) 666-1199 | Email: steve@tradesmenelectric.com | Website: http://Tradesmenelectric.com | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2182.pdf | Term hours: 8000 | Journey wage: $54.0",
-      "source_context": "Official Washington L&I apprenticeship directory",
-      "discovered_via": "state apprenticeship directory",
-      "metadata": {
-        "lead_type": "pathway",
-        "program_status": "directory",
-        "program_status_source": "state apprenticeship directory",
-        "occupation_names": [
-          "Inside Electrician"
-        ],
-        "county_names": [
-          "Clark",
-          "Cowlitz",
-          "Lewis",
-          "Skamania",
-          "King"
-        ],
-        "contact": "Steve Niemi",
-        "phone": "(360) 666-1199",
-        "email": "steve@tradesmenelectric.com",
-        "website": "http://Tradesmenelectric.com",
-        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2182.pdf",
-        "term_hours": "8000",
-        "journey_wage": "$54.0",
-        "program_id": 2182,
-        "regional_matches": [
-          "West Coast region"
-        ]
-      },
-      "score": 330,
-      "reasons": [
-        "official apprenticeship pathway fits Donovan's target trade",
-        "pathway targets inside wireman / inside electrician work",
-        "state directory provides direct program contact information",
-        "title matches 'electrician apprentice'",
-        "title includes 'apprentice'",
-        "title includes 'electrician'",
-        "title includes 'electric'",
-        "description includes 'apprenticeship'"
-      ],
-      "hub_matches": [],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
-      "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "oregonapprenticeship:12f6bfeba768afb1faa70459e5e36349b930e84b",
@@ -1396,9 +768,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "emcor:b327d5de60c9c7ccec7c10444bab8b276fb4b9f5",
@@ -1410,7 +782,7 @@
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "location": "US-OH-Plain City",
       "posted_date": "3/11/2026",
-      "description": "Electrician / Electrician Trainee | Job Locations | US-OH-Plain City | ID | 2026-48686 | Company | Eagle Electrical Services | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 weeks ago | (3/11/2026 11:54 AM) | About Us | Eagle Electrical Services is a comprehensive commercial electrical contracting company with expertise ranging from complete lighting, power, and low voltage installations to mission critical services for sophisticated data centers, medical facilities, and more. We\u2019ve earned a reputation throughout Columbus and the surrounding area for responsive service and high-quality execution. | Job Summary | Job Title: Electrician / Electrician Trainee | Reports to: General Foreman | Location: Columbus, OH | FLSA Status: Full-Time / Non-Exempt | Updated: March 2026 | COMPANY OVERVIEW | Eagle Electrical Services (\u201cEagle'), an EMCOR Company, is a leading electrical services company providing preconstruction, construction, and energy solutions in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | Eagle is one of six Ohio-based business units under parent company Quebe Holdings, Inc. | SUMMARY | Eagle Electrical Services is looking to expand our workforce and welcome anyone interested in the electrical field to apply! Excellent benefits, paid health insurance (no cost to you) and retirement plan. We are willing to train and welcome those who are experienced and also those brand new to the trade. | GENERAL DUTIES AND RESPONSIBILITIES | Plan layout and installation of electrical wiring, equipment, or fixtures, based on job specifications and local codes. | Connect wires to circuit breakers, transformers, or other components. | Test electrical systems or continuity of circuits in electrical wiring, equipment, or fixtures, using testing devices, such as ohmmeters, voltmeters, or oscilloscopes, to ensure compatibility and safety of system. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment, such as oscilloscopes, ammeters, or test lamps. | Repair and install electrical devices such as receptacles, light fixtures, light switches, lighting ballast, motors, etc. | Assists in keeping building common and electrical spaces in a neat, orderly and safe condition. | Accomplis\u2026",
+      "description": "Electrician / Electrician Trainee | Job Locations | US-OH-Plain City | ID | 2026-48686 | Company | Eagle Electrical Services | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 3 weeks ago | (3/11/2026 11:54 AM) | About Us | Eagle Electrical Services is a comprehensive commercial electrical contracting company with expertise ranging from complete lighting, power, and low voltage installations to mission critical services for sophisticated data centers, medical facilities, and more. We\u2019ve earned a reputation throughout Columbus and the surrounding area for responsive service and high-quality execution. | Job Summary | Job Title: Electrician / Electrician Trainee | Reports to: General Foreman | Location: Columbus, OH | FLSA Status: Full-Time / Non-Exempt | Updated: March 2026 | COMPANY OVERVIEW | Eagle Electrical Services (\u201cEagle'), an EMCOR Company, is a leading electrical services company providing preconstruction, construction, and energy solutions in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | Eagle is one of six Ohio-based business units under parent company Quebe Holdings, Inc. | SUMMARY | Eagle Electrical Services is looking to expand our workforce and welcome anyone interested in the electrical field to apply! Excellent benefits, paid health insurance (no cost to you) and retirement plan. We are willing to train and welcome those who are experienced and also those brand new to the trade. | GENERAL DUTIES AND RESPONSIBILITIES | Plan layout and installation of electrical wiring, equipment, or fixtures, based on job specifications and local codes. | Connect wires to circuit breakers, transformers, or other components. | Test electrical systems or continuity of circuits in electrical wiring, equipment, or fixtures, using testing devices, such as ohmmeters, voltmeters, or oscilloscopes, to ensure compatibility and safety of system. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment, such as oscilloscopes, ammeters, or test lamps. | Repair and install electrical devices such as receptacles, light fixtures, light switches, lighting ballast, motors, etc. | Assists in keeping building common and electrical spaces in a neat, orderly and safe condition. | Accomplis\u2026",
       "source_context": "EMCOR Group iCIMS search query 'electrician'",
       "discovered_via": "iCIMS iframe search",
       "metadata": {
@@ -1435,9 +807,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "emcor:788ff163833200a304ac40556ac239dd98742848",
@@ -1449,7 +821,7 @@
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "location": "US-OH-Monroe",
       "posted_date": "3/11/2026",
-      "description": "Low Voltage Integration Technician / Apprentice | Job Locations | US-OH-Monroe | ID | 2026-48689 | Company | Quebe Holdings, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 weeks ago | (3/11/2026 11:58 AM) | About Us | Through our six business units, we provide electrical construction and maintenance solutions from a team of highly trained professionals. Our companies build, monitor, maintain, and optimize a range of electrical, energy, and information infrastructure systems using the latest technologies/ | Job Summary | Job Title: Low Voltage Integration Technician / Apprentice | Reports to: General Foreman | Location: Monroe, OH | FLSA Status: Full-Time / Non-Exempt | Updated: March 2026 | COMPANY OVERVIEW | Kastle Technologies Co., LLC (\u201cKTECH\u201d), an EMCOR Company, is a leading low voltage integration services company providing preconstruction, construction, and services in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | KTECH is one of six Ohio-based business units under parent company Quebe Holdings, Inc. | SUMMARY | Kastle Technologies is looking to expand our workforce and welcome anyone interested in the low voltage cabling, AV and security fields to apply! Excellent benefits, paid health insurance (no cost to you) and retirement plan. No experience needed if interested in beginning an Apprenticeship \u2013 we will train! | GENERAL DUTIES AND RESPONSIBILITIES | Install low voltage copper and fiber optic cabling. | Terminate, test copper and fiber cabling systems using certified test equipment. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment. | Repair and install network enabled systems such as CCTV, Access Control, AV Control Systems, Central Sound, Video Management Servers, Projectors, Screens, Interactive Displays, etc. | Assists in keeping building common and technology spaces in a neat, orderly and safe condition. | Accomplishes work in accordance with blueprints and specifications, national and local codes and industry standards such as TIA and BICSI. | Updates as-built drawings as necessary, according to department policies. | Attend Toolbox safety meetings and demonstrate safety competency in addition to any other recommended topics such as\u2026",
+      "description": "Low Voltage Integration Technician / Apprentice | Job Locations | US-OH-Monroe | ID | 2026-48689 | Company | Quebe Holdings, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 3 weeks ago | (3/11/2026 11:58 AM) | About Us | Through our six business units, we provide electrical construction and maintenance solutions from a team of highly trained professionals. Our companies build, monitor, maintain, and optimize a range of electrical, energy, and information infrastructure systems using the latest technologies/ | Job Summary | Job Title: Low Voltage Integration Technician / Apprentice | Reports to: General Foreman | Location: Monroe, OH | FLSA Status: Full-Time / Non-Exempt | Updated: March 2026 | COMPANY OVERVIEW | Kastle Technologies Co., LLC (\u201cKTECH\u201d), an EMCOR Company, is a leading low voltage integration services company providing preconstruction, construction, and services in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | KTECH is one of six Ohio-based business units under parent company Quebe Holdings, Inc. | SUMMARY | Kastle Technologies is looking to expand our workforce and welcome anyone interested in the low voltage cabling, AV and security fields to apply! Excellent benefits, paid health insurance (no cost to you) and retirement plan. No experience needed if interested in beginning an Apprenticeship \u2013 we will train! | GENERAL DUTIES AND RESPONSIBILITIES | Install low voltage copper and fiber optic cabling. | Terminate, test copper and fiber cabling systems using certified test equipment. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment. | Repair and install network enabled systems such as CCTV, Access Control, AV Control Systems, Central Sound, Video Management Servers, Projectors, Screens, Interactive Displays, etc. | Assists in keeping building common and technology spaces in a neat, orderly and safe condition. | Accomplishes work in accordance with blueprints and specifications, national and local codes and industry standards such as TIA and BICSI. | Updates as-built drawings as necessary, according to department policies. | Attend Toolbox safety meetings and demonstrate safety competency in addition to any other recommended topics such as\u2026",
       "source_context": "EMCOR Group iCIMS search query 'apprentice'",
       "discovered_via": "iCIMS iframe search",
       "metadata": {
@@ -1473,9 +845,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "emcor:7aefca5df37df17f058a23d58c1199a9d95d2916",
@@ -1487,7 +859,7 @@
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "location": "US-OH-Plain City",
       "posted_date": "3/11/2026",
-      "description": "Low Voltage Integration Technician / Apprentice | Job Locations | US-OH-Plain City | ID | 2026-48687 | Company | Quebe Holdings, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 weeks ago | (3/11/2026 11:57 AM) | About Us | Through our six business units, we provide electrical construction and maintenance solutions from a team of highly trained professionals. Our companies build, monitor, maintain, and optimize a range of electrical, energy, and information infrastructure systems using the latest technologies/ | Job Summary | Job Title: | Low Voltage Integration Technician / Apprentice | Reports to: | General Foreman | Location: | Plain City, OH | FLSA Status: | Full-Time / Non-Exempt | Updated: | March 2026 | COMPANY OVERVIEW | Kastle Technologies Co., LLC (\u201cKTECH\u201d), an EMCOR Company, is a leading low voltage integration services company providing preconstruction, construction, and services in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | KTECH is one of six Ohio-based business units under parent company Quebe Holdings, Inc. | SUMMARY | Kastle Technologies is looking to expand our workforce and welcome anyone interested in the low voltage cabling, AV and security fields to apply! Excellent benefits, paid health insurance (no cost to you) and retirement plan. No experience needed if interested in beginning an Apprenticeship \u2013 we will train! | GENERAL DUTIES AND RESPONSIBILITIES | Install low voltage copper and fiber optic cabling. | Terminate, test copper and fiber cabling systems using certified test equipment. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment. | Repair and install network enabled systems such as CCTV, Access Control, AV Control Systems, Central Sound, Video Management Servers, Projectors, Screens, Interactive Displays, etc. | Assists in keeping building common and technology spaces in a neat, orderly and safe condition. | Accomplishes work in accordance with blueprints and specifications, national and local codes and industry standards such as TIA and BICSI. | Updates as-built drawings as necessary, according to department policies. | Attend Toolbox safety meetings and demonstrate safety competency in addition to any other recommend\u2026",
+      "description": "Low Voltage Integration Technician / Apprentice | Job Locations | US-OH-Plain City | ID | 2026-48687 | Company | Quebe Holdings, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 3 weeks ago | (3/11/2026 11:57 AM) | About Us | Through our six business units, we provide electrical construction and maintenance solutions from a team of highly trained professionals. Our companies build, monitor, maintain, and optimize a range of electrical, energy, and information infrastructure systems using the latest technologies/ | Job Summary | Job Title: | Low Voltage Integration Technician / Apprentice | Reports to: | General Foreman | Location: | Plain City, OH | FLSA Status: | Full-Time / Non-Exempt | Updated: | March 2026 | COMPANY OVERVIEW | Kastle Technologies Co., LLC (\u201cKTECH\u201d), an EMCOR Company, is a leading low voltage integration services company providing preconstruction, construction, and services in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | KTECH is one of six Ohio-based business units under parent company Quebe Holdings, Inc. | SUMMARY | Kastle Technologies is looking to expand our workforce and welcome anyone interested in the low voltage cabling, AV and security fields to apply! Excellent benefits, paid health insurance (no cost to you) and retirement plan. No experience needed if interested in beginning an Apprenticeship \u2013 we will train! | GENERAL DUTIES AND RESPONSIBILITIES | Install low voltage copper and fiber optic cabling. | Terminate, test copper and fiber cabling systems using certified test equipment. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment. | Repair and install network enabled systems such as CCTV, Access Control, AV Control Systems, Central Sound, Video Management Servers, Projectors, Screens, Interactive Displays, etc. | Assists in keeping building common and technology spaces in a neat, orderly and safe condition. | Accomplishes work in accordance with blueprints and specifications, national and local codes and industry standards such as TIA and BICSI. | Updates as-built drawings as necessary, according to department policies. | Attend Toolbox safety meetings and demonstrate safety competency in addition to any other recommend\u2026",
       "source_context": "EMCOR Group iCIMS search query 'apprentice'",
       "discovered_via": "iCIMS iframe search",
       "metadata": {
@@ -1511,9 +883,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "emcor:47eb7a64f2cd03951bd41964bb3eb3c7a37ae86d",
@@ -1525,7 +897,7 @@
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "location": "US-OH-Dayton",
       "posted_date": "3/11/2026",
-      "description": "Low Voltage Integration Technician / Apprentice | Job Locations | US-OH-Dayton | ID | 2026-48694 | Company | Quebe Holdings, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 weeks ago | (3/11/2026 12:11 PM) | About Us | Through our six business units, we provide electrical construction and maintenance solutions from a team of highly trained professionals. Our companies build, monitor, maintain, and optimize a range of electrical, energy, and information infrastructure systems using the latest technologies/ | Job Summary | Job Title: Low Voltage Integration Technician / Apprentice | Reports to: General Foreman | Location: Dayton, OH | FLSA Status: Full-Time / Non-Exempt | Updated: March 2026 | COMPANY OVERVIEW | Chapel-Romanoff Technologies, LLC (\u201cCRT\u201d), an EMCOR Company, is a leading low voltage integration services company providing preconstruction, construction, and services in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | CRT is one of six Ohio-based business units under parent company Quebe Holdings, Inc. | SUMMARY | Chapel-Romanoff Technologies (\u201cCRT\u201d) is looking to expand our workforce and welcome anyone interested in the low voltage cabling, AV and security fields to apply! Excellent benefits, paid health insurance (no cost to you) and retirement plan. No experience needed if interested in beginning an Apprenticeship \u2013 we will train! | GENERAL DUTIES AND RESPONSIBILITIES | Install low voltage copper and fiber optic cabling. | Terminate, test copper and fiber cabling systems using certified test equipment. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment. | Repair and install network enabled systems such as CCTV, Access Control, AV Control Systems, Central Sound, Video Management Servers, Projectors, Screens, Interactive Displays, etc. | Assists in keeping building common and technology spaces in a neat, orderly and safe condition. | Accomplishes work in accordance with blueprints and specifications, national and local codes and industry standards such as TIA and BICSI. | Updates as-built drawings as necessary, according to department policies. | Attend Toolbox safety meetings and demonstrate safety competency in addition to any other recommend\u2026",
+      "description": "Low Voltage Integration Technician / Apprentice | Job Locations | US-OH-Dayton | ID | 2026-48694 | Company | Quebe Holdings, Inc. | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 3 weeks ago | (3/11/2026 12:11 PM) | About Us | Through our six business units, we provide electrical construction and maintenance solutions from a team of highly trained professionals. Our companies build, monitor, maintain, and optimize a range of electrical, energy, and information infrastructure systems using the latest technologies/ | Job Summary | Job Title: Low Voltage Integration Technician / Apprentice | Reports to: General Foreman | Location: Dayton, OH | FLSA Status: Full-Time / Non-Exempt | Updated: March 2026 | COMPANY OVERVIEW | Chapel-Romanoff Technologies, LLC (\u201cCRT\u201d), an EMCOR Company, is a leading low voltage integration services company providing preconstruction, construction, and services in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | CRT is one of six Ohio-based business units under parent company Quebe Holdings, Inc. | SUMMARY | Chapel-Romanoff Technologies (\u201cCRT\u201d) is looking to expand our workforce and welcome anyone interested in the low voltage cabling, AV and security fields to apply! Excellent benefits, paid health insurance (no cost to you) and retirement plan. No experience needed if interested in beginning an Apprenticeship \u2013 we will train! | GENERAL DUTIES AND RESPONSIBILITIES | Install low voltage copper and fiber optic cabling. | Terminate, test copper and fiber cabling systems using certified test equipment. | Use a variety of tools or equipment, such as power construction equipment, measuring devices, power tools, and testing equipment. | Repair and install network enabled systems such as CCTV, Access Control, AV Control Systems, Central Sound, Video Management Servers, Projectors, Screens, Interactive Displays, etc. | Assists in keeping building common and technology spaces in a neat, orderly and safe condition. | Accomplishes work in accordance with blueprints and specifications, national and local codes and industry standards such as TIA and BICSI. | Updates as-built drawings as necessary, according to department policies. | Attend Toolbox safety meetings and demonstrate safety competency in addition to any other recommend\u2026",
       "source_context": "EMCOR Group iCIMS search query 'apprentice'",
       "discovered_via": "iCIMS iframe search",
       "metadata": {
@@ -1547,9 +919,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "bergelectric:9342b79dbeb70467b37490d98313f802dcc4fc0d",
@@ -1581,9 +953,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "bergelectric:ec16a03bf4a3ec343b9c9db021577da0e23b6447",
@@ -1615,9 +987,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 19
+      "seen_count": 20
     },
     {
       "job_key": "bergelectric:7c75f209c7c6aaf175c8919baa6581d2ed91ca77",
@@ -1649,9 +1021,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 19
+      "seen_count": 20
     },
     {
       "job_key": "bergelectric:1fed2f50a8aa0fe181c8b30bee233878b91f6d0b",
@@ -1683,9 +1055,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 19
+      "seen_count": 20
     },
     {
       "job_key": "bergelectric:dd785adabef65ad2865927dd5108b224d46f44c8",
@@ -1717,9 +1089,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 19
+      "seen_count": 20
     },
     {
       "job_key": "bergelectric:fb0f4b4f68f683387f441dbfc86fd59295b58436",
@@ -1751,9 +1123,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 19
+      "seen_count": 20
     },
     {
       "job_key": "emcor:46ca6f73c28761ff7a77d5b83c40d0c5a24c8d76",
@@ -1785,9 +1157,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "emcor:66d047611aa5b006db55891434e06aed1dfa3986",
@@ -1819,9 +1191,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "emcor:583b58f3fb03972653cd89077c0d6df19576d65f",
@@ -1853,9 +1225,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "emcor:19953bc50b9b68eeae496f3f763ab0ae8e6a3a5c",
@@ -1887,9 +1259,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "emcor:adfc0e401cdf5ac72cec9430696792d72535513a",
@@ -1921,9 +1293,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "emcor:acabc31786951806415b79f53e3ff4fa8da80cb1",
@@ -1955,9 +1327,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "mortenson:57b72792b0123b01ff613ad1848e168f8e79592c",
@@ -1992,9 +1364,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "mortenson:727bfdba7e8ccf2e83795d63b3557bffd9d414b1",
@@ -2029,9 +1401,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "mortenson:3712886393397d028fd6e80cee881ce28e77fc2e",
@@ -2066,9 +1438,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "mortenson:228a1dc37ade8a786f294a11093164ca211bafcf",
@@ -2103,9 +1475,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "bergelectric:1d800baacb5ac0189706e6afcf0db6c6d9c5a458",
@@ -2142,9 +1514,9 @@
       "bucket": "watch",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 19
+      "seen_count": 20
     },
     {
       "job_key": "emcor:5297c73de20628ff1597a4700334cc7a34526777",
@@ -2156,7 +1528,7 @@
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
       "location": "US-OH-Dayton",
       "posted_date": "3/11/2026",
-      "description": "Electrician / Electrician Trainee | Job Locations | US-OH-Dayton | ID | 2026-48674 | Company | Chapel Electric Co LLC | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 2 weeks ago | (3/11/2026 11:37 AM) | About Us | Chapel Electric Co., LLC (\u201cChapel\u201d) is a leading electrical services company providing preconstruction, construction, and energy solutions in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. Driven by a commitment to continuous improvement, Chapel embraces Virtual Design Construction, Green Building Construction and Lean construction methods to improve efficiency and enhance client value. Chapel is one of six Ohio-based business units under parent company Quebe Holdings, Inc. These business units include Romanoff Electric Co., LLC; Chapel-Romanoff Technologies, LLC; Eagle Electrical Services; Kastle Electric Company; and Kastle Technologies Co., LLC. | Job Summary | Job Title: Electrician / Electrician Trainee | Reports to: General Foreman | Location: Dayton, OH (Surrounding Areas) | FLSA Status: | Full-Time / Non-Exempt \u2013 $38.00 to $43.70 per hour with required experience. Additional retirement plan of $13.99 per hour with 12,000-hour experience in the electrical trade. | Updated: March 2026 | COMPANY OVERVIEW | Chapel Electric Co., LLC (\u201cChapel), an EMCOR Company, is a leading electrical services company providing preconstruction, construction, and energy solutions in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | SUMMARY | Chapel Electric has immediate openings for Electricians. Our workforce is expanding, and we welcome anyone interested in the electrical field to apply! Excellent benefits, retirement plan, and paid health insurance (at no cost to you). We are willing to train those who are willing to learn. 15 positions open for immediate hire! Apply Today! | GENERAL DUTIES AND RESPONSIBILITIES | Plan layout and installation of electrical wiring, equipment, or fixtures, based on job specifications and local codes. | Test electrical systems or continuity of circuits in electrical wiring, equipment, or fixtures, using testing devices, such as ohmmeters, voltmeters, or oscilloscopes, to ensure compatibility and safety of system. | Use a variety of tools or equipm\u2026",
+      "description": "Electrician / Electrician Trainee | Job Locations | US-OH-Dayton | ID | 2026-48674 | Company | Chapel Electric Co LLC | Category | Operations Services | Position Type | Full-Time | Location Type | Onsite | Posted Date | 3 weeks ago | (3/11/2026 11:37 AM) | About Us | Chapel Electric Co., LLC (\u201cChapel\u201d) is a leading electrical services company providing preconstruction, construction, and energy solutions in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. Driven by a commitment to continuous improvement, Chapel embraces Virtual Design Construction, Green Building Construction and Lean construction methods to improve efficiency and enhance client value. Chapel is one of six Ohio-based business units under parent company Quebe Holdings, Inc. These business units include Romanoff Electric Co., LLC; Chapel-Romanoff Technologies, LLC; Eagle Electrical Services; Kastle Electric Company; and Kastle Technologies Co., LLC. | Job Summary | Job Title: Electrician / Electrician Trainee | Reports to: General Foreman | Location: Dayton, OH (Surrounding Areas) | FLSA Status: | Full-Time / Non-Exempt \u2013 $38.00 to $43.70 per hour with required experience. Additional retirement plan of $13.99 per hour with 12,000-hour experience in the electrical trade. | Updated: March 2026 | COMPANY OVERVIEW | Chapel Electric Co., LLC (\u201cChapel), an EMCOR Company, is a leading electrical services company providing preconstruction, construction, and energy solutions in a variety of markets, including automotive, commercial, healthcare, education, industrial, and mission critical. | SUMMARY | Chapel Electric has immediate openings for Electricians. Our workforce is expanding, and we welcome anyone interested in the electrical field to apply! Excellent benefits, retirement plan, and paid health insurance (at no cost to you). We are willing to train those who are willing to learn. 15 positions open for immediate hire! Apply Today! | GENERAL DUTIES AND RESPONSIBILITIES | Plan layout and installation of electrical wiring, equipment, or fixtures, based on job specifications and local codes. | Test electrical systems or continuity of circuits in electrical wiring, equipment, or fixtures, using testing devices, such as ohmmeters, voltmeters, or oscilloscopes, to ensure compatibility and safety of system. | Use a variety of tools or equipm\u2026",
       "source_context": "EMCOR Group iCIMS search query 'electrician'",
       "discovered_via": "iCIMS iframe search",
       "metadata": {
@@ -2177,9 +1549,9 @@
       "bucket": "priority",
       "status": "active",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-03-28",
+      "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     }
   ],
   "reports": [
@@ -2188,7 +1560,7 @@
       "source_name": "Cupertino Electric",
       "source_url": "https://www.cei.com/careers/current-openings",
       "status": "ok",
-      "total_fetched": 68,
+      "total_fetched": 69,
       "total_relevant": 0,
       "used_browser": false,
       "notes": [],
@@ -2244,18 +1616,16 @@
     },
     {
       "source_key": "washingtonapprenticeship",
-      "source_name": "Washington L&I Apprenticeship",
+      "source_name": "Washingtonapprenticeship",
       "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "status": "ok",
-      "total_fetched": 10,
-      "total_relevant": 10,
+      "status": "error",
+      "total_fetched": 0,
+      "total_relevant": 0,
       "used_browser": false,
-      "notes": [
-        "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
-        "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
-        "Washington directory entries are shown as pathways to check directly, not guaranteed-open application windows."
-      ],
-      "errors": []
+      "notes": [],
+      "errors": [
+        "503 Server Error: Service Unavailable for url: https://secure.lni.wa.gov/home/LocalResponseRedirect.aspx?TAM_OP=error&USERNAME=unauthenticated&ERROR_CODE=0x38cf04d7&ERROR_TEXT=DPWWA1239E%20%20%20A%20third-party%20server%20is%20not%20responding.%20%20Possible%20causes%3A%20the%20server%20is%20down%2C%20there%20is%20a%20hung%20application%20on%20the%20server%2C%20or%20network%20problems.%20%20This%20is%20not%20a%20problem%20with%20the%20WebSEAL%20server.&URL=%2Farts-public%2FGatewayProxy%2FUiProxy.aspx%3Fop%3DUiGatewayRestfulOperation"
+      ]
     },
     {
       "source_key": "oeg",
@@ -2267,7 +1637,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606684/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-4ecgbz1a', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606796/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-yg7x67ds', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
       ]
     },
     {
@@ -2291,7 +1661,7 @@
       "used_browser": false,
       "notes": [],
       "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606684/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-r7a7vqr1', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
+        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606796/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-hz7r_evm', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
       ]
     },
     {
