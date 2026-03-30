@@ -39,7 +39,11 @@ def test_render_shows_stale_badges_and_filters() -> None:
     assert "Serving stale" in html
     assert 'data-filter="fresh"' in html
     assert 'data-filter="official"' in html
+    assert 'data-filter="west-coast"' in html
+    assert 'data-filter="relocation"' in html
     assert 'data-filter="stale"' in html
+    assert 'data-view-link="feed"' in html
+    assert "Daily scan first, details after" in html
 
 
 def test_render_separates_california_sponsor_lane() -> None:
@@ -78,6 +82,35 @@ def test_render_separates_california_sponsor_lane() -> None:
 
     html = render_index("2026-03-29T06:07:00-07:00", [nearby_pathway, california_pathway], [])
 
-    assert "Official Nearby Apprenticeship Pathways" in html
-    assert "California Official Sponsors To Check Directly" in html
+    assert "Washington Pathways" in html
+    assert "California Sponsors" in html
     assert "Jump to California" in html
+    assert "Check sponsor entry" in html
+    assert "Check official pathway" in html
+
+
+def test_render_includes_single_page_views_and_openings_toolbar() -> None:
+    contractor_job = JobLead(
+        job_key="priority-job",
+        source_key="emcor",
+        source_name="EMCOR Group",
+        company="Chapel Electric Co LLC",
+        title="Electrician / Electrician Trainee",
+        detail_url="https://example.com/job",
+        source_url="https://example.com/source",
+        location="Dayton, OH",
+        description="Mission critical trainee opening.",
+        bucket="priority",
+        status="active",
+        first_seen="2026-03-29",
+        last_seen="2026-03-29",
+        reasons=["description includes 'mission critical'"],
+    )
+
+    html = render_index("2026-03-29T06:07:00-07:00", [contractor_job], [])
+
+    assert 'data-view-section="feed"' in html
+    assert 'data-view-section="directory"' in html
+    assert 'data-view-section="openings"' in html
+    assert "Priority Contractor Leads" in html
+    assert "Search title, company, location, or source" in html
