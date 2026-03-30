@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T21:32:52.300118-07:00",
+  "generated_at": "2026-03-29T21:37:37.691955-07:00",
   "counts": {
     "active_relevant": 79,
     "fresh_active_relevant": 79,
@@ -62,7 +62,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "washingtonapprenticeship:1d513c0bcbe33b2e7440e5e14d0b22ef95c9d673",
@@ -134,7 +134,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "oregonapprenticeship:edeed144a5ab2ff45e4982d63277c9b5bd3e663b",
@@ -197,7 +197,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "oregonapprenticeship:a1b0851b8964bec4a2873826b1cfe6acaf7f6e88",
@@ -258,7 +258,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "oregonapprenticeship:b7bfcb8bc0272ffc162af6e5e3f03ed952920b68",
@@ -316,7 +316,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "washingtonapprenticeship:13682ac418603aa0966369d46bbf282f562acf47",
@@ -377,7 +377,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "washingtonapprenticeship:2a459380709e2fe4ac2dae5733c73225ff6cfee1",
@@ -441,7 +441,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "washingtonapprenticeship:95e815d1541bf6f358cfffbe66ab3af0d0c09d09",
@@ -500,7 +500,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "oregonapprenticeship:e64e124d466556c21b282480fddba22dd9e2eb1c",
@@ -560,7 +560,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "oregonapprenticeship:8df18d0670116b8d860f06b85ac8fb88f70f6612",
@@ -616,7 +616,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "oregonapprenticeship:fb77797930028312de8c85687b51f8623ac1b6f9",
@@ -670,7 +670,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "oregonapprenticeship:31b8d89c06d98ae58bbd52f91ff5d5fcdb9a0366",
@@ -725,7 +725,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "oregonapprenticeship:6da990252fc5ee61436a91dc21811378883643d1",
@@ -781,7 +781,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "oregonapprenticeship:233c7ac6005ac2642d5ebfb61c2215ada634c38a",
@@ -833,7 +833,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "oregonapprenticeship:22802c71aff52fed4d8e92f365e99e812f08439b",
@@ -895,7 +895,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "oregonapprenticeship:f813ebccba322437bafc2ee879936e99718b93f2",
@@ -954,7 +954,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "oregonapprenticeship:431f94e59837e4ea63a5178f5bd4bb77d2e6c622",
@@ -1008,7 +1008,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "oregonapprenticeship:6d0d77743cacfcf9ae2d345c819501361806b1a1",
@@ -1063,7 +1063,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "washingtonapprenticeship:d869b04564bc4b4c6adcf3ad6f00e45c1150bc41",
@@ -1134,7 +1134,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "washingtonapprenticeship:5ec475005d2a5e68419080231b038c154aefaeed",
@@ -1201,7 +1201,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "washingtonapprenticeship:f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1",
@@ -1273,7 +1273,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "washingtonapprenticeship:579e06390ad287f4684215440d340ed487da63dd",
@@ -1338,7 +1338,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "washingtonapprenticeship:c3780f1bf13c6a9506ae61d45f775ef2a2a515c4",
@@ -1398,7 +1398,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "oregonapprenticeship:12f6bfeba768afb1faa70459e5e36349b930e84b",
@@ -1452,7 +1452,7 @@
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 18
+      "seen_count": 19
     },
     {
       "job_key": "californiaapprenticeship:2986a32c9734c8fe68e28f59d33744b39cfba790",
@@ -1525,7 +1525,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:9ea8288489f523bf3a8a417c18d0982ca90bc7b8",
@@ -1576,7 +1576,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:215d505dc0cd8554688b809a3e2b89da372ce51d",
@@ -1630,7 +1630,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:76746aa9b0f61124f7e42e014bc2c9b95ff173a4",
@@ -1689,7 +1689,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:e0442cc2410c0a992376f1b9660f688c5f248272",
@@ -1749,7 +1749,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:85a3afe85587137af03830ab8f2a858a569ee8fd",
@@ -1799,7 +1799,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:40a21bf1841c7e9cdd60399c1a065dafe6c62cc1",
@@ -1910,7 +1910,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:90069e6bcc339499fc026b5dbad7d855e660a576",
@@ -2021,7 +2021,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:142c0a437c3521fe478cf4f4ae044457291e4231",
@@ -2070,7 +2070,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:0c3df67f96720fc7ef7fcf14afa12bb60a637fa3",
@@ -2120,7 +2120,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:d96e943bf2e2de104bf0d52d104a9092197d87bd",
@@ -2172,7 +2172,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:214f9647f8e88ade5371876155e777644fdc54e8",
@@ -2220,7 +2220,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:f6a8ce73f6c722952190773d2cabdba0511e76ae",
@@ -2272,7 +2272,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:f67b7418cd337016327fee35a7ca5a346da89eb5",
@@ -2321,7 +2321,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:b499f5e46f147e80ca498d667ad4b8932c0b1517",
@@ -2371,7 +2371,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:a2f01e5161fccf4ed4bf868cc9747b4ade98b3f4",
@@ -2420,7 +2420,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:7c689288595bb442f4700b2658482b2a35301d04",
@@ -2469,7 +2469,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:ef4bd7be57172a04ce8c39615835517e3e8034ff",
@@ -2518,7 +2518,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:e9538eeae68bb2ffe7c43c8df17ee9967ad0cfa3",
@@ -2567,7 +2567,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:f780f402bb3c27e98300f3ae1cc9aba162624cca",
@@ -2616,7 +2616,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:7ac98991a87c594892466f32a3c7dc3d6bda2b54",
@@ -2671,7 +2671,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:e8df8421c98e3858191e880563cfd876b1dbcb3a",
@@ -2720,7 +2720,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:b8f3f36d42a9896d7fc58cff01e0f0dc1d7baf80",
@@ -2771,7 +2771,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:1634f6e51e5997c5e00f479a1d0a67a4050e5029",
@@ -2822,7 +2822,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:cc2f8aafd820969644b0005365407c6809ef4413",
@@ -2872,7 +2872,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:41f23cb9cbe5e7c429ddfac831336b29b24c2e5a",
@@ -2921,7 +2921,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:1b281db5d9848f0701eed9ae0784dd9e0d0bf852",
@@ -2970,7 +2970,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:8f0802ee194bff7b2f58b58b65aa08e15cfb21c4",
@@ -3019,7 +3019,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:bf7a392357be5b14e9f03d8940dbba106f8aed10",
@@ -3068,7 +3068,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:80f150cedd02aa4bdffa3fc9856033779019bfb7",
@@ -3116,7 +3116,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:b4c36d1cc29999cbca7420c6f3ba98150150c3d4",
@@ -3166,7 +3166,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:fed23aa49b03ff03224311344c84d6a2c5295547",
@@ -3219,7 +3219,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:8a5bd36ab264f529cb4ca8531a5fa01bb8ea6262",
@@ -3270,7 +3270,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:4439a88ec3e48c83c19f215f2a3264ece53c705a",
@@ -3319,7 +3319,7 @@
       "first_seen": "2026-03-29",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "emcor:b327d5de60c9c7ccec7c10444bab8b276fb4b9f5",
@@ -3360,7 +3360,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "emcor:788ff163833200a304ac40556ac239dd98742848",
@@ -3400,7 +3400,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "emcor:7aefca5df37df17f058a23d58c1199a9d95d2916",
@@ -3440,7 +3440,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "emcor:47eb7a64f2cd03951bd41964bb3eb3c7a37ae86d",
@@ -3478,7 +3478,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "bergelectric:9342b79dbeb70467b37490d98313f802dcc4fc0d",
@@ -3514,7 +3514,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "bergelectric:ec16a03bf4a3ec343b9c9db021577da0e23b6447",
@@ -3550,7 +3550,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "bergelectric:7c75f209c7c6aaf175c8919baa6581d2ed91ca77",
@@ -3586,7 +3586,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "bergelectric:1fed2f50a8aa0fe181c8b30bee233878b91f6d0b",
@@ -3622,7 +3622,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "bergelectric:dd785adabef65ad2865927dd5108b224d46f44c8",
@@ -3658,7 +3658,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "bergelectric:fb0f4b4f68f683387f441dbfc86fd59295b58436",
@@ -3694,7 +3694,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "emcor:46ca6f73c28761ff7a77d5b83c40d0c5a24c8d76",
@@ -3730,7 +3730,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "emcor:66d047611aa5b006db55891434e06aed1dfa3986",
@@ -3766,7 +3766,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "emcor:583b58f3fb03972653cd89077c0d6df19576d65f",
@@ -3802,7 +3802,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "emcor:19953bc50b9b68eeae496f3f763ab0ae8e6a3a5c",
@@ -3838,7 +3838,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "emcor:adfc0e401cdf5ac72cec9430696792d72535513a",
@@ -3874,7 +3874,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "emcor:acabc31786951806415b79f53e3ff4fa8da80cb1",
@@ -3910,7 +3910,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "mortenson:57b72792b0123b01ff613ad1848e168f8e79592c",
@@ -3949,7 +3949,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "mortenson:727bfdba7e8ccf2e83795d63b3557bffd9d414b1",
@@ -3988,7 +3988,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "mortenson:3712886393397d028fd6e80cee881ce28e77fc2e",
@@ -4027,7 +4027,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "mortenson:228a1dc37ade8a786f294a11093164ca211bafcf",
@@ -4066,7 +4066,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "emcor:5297c73de20628ff1597a4700334cc7a34526777",
@@ -4103,7 +4103,7 @@
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     }
   ],
   "reports": [
@@ -4117,8 +4117,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
-      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_attempt_at": "2026-03-29T21:37:37.691955-07:00",
+      "last_success_at": "2026-03-29T21:37:37.691955-07:00",
       "notes": [],
       "errors": []
     },
@@ -4132,8 +4132,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
-      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_attempt_at": "2026-03-29T21:37:37.691955-07:00",
+      "last_success_at": "2026-03-29T21:37:37.691955-07:00",
       "notes": [],
       "errors": []
     },
@@ -4147,8 +4147,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
-      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_attempt_at": "2026-03-29T21:37:37.691955-07:00",
+      "last_success_at": "2026-03-29T21:37:37.691955-07:00",
       "notes": [],
       "errors": []
     },
@@ -4162,8 +4162,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
-      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_attempt_at": "2026-03-29T21:37:37.691955-07:00",
+      "last_success_at": "2026-03-29T21:37:37.691955-07:00",
       "notes": [],
       "errors": []
     },
@@ -4177,8 +4177,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
-      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_attempt_at": "2026-03-29T21:37:37.691955-07:00",
+      "last_success_at": "2026-03-29T21:37:37.691955-07:00",
       "notes": [
         "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
         "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
@@ -4196,8 +4196,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
-      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_attempt_at": "2026-03-29T21:37:37.691955-07:00",
+      "last_success_at": "2026-03-29T21:37:37.691955-07:00",
       "notes": [
         "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
         "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
@@ -4215,8 +4215,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
-      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_attempt_at": "2026-03-29T21:37:37.691955-07:00",
+      "last_success_at": "2026-03-29T21:37:37.691955-07:00",
       "notes": [
         "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
         "County coverage was aggregated across 58 California county searches.",
@@ -4234,8 +4234,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
-      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_attempt_at": "2026-03-29T21:37:37.691955-07:00",
+      "last_success_at": "2026-03-29T21:37:37.691955-07:00",
       "notes": [],
       "errors": []
     },
@@ -4249,8 +4249,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
-      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_attempt_at": "2026-03-29T21:37:37.691955-07:00",
+      "last_success_at": "2026-03-29T21:37:37.691955-07:00",
       "notes": [],
       "errors": []
     },
@@ -4264,8 +4264,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
-      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_attempt_at": "2026-03-29T21:37:37.691955-07:00",
+      "last_success_at": "2026-03-29T21:37:37.691955-07:00",
       "notes": [],
       "errors": []
     },
@@ -4279,8 +4279,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
-      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_attempt_at": "2026-03-29T21:37:37.691955-07:00",
+      "last_success_at": "2026-03-29T21:37:37.691955-07:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],
