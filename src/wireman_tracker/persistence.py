@@ -19,9 +19,24 @@ def load_previous_jobs(root: Path) -> dict[str, JobLead]:
     return {job.job_key: job for job in jobs}
 
 
-def merge_with_history(current_jobs: list[JobLead], previous_jobs: dict[str, JobLead]) -> list[JobLead]:
+def load_previous_reports(root: Path) -> dict[str, SourceReport]:
+    reports_path = repo_path(root, "data", "current", "reports.json")
+    if not reports_path.exists():
+        return {}
+
+    payload = json.loads(reports_path.read_text(encoding="utf-8"))
+    reports = [SourceReport.from_dict(item) for item in payload.get("reports", [])]
+    return {report.source_key: report for report in reports}
+
+
+def merge_with_history(
+    current_jobs: list[JobLead],
+    previous_jobs: dict[str, JobLead],
+    reports: list[SourceReport],
+) -> list[JobLead]:
     today = date.fromisoformat(today_iso())
     merged: dict[str, JobLead] = {}
+    stale_sources = {report.source_key for report in reports if report.status == "error"}
 
     for job in current_jobs:
         previous = previous_jobs.get(job.job_key)
@@ -35,6 +50,8 @@ def merge_with_history(current_jobs: list[JobLead], previous_jobs: dict[str, Job
         job.last_seen = today.isoformat()
         job.expired_on = ""
         job.status = "active"
+        job.stale_source = False
+        job.stale_since = ""
         merged[job.job_key] = job
 
     keep_until = today - timedelta(days=KEEP_EXPIRED_DAYS)
@@ -54,8 +71,19 @@ def merge_with_history(current_jobs: list[JobLead], previous_jobs: dict[str, Job
             merged[key] = previous
             continue
 
+        if previous.source_key in stale_sources and previous.bucket in {"priority", "watch"}:
+            stale_copy = JobLead.from_dict(previous.to_dict())
+            stale_copy.status = "active"
+            stale_copy.expired_on = ""
+            stale_copy.stale_source = True
+            stale_copy.stale_since = previous.stale_since or today.isoformat()
+            merged[key] = stale_copy
+            continue
+
         expired_copy = JobLead.from_dict(previous.to_dict())
         expired_copy.status = "expired"
+        expired_copy.stale_source = False
+        expired_copy.stale_since = ""
         expired_copy.expired_on = today.isoformat()
         merged[key] = expired_copy
 
@@ -63,6 +91,7 @@ def merge_with_history(current_jobs: list[JobLead], previous_jobs: dict[str, Job
         merged.values(),
         key=lambda job: (
             job.status != "active",
+            job.stale_source,
             -job.score,
             job.company.lower(),
             job.title.lower(),
@@ -109,4 +138,3 @@ def save_artifacts(root: Path, jobs: list[JobLead], reports: list[SourceReport])
         ),
         encoding="utf-8",
     )
-

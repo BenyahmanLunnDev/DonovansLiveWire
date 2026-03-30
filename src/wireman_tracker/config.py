@@ -9,6 +9,10 @@ REQUEST_TIMEOUT_SECONDS = 30
 BROWSER_VIRTUAL_TIME_BUDGET_MS = 12_000
 KEEP_EXPIRED_DAYS = 30
 MAX_DESCRIPTION_CHARS = 2_400
+TRANSIENT_RETRY_BACKOFF_SECONDS = 1.5
+WASHINGTON_RETRY_ATTEMPTS = 3
+TURNER_PAGE_SIZE = 250
+OEG_PAGE_SIZE = 100
 
 DEFAULT_HEADERS = {
     "User-Agent": (
@@ -25,6 +29,7 @@ SOURCE_URLS = {
     "primeelectric": "https://www.primeelectric.com/careers/",
     "oregonapprenticeship": "https://oregonapprenticeship.org/search-openings/",
     "washingtonapprenticeship": "https://secure.lni.wa.gov/arts-public/",
+    "californiaapprenticeship": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
     "oeg": "https://oeg.us.com/careers/",
     "mortenson": "https://www.mortenson.com/careers/data-center",
     "turner": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
@@ -39,11 +44,18 @@ WASHINGTON_ARTS_PUBLIC_URL = "https://secure.lni.wa.gov/arts-public/"
 WASHINGTON_ARTS_PROXY_URL = (
     "https://secure.lni.wa.gov/arts-public/GatewayProxy/UiProxy.aspx?op=UiGatewayRestfulOperation"
 )
+CALIFORNIA_DAS_PW_START_URL = "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp"
+CALIFORNIA_DAS_PW_RESULTS_URL = "https://www.dir.ca.gov/Databases/das/results_pwadd.asp"
+CALIFORNIA_ELECTRICAL_OCCUPATION_CODE = "22"
 AREA1_APPLICATIONS_URL = "https://area1jatc.us/Applications"
 NIETC_CURRENT_OPENINGS_URL = "https://nietc.org/applicants/preparing-to-apply/current-application-openings/"
 OEG_BOARD_URL = (
     "https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/"
     "fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst="
+)
+OEG_BOARD_BASE_URL = (
+    "https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/"
+    "fa8383b2-655f-4d78-9141-678949d846e1"
 )
 
 EMCOR_QUERY_TERMS = [

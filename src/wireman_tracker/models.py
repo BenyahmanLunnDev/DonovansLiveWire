@@ -24,6 +24,8 @@ class JobLead:
     hub_matches: list[str] = field(default_factory=list)
     bucket: str = "discard"
     status: str = "active"
+    stale_source: bool = False
+    stale_since: str = ""
     first_seen: str = ""
     last_seen: str = ""
     expired_on: str = ""
@@ -45,7 +47,11 @@ class SourceReport:
     status: str = "ok"
     total_fetched: int = 0
     total_relevant: int = 0
+    stale_relevant_count: int = 0
     used_browser: bool = False
+    serving_stale: bool = False
+    last_attempt_at: str = ""
+    last_success_at: str = ""
     notes: list[str] = field(default_factory=list)
     errors: list[str] = field(default_factory=list)
 
@@ -63,4 +69,3 @@ class RunArtifacts:
     timezone: str
     jobs: list[JobLead]
     reports: list[SourceReport]
-

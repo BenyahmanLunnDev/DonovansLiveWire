@@ -1,6 +1,141 @@
 {
-  "generated_at": "2026-03-29T07:55:30.915957-07:00",
+  "generated_at": "2026-03-29T21:32:52.300118-07:00",
+  "counts": {
+    "active_relevant": 79,
+    "fresh_active_relevant": 79,
+    "stale_active_relevant": 0,
+    "expired_relevant": 1
+  },
   "jobs": [
+    {
+      "job_key": "washingtonapprenticeship:940ba86618c4d231993c846b98af0a49d9d6163a",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Titan Electrical Apprenticeship & Training",
+      "title": "Inside Wireman Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2225&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Yakima, WA; Serves All counties in Washington, All counties in Idaho, All counties in Oregon",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: All counties in Washington, All counties in Idaho, All counties in Oregon | Oregon-facing coverage: Oregon statewide coverage | Contact: Michael Yusi, Training Director | Phone: (509) 941-8306 | Email: apprenticeship@titan-electrical.com | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2225.pdf | Term hours: 8000 | Journey wage: $45.0",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Wireman"
+        ],
+        "county_names": [
+          "All counties in Washington",
+          "All counties in Idaho",
+          "All counties in Oregon"
+        ],
+        "contact": "Michael Yusi, Training Director",
+        "phone": "(509) 941-8306",
+        "email": "apprenticeship@titan-electrical.com",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2225.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$45.0",
+        "regional_matches": [
+          "Oregon statewide coverage"
+        ],
+        "program_id": 2225
+      },
+      "score": 399,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'inside wireman'",
+        "title matches 'wireman apprentice'",
+        "title includes 'apprentice'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 16
+    },
+    {
+      "job_key": "washingtonapprenticeship:1d513c0bcbe33b2e7440e5e14d0b22ef95c9d673",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Columbia Basin Electrical Training Alliance Committee",
+      "title": "Inside Wireman Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=81&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Kennewick, WA; Serves Asotin, Benton, Columbia, Franklin, Garfield, Walla Walla, Yakima, Kittitas, Baker, Gilliam, Grant, Morrow, Umatilla, U\u2026",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Asotin, Benton, Columbia, Franklin, Garfield, Walla Walla, Yakima, Kittitas, +8 more | Oregon-facing coverage: Eastern Oregon | Contact: Geoff Arends, Training Director | Phone: 509-783-0589 | Email: office@jatc112.org | Website: https://www.jatc112.org/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0081.pdf | Term hours: 4000 | Journey wage: $31.05",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Wireman"
+        ],
+        "county_names": [
+          "Asotin",
+          "Benton",
+          "Columbia",
+          "Franklin",
+          "Garfield",
+          "Walla Walla",
+          "Yakima",
+          "Kittitas",
+          "Baker",
+          "Gilliam",
+          "Grant",
+          "Morrow",
+          "Umatilla",
+          "Union",
+          "Wallowa",
+          "Wheeler"
+        ],
+        "contact": "Geoff Arends, Training Director",
+        "phone": "509-783-0589",
+        "email": "office@jatc112.org",
+        "website": "https://www.jatc112.org/",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0081.pdf",
+        "term_hours": "4000",
+        "journey_wage": "$31.05",
+        "regional_matches": [
+          "Eastern Oregon",
+          "Umatilla, OR"
+        ],
+        "program_id": 81
+      },
+      "score": 397,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'inside wireman'",
+        "title matches 'wireman apprentice'",
+        "title includes 'apprentice'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 16
+    },
     {
       "job_key": "oregonapprenticeship:edeed144a5ab2ff45e4982d63277c9b5bd3e663b",
       "source_key": "oregonapprenticeship",
@@ -57,10 +192,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
     },
     {
       "job_key": "oregonapprenticeship:a1b0851b8964bec4a2873826b1cfe6acaf7f6e88",
@@ -116,10 +253,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
     },
     {
       "job_key": "oregonapprenticeship:b7bfcb8bc0272ffc162af6e5e3f03ed952920b68",
@@ -172,6 +311,192 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 18
+    },
+    {
+      "job_key": "washingtonapprenticeship:13682ac418603aa0966369d46bbf282f562acf47",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Southwest Washington Electrical Joint Apprenticeship and Training Committee",
+      "title": "Inside Wireman Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=150&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Tacoma, WA; Serves Pacific, Lewis, Grays Harbor, Mason, Pierce, Thurston",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Pacific, Lewis, Grays Harbor, Mason, Pierce, Thurston | Contact: Barry Blackburn, Training Director | Phone: 253-475-2922 | Email: barry@swjatc.org | Website: http://www.swjatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0150.pdf | Term hours: 8000 | Journey wage: $28.0",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Wireman"
+        ],
+        "county_names": [
+          "Pacific",
+          "Lewis",
+          "Grays Harbor",
+          "Mason",
+          "Pierce",
+          "Thurston"
+        ],
+        "contact": "Barry Blackburn, Training Director",
+        "phone": "253-475-2922",
+        "email": "barry@swjatc.org",
+        "website": "http://www.swjatc.org",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0150.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$28.0",
+        "program_id": 150,
+        "regional_matches": [
+          "Tacoma, WA"
+        ]
+      },
+      "score": 377,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'inside wireman'",
+        "title matches 'wireman apprentice'",
+        "title includes 'apprentice'",
+        "description includes 'apprenticeship'",
+        "description includes 'inside wireman'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 16
+    },
+    {
+      "job_key": "washingtonapprenticeship:2a459380709e2fe4ac2dae5733c73225ff6cfee1",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Northwest Washington Electrical Industry Joint Apprenticeship and Training Committee",
+      "title": "Inside Wireman Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=65&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Mount Vernon, WA; Serves Chelan, Douglas, Grant, Island, Okanogan, San Juan, Skagit, Snohomish, Whatcom",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Chelan, Douglas, Grant, Island, Okanogan, San Juan, Skagit, Snohomish, +1 more | Contact: Rob Bartel, Training Director | Phone: 360-428-5080 | Email: rob.bartel@nwejatc.org | Website: http://www.nwejatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0065.pdf | Term hours: 4000 | Journey wage: $33.07",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Wireman"
+        ],
+        "county_names": [
+          "Chelan",
+          "Douglas",
+          "Grant",
+          "Island",
+          "Okanogan",
+          "San Juan",
+          "Skagit",
+          "Snohomish",
+          "Whatcom"
+        ],
+        "contact": "Rob Bartel, Training Director",
+        "phone": "360-428-5080",
+        "email": "rob.bartel@nwejatc.org",
+        "website": "http://www.nwejatc.org",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0065.pdf",
+        "term_hours": "4000",
+        "journey_wage": "$33.07",
+        "program_id": 65,
+        "regional_matches": [
+          "West Coast region"
+        ]
+      },
+      "score": 375,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'inside wireman'",
+        "title matches 'wireman apprentice'",
+        "title includes 'apprentice'",
+        "description includes 'apprenticeship'",
+        "description includes 'inside wireman'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 16
+    },
+    {
+      "job_key": "washingtonapprenticeship:95e815d1541bf6f358cfffbe66ab3af0d0c09d09",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Puget Sound Electrical Joint Apprenticeship and Training Committee",
+      "title": "Inside Wireman Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=134&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Renton, WA; Serves Jefferson, King, Kitsap, Clallam",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Jefferson, King, Kitsap, Clallam | Contact: Ryan Bradt, Training Director | Phone: 425-228-1777 | Email: ryan@psejatc.org | Website: http://www.psejatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0134.pdf | Term hours: 4000 | Journey wage: $60.82",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Wireman"
+        ],
+        "county_names": [
+          "Jefferson",
+          "King",
+          "Kitsap",
+          "Clallam"
+        ],
+        "contact": "Ryan Bradt, Training Director",
+        "phone": "425-228-1777",
+        "email": "ryan@psejatc.org",
+        "website": "http://www.psejatc.org",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0134.pdf",
+        "term_hours": "4000",
+        "journey_wage": "$60.82",
+        "program_id": 134,
+        "regional_matches": [
+          "West Coast region"
+        ]
+      },
+      "score": 375,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'inside wireman'",
+        "title matches 'wireman apprentice'",
+        "title includes 'apprentice'",
+        "description includes 'apprenticeship'",
+        "description includes 'inside wireman'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
@@ -230,10 +555,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
     },
     {
       "job_key": "oregonapprenticeship:8df18d0670116b8d860f06b85ac8fb88f70f6612",
@@ -284,10 +611,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
     },
     {
       "job_key": "oregonapprenticeship:fb77797930028312de8c85687b51f8623ac1b6f9",
@@ -336,10 +665,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
     },
     {
       "job_key": "oregonapprenticeship:31b8d89c06d98ae58bbd52f91ff5d5fcdb9a0366",
@@ -389,10 +720,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
     },
     {
       "job_key": "oregonapprenticeship:6da990252fc5ee61436a91dc21811378883643d1",
@@ -443,10 +776,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
     },
     {
       "job_key": "oregonapprenticeship:233c7ac6005ac2642d5ebfb61c2215ada634c38a",
@@ -493,10 +828,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
     },
     {
       "job_key": "oregonapprenticeship:22802c71aff52fed4d8e92f365e99e812f08439b",
@@ -553,10 +890,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
     },
     {
       "job_key": "oregonapprenticeship:f813ebccba322437bafc2ee879936e99718b93f2",
@@ -610,10 +949,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
     },
     {
       "job_key": "oregonapprenticeship:431f94e59837e4ea63a5178f5bd4bb77d2e6c622",
@@ -662,10 +1003,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
     },
     {
       "job_key": "oregonapprenticeship:6d0d77743cacfcf9ae2d345c819501361806b1a1",
@@ -715,6 +1058,343 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 18
+    },
+    {
+      "job_key": "washingtonapprenticeship:d869b04564bc4b4c6adcf3ad6f00e45c1150bc41",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Frontier Electric Apprenticeship & Training",
+      "title": "Inside Electrician Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2168&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Battle Ground, WA; Serves Clark, Cowlitz, Lewis, Skamania, Marion, Multnomah, Clackamas, Yamhill, King, Pierce, Thurston, Lane, Linn",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Clark, Cowlitz, Lewis, Skamania, Marion, Multnomah, Clackamas, Yamhill, +5 more | Oregon-facing coverage: Willamette Valley, Portland metro, Eugene corridor | Contact: Don Ritterskamp, Training Director | Phone: (360) 892-4342 | Email: don@frontiereow.com | Website: https://frontierat.com/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2168.pdf | Term hours: 8000 | Journey wage: $53.86",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Electrician"
+        ],
+        "county_names": [
+          "Clark",
+          "Cowlitz",
+          "Lewis",
+          "Skamania",
+          "Marion",
+          "Multnomah",
+          "Clackamas",
+          "Yamhill",
+          "King",
+          "Pierce",
+          "Thurston",
+          "Lane",
+          "Linn"
+        ],
+        "contact": "Don Ritterskamp, Training Director",
+        "phone": "(360) 892-4342",
+        "email": "don@frontiereow.com",
+        "website": "https://frontierat.com/",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2168.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$53.86",
+        "regional_matches": [
+          "Willamette Valley",
+          "Portland metro",
+          "Eugene corridor",
+          "Eugene, OR"
+        ],
+        "program_id": 2168
+      },
+      "score": 352,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 16
+    },
+    {
+      "job_key": "washingtonapprenticeship:5ec475005d2a5e68419080231b038c154aefaeed",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Electrical Management Group of Washington",
+      "title": "Inside Electrician Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2214&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Vancouver, WA; Serves Clark, Cowlitz, Wahkiakum, Pacific, Lewis, Asotin, Benton, Columbia, Franklin, Garfield, Kittitas, Walla Walla",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Clark, Cowlitz, Wahkiakum, Pacific, Lewis, Asotin, Benton, Columbia, +4 more | Contact: Jen Tumlinson, Interim Executive Director | Phone: (360) 996-1560 | Email: jen@emgow.com | Website: https://emgow.com/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2214.pdf | Term hours: 8000 | Journey wage: $53.86",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Electrician"
+        ],
+        "county_names": [
+          "Clark",
+          "Cowlitz",
+          "Wahkiakum",
+          "Pacific",
+          "Lewis",
+          "Asotin",
+          "Benton",
+          "Columbia",
+          "Franklin",
+          "Garfield",
+          "Kittitas",
+          "Walla Walla"
+        ],
+        "contact": "Jen Tumlinson, Interim Executive Director",
+        "phone": "(360) 996-1560",
+        "email": "jen@emgow.com",
+        "website": "https://emgow.com/",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2214.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$53.86",
+        "program_id": 2214,
+        "regional_matches": [
+          "Vancouver, WA"
+        ]
+      },
+      "score": 332,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 16
+    },
+    {
+      "job_key": "washingtonapprenticeship:f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Inland Empire Electrical Training Trust",
+      "title": "Inside Electrician Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=143&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Spokane, WA; Serves Adams, Ferry, Lincoln, Pend Oreille, Spokane, Stevens, Whitman, Benewah, Bonner, Boundary, Clearwater, Idaho, Kootenai,\u2026",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Adams, Ferry, Lincoln, Pend Oreille, Spokane, Stevens, Whitman, Benewah, +9 more | Contact: Jon Medaris, Training Director | Phone: 509-534-0922 | Email: jon.medaris@73jatc.org | Website: http://www.73jatc.org | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0143.pdf | Term hours: 4000 | Journey wage: $30.27",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Electrician"
+        ],
+        "county_names": [
+          "Adams",
+          "Ferry",
+          "Lincoln",
+          "Pend Oreille",
+          "Spokane",
+          "Stevens",
+          "Whitman",
+          "Benewah",
+          "Bonner",
+          "Boundary",
+          "Clearwater",
+          "Idaho",
+          "Kootenai",
+          "Latah",
+          "Lewis",
+          "Nez Perce",
+          "Shoshone"
+        ],
+        "contact": "Jon Medaris, Training Director",
+        "phone": "509-534-0922",
+        "email": "jon.medaris@73jatc.org",
+        "website": "http://www.73jatc.org",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/0143.pdf",
+        "term_hours": "4000",
+        "journey_wage": "$30.27",
+        "program_id": 143,
+        "regional_matches": [
+          "West Coast region"
+        ]
+      },
+      "score": 330,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 16
+    },
+    {
+      "job_key": "washingtonapprenticeship:579e06390ad287f4684215440d340ed487da63dd",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Performance Electrical Apprenticeship Committee",
+      "title": "Inside Electrician Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2224&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Puyallup, WA; Serves Pierce, King, Thurston, Lewis, Snohomish, Spokane, Pend Oreille, Stevens, Lincoln, Whitman",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Pierce, King, Thurston, Lewis, Snohomish, Spokane, Pend Oreille, Stevens, +2 more | Contact: Amy Simondet, HR Manager | Phone: (253) 848-6990 | Email: amys@boonenw.com | Website: https://www.peacapprenticeship.com/ | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2224.pdf | Term hours: 8000 | Journey wage: $38.0",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Electrician"
+        ],
+        "county_names": [
+          "Pierce",
+          "King",
+          "Thurston",
+          "Lewis",
+          "Snohomish",
+          "Spokane",
+          "Pend Oreille",
+          "Stevens",
+          "Lincoln",
+          "Whitman"
+        ],
+        "contact": "Amy Simondet, HR Manager",
+        "phone": "(253) 848-6990",
+        "email": "amys@boonenw.com",
+        "website": "https://www.peacapprenticeship.com/",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2224.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$38.0",
+        "program_id": 2224,
+        "regional_matches": [
+          "West Coast region"
+        ]
+      },
+      "score": 330,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 16
+    },
+    {
+      "job_key": "washingtonapprenticeship:c3780f1bf13c6a9506ae61d45f775ef2a2a515c4",
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "company": "Tradesmen Apprenticeship & Comprehensive Training",
+      "title": "Inside Electrician Apprenticeship Pathway",
+      "detail_url": "https://secure.lni.wa.gov/arts-public/#/program-details?programId=2182&from=%2Fprogram-search",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "location": "Battle Ground, WA; Serves Clark, Cowlitz, Lewis, Skamania, King",
+      "posted_date": "",
+      "description": "Official Washington L&I apprenticeship directory entry for this inside electrician / inside wireman pathway. | Current public program details do not confirm whether applications are open, so treat this as a nearby pathway to check directly. | Coverage: Clark, Cowlitz, Lewis, Skamania, King | Contact: Steve Niemi | Phone: (360) 666-1199 | Email: steve@tradesmenelectric.com | Website: http://Tradesmenelectric.com | Standards PDF: https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2182.pdf | Term hours: 8000 | Journey wage: $54.0",
+      "source_context": "Official Washington L&I apprenticeship directory",
+      "discovered_via": "state apprenticeship directory",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state apprenticeship directory",
+        "occupation_names": [
+          "Inside Electrician"
+        ],
+        "county_names": [
+          "Clark",
+          "Cowlitz",
+          "Lewis",
+          "Skamania",
+          "King"
+        ],
+        "contact": "Steve Niemi",
+        "phone": "(360) 666-1199",
+        "email": "steve@tradesmenelectric.com",
+        "website": "http://Tradesmenelectric.com",
+        "standard_url": "https://www.lni.wa.gov/licensing-permits/apprenticeship/_docs/2182.pdf",
+        "term_hours": "8000",
+        "journey_wage": "$54.0",
+        "program_id": 2182,
+        "regional_matches": [
+          "West Coast region"
+        ]
+      },
+      "score": 330,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway targets inside wireman / inside electrician work",
+        "state directory provides direct program contact information",
+        "title matches 'electrician apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrician'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
@@ -767,10 +1447,1879 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-23",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 18
+    },
+    {
+      "job_key": "californiaapprenticeship:2986a32c9734c8fe68e28f59d33744b39cfba790",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Associated Builders & Contractors Northern California Chapter (Abc Norcal) Electrical Uac",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=ALAMEDAA&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "4577 Las Positas Road Unit C, Livermore, CA 94551; Serves Alameda, Contra Costa, El Dorado, Fresno, Kern, Marin, Mendocino, Monterey, +13 more",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Alameda, Contra Costa, El Dorado, Fresno, Kern, Marin, Mendocino, Monterey, +13 more | Regional coverage: Bay Area, CA, Central Valley, CA, Northern California, Sacramento region | Contact: Deanna Horton, Committee | Phone: (925) 474-1300 apprenticeship@abcnorcal.org | Email: apprenticeship@abcnorcal.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Alameda",
+          "Contra Costa",
+          "El Dorado",
+          "Fresno",
+          "Kern",
+          "Marin",
+          "Mendocino",
+          "Monterey",
+          "Napa",
+          "Placer",
+          "Sacramento",
+          "San Francisco",
+          "San Joaquin",
+          "San Mateo",
+          "Santa Clara",
+          "Santa Cruz",
+          "Solano",
+          "Sonoma",
+          "Stanislaus",
+          "Tuolumne",
+          "Yolo"
+        ],
+        "contact": "Deanna Horton, Committee",
+        "phone": "(925) 474-1300 apprenticeship@abcnorcal.org",
+        "email": "apprenticeship@abcnorcal.org",
+        "regional_matches": [
+          "Bay Area, CA",
+          "Central Valley, CA",
+          "Northern California",
+          "Sacramento region",
+          "Sacramento, CA"
+        ]
+      },
+      "score": 290,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:9ea8288489f523bf3a8a417c18d0982ca90bc7b8",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Crater Lake Electrical Jatc",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=MODOCC&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "4864 Airway Drive, Central Point, OR 97502; Serves Modoc, Siskiyou",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Modoc, Siskiyou | Regional coverage: Northern California | Contact: Lance Corley, Training Director | Phone: (541) 453-0112 licorley@clejatc.org | Email: licorley@clejatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Modoc",
+          "Siskiyou"
+        ],
+        "contact": "Lance Corley, Training Director",
+        "phone": "(541) 453-0112 licorley@clejatc.org",
+        "email": "licorley@clejatc.org",
+        "regional_matches": [
+          "Northern California",
+          "Central Point, OR"
+        ]
+      },
+      "score": 290,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:215d505dc0cd8554688b809a3e2b89da372ce51d",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Northern Nevada Electrical J.A.T.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=ALPINEC&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "4635 Longley Lane, Ste. 108, Reno, NV 89502; Serves Alpine, El Dorado, Nevada, Placer, Sierra",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Alpine, El Dorado, Nevada, Placer, Sierra | Regional coverage: Sacramento region | Contact: Allen Darney, Coordinator | Phone: (775) 358-4301 adarney@401jatc.org | Email: adarney@401jatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Alpine",
+          "El Dorado",
+          "Nevada",
+          "Placer",
+          "Sierra"
+        ],
+        "contact": "Allen Darney, Coordinator",
+        "phone": "(775) 358-4301 adarney@401jatc.org",
+        "email": "adarney@401jatc.org",
+        "regional_matches": [
+          "Sacramento region",
+          "Sacramento, CA"
+        ]
+      },
+      "score": 290,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:76746aa9b0f61124f7e42e014bc2c9b95ff173a4",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Sacramento Area Electrical (Transportation) J.A.T.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=ALPINEC&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "2836 El Centro Road, Sacramento, CA 95833; Serves Alpine, Amador, Colusa, El Dorado, Nevada, Placer, Sacramento, Sierra, +2 more",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Alpine, Amador, Colusa, El Dorado, Nevada, Placer, Sacramento, Sierra, +2 more | Regional coverage: Sacramento region | Contact: Chris Tillery, Training Director | Phone: (916) 646-6688 ctillery@340jatc.org | Email: ctillery@340jatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Alpine",
+          "Amador",
+          "Colusa",
+          "El Dorado",
+          "Nevada",
+          "Placer",
+          "Sacramento",
+          "Sierra",
+          "Sutter",
+          "Yuba"
+        ],
+        "contact": "Chris Tillery, Training Director",
+        "phone": "(916) 646-6688 ctillery@340jatc.org",
+        "email": "ctillery@340jatc.org",
+        "regional_matches": [
+          "Sacramento region",
+          "Sacramento, CA"
+        ]
+      },
+      "score": 290,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:e0442cc2410c0a992376f1b9660f688c5f248272",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Sacramento Area Electrical Joint Apprenticeship And Training Committee",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=ALPINEC&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "2836 El Centro Road, Sacramento, CA 95833; Serves Alpine, Amador, Colusa, El Dorado, Nevada, Placer, Sacramento, Sierra, +3 more",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Alpine, Amador, Colusa, El Dorado, Nevada, Placer, Sacramento, Sierra, +3 more | Regional coverage: Sacramento region | Contact: Chris Tillery, Training Director | Phone: (916) 646-6688 adminstaff@340jatc.org | Email: adminstaff@340jatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Alpine",
+          "Amador",
+          "Colusa",
+          "El Dorado",
+          "Nevada",
+          "Placer",
+          "Sacramento",
+          "Sierra",
+          "Sutter",
+          "Yolo",
+          "Yuba"
+        ],
+        "contact": "Chris Tillery, Training Director",
+        "phone": "(916) 646-6688 adminstaff@340jatc.org",
+        "email": "adminstaff@340jatc.org",
+        "regional_matches": [
+          "Sacramento region",
+          "Sacramento, CA"
+        ]
+      },
+      "score": 290,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:85a3afe85587137af03830ab8f2a858a569ee8fd",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Santa Clara County Electrical Joint Apprenticeship And Training Committee",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=SANTA+CLARAB&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "1873 Barber Lane, Milpitas , CA 95035; Serves Santa Clara",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Santa Clara | Regional coverage: Bay Area, CA | Contact: Robert Bledsoe , Coordinator | Phone: (408) 453-1022 ext. 1026 Robert.Bledsoe@etasv.org | Email: Robert.Bledsoe@etasv.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Santa Clara"
+        ],
+        "contact": "Robert Bledsoe , Coordinator",
+        "phone": "(408) 453-1022 ext. 1026 Robert.Bledsoe@etasv.org",
+        "email": "Robert.Bledsoe@etasv.org",
+        "regional_matches": [
+          "Bay Area, CA",
+          "Santa Clara, CA"
+        ]
+      },
+      "score": 290,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:40a21bf1841c7e9cdd60399c1a065dafe6c62cc1",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Western Burglar & Fire Alarm Association Unilateral Apprenticeship Training Committee",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=ALAMEDAA&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "333 Washington Blvd., #433, Marina Del Rey, CA 90292; Serves Alameda, Alpine, Amador, Butte, Calaveras, Colusa, Contra Costa, Del Norte, +50 more",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Alameda, Alpine, Amador, Butte, Calaveras, Colusa, Contra Costa, Del Norte, +50 more | Regional coverage: Bay Area, CA, Central Valley, CA, Northern California, Southern California, Sacramento region | Contact: Chris Moorhead, Training Director | Phone: (800) 809-0280 admin@wbfaa.net | Email: admin@wbfaa.net | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Alameda",
+          "Alpine",
+          "Amador",
+          "Butte",
+          "Calaveras",
+          "Colusa",
+          "Contra Costa",
+          "Del Norte",
+          "El Dorado",
+          "Fresno",
+          "Glenn",
+          "Humboldt",
+          "Imperial",
+          "Inyo",
+          "Kern",
+          "Kings",
+          "Lake",
+          "Lassen",
+          "Los Angeles",
+          "Madera",
+          "Marin",
+          "Mariposa",
+          "Mendocino",
+          "Merced",
+          "Modoc",
+          "Mono",
+          "Monterey",
+          "Napa",
+          "Nevada",
+          "Orange",
+          "Placer",
+          "Plumas",
+          "Riverside",
+          "Sacramento",
+          "San Benito",
+          "San Bernardino",
+          "San Diego",
+          "San Francisco",
+          "San Joaquin",
+          "San Luis Obispo",
+          "San Mateo",
+          "Santa Barbara",
+          "Santa Clara",
+          "Santa Cruz",
+          "Shasta",
+          "Sierra",
+          "Siskiyou",
+          "Solano",
+          "Sonoma",
+          "Stanislaus",
+          "Sutter",
+          "Tehama",
+          "Trinity",
+          "Tulare",
+          "Tuolumne",
+          "Ventura",
+          "Yolo",
+          "Yuba"
+        ],
+        "contact": "Chris Moorhead, Training Director",
+        "phone": "(800) 809-0280 admin@wbfaa.net",
+        "email": "admin@wbfaa.net",
+        "regional_matches": [
+          "Bay Area, CA",
+          "Central Valley, CA",
+          "Northern California",
+          "Southern California",
+          "Sacramento region",
+          "Sacramento, CA"
+        ]
+      },
+      "score": 290,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:90069e6bcc339499fc026b5dbad7d855e660a576",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Western Electrical Contractors Association, Inc. (Weca) Apprenticeship And Training Committee",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=ALAMEDAA&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "3695 Bleckely Street, Rancho Cordova, CA 95655; Serves Alameda, Alpine, Amador, Butte, Calaveras, Colusa, Contra Costa, Del Norte, +50 more",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Alameda, Alpine, Amador, Butte, Calaveras, Colusa, Contra Costa, Del Norte, +50 more | Regional coverage: Bay Area, CA, Central Valley, CA, Northern California, Southern California, Sacramento region | Contact: Wendy Flanagan, Apprenticeship Director | Phone: (916) 453-0112 DAS140/142@goweca.com | Email: DAS140/142@goweca.com | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Alameda",
+          "Alpine",
+          "Amador",
+          "Butte",
+          "Calaveras",
+          "Colusa",
+          "Contra Costa",
+          "Del Norte",
+          "El Dorado",
+          "Fresno",
+          "Glenn",
+          "Humboldt",
+          "Imperial",
+          "Inyo",
+          "Kern",
+          "Kings",
+          "Lake",
+          "Lassen",
+          "Los Angeles",
+          "Madera",
+          "Marin",
+          "Mariposa",
+          "Mendocino",
+          "Merced",
+          "Modoc",
+          "Mono",
+          "Monterey",
+          "Napa",
+          "Nevada",
+          "Orange",
+          "Placer",
+          "Plumas",
+          "Riverside",
+          "Sacramento",
+          "San Benito",
+          "San Bernardino",
+          "San Diego",
+          "San Francisco",
+          "San Joaquin",
+          "San Luis Obispo",
+          "San Mateo",
+          "Santa Barbara",
+          "Santa Clara",
+          "Santa Cruz",
+          "Shasta",
+          "Sierra",
+          "Siskiyou",
+          "Solano",
+          "Sonoma",
+          "Stanislaus",
+          "Sutter",
+          "Tehama",
+          "Trinity",
+          "Tulare",
+          "Tuolumne",
+          "Ventura",
+          "Yolo",
+          "Yuba"
+        ],
+        "contact": "Wendy Flanagan, Apprenticeship Director",
+        "phone": "(916) 453-0112 DAS140/142@goweca.com",
+        "email": "DAS140/142@goweca.com",
+        "regional_matches": [
+          "Bay Area, CA",
+          "Central Valley, CA",
+          "Northern California",
+          "Southern California",
+          "Sacramento region",
+          "Sacramento, CA"
+        ]
+      },
+      "score": 290,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:142c0a437c3521fe478cf4f4ae044457291e4231",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Alameda County Electrical Joint Apprenticeship And Training Committee (Jatc)",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=ALAMEDAA&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "14600 Catalina Street, San Leandro, CA 94577; Serves Alameda",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Alameda | Regional coverage: Bay Area, CA | Contact: Jason Bates, Apprentice Coordinator | Phone: (510) 351-5282 info@595jatc.org | Email: info@595jatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Alameda"
+        ],
+        "contact": "Jason Bates, Apprentice Coordinator",
+        "phone": "(510) 351-5282 info@595jatc.org",
+        "email": "info@595jatc.org",
+        "regional_matches": [
+          "Bay Area, CA"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:0c3df67f96720fc7ef7fcf14afa12bb60a637fa3",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Associated Builders & Contractors Of San Diego, Inc. Electrical U.A.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=IMPERIALG&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "13825 Kirkham Way, Poway, CA 92064; Serves Imperial, San Diego",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Imperial, San Diego | Regional coverage: Southern California | Contact: Tracey Barrett, Executive Director/Training Director | Phone: (858) 513-4700 dispatch@abcsd.org | Email: dispatch@abcsd.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Imperial",
+          "San Diego"
+        ],
+        "contact": "Tracey Barrett, Executive Director/Training Director",
+        "phone": "(858) 513-4700 dispatch@abcsd.org",
+        "email": "dispatch@abcsd.org",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:d96e943bf2e2de104bf0d52d104a9092197d87bd",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Central Valley Electrical J.A.T.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=MARIPOSAD&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "1925 Yosemite Blvd.519 12th St., Modesto, CA 95354; Serves Mariposa, Merced, Stanislaus, Tuolumne",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Mariposa, Merced, Stanislaus, Tuolumne | Regional coverage: Central Valley, CA | Contact: John Brown, Apprenticeship Coordinator | Phone: John@jatc684.org | Email: John@jatc684.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Mariposa",
+          "Merced",
+          "Stanislaus",
+          "Tuolumne"
+        ],
+        "contact": "John Brown, Apprenticeship Coordinator",
+        "phone": "John@jatc684.org",
+        "email": "John@jatc684.org",
+        "regional_matches": [
+          "Central Valley, CA"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:214f9647f8e88ade5371876155e777644fdc54e8",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Contra Costa County Electrical J.A.T.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=CONTRA+COSTAA&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "1255 Muir Rd., Martinez, CA 94553; Serves Contra Costa",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Contra Costa | Regional coverage: Bay Area, CA | Contact: Ray Green, Apprenticeship Coordinator | Phone: (925) 372-7083 | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Contra Costa"
+        ],
+        "contact": "Ray Green, Apprenticeship Coordinator",
+        "phone": "(925) 372-7083",
+        "regional_matches": [
+          "Bay Area, CA"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:f6a8ce73f6c722952190773d2cabdba0511e76ae",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Fresno, Madera, Kings & Tulare Counties Electrical Industries J.A.T.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=FRESNOD&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "5420 E. Hedges, Fresno, CA 93727; Serves Fresno, Kings, Madera, Tulare",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Fresno, Kings, Madera, Tulare | Regional coverage: Central Valley, CA | Contact: William Torrence, Training Director | Phone: wtorrence@fresnojatc.org | Email: wtorrence@fresnojatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Fresno",
+          "Kings",
+          "Madera",
+          "Tulare"
+        ],
+        "contact": "William Torrence, Training Director",
+        "phone": "wtorrence@fresnojatc.org",
+        "email": "wtorrence@fresnojatc.org",
+        "regional_matches": [
+          "Central Valley, CA"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:f67b7418cd337016327fee35a7ca5a346da89eb5",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "I.B.E.W. Local Union No. 40 Los Angeles County Chapter Neca J.A.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=LOS+ANGELESE&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "5643 Vineland Avenue, North Hollywood, CA 91601; Serves Los Angeles",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Los Angeles | Regional coverage: Southern California | Contact: Jesse Barron, Training Director | Phone: (818) 762-4239 Jesse@ibew40.org | Email: Jesse@ibew40.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Los Angeles"
+        ],
+        "contact": "Jesse Barron, Training Director",
+        "phone": "(818) 762-4239 Jesse@ibew40.org",
+        "email": "Jesse@ibew40.org",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:b499f5e46f147e80ca498d667ad4b8932c0b1517",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Intelligent Transportation Systems Joint Apprenticeship Training Committee",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=IMPERIALG&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "4675 Viewridge Ave, San Diego, CA 92123; Serves Imperial, San Diego",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Imperial, San Diego | Regional coverage: Southern California | Contact: Kevin Johnson, Main_Contact | Phone: kjohnson@sdett.org | Email: kjohnson@sdett.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Imperial",
+          "San Diego"
+        ],
+        "contact": "Kevin Johnson, Main_Contact",
+        "phone": "kjohnson@sdett.org",
+        "email": "kjohnson@sdett.org",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:a2f01e5161fccf4ed4bf868cc9747b4ade98b3f4",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Kern County Electrical Joint Apprenticeship & Training Committee",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=KERND&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "3805 N Sillect Ave, Bakersfield, CA 93308; Serves Kern",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Kern | Regional coverage: Central Valley, CA | Contact: Anthony Ausbie, Coordinator | Phone: (661) 324-0105 anthony@428jatc.org | Email: anthony@428jatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Kern"
+        ],
+        "contact": "Anthony Ausbie, Coordinator",
+        "phone": "(661) 324-0105 anthony@428jatc.org",
+        "email": "anthony@428jatc.org",
+        "regional_matches": [
+          "Central Valley, CA"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:7c689288595bb442f4700b2658482b2a35301d04",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "La County Intelligent Transportation Systems Electrical Joint Apprenticeship And Training Committee",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=LOS+ANGELESE&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "6023 S. Garfield Ave., Los Angeles, CA 90040; Serves Los Angeles",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Los Angeles | Regional coverage: Southern California | Contact: David Nott, Training Director | Phone: (323) 221-5881 director@laett.com | Email: director@laett.com | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Los Angeles"
+        ],
+        "contact": "David Nott, Training Director",
+        "phone": "(323) 221-5881 director@laett.com",
+        "email": "director@laett.com",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:ef4bd7be57172a04ce8c39615835517e3e8034ff",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Los Angeles Electrical Jatc",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=LOS+ANGELESE&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "6023 S. Garfield Avenue, Los Angeles, CA 90040; Serves Los Angeles",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Los Angeles | Regional coverage: Southern California | Contact: David Nott, Training Director | Phone: (323) 221-5881 director@laett.com | Email: director@laett.com | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Los Angeles"
+        ],
+        "contact": "David Nott, Training Director",
+        "phone": "(323) 221-5881 director@laett.com",
+        "email": "director@laett.com",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:e9538eeae68bb2ffe7c43c8df17ee9967ad0cfa3",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Orange County Electrical Jac (Inside Wireman)",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=ORANGEE&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "1261 E Dyer Road, Santa Ana, CA 92705; Serves Orange",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Orange | Regional coverage: Southern California | Contact: Jerome Thomas , Training Director | Phone: (714) 245-9988 Jthomas@ocett.org | Email: Jthomas@ocett.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Orange"
+        ],
+        "contact": "Jerome Thomas , Training Director",
+        "phone": "(714) 245-9988 Jthomas@ocett.org",
+        "email": "Jthomas@ocett.org",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:f780f402bb3c27e98300f3ae1cc9aba162624cca",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Orange County Electrical Jac (Intelligent Transportation)",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=ORANGEE&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "1261 E. Dyer Road, Santa Ana, CA 92705; Serves Orange",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Orange | Regional coverage: Southern California | Contact: Jerome Thomas , Training Director | Phone: (714) 245-9988 Jthomas@ocett.org | Email: Jthomas@ocett.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Orange"
+        ],
+        "contact": "Jerome Thomas , Training Director",
+        "phone": "(714) 245-9988 Jthomas@ocett.org",
+        "email": "Jthomas@ocett.org",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:7ac98991a87c594892466f32a3c7dc3d6bda2b54",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Redwood Empire Electrical J.A.T.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=DEL+NORTEA&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "1726 Corby Avenue, Santa Rosa, CA 95407; Serves Del Norte, Humboldt, Lake, Marin, Mendocino, Sonoma",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Del Norte, Humboldt, Lake, Marin, Mendocino, Sonoma | Regional coverage: Northern California, Bay Area, CA | Contact: Robert Barsi, Administrator | Phone: (707) 523-3837 info@rejatc.org | Email: info@rejatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Del Norte",
+          "Humboldt",
+          "Lake",
+          "Marin",
+          "Mendocino",
+          "Sonoma"
+        ],
+        "contact": "Robert Barsi, Administrator",
+        "phone": "(707) 523-3837 info@rejatc.org",
+        "email": "info@rejatc.org",
+        "regional_matches": [
+          "Northern California",
+          "Bay Area, CA"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:e8df8421c98e3858191e880563cfd876b1dbcb3a",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Riverside Area Electrical J. A. C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=RIVERSIDEE&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "1855 Business Center Drive, San Bernardino, CA 92408; Serves Riverside",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Riverside | Regional coverage: Southern California | Contact: Jonathan Rowe, Training Director | Phone: (909) 890-1703 j.rowe@inlandempirejatc.org | Email: j.rowe@inlandempirejatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Riverside"
+        ],
+        "contact": "Jonathan Rowe, Training Director",
+        "phone": "(909) 890-1703 j.rowe@inlandempirejatc.org",
+        "email": "j.rowe@inlandempirejatc.org",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:b8f3f36d42a9896d7fc58cff01e0f0dc1d7baf80",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "San Bernardino, Mono And Inyo Counties Electrical J. A. C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=INYOD&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "1855 Business Center Drive, San Bernardino, CA 92408; Serves Inyo, Mono, San Bernardino",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Inyo, Mono, San Bernardino | Regional coverage: Southern California | Contact: Jonathan Rowe, Training Director | Phone: (909) 890-1703 c.conway@ieetc.org | Email: c.conway@ieetc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Inyo",
+          "Mono",
+          "San Bernardino"
+        ],
+        "contact": "Jonathan Rowe, Training Director",
+        "phone": "(909) 890-1703 c.conway@ieetc.org",
+        "email": "c.conway@ieetc.org",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:1634f6e51e5997c5e00f479a1d0a67a4050e5029",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "San Bernardino, Mono And Inyo Counties Electrical J. A. C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=INYOD&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "1855 Business Center Drive, San Bernardino, CA 92408; Serves Inyo, Mono, San Bernardino",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Inyo, Mono, San Bernardino | Regional coverage: Southern California | Contact: Jonathan Rowe, Training Director | Phone: (909) 890-1703 j.rowe@inlandempirejatc.org | Email: j.rowe@inlandempirejatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Inyo",
+          "Mono",
+          "San Bernardino"
+        ],
+        "contact": "Jonathan Rowe, Training Director",
+        "phone": "(909) 890-1703 j.rowe@inlandempirejatc.org",
+        "email": "j.rowe@inlandempirejatc.org",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:cc2f8aafd820969644b0005365407c6809ef4413",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "San Diego Electrical J.A.T.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=IMPERIALG&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "4675 Viewridge Avenue, San Diego, CA 92123; Serves Imperial, San Diego",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Imperial, San Diego | Regional coverage: Southern California | Contact: Kevin Johnson, Training Director | Phone: (858) 569-6633 kjohnson@sdett.org | Email: kjohnson@sdett.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Imperial",
+          "San Diego"
+        ],
+        "contact": "Kevin Johnson, Training Director",
+        "phone": "(858) 569-6633 kjohnson@sdett.org",
+        "email": "kjohnson@sdett.org",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:41f23cb9cbe5e7c429ddfac831336b29b24c2e5a",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "San Francisco J.A.T.C. For The Electrical Industry - Inside Wireman",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=SAN+FRANCISCOA&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "4056 Mission Street, San Francisco, CA 94112; Serves San Francisco",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: San Francisco | Regional coverage: Bay Area, CA | Contact: Peter Chursin, Coordinator | Phone: (415) 587-2500 ext. 3000 pchursin@sfjatc.com | Email: pchursin@sfjatc.com | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "San Francisco"
+        ],
+        "contact": "Peter Chursin, Coordinator",
+        "phone": "(415) 587-2500 ext. 3000 pchursin@sfjatc.com",
+        "email": "pchursin@sfjatc.com",
+        "regional_matches": [
+          "Bay Area, CA"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:1b281db5d9848f0701eed9ae0784dd9e0d0bf852",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "San Joaquin & Calaveras Counties Electrical J.A.T.C. (Sjeti)",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=CALAVERASC&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "1531 El Pinal Drive, Stockton, CA 95205; Serves Calaveras, San Joaquin",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Calaveras, San Joaquin | Regional coverage: Central Valley, CA | Contact: Garrett Greer, Coordinator | Phone: (209) 462-0751 | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Calaveras",
+          "San Joaquin"
+        ],
+        "contact": "Garrett Greer, Coordinator",
+        "phone": "(209) 462-0751",
+        "regional_matches": [
+          "Central Valley, CA"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:8f0802ee194bff7b2f58b58b65aa08e15cfb21c4",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "San Luis Obispo Electrical Workers J.A.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=SAN+LUIS+OBISPOE&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "6363 Edna Road, San Luis Obispo, CA 93401; Serves San Luis Obispo",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: San Luis Obispo | Regional coverage: California | Contact: Jack Johnson, Main_Contact | Phone: (805) 543-5693 slojatc@ibew639.org | Email: slojatc@ibew639.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "San Luis Obispo"
+        ],
+        "contact": "Jack Johnson, Main_Contact",
+        "phone": "(805) 543-5693 slojatc@ibew639.org",
+        "email": "slojatc@ibew639.org",
+        "regional_matches": [
+          "California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:bf7a392357be5b14e9f03d8940dbba106f8aed10",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "San Mateo County Joint Apprenticeship And Training Committee For The Electrical Construction Industry",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=SAN+MATEOB&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "625 Industrial Road, San Carlos, CA 94070; Serves San Mateo",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: San Mateo | Regional coverage: Bay Area, CA | Contact: Abe Talakai, Training Director | Phone: (650) 591-5217 abe@smjatc617.org | Email: abe@smjatc617.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "San Mateo"
+        ],
+        "contact": "Abe Talakai, Training Director",
+        "phone": "(650) 591-5217 abe@smjatc617.org",
+        "email": "abe@smjatc617.org",
+        "regional_matches": [
+          "Bay Area, CA"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:80f150cedd02aa4bdffa3fc9856033779019bfb7",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Santa Barbara County Electrical J.A.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=SANTA+BARBARAE&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "2640 Industrial Pkwy200, Santa Maria, CA 93455; Serves Santa Barbara",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Santa Barbara | Regional coverage: California | Contact: Shari Brunner, Training Director | Phone: (805) 348-1200 | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Santa Barbara"
+        ],
+        "contact": "Shari Brunner, Training Director",
+        "phone": "(805) 348-1200",
+        "regional_matches": [
+          "California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:b4c36d1cc29999cbca7420c6f3ba98150150c3d4",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Solano & Napa Counties Electricians J.A.T.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=NAPAA&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "720-B Technology Way, Napa, CA 94558; Serves Napa, Solano",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Napa, Solano | Regional coverage: Bay Area, CA | Contact: Jack Paulson, Training Director | Phone: (707) 251-0315 jack@ibewlu180.org | Email: jack@ibewlu180.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Napa",
+          "Solano"
+        ],
+        "contact": "Jack Paulson, Training Director",
+        "phone": "(707) 251-0315 jack@ibewlu180.org",
+        "email": "jack@ibewlu180.org",
+        "regional_matches": [
+          "Bay Area, CA"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:fed23aa49b03ff03224311344c84d6a2c5295547",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Southern California Chapter Of The Associated Builders And Contractors, Inc., Electrical Unilateral Apprenticeship Committee",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=LOS+ANGELESE&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "1400 N. Kellogg Drive, Suite A, Anaheim, CA 92807; Serves Los Angeles, Orange, Riverside, San Bernardino, Ventura",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Los Angeles, Orange, Riverside, San Bernardino, Ventura | Regional coverage: Southern California | Contact: Kris Georgeson, Director Of Education | Phone: (714) 779-3187 https://abcsocal.org/das-submission-form/ | Email: https://abcsocal.org/das-submission-form/ | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Los Angeles",
+          "Orange",
+          "Riverside",
+          "San Bernardino",
+          "Ventura"
+        ],
+        "contact": "Kris Georgeson, Director Of Education",
+        "phone": "(714) 779-3187 https://abcsocal.org/das-submission-form/",
+        "email": "https://abcsocal.org/das-submission-form/",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:8a5bd36ab264f529cb4ca8531a5fa01bb8ea6262",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Tri-County Electrical J.A.T.C.",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=MONTEREYB&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "10300 Merritt Street, Castroville, CA 95012; Serves Monterey, San Benito, Santa Cruz",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Monterey, San Benito, Santa Cruz | Regional coverage: California | Contact: Stacy Rubalcava, Training Admin. Manager | Phone: (831) 633-3063 stacy@tricountyjatc.org | Email: stacy@tricountyjatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Monterey",
+          "San Benito",
+          "Santa Cruz"
+        ],
+        "contact": "Stacy Rubalcava, Training Admin. Manager",
+        "phone": "(831) 633-3063 stacy@tricountyjatc.org",
+        "email": "stacy@tricountyjatc.org",
+        "regional_matches": [
+          "California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
+    },
+    {
+      "job_key": "californiaapprenticeship:4439a88ec3e48c83c19f215f2a3264ece53c705a",
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "company": "Ventura County Electrical Jatc",
+      "title": "California Electrical Apprenticeship Pathway",
+      "detail_url": "https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=VENTURAE&varType=22&Submit=Search",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "location": "241 Lombard St, Oxnard, CA 93030; Serves Ventura",
+      "posted_date": "",
+      "description": "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways. | County coverage: Ventura | Regional coverage: Southern California | Contact: Steve Earhart, Training Director | Phone: (805) 604-0145 information@vcjatc.org | Email: information@vcjatc.org | This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+      "source_context": "Official California DIR public works apprenticeship sponsor search",
+      "discovered_via": "state public works sponsor listing",
+      "metadata": {
+        "lead_type": "pathway",
+        "program_status": "directory",
+        "program_status_source": "state public works sponsor listing",
+        "occupation_group": "Electrical & Electronic",
+        "county_names": [
+          "Ventura"
+        ],
+        "contact": "Steve Earhart, Training Director",
+        "phone": "(805) 604-0145 information@vcjatc.org",
+        "email": "information@vcjatc.org",
+        "regional_matches": [
+          "Southern California"
+        ]
+      },
+      "score": 282,
+      "reasons": [
+        "official apprenticeship pathway fits Donovan's target trade",
+        "pathway coverage reaches Oregon or nearby Pacific Northwest areas",
+        "state directory provides direct program contact information",
+        "title matches 'electrical apprentice'",
+        "title includes 'apprentice'",
+        "title includes 'electrical'",
+        "title includes 'electric'",
+        "description includes 'apprenticeship'"
+      ],
+      "hub_matches": [],
+      "bucket": "watch",
+      "status": "active",
+      "stale_source": false,
+      "stale_since": "",
+      "first_seen": "2026-03-29",
+      "last_seen": "2026-03-29",
+      "expired_on": "",
+      "seen_count": 2
     },
     {
       "job_key": "emcor:b327d5de60c9c7ccec7c10444bab8b276fb4b9f5",
@@ -806,10 +3355,12 @@
       ],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "emcor:788ff163833200a304ac40556ac239dd98742848",
@@ -844,10 +3395,12 @@
       ],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "emcor:7aefca5df37df17f058a23d58c1199a9d95d2916",
@@ -882,10 +3435,12 @@
       ],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "emcor:47eb7a64f2cd03951bd41964bb3eb3c7a37ae86d",
@@ -918,10 +3473,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "bergelectric:9342b79dbeb70467b37490d98313f802dcc4fc0d",
@@ -952,10 +3509,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 16
     },
     {
       "job_key": "bergelectric:ec16a03bf4a3ec343b9c9db021577da0e23b6447",
@@ -986,10 +3545,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 21
+      "seen_count": 23
     },
     {
       "job_key": "bergelectric:7c75f209c7c6aaf175c8919baa6581d2ed91ca77",
@@ -1020,10 +3581,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 21
+      "seen_count": 23
     },
     {
       "job_key": "bergelectric:1fed2f50a8aa0fe181c8b30bee233878b91f6d0b",
@@ -1054,10 +3617,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 21
+      "seen_count": 23
     },
     {
       "job_key": "bergelectric:dd785adabef65ad2865927dd5108b224d46f44c8",
@@ -1088,10 +3653,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 21
+      "seen_count": 23
     },
     {
       "job_key": "bergelectric:fb0f4b4f68f683387f441dbfc86fd59295b58436",
@@ -1122,10 +3689,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 21
+      "seen_count": 23
     },
     {
       "job_key": "emcor:46ca6f73c28761ff7a77d5b83c40d0c5a24c8d76",
@@ -1156,10 +3725,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "emcor:66d047611aa5b006db55891434e06aed1dfa3986",
@@ -1190,10 +3761,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "emcor:583b58f3fb03972653cd89077c0d6df19576d65f",
@@ -1224,10 +3797,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "emcor:19953bc50b9b68eeae496f3f763ab0ae8e6a3a5c",
@@ -1258,10 +3833,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "emcor:adfc0e401cdf5ac72cec9430696792d72535513a",
@@ -1292,10 +3869,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "emcor:acabc31786951806415b79f53e3ff4fa8da80cb1",
@@ -1326,10 +3905,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "mortenson:57b72792b0123b01ff613ad1848e168f8e79592c",
@@ -1363,10 +3944,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "mortenson:727bfdba7e8ccf2e83795d63b3557bffd9d414b1",
@@ -1400,10 +3983,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "mortenson:3712886393397d028fd6e80cee881ce28e77fc2e",
@@ -1437,10 +4022,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     },
     {
       "job_key": "mortenson:228a1dc37ade8a786f294a11093164ca211bafcf",
@@ -1474,49 +4061,12 @@
       "hub_matches": [],
       "bucket": "watch",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
-    },
-    {
-      "job_key": "bergelectric:1d800baacb5ac0189706e6afcf0db6c6d9c5a458",
-      "source_key": "bergelectric",
-      "source_name": "Bergelectric",
-      "company": "Bergelectric Corp.",
-      "title": "Apprentice Electrician-Shreveport, LA",
-      "detail_url": "https://careers-bergelectric.icims.com/jobs/1949/apprentice-electrician-shreveport%2c-la/job?in_iframe=1",
-      "source_url": "https://www.bergelectric.com/careers/",
-      "location": "US-TX-Dallas",
-      "posted_date": "",
-      "description": "Apprentice Electrician-Shreveport, LA | Location | US-TX-Dallas | ID | 2026-1949 | Category | Skilled Trades | Position Type | Fulltime-Regular | Overview | Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical codes along with all Bergelectric Corp. policies and procedures. Support activities at commercial, industrial, institutional and residential project locations. This is considered to be a safety sensitive position. | Responsibilities | Assist with the installation, repair, maintenance and testing of commercial, industrial and residential electrical systems in full support of Bergelectric Corp. safety, operations and productivity initiatives. | Use industry related hand tools and power tools, under supervision. | Assist the Electrician with measuring, cutting, bending, threading and installing wire and electrical cable systems, conduit systems and other wire raceway systems. | Assist the Electrician with wires and cables within control centers, distribution boxes, transformers, transducers, switch gear, receptacles, switches, etc. | Work with an Electrician to splice and terminate wires at junction points. | Clean, gather and transport materials to electricians on the construction site. | Communicate effectively with Foremen and crew members. | Maintain workflow schedule to ensure all Bergelectric Corp. productivity objectives are met. | Demonstrate the highest level of professionalism and courtesy when interacting with colleagues, customers and vendors. | Adhere to all Bergelectric Corp.\u2019s safety policies and procedures. | Qualifications | Must be currently enrolled or working on enrollment in an approved Apprentice program. | Knowledge of electrical theory, basic circuits, branch circuits, and specialty systems. | Knowledge of magnetic induction, three-phase transformers, conductors and wiring methods. | The ability to read and understand electrical single line blueprints. | Familiar with aspects of operation, maintenance and repair of electrical systems. | Basic knowledge of tools and equipment and how to safely use them. | Physical Demands | Lift 50 lbs. from the ground and pull 50 lbs. of force. | Perform ladder climbing, wire p\u2026",
-      "source_context": "Bergelectric iCIMS search query 'apprentice'",
-      "discovered_via": "iCIMS iframe search",
-      "metadata": {
-        "category": "Skilled Trades",
-        "position_type": "Fulltime-Regular, Overview, Function as an Apprentice Electrician, under a certified or licensed Electrician for Bergelectric Corp. assist electricians with installing new electrical systems and repairing existing electrical systems while maintaining compliance with national, state, and local electrical codes along with all Bergelectric Corp. policies and procedures. Support activities at commercial, industrial, institutional and residential project locations. This is considered to be a safety sensitive position., Responsibilities, Assist with the installation, repair, maintenance and testing of commercial, industrial and residential electrical systems in full support of Bergelectric Corp. safety, operations and productivity initiatives., Use industry related hand tools and power tools, under supervision., Assist the Electrician with measuring, cutting, bending, threading and installing wire and electrical cable systems, conduit systems and other wire raceway systems., Assist the Electrician with wires and cables within control centers, distribution boxes, transformers, transducers, switch gear, receptacles, switches, etc., Work with an Electrician to splice and terminate wires at junction points., Clean, gather and transport materials to electricians on the construction site., Communicate effectively with Foremen and crew members., Maintain workflow schedule to ensure all Bergelectric Corp. productivity objectives are met., Demonstrate the highest level of professionalism and courtesy when interacting with colleagues, customers and vendors., Adhere to all Bergelectric Corp.\u2019s safety policies and procedures., Qualifications, Must be currently enrolled or working on enrollment in an approved Apprentice program., Knowledge of electrical theory, basic circuits, branch circuits, and specialty systems., Knowledge of magnetic induction, three-phase transformers, conductors and wiring methods., The ability to read and understand electrical single line blueprints., Familiar with aspects of operation, maintenance and repair of electrical systems., Basic knowledge of tools and equipment and how to safely use them., Physical Demands, Lift 50 lbs. from the ground and pull 50 lbs. of force., Perform ladder climbing, wire p\u2026",
-        "title_location_hint": "Shreveport, LA"
-      },
-      "score": 148,
-      "reasons": [
-        "title matches 'apprentice electrician'",
-        "title includes 'apprentice'",
-        "title includes 'electrician'",
-        "title includes 'electric'",
-        "description includes 'electrician'",
-        "description includes 'electrical'",
-        "priority hub match: Dallas-Fort Worth, TX",
-        "title location does not match the listing location"
-      ],
-      "hub_matches": [
-        "Dallas-Fort Worth, TX"
-      ],
-      "bucket": "watch",
-      "status": "active",
-      "first_seen": "2026-03-21",
-      "last_seen": "2026-03-29",
-      "expired_on": "",
-      "seen_count": 21
+      "seen_count": 26
     },
     {
       "job_key": "emcor:5297c73de20628ff1597a4700334cc7a34526777",
@@ -1548,10 +4098,12 @@
       "hub_matches": [],
       "bucket": "priority",
       "status": "active",
+      "stale_source": false,
+      "stale_since": "",
       "first_seen": "2026-03-21",
       "last_seen": "2026-03-29",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 26
     }
   ],
   "reports": [
@@ -1560,9 +4112,13 @@
       "source_name": "Cupertino Electric",
       "source_url": "https://www.cei.com/careers/current-openings",
       "status": "ok",
-      "total_fetched": 69,
+      "total_fetched": 67,
       "total_relevant": 0,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
       "errors": []
     },
@@ -1573,7 +4129,11 @@
       "status": "ok",
       "total_fetched": 115,
       "total_relevant": 11,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
       "errors": []
     },
@@ -1583,8 +4143,12 @@
       "source_url": "https://www.bergelectric.com/careers/",
       "status": "ok",
       "total_fetched": 49,
-      "total_relevant": 7,
+      "total_relevant": 6,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
       "errors": []
     },
@@ -1595,7 +4159,11 @@
       "status": "ok",
       "total_fetched": 23,
       "total_relevant": 0,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
       "errors": []
     },
@@ -1606,7 +4174,11 @@
       "status": "ok",
       "total_fetched": 14,
       "total_relevant": 14,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [
         "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
         "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
@@ -1616,53 +4188,86 @@
     },
     {
       "source_key": "washingtonapprenticeship",
-      "source_name": "Washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
       "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "status": "error",
-      "total_fetched": 0,
-      "total_relevant": 0,
+      "status": "ok",
+      "total_fetched": 10,
+      "total_relevant": 10,
+      "stale_relevant_count": 0,
       "used_browser": false,
-      "notes": [],
-      "errors": [
-        "503 Server Error: Service Unavailable for url: https://secure.lni.wa.gov/home/LocalResponseRedirect.aspx?TAM_OP=error&USERNAME=unauthenticated&ERROR_CODE=0x38cf04d7&ERROR_TEXT=DPWWA1239E%20%20%20A%20third-party%20server%20is%20not%20responding.%20%20Possible%20causes%3A%20the%20server%20is%20down%2C%20there%20is%20a%20hung%20application%20on%20the%20server%2C%20or%20network%20problems.%20%20This%20is%20not%20a%20problem%20with%20the%20WebSEAL%20server.&URL=%2Farts-public%2FGatewayProxy%2FUiProxy.aspx%3Fop%3DUiGatewayRestfulOperation"
-      ]
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "notes": [
+        "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
+        "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
+        "Washington directory entries are shown as pathways to check directly, not guaranteed-open application windows."
+      ],
+      "errors": []
+    },
+    {
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "status": "ok",
+      "total_fetched": 34,
+      "total_relevant": 34,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "notes": [
+        "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
+        "County coverage was aggregated across 58 California county searches.",
+        "These California records are shown as official pathways to check directly, not confirmed-open application windows."
+      ],
+      "errors": []
     },
     {
       "source_key": "oeg",
-      "source_name": "Oeg",
+      "source_name": "OEG",
       "source_url": "https://oeg.us.com/careers/",
-      "status": "error",
-      "total_fetched": 0,
+      "status": "ok",
+      "total_fetched": 13,
       "total_relevant": 0,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
-      "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606800/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-pwhdosso', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
-      ]
+      "errors": []
     },
     {
       "source_key": "mortenson",
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
-      "total_fetched": 99,
+      "total_fetched": 98,
       "total_relevant": 4,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
       "errors": []
     },
     {
       "source_key": "turner",
-      "source_name": "Turner",
+      "source_name": "Turner Construction",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
-      "status": "error",
-      "total_fetched": 0,
+      "status": "ok",
+      "total_fetched": 203,
       "total_relevant": 0,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
-      "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606800/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-thq4ccht', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
-      ]
+      "errors": []
     },
     {
       "source_key": "kiewit",
@@ -1671,7 +4276,11 @@
       "status": "warning",
       "total_fetched": 0,
       "total_relevant": 0,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],

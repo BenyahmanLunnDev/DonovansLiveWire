@@ -153,12 +153,13 @@ def test_official_pathway_scores_as_watch_not_priority() -> None:
     assert any("official apprenticeship pathway" in reason for reason in evaluated.reasons)
 
 
-def test_location_mismatch_apprentice_role_is_not_priority() -> None:
+def test_location_mismatch_apprentice_role_is_filtered_when_context_is_weak() -> None:
     job = make_job(
         "Apprentice Electrician-Shreveport, LA",
         description="Function as an Apprentice Electrician under a licensed electrician.",
         location="US-TX-Dallas",
     )
     evaluated = evaluate_job(job)
-    assert evaluated.bucket == "watch"
+    assert evaluated.bucket == "discard"
     assert any("title location does not match" in reason for reason in evaluated.reasons)
+    assert any("too ambiguous" in reason for reason in evaluated.reasons)

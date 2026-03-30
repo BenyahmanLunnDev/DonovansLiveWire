@@ -76,6 +76,10 @@ def evaluate_job(job: JobLead) -> JobLead:
     electrical_like = any(term in content_only for term in ("electric", "electrical", "low voltage", "fiber"))
     helper_like = "helper" in title or "helper" in description
     generic_location = location.strip() in {"", "united states", "usa", "us"}
+    strong_project_context = any(
+        phrase in content_only or phrase in context
+        for phrase in ("data center", "mission critical", "critical facilities", "hyperscale", "colocation")
+    )
     relocation_phrase = next(
         (
             phrase
@@ -223,6 +227,9 @@ def evaluate_job(job: JobLead) -> JobLead:
         score -= 32
         reasons.append("title location does not match the listing location")
         job.metadata["title_location_hint"] = title_location_hint
+        if not strong_project_context and not relocation_phrase and not lead_type:
+            score -= 80
+            reasons.append("conflicting location makes the opportunity too ambiguous")
     else:
         job.metadata.pop("title_location_hint", None)
 

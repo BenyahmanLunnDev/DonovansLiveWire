@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import time
 from datetime import datetime, timezone
 from typing import Iterable
 from urllib.parse import quote_plus
@@ -13,16 +14,24 @@ from wireman_tracker.browser import dump_dom
 from wireman_tracker.config import (
     AREA1_APPLICATIONS_URL,
     BERGELECTRIC_QUERY_TERMS,
+    CALIFORNIA_DAS_PW_RESULTS_URL,
+    CALIFORNIA_DAS_PW_START_URL,
+    CALIFORNIA_ELECTRICAL_OCCUPATION_CODE,
     EMCOR_QUERY_TERMS,
     MAX_DESCRIPTION_CHARS,
     MORTENSON_QUERY_TERMS,
     NIETC_CURRENT_OPENINGS_URL,
+    OEG_BOARD_BASE_URL,
     OEG_BOARD_URL,
+    OEG_PAGE_SIZE,
     OREGON_APPRENTICESHIP_OPENINGS_URL,
     OREGON_INSIDE_ELECTRICIAN_DETAILS_URL,
     SOURCE_URLS,
+    TRANSIENT_RETRY_BACKOFF_SECONDS,
     TURNER_QUERY_TERMS,
+    TURNER_PAGE_SIZE,
     WASHINGTON_ARTS_PROXY_URL,
+    WASHINGTON_RETRY_ATTEMPTS,
 )
 from wireman_tracker.models import JobLead, SourceReport
 from wireman_tracker.utils import (
@@ -115,6 +124,42 @@ OREGON_COUNTY_LABELS = {
     "wheeler": "Eastern Oregon",
 }
 
+CALIFORNIA_COUNTY_LABELS = {
+    "del norte": "Northern California",
+    "humboldt": "Northern California",
+    "lassen": "Northern California",
+    "mendocino": "Northern California",
+    "modoc": "Northern California",
+    "shasta": "Northern California",
+    "siskiyou": "Northern California",
+    "tehama": "Northern California",
+    "trinity": "Northern California",
+    "alameda": "Bay Area, CA",
+    "contra costa": "Bay Area, CA",
+    "marin": "Bay Area, CA",
+    "napa": "Bay Area, CA",
+    "san francisco": "Bay Area, CA",
+    "san mateo": "Bay Area, CA",
+    "santa clara": "Bay Area, CA",
+    "solano": "Bay Area, CA",
+    "sonoma": "Bay Area, CA",
+    "placer": "Sacramento region",
+    "sacramento": "Sacramento region",
+    "yolo": "Sacramento region",
+    "butte": "Central Valley, CA",
+    "fresno": "Central Valley, CA",
+    "kern": "Central Valley, CA",
+    "merced": "Central Valley, CA",
+    "san joaquin": "Central Valley, CA",
+    "stanislaus": "Central Valley, CA",
+    "los angeles": "Southern California",
+    "orange": "Southern California",
+    "riverside": "Southern California",
+    "san bernardino": "Southern California",
+    "san diego": "Southern California",
+    "ventura": "Southern California",
+}
+
 
 def _dedupe_labels(values: Iterable[str]) -> list[str]:
     ordered: list[str] = []
@@ -141,6 +186,18 @@ def _summarize_oregon_county_coverage(county_names: list[str]) -> list[str]:
         label = OREGON_COUNTY_LABELS.get(normalized)
         if label and label not in labels:
             labels.append(label)
+    return labels
+
+
+def _summarize_california_county_coverage(county_names: list[str]) -> list[str]:
+    labels: list[str] = []
+    for county in county_names:
+        normalized = clean_text(county).lower()
+        label = CALIFORNIA_COUNTY_LABELS.get(normalized)
+        if label and label not in labels:
+            labels.append(label)
+    if county_names and not labels:
+        labels.append("California")
     return labels
 
 
@@ -445,6 +502,247 @@ def _parse_oeg_cards(html: str) -> list[JobLead]:
     return dedupe_by_job_key(jobs)
 
 
+def _coerce_iso_date(value: str) -> str:
+    raw = clean_text(value)
+    if not raw:
+        return ""
+    normalized = raw.replace("Z", "+00:00")
+    try:
+        return datetime.fromisoformat(normalized).date().isoformat()
+    except ValueError:
+        return extract_date(raw)
+
+
+def _build_oeg_search_payload(skip: int = 0, top: int = OEG_PAGE_SIZE) -> dict:
+    return {
+        "opportunitySearch": {
+            "Top": top,
+            "Skip": skip,
+            "QueryString": "",
+            "OrderBy": [
+                {
+                    "Value": "postedDateDesc",
+                    "PropertyName": "PostedDate",
+                    "Ascending": False,
+                }
+            ],
+            "Filters": [
+                {"t": "TermsSearchFilterDto", "fieldName": 4, "extra": None, "values": []},
+                {"t": "TermsSearchFilterDto", "fieldName": 5, "extra": None, "values": []},
+                {"t": "TermsSearchFilterDto", "fieldName": 6, "extra": None, "values": []},
+                {"t": "TermsSearchFilterDto", "fieldName": 37, "extra": None, "values": []},
+            ],
+        },
+        "matchCriteria": {
+            "PreferredJobs": [],
+            "Educations": [],
+            "LicenseAndCertifications": [],
+            "Skills": [],
+            "hasNoLicenses": False,
+            "SkippedSkills": [],
+        },
+    }
+
+
+def _format_oeg_location(location: dict) -> str:
+    address = location.get("Address") or {}
+    city = clean_text((address.get("City") or "").strip())
+    state = clean_text(((address.get("State") or {}).get("Code") or "").strip())
+    country = clean_text(((address.get("Country") or {}).get("Code") or "").strip())
+    description = clean_text(location.get("LocalizedDescription"))
+
+    if city and state:
+        value = f"{city}, {state}"
+        if country and country not in {"US", "USA"}:
+            value = f"{value}, {country}"
+        return value
+    if description:
+        return description
+    return clean_text(
+        ", ".join(
+            value
+            for value in (city, state, country)
+            if value
+        )
+    )
+
+
+def _parse_oeg_opportunities(payload: dict) -> list[JobLead]:
+    jobs: list[JobLead] = []
+    for item in payload.get("opportunities", []):
+        opportunity_id = clean_text(item.get("Id"))
+        if not opportunity_id:
+            continue
+
+        detail_url = f"{OEG_BOARD_BASE_URL}/OpportunityDetail?opportunityId={opportunity_id}"
+        locations = [
+            _format_oeg_location(location)
+            for location in item.get("Locations", [])
+            if isinstance(location, dict)
+        ]
+        description = truncate_text(
+            clean_text(item.get("BriefDescription")),
+            MAX_DESCRIPTION_CHARS,
+        )
+
+        jobs.append(
+            JobLead(
+                job_key=stable_job_key("oeg", opportunity_id),
+                source_key="oeg",
+                source_name="OEG",
+                company="OEG",
+                title=clean_text(item.get("Title")),
+                detail_url=detail_url,
+                source_url=SOURCE_URLS["oeg"],
+                location=clean_text("; ".join(dict.fromkeys(value for value in locations if value))),
+                posted_date=_coerce_iso_date(str(item.get("PostedDate") or "")),
+                description=description,
+                source_context="OEG UKG careers board",
+                discovered_via="UKG JSON search",
+                metadata={
+                    key: value
+                    for key, value in {
+                        "category": clean_text(item.get("JobCategoryName")),
+                        "job_location_type": clean_text(str(item.get("JobLocationType") or "")),
+                    }.items()
+                    if value
+                },
+            )
+        )
+
+    return dedupe_by_job_key(jobs)
+
+
+def _load_oeg_jobs(session: requests.Session) -> list[JobLead]:
+    response = session.post(
+        f"{OEG_BOARD_BASE_URL}/JobBoardView/LoadSearchResults",
+        json=_build_oeg_search_payload(),
+        timeout=30,
+    )
+    response.raise_for_status()
+    payload = response.json()
+    return _parse_oeg_opportunities(payload if isinstance(payload, dict) else {})
+
+
+def _extract_turner_token(html: str) -> str:
+    match = re.search(r'csod\.context=\{.*?"token":"([^"]+)"', html)
+    if not match:
+        raise RuntimeError("Could not locate the Turner CSOD token in the careers page HTML.")
+    return clean_text(match.group(1))
+
+
+def _build_turner_payload(
+    search_text: str = "",
+    *,
+    page_number: int = 1,
+    page_size: int = TURNER_PAGE_SIZE,
+) -> dict:
+    return {
+        "careerSiteId": 4,
+        "careerSitePageId": 4,
+        "pageNumber": page_number,
+        "pageSize": page_size,
+        "cultureId": 1,
+        "searchText": search_text,
+        "cultureName": "en-US",
+        "states": [],
+        "countryCodes": [],
+        "cities": [],
+        "placeID": "",
+        "radius": None,
+        "postingsWithinDays": None,
+        "customFieldCheckboxKeys": [],
+        "customFieldDropdowns": [],
+        "customFieldRadios": [],
+    }
+
+
+def _format_turner_location(location: dict) -> str:
+    city = clean_text(location.get("city"))
+    state = clean_text(location.get("state"))
+    country = clean_text(location.get("country"))
+    if city and state:
+        value = f"{city}, {state}"
+        if country and country not in {"US", "USA"}:
+            value = f"{value}, {country}"
+        return value
+    return clean_text(", ".join(part for part in (city, state, country) if part))
+
+
+def _parse_turner_requisitions(payload: dict) -> list[JobLead]:
+    jobs: list[JobLead] = []
+    data = payload.get("data", {}) if isinstance(payload, dict) else {}
+    requisitions = data.get("requisitions", []) if isinstance(data, dict) else []
+    for requisition in requisitions:
+        requisition_id = requisition.get("requisitionId")
+        if requisition_id in (None, ""):
+            continue
+
+        locations = [
+            _format_turner_location(location)
+            for location in requisition.get("locations", [])
+            if isinstance(location, dict)
+        ]
+        location = clean_text("; ".join(dict.fromkeys(value for value in locations if value)))
+        description = truncate_text(
+            clean_text(BeautifulSoup(requisition.get("externalDescription") or "", "html.parser").get_text(" ", strip=True)),
+            MAX_DESCRIPTION_CHARS,
+        )
+        detail_url = (
+            "https://turnerconstruction.csod.com/ux/ats/careersite/4/home"
+            f"?c=turnerconstruction#/requisition/{requisition_id}"
+        )
+
+        jobs.append(
+            JobLead(
+                job_key=stable_job_key("turner", str(requisition_id)),
+                source_key="turner",
+                source_name="Turner Construction",
+                company="Turner Construction",
+                title=clean_text(requisition.get("displayJobTitle")),
+                detail_url=detail_url,
+                source_url=SOURCE_URLS["turner"],
+                location=location or clean_text(requisition.get("displayLocation")),
+                posted_date=_coerce_iso_date(str(requisition.get("postingEffectiveDate") or "")),
+                description=description,
+                source_context="Turner labor and skilled trade careers API",
+                discovered_via="CSOD requisitions API",
+                metadata={
+                    key: value
+                    for key, value in {
+                        "job_family": clean_text(requisition.get("jobFamily")),
+                        "posting_expiration_date": clean_text(requisition.get("postingExpirationDate")),
+                    }.items()
+                    if value
+                },
+            )
+        )
+
+    return dedupe_by_job_key(jobs)
+
+
+def _load_turner_jobs(session: requests.Session, search_text: str = "") -> list[JobLead]:
+    landing_html = fetch_text(
+        session,
+        "https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction#/",
+    )
+    token = _extract_turner_token(landing_html)
+    response = session.post(
+        "https://us.api.csod.com/rec-job-search/external/jobs",
+        json=_build_turner_payload(search_text=search_text),
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/json; q=1.0, text/*; q=0.8, */*; q=0.1",
+            "Content-Type": "application/json",
+            "Csod-Accept-Language": "en-US",
+            "Referer": "https://turnerconstruction.csod.com/",
+        },
+        timeout=30,
+    )
+    response.raise_for_status()
+    return _parse_turner_requisitions(response.json())
+
+
 def scrape_oregon_apprenticeship(session: requests.Session) -> tuple[list[JobLead], SourceReport]:
     report = SourceReport(
         source_key="oregonapprenticeship",
@@ -590,9 +888,20 @@ def _washington_arts_request(
     }
     if request_content is not None:
         payload["RequestContent"] = json.dumps(request_content)
-    response = session.post(WASHINGTON_ARTS_PROXY_URL, json=payload, timeout=30)
-    response.raise_for_status()
-    return response
+    last_error: Exception | None = None
+    for attempt in range(1, WASHINGTON_RETRY_ATTEMPTS + 1):
+        try:
+            response = session.post(WASHINGTON_ARTS_PROXY_URL, json=payload, timeout=30)
+            response.raise_for_status()
+            return response
+        except requests.RequestException as exc:
+            last_error = exc
+            if attempt >= WASHINGTON_RETRY_ATTEMPTS:
+                break
+            time.sleep(TRANSIENT_RETRY_BACKOFF_SECONDS * attempt)
+    raise RuntimeError(
+        f"Washington L&I request failed after {WASHINGTON_RETRY_ATTEMPTS} attempts for {url_data}: {last_error}"
+    )
 
 
 def _lookup_washington_programs(session: requests.Session, keyword: str) -> list[dict]:
@@ -763,6 +1072,175 @@ def scrape_washington_apprenticeship(session: requests.Session) -> tuple[list[Jo
         )
     report.notes.append(
         "Washington directory entries are shown as pathways to check directly, not guaranteed-open application windows."
+    )
+    return dedupe_by_job_key(jobs), report
+
+
+def _load_california_counties(session: requests.Session) -> list[tuple[str, str]]:
+    html = fetch_text(session, CALIFORNIA_DAS_PW_START_URL)
+    soup = BeautifulSoup(html, "html.parser")
+    counties: list[tuple[str, str]] = []
+    for option in soup.select('select[name="varCounty"] option[value]'):
+        value = clean_text(option.get("value"))
+        label = clean_text(option.get_text(" ", strip=True))
+        if value and label:
+            counties.append((value, label))
+    return counties
+
+
+def _parse_california_result_rows(html: str, county_name: str, detail_url: str) -> list[dict[str, str | list[str]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    rows = soup.select("form#form1 table tr")
+    entries: list[dict[str, str | list[str]]] = []
+    current: dict[str, str | list[str]] | None = None
+
+    for row in rows:
+        cells = row.select("td")
+        if len(cells) != 2:
+            continue
+
+        label = clean_text(cells[0].get_text(" ", strip=True)).lower()
+        value_cell = cells[1]
+
+        if label.startswith("contact information"):
+            if current:
+                entries.append(current)
+            name_node = value_cell.find("b")
+            sponsor_name = clean_text(name_node.get_text(" ", strip=True)) if name_node else ""
+            raw_strings = [clean_text(part) for part in value_cell.stripped_strings if clean_text(part)]
+            address = clean_text(", ".join(raw_strings[1:])) if len(raw_strings) > 1 else ""
+            current = {
+                "company": sponsor_name,
+                "address": address,
+                "contact": "",
+                "phone": "",
+                "email": "",
+                "detail_url": detail_url,
+                "county_names": [county_name],
+            }
+            continue
+
+        if not current:
+            continue
+
+        if label.startswith("contact person"):
+            current["contact"] = clean_text(value_cell.get_text(" ", strip=True))
+        elif label.startswith("contact phone"):
+            current["phone"] = clean_text(value_cell.get_text(" ", strip=True).split("mailto:")[0])
+            email_link = value_cell.select_one('a[href^="mailto:"]')
+            if email_link:
+                current["email"] = clean_text(email_link.get_text(" ", strip=True))
+
+    if current:
+        entries.append(current)
+    return entries
+
+
+def scrape_california_apprenticeship(session: requests.Session) -> tuple[list[JobLead], SourceReport]:
+    report = SourceReport(
+        source_key="californiaapprenticeship",
+        source_name="California DIR Apprenticeship",
+        source_url=SOURCE_URLS["californiaapprenticeship"],
+    )
+    counties = _load_california_counties(session)
+    aggregated: dict[str, dict[str, str | list[str]]] = {}
+
+    for county_value, county_name in counties:
+        detail_url = (
+            f"{CALIFORNIA_DAS_PW_RESULTS_URL}?varCounty={quote_plus(county_value)}"
+            f"&varType={CALIFORNIA_ELECTRICAL_OCCUPATION_CODE}&Submit=Search"
+        )
+        html = fetch_text(
+            session,
+            CALIFORNIA_DAS_PW_RESULTS_URL + f"?varCounty={quote_plus(county_value)}&varType={CALIFORNIA_ELECTRICAL_OCCUPATION_CODE}&Submit=Search",
+        )
+        for entry in _parse_california_result_rows(html, county_name, detail_url):
+            company = clean_text(str(entry.get("company", "")))
+            if not company:
+                continue
+            dedupe_hint = clean_text(str(entry.get("email", ""))) or clean_text(str(entry.get("phone", ""))) or clean_text(str(entry.get("address", "")))
+            key = stable_job_key("californiaapprenticeship", f"{company}|{dedupe_hint}")
+            existing = aggregated.setdefault(
+                key,
+                {
+                    "company": company,
+                    "address": clean_text(str(entry.get("address", ""))),
+                    "contact": clean_text(str(entry.get("contact", ""))),
+                    "phone": clean_text(str(entry.get("phone", ""))),
+                    "email": clean_text(str(entry.get("email", ""))),
+                    "detail_url": clean_text(str(entry.get("detail_url", detail_url))),
+                    "county_names": [],
+                },
+            )
+            county_names = existing.get("county_names")
+            if isinstance(county_names, list):
+                county_names.extend(
+                    clean_text(name)
+                    for name in entry.get("county_names", [])
+                    if clean_text(str(name))
+                )
+
+    jobs: list[JobLead] = []
+    for key, entry in aggregated.items():
+        county_names = _dedupe_labels(
+            value for value in entry.get("county_names", []) if isinstance(value, str)
+        )
+        regional_matches = _summarize_california_county_coverage(county_names)
+        coverage_summary = _summarize_counties(county_names, limit=8)
+        location_parts = [
+            clean_text(str(entry.get("address", ""))),
+            f"Serves {coverage_summary}" if coverage_summary else "",
+        ]
+        description_parts = [
+            "Official California DIR public works apprenticeship sponsor listing for Electrical & Electronic pathways.",
+            f"County coverage: {coverage_summary}" if coverage_summary else "",
+            f"Regional coverage: {', '.join(regional_matches)}" if regional_matches else "",
+            f"Contact: {clean_text(str(entry.get('contact', '')))}" if clean_text(str(entry.get("contact", ""))) else "",
+            f"Phone: {clean_text(str(entry.get('phone', '')))}" if clean_text(str(entry.get("phone", ""))) else "",
+            f"Email: {clean_text(str(entry.get('email', '')))}" if clean_text(str(entry.get("email", ""))) else "",
+            "This public works sponsor listing does not confirm current application windows, so treat this as an official pathway to check directly.",
+        ]
+
+        jobs.append(
+            JobLead(
+                job_key=key,
+                source_key="californiaapprenticeship",
+                source_name="California DIR Apprenticeship",
+                company=clean_text(str(entry.get("company", ""))),
+                title="California Electrical Apprenticeship Pathway",
+                detail_url=clean_text(str(entry.get("detail_url", SOURCE_URLS["californiaapprenticeship"]))),
+                source_url=SOURCE_URLS["californiaapprenticeship"],
+                location=clean_text("; ".join(part for part in location_parts if part)),
+                description=truncate_text(" | ".join(part for part in description_parts if part), MAX_DESCRIPTION_CHARS),
+                source_context="Official California DIR public works apprenticeship sponsor search",
+                discovered_via="state public works sponsor listing",
+                metadata={
+                    key: value
+                    for key, value in {
+                        "lead_type": "pathway",
+                        "program_status": "directory",
+                        "program_status_source": "state public works sponsor listing",
+                        "occupation_group": "Electrical & Electronic",
+                        "county_names": county_names,
+                        "contact": clean_text(str(entry.get("contact", ""))),
+                        "phone": clean_text(str(entry.get("phone", ""))),
+                        "email": clean_text(str(entry.get("email", ""))),
+                        "regional_matches": regional_matches,
+                    }.items()
+                    if value
+                },
+            )
+        )
+
+    report.total_fetched = len(jobs)
+    report.notes.append(
+        f"California DIR public works search currently lists {len(jobs)} unique Electrical & Electronic apprenticeship sponsors."
+    )
+    report.notes.append(
+        f"County coverage was aggregated across {len(counties)} California county searches."
+    )
+    report.notes.append(
+        "These California records are shown as official pathways to check directly, not confirmed-open application windows."
     )
     return dedupe_by_job_key(jobs), report
 
@@ -945,22 +1423,17 @@ def scrape_oeg(
         source_key="oeg",
         source_name="OEG",
         source_url=SOURCE_URLS["oeg"],
-        used_browser=True,
     )
+    try:
+        jobs = _load_oeg_jobs(session)
+        report.total_fetched = len(jobs)
+        return jobs, report
+    except Exception as exc:
+        report.notes.append(f"Structured UKG endpoint failed, using browser fallback. {clean_text(str(exc))}")
+        report.used_browser = True
 
     html = dump_dom(OEG_BOARD_URL, browser_path=browser_path)
     jobs = _parse_oeg_cards(html)
-
-    for job in jobs:
-        if not _turner_detail_needed(job.title):
-            continue
-        detail_html = dump_dom(job.detail_url, browser_path=browser_path)
-        detail_soup = BeautifulSoup(detail_html, "html.parser")
-        detail_text = clean_text(detail_soup.get_text(" | ", strip=True))
-        if detail_text:
-            job.description = truncate_text(detail_text, MAX_DESCRIPTION_CHARS)
-            job.posted_date = extract_date(detail_text) or job.posted_date
-
     report.total_fetched = len(jobs)
     return jobs, report
 
@@ -1072,10 +1545,16 @@ def scrape_turner(
         source_key="turner",
         source_name="Turner Construction",
         source_url=SOURCE_URLS["turner"],
-        used_browser=True,
     )
-    jobs: list[JobLead] = []
+    try:
+        jobs = _load_turner_jobs(session)
+        report.total_fetched = len(jobs)
+        return jobs, report
+    except Exception as exc:
+        report.notes.append(f"Structured CSOD endpoint failed, using browser fallback. {clean_text(str(exc))}")
+        report.used_browser = True
 
+    jobs: list[JobLead] = []
     for term in TURNER_QUERY_TERMS:
         search_url = f"https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq={quote_plus(term)}"
         html = dump_dom(search_url, browser_path=browser_path)
@@ -1126,26 +1605,27 @@ def scrape_all_sources(
     jobs: list[JobLead] = []
     reports: list[SourceReport] = []
     source_calls = [
-        ("cei", lambda: scrape_cei(session)),
-        ("emcor", lambda: scrape_emcor(session)),
-        ("bergelectric", lambda: scrape_bergelectric(session)),
-        ("primeelectric", lambda: scrape_primeelectric(session)),
-        ("oregonapprenticeship", lambda: scrape_oregon_apprenticeship(session)),
-        ("washingtonapprenticeship", lambda: scrape_washington_apprenticeship(session)),
-        ("oeg", lambda: scrape_oeg(session, browser_path=browser_path)),
-        ("mortenson", lambda: scrape_mortenson(session)),
-        ("turner", lambda: scrape_turner(session, browser_path=browser_path)),
-        ("kiewit", lambda: scrape_kiewit(session)),
+        ("cei", "Cupertino Electric", SOURCE_URLS["cei"], lambda: scrape_cei(session)),
+        ("emcor", "EMCOR Group", SOURCE_URLS["emcor"], lambda: scrape_emcor(session)),
+        ("bergelectric", "Bergelectric", SOURCE_URLS["bergelectric"], lambda: scrape_bergelectric(session)),
+        ("primeelectric", "PRIME Electric", SOURCE_URLS["primeelectric"], lambda: scrape_primeelectric(session)),
+        ("oregonapprenticeship", "Oregon Apprenticeship", SOURCE_URLS["oregonapprenticeship"], lambda: scrape_oregon_apprenticeship(session)),
+        ("washingtonapprenticeship", "Washington L&I Apprenticeship", SOURCE_URLS["washingtonapprenticeship"], lambda: scrape_washington_apprenticeship(session)),
+        ("californiaapprenticeship", "California DIR Apprenticeship", SOURCE_URLS["californiaapprenticeship"], lambda: scrape_california_apprenticeship(session)),
+        ("oeg", "OEG", SOURCE_URLS["oeg"], lambda: scrape_oeg(session, browser_path=browser_path)),
+        ("mortenson", "Mortenson", SOURCE_URLS["mortenson"], lambda: scrape_mortenson(session)),
+        ("turner", "Turner Construction", SOURCE_URLS["turner"], lambda: scrape_turner(session, browser_path=browser_path)),
+        ("kiewit", "Kiewit", SOURCE_URLS["kiewit"], lambda: scrape_kiewit(session)),
     ]
 
-    for source_key, fetcher in source_calls:
+    for source_key, source_name, source_url, fetcher in source_calls:
         try:
             source_jobs, report = fetcher()
         except Exception as exc:
             fallback_report = SourceReport(
                 source_key=source_key,
-                source_name=source_key.title(),
-                source_url=SOURCE_URLS.get(source_key, ""),
+                source_name=source_name,
+                source_url=source_url,
                 status="error",
                 errors=[str(exc)],
             )

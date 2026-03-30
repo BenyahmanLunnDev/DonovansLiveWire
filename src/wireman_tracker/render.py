@@ -49,6 +49,7 @@ def _badge(label: str, tone: str) -> str:
         "warn": "badge-warn",
         "relocation": "badge-relocation",
         "expired": "badge-expired",
+        "stale": "badge-stale",
     }
     classes = tone_map.get(tone, "badge-source")
     return f'<span class="badge {classes}">{escape(label)}</span>'
@@ -148,9 +149,111 @@ def _reason_chips(job: JobLead) -> list[str]:
     return deduped[:3]
 
 
+def _truncate(text: str, limit: int) -> str:
+    normalized = " ".join(text.split())
+    if len(normalized) <= limit:
+        return normalized
+    return normalized[: limit - 3].rstrip() + "..."
+
+
+def _list_preview(values: list[str] | tuple[str, ...], limit: int = 6) -> str:
+    cleaned = [str(value).strip() for value in values if str(value).strip()]
+    if not cleaned:
+        return ""
+    if len(cleaned) <= limit:
+        return ", ".join(cleaned)
+    return f"{', '.join(cleaned[:limit])}, +{len(cleaned) - limit} more"
+
+
+def _job_blurb(job: JobLead) -> str:
+    lead_type = str(job.metadata.get("lead_type", "")).lower()
+    parts: list[str] = []
+
+    if lead_type == "program":
+        if str(job.metadata.get("program_status_source", "")).lower() == "committee site":
+            parts.append("Committee page confirms this inside electrician intake is open now.")
+        else:
+            parts.append("Official Oregon apprenticeship board currently lists this inside electrician intake as open.")
+
+        status_note = str(job.metadata.get("program_status_note", "")).strip()
+        if status_note:
+            parts.append(status_note)
+
+        areas = str(job.metadata.get("areas", "")).strip()
+        if areas:
+            parts.append(f"Coverage: {areas}")
+
+        counties = _list_preview(job.metadata.get("counties", []), limit=5)
+        if counties:
+            parts.append(f"Counties: {counties}")
+
+        contact = str(job.metadata.get("contact", "")).strip()
+        phone = str(job.metadata.get("phone", "")).strip()
+        if contact and phone:
+            parts.append(f"Contact: {contact} at {phone}")
+        elif contact:
+            parts.append(f"Contact: {contact}")
+        elif phone:
+            parts.append(f"Phone: {phone}")
+
+        average_wage = str(job.metadata.get("average_wage", "")).strip()
+        if average_wage:
+            parts.append(f"Average journey wage: {average_wage}")
+    elif lead_type == "pathway":
+        if job.source_key == "californiaapprenticeship":
+            parts.append("Official California apprenticeship sponsor listing to check directly.")
+        else:
+            parts.append("Official state apprenticeship pathway listing to check directly.")
+
+        parts.append("The public directory does not confirm that applications are open right now.")
+
+        regional = _list_preview(job.metadata.get("regional_matches", []), limit=2)
+        if regional:
+            parts.append(f"Best fit: {regional}")
+
+        county_names = _list_preview(job.metadata.get("county_names", []), limit=6)
+        if county_names:
+            parts.append(f"Coverage: {county_names}")
+
+        contact = str(job.metadata.get("contact", "")).strip()
+        phone = str(job.metadata.get("phone", "")).strip()
+        if contact and phone:
+            parts.append(f"Contact: {contact} at {phone}")
+        elif contact:
+            parts.append(f"Contact: {contact}")
+        elif phone:
+            parts.append(f"Phone: {phone}")
+
+        website = str(job.metadata.get("website", "")).strip()
+        if website:
+            parts.append(f"Website: {website}")
+    else:
+        description = job.description or "Description not captured for this listing yet."
+        return _truncate(description, 300)
+
+    return _truncate(" | ".join(part for part in parts if part), 280)
+
+
+def _california_pathway_sort_key(job: JobLead) -> tuple[int, int, str]:
+    regional_text = " ".join(str(value).lower() for value in job.metadata.get("regional_matches", []))
+    location_text = job.location.lower()
+
+    if any(term in regional_text for term in ("northern california", "sacramento", "bay area")):
+        region_rank = 0
+    elif ", or" in location_text or ", nv" in location_text:
+        region_rank = 0
+    elif "central valley" in regional_text:
+        region_rank = 1
+    elif "southern california" in regional_text:
+        region_rank = 2
+    else:
+        region_rank = 3
+
+    return (region_rank, -job.score, job.company.lower())
+
+
 def _job_card(job: JobLead, lane: str) -> str:
-    description_text = job.description[:320] + ("..." if len(job.description) > 320 else "")
-    description = escape(description_text or "Description not captured for this listing yet.")
+    description = escape(_job_blurb(job))
     summary_reasons = "".join(_badge(label, "watch") for label in _reason_chips(job))
     hubs = "".join(_badge(hub, "hub") for hub in job.hub_matches)
     regional = "".join(
@@ -160,6 +263,8 @@ def _job_card(job: JobLead, lane: str) -> str:
 
     if job.status == "expired":
         status_badge = _badge("No longer on source", "expired")
+    elif job.stale_source:
+        status_badge = _badge("Stale source", "stale")
     elif job.first_seen == job.last_seen:
         status_badge = _badge("New this run", "status")
     else:
@@ -191,6 +296,11 @@ def _job_card(job: JobLead, lane: str) -> str:
     pathway_badge = (
         _badge("Regional pathway", "status")
         if job.metadata.get("lead_type") == "pathway"
+        else ""
+    )
+    stale_note = (
+        f'<p class="job-card__stale">Last verified on {escape(_format_date_label(job.last_seen))} before this source went stale.</p>'
+        if job.stale_source and job.last_seen
         else ""
     )
 
@@ -225,6 +335,8 @@ def _job_card(job: JobLead, lane: str) -> str:
       data-region="{'1' if job.metadata.get('regional_matches') else '0'}"
       data-relocation="{'1' if job.metadata.get('relocation_assistance') else '0'}"
       data-new="{'1' if job.first_seen == job.last_seen and job.status == 'active' else '0'}"
+      data-stale="{'1' if job.stale_source else '0'}"
+      data-official="{'1' if job.metadata.get('lead_type') in {'program', 'pathway'} else '0'}"
     >
       <div class="job-card__badges">
         {status_badge}
@@ -241,6 +353,7 @@ def _job_card(job: JobLead, lane: str) -> str:
       </h3>
       <p class="job-card__meta">{meta}</p>
       <p class="job-card__description">{description}</p>
+      {stale_note}
       <div class="job-card__reasons">{summary_reasons}</div>
       <div class="job-card__footer">
         <span class="job-card__score">{score_line}</span>
@@ -264,20 +377,33 @@ def _source_card(report: SourceReport) -> str:
     notes = report.notes + report.errors
     notes_html = "".join(f"<li>{escape(note)}</li>" for note in notes) or "<li>No extra notes.</li>"
     browser_note = _badge("Browser fallback", "watch") if report.used_browser else ""
+    stale_note = _badge("Serving stale", "stale") if report.serving_stale else ""
+    last_success = (
+        f"Last good scrape {escape(_format_datetime_label(report.last_success_at))}"
+        if report.last_success_at
+        else "No successful scrape recorded yet"
+    )
+    last_attempt = (
+        f"Last attempt {escape(_format_datetime_label(report.last_attempt_at))}"
+        if report.last_attempt_at
+        else ""
+    )
 
     return f"""
     <article class="source-card">
       <div class="source-card__badges">
         {_badge(report.status.title(), tone)}
         {browser_note}
+        {stale_note}
       </div>
       <div class="source-card__header">
         <h3>{escape(report.source_name)}</h3>
         <a href="{escape(report.source_url)}">Open source</a>
       </div>
       <p class="source-card__stats">
-        Fetched {report.total_fetched} listings | Relevant leads {report.total_relevant}
+        Fetched {report.total_fetched} listings | Visible leads {report.total_relevant} | Stale holds {report.stale_relevant_count}
       </p>
+      <p class="source-card__stats">{last_success}{' | ' + last_attempt if last_attempt else ''}</p>
       <ul class="source-card__notes">{notes_html}</ul>
     </article>
     """
@@ -298,16 +424,26 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
     west_coast_watch = [job for job in watch_jobs if job.metadata.get("regional_matches")]
     national_watch = [job for job in watch_jobs if not job.metadata.get("regional_matches")]
     expired = [job for job in jobs if job.status == "expired" and job.bucket in {"priority", "watch"}]
+    nearby_pathway_jobs = [
+        job for job in pathway_jobs if job.source_key != "californiaapprenticeship"
+    ]
+    california_pathway_jobs = sorted(
+        [job for job in pathway_jobs if job.source_key == "californiaapprenticeship"],
+        key=_california_pathway_sort_key,
+    )
 
     total_active = len(relevant_active)
-    total_new = len([job for job in relevant_active if job.first_seen == job.last_seen])
+    fresh_active = [job for job in relevant_active if not job.stale_source]
+    stale_active = [job for job in relevant_active if job.stale_source]
     relocation_count = len([job for job in relevant_active if job.metadata.get("relocation_assistance")])
     regional_count = len([job for job in relevant_active if job.metadata.get("regional_matches")])
     national_count = len(national_watch)
+    official_count = len(program_jobs) + len(pathway_jobs)
     source_health = "".join(_source_card(report) for report in reports)
 
     program_html = "".join(_job_card(job, "program") for job in program_jobs)
-    pathway_html = "".join(_job_card(job, "pathway") for job in pathway_jobs)
+    pathway_html = "".join(_job_card(job, "pathway") for job in nearby_pathway_jobs)
+    california_pathway_html = "".join(_job_card(job, "california-pathway") for job in california_pathway_jobs)
     priority_html = "".join(_job_card(job, "priority") for job in priority_jobs)
     west_coast_html = "".join(_job_card(job, "regional") for job in west_coast_watch)
     national_html = "".join(_job_card(job, "national") for job in national_watch)
@@ -516,6 +652,9 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
       .toolbar {{
         margin-top: 18px;
         padding: 18px;
+        position: sticky;
+        top: 12px;
+        z-index: 20;
       }}
 
       .toolbar__row {{
@@ -653,6 +792,12 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
         border-color: rgba(251, 191, 36, 0.2);
       }}
 
+      .badge-stale {{
+        background: rgba(248, 113, 113, 0.14);
+        color: #ffe2e2;
+        border-color: rgba(248, 113, 113, 0.22);
+      }}
+
       .job-card__title {{
         margin: 14px 0 0;
         font-size: 1.22rem;
@@ -680,6 +825,13 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
       .job-card__description {{
         margin: 16px 0 0;
         line-height: 1.8;
+      }}
+
+      .job-card__stale {{
+        margin: 12px 0 0;
+        color: #ffd4d4;
+        font-size: 0.92rem;
+        line-height: 1.6;
       }}
 
       .job-card__reasons {{
@@ -814,6 +966,10 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
           align-items: flex-start;
           flex-direction: column;
         }}
+
+        .toolbar {{
+          top: 8px;
+        }}
       }}
     </style>
   </head>
@@ -834,8 +990,8 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
               <p class="stat__value">{total_active}</p>
             </div>
             <div class="stat">
-              <p class="stat__label">Priority</p>
-              <p class="stat__value">{len(priority_jobs)}</p>
+              <p class="stat__label">Official Paths</p>
+              <p class="stat__value">{official_count}</p>
             </div>
             <div class="stat">
               <p class="stat__label">West Coast Lane</p>
@@ -850,7 +1006,7 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
             <h2>Latest Snapshot</h2>
             <p class="hero__meta"><strong>{escape(_format_datetime_label(generated_at))}</strong></p>
             <p class="hero__meta">
-              {total_new} new this run | {len(program_jobs)} official program openings | {len(pathway_jobs)} regional pathways | {relocation_count} mention relocation | {len(expired)} recently removed
+              {len(fresh_active)} fresh verified | {len(stale_active)} stale holdovers | {len(priority_jobs)} priority jobs | {relocation_count} mention relocation | {len(expired)} recently removed
             </p>
             <p class="hero__meta">
               Oregon intake windows lead the board first, then nearby official pathways, then contractor jobs. National cards stay visible for strong out-of-state opportunities.
@@ -858,6 +1014,7 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
             <div class="hero__links">
               <a class="jump-link" href="#program-board">Jump to programs</a>
               <a class="jump-link" href="#pathway-board">Jump to pathways</a>
+              <a class="jump-link" href="#california-board">Jump to California</a>
               <a class="jump-link" href="#priority-board">Jump to priority</a>
               <a class="jump-link" href="#west-coast-board">Jump to West Coast</a>
               <a class="jump-link" href="#national-board">Jump to national</a>
@@ -880,13 +1037,13 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
         </div>
         <div class="filter-row" style="margin-top: 14px;">
           <button class="filter-button is-active" data-filter-button data-filter="all" type="button">All leads</button>
-          <button class="filter-button" data-filter-button data-filter="program" type="button">Open programs</button>
-          <button class="filter-button" data-filter-button data-filter="pathway" type="button">Pathways</button>
+          <button class="filter-button" data-filter-button data-filter="fresh" type="button">Fresh</button>
+          <button class="filter-button" data-filter-button data-filter="official" type="button">Official</button>
           <button class="filter-button" data-filter-button data-filter="priority" type="button">Priority only</button>
           <button class="filter-button" data-filter-button data-filter="regional" type="button">West Coast only</button>
           <button class="filter-button" data-filter-button data-filter="national" type="button">National only</button>
-          <button class="filter-button" data-filter-button data-filter="new" type="button">New this run</button>
           <button class="filter-button" data-filter-button data-filter="relocation" type="button">Relocation</button>
+          <button class="filter-button" data-filter-button data-filter="stale" type="button">Stale</button>
         </div>
         <p class="toolbar__summary" id="filter-summary">Showing {total_active} visible active leads.</p>
       </section>
@@ -916,6 +1073,20 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
         </div>
         <p class="empty-state" data-empty-message{" hidden" if pathway_html else ""}>
           No nearby official pathways cleared the current filter in this run.
+        </p>
+      </section>
+
+      <section class="section" id="california-board" data-job-section>
+        <p class="section__eyebrow">California Lane</p>
+        <h2 class="section__title">California Official Sponsors To Check Directly</h2>
+        <p class="section__copy">
+          California DIR sponsor records stay in their own lane so they do not drown out Oregon and nearby pathways. These are official sponsor contacts worth checking directly, not confirmed-open intake windows.
+        </p>
+        <div class="section__grid">
+          {california_pathway_html}
+        </div>
+        <p class="empty-state" data-empty-message{" hidden" if california_pathway_html else ""}>
+          No California official sponsor records cleared the current filter in this run.
         </p>
       </section>
 
@@ -961,7 +1132,7 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
         <p class="section__eyebrow">Source Health</p>
         <h2 class="section__title">What Each Feed Produced</h2>
         <p class="section__copy">
-          This is the monitor status for each official source. Regional boards that currently return zero relevant leads are still useful because they keep the site ready for the next real opening.
+          This is the monitor status for each official source. If a feed is temporarily down, the board keeps last-known-good leads visible and marks them clearly instead of pretending they disappeared.
         </p>
         <div class="source-grid">
           {source_health}
@@ -991,20 +1162,20 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
 
       function matchesFilter(card) {{
         switch (activeFilter) {{
-          case 'program':
-            return card.dataset.kind === 'program';
-          case 'pathway':
-            return card.dataset.kind === 'pathway';
+          case 'fresh':
+            return card.dataset.lane !== 'expired' && card.dataset.stale === '0';
+          case 'official':
+            return card.dataset.official === '1';
           case 'priority':
             return card.dataset.bucket === 'priority';
           case 'regional':
             return card.dataset.region === '1';
           case 'national':
             return card.dataset.lane === 'national';
-          case 'new':
-            return card.dataset.new === '1';
           case 'relocation':
             return card.dataset.relocation === '1';
+          case 'stale':
+            return card.dataset.stale === '1';
           default:
             return true;
         }}
@@ -1013,6 +1184,7 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
       function applyFilters() {{
         const query = (searchInput.value || '').trim().toLowerCase();
         let visibleCount = 0;
+        let visibleStale = 0;
 
         cards.forEach((card) => {{
           const searchText = card.dataset.search || '';
@@ -1020,6 +1192,9 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
           card.hidden = !visible;
           if (visible && card.dataset.lane !== 'expired') {{
             visibleCount += 1;
+            if (card.dataset.stale === '1') {{
+              visibleStale += 1;
+            }}
           }}
         }});
 
@@ -1033,7 +1208,7 @@ def render_index(generated_at: str, jobs: list[JobLead], reports: list[SourceRep
           }}
         }});
 
-        summary.textContent = 'Showing ' + visibleCount + ' visible active leads.';
+        summary.textContent = 'Showing ' + visibleCount + ' visible active leads' + (visibleStale ? ' (' + visibleStale + ' stale).' : '.');
       }}
 
       filterButtons.forEach((button) => {{
@@ -1060,6 +1235,30 @@ def render_latest_json(generated_at: str, jobs: list[JobLead], reports: list[Sou
     ]
     payload = {
         "generated_at": generated_at,
+        "counts": {
+            "active_relevant": len(active_jobs),
+            "fresh_active_relevant": len(
+                [
+                    job
+                    for job in jobs
+                    if job.status == "active" and job.bucket in {"priority", "watch"} and not job.stale_source
+                ]
+            ),
+            "stale_active_relevant": len(
+                [
+                    job
+                    for job in jobs
+                    if job.status == "active" and job.bucket in {"priority", "watch"} and job.stale_source
+                ]
+            ),
+            "expired_relevant": len(
+                [
+                    job
+                    for job in jobs
+                    if job.status == "expired" and job.bucket in {"priority", "watch"}
+                ]
+            ),
+        },
         "jobs": active_jobs,
         "reports": [report.to_dict() for report in reports],
     }

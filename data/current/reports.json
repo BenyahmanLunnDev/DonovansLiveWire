@@ -1,14 +1,18 @@
 {
-  "generated_at": "2026-03-29T07:55:30.915966-07:00",
+  "generated_at": "2026-03-29T21:35:51.855513-07:00",
   "reports": [
     {
       "source_key": "cei",
       "source_name": "Cupertino Electric",
       "source_url": "https://www.cei.com/careers/current-openings",
       "status": "ok",
-      "total_fetched": 69,
+      "total_fetched": 67,
       "total_relevant": 0,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
       "errors": []
     },
@@ -19,7 +23,11 @@
       "status": "ok",
       "total_fetched": 115,
       "total_relevant": 11,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
       "errors": []
     },
@@ -29,8 +37,12 @@
       "source_url": "https://www.bergelectric.com/careers/",
       "status": "ok",
       "total_fetched": 49,
-      "total_relevant": 7,
+      "total_relevant": 6,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
       "errors": []
     },
@@ -41,7 +53,11 @@
       "status": "ok",
       "total_fetched": 23,
       "total_relevant": 0,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
       "errors": []
     },
@@ -52,7 +68,11 @@
       "status": "ok",
       "total_fetched": 14,
       "total_relevant": 14,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [
         "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
         "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
@@ -62,53 +82,86 @@
     },
     {
       "source_key": "washingtonapprenticeship",
-      "source_name": "Washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
       "source_url": "https://secure.lni.wa.gov/arts-public/",
-      "status": "error",
-      "total_fetched": 0,
-      "total_relevant": 0,
+      "status": "ok",
+      "total_fetched": 10,
+      "total_relevant": 10,
+      "stale_relevant_count": 0,
       "used_browser": false,
-      "notes": [],
-      "errors": [
-        "503 Server Error: Service Unavailable for url: https://secure.lni.wa.gov/home/LocalResponseRedirect.aspx?TAM_OP=error&USERNAME=unauthenticated&ERROR_CODE=0x38cf04d7&ERROR_TEXT=DPWWA1239E%20%20%20A%20third-party%20server%20is%20not%20responding.%20%20Possible%20causes%3A%20the%20server%20is%20down%2C%20there%20is%20a%20hung%20application%20on%20the%20server%2C%20or%20network%20problems.%20%20This%20is%20not%20a%20problem%20with%20the%20WebSEAL%20server.&URL=%2Farts-public%2FGatewayProxy%2FUiProxy.aspx%3Fop%3DUiGatewayRestfulOperation"
-      ]
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "notes": [
+        "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
+        "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
+        "Washington directory entries are shown as pathways to check directly, not guaranteed-open application windows."
+      ],
+      "errors": []
+    },
+    {
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "status": "ok",
+      "total_fetched": 34,
+      "total_relevant": 34,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
+      "notes": [
+        "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
+        "County coverage was aggregated across 58 California county searches.",
+        "These California records are shown as official pathways to check directly, not confirmed-open application windows."
+      ],
+      "errors": []
     },
     {
       "source_key": "oeg",
-      "source_name": "Oeg",
+      "source_name": "OEG",
       "source_url": "https://oeg.us.com/careers/",
-      "status": "error",
-      "total_fetched": 0,
+      "status": "ok",
+      "total_fetched": 13,
       "total_relevant": 0,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
-      "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606800/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-pwhdosso', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
-      ]
+      "errors": []
     },
     {
       "source_key": "mortenson",
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
-      "total_fetched": 99,
+      "total_fetched": 98,
       "total_relevant": 4,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
       "errors": []
     },
     {
       "source_key": "turner",
-      "source_name": "Turner",
+      "source_name": "Turner Construction",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
-      "status": "error",
-      "total_fetched": 0,
+      "status": "ok",
+      "total_fetched": 203,
       "total_relevant": 0,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [],
-      "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1606800/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-thq4ccht', '--virtual-time-budget=12000', '--dump-dom', 'https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction&sq=apprentice']' timed out after 120 seconds"
-      ]
+      "errors": []
     },
     {
       "source_key": "kiewit",
@@ -117,7 +170,11 @@
       "status": "warning",
       "total_fetched": 0,
       "total_relevant": 0,
+      "stale_relevant_count": 0,
       "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-03-29T21:32:52.300118-07:00",
+      "last_success_at": "2026-03-29T21:32:52.300118-07:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],
