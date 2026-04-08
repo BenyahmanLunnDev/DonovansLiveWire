@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-07T07:55:03.406804-07:00",
+  "generated_at": "2026-04-08T07:50:38.481110-07:00",
   "reports": [
     {
       "source_key": "cei",
       "source_name": "Cupertino Electric",
       "source_url": "https://www.cei.com/careers/current-openings",
       "status": "ok",
-      "total_fetched": 82,
+      "total_fetched": 83,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-07T07:48:18.670355-07:00",
-      "last_success_at": "2026-04-07T07:48:18.670355-07:00",
+      "last_attempt_at": "2026-04-08T07:48:31.429053-07:00",
+      "last_success_at": "2026-04-08T07:48:31.429053-07:00",
       "notes": [],
       "errors": []
     },
@@ -20,16 +20,20 @@
       "source_key": "emcor",
       "source_name": "EMCOR Group",
       "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
-      "status": "ok",
-      "total_fetched": 113,
+      "status": "error",
+      "total_fetched": 0,
       "total_relevant": 11,
-      "stale_relevant_count": 0,
+      "stale_relevant_count": 11,
       "used_browser": false,
-      "serving_stale": false,
-      "last_attempt_at": "2026-04-07T07:48:18.670355-07:00",
+      "serving_stale": true,
+      "last_attempt_at": "2026-04-08T07:48:31.429053-07:00",
       "last_success_at": "2026-04-07T07:48:18.670355-07:00",
-      "notes": [],
-      "errors": []
+      "notes": [
+        "Serving 11 last-known-good lead(s) until this source recovers."
+      ],
+      "errors": [
+        "HTTPSConnectionPool(host='careers-emcorgroup.icims.com', port=443): Read timed out. (read timeout=30)"
+      ]
     },
     {
       "source_key": "bergelectric",
@@ -41,8 +45,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-07T07:48:18.670355-07:00",
-      "last_success_at": "2026-04-07T07:48:18.670355-07:00",
+      "last_attempt_at": "2026-04-08T07:48:31.429053-07:00",
+      "last_success_at": "2026-04-08T07:48:31.429053-07:00",
       "notes": [],
       "errors": []
     },
@@ -56,8 +60,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-07T07:48:18.670355-07:00",
-      "last_success_at": "2026-04-07T07:48:18.670355-07:00",
+      "last_attempt_at": "2026-04-08T07:48:31.429053-07:00",
+      "last_success_at": "2026-04-08T07:48:31.429053-07:00",
       "notes": [],
       "errors": []
     },
@@ -71,8 +75,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-07T07:48:18.670355-07:00",
-      "last_success_at": "2026-04-07T07:48:18.670355-07:00",
+      "last_attempt_at": "2026-04-08T07:48:31.429053-07:00",
+      "last_success_at": "2026-04-08T07:48:31.429053-07:00",
       "notes": [
         "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
         "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
@@ -90,8 +94,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-07T07:48:18.670355-07:00",
-      "last_success_at": "2026-04-07T07:48:18.670355-07:00",
+      "last_attempt_at": "2026-04-08T07:48:31.429053-07:00",
+      "last_success_at": "2026-04-08T07:48:31.429053-07:00",
       "notes": [
         "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
         "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
@@ -109,8 +113,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-07T07:48:18.670355-07:00",
-      "last_success_at": "2026-04-07T07:48:18.670355-07:00",
+      "last_attempt_at": "2026-04-08T07:48:31.429053-07:00",
+      "last_success_at": "2026-04-08T07:48:31.429053-07:00",
       "notes": [
         "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
         "County coverage was aggregated across 58 California county searches.",
@@ -128,8 +132,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-07T07:48:18.670355-07:00",
-      "last_success_at": "2026-04-07T07:48:18.670355-07:00",
+      "last_attempt_at": "2026-04-08T07:48:31.429053-07:00",
+      "last_success_at": "2026-04-08T07:48:31.429053-07:00",
       "notes": [],
       "errors": []
     },
@@ -143,8 +147,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-07T07:48:18.670355-07:00",
-      "last_success_at": "2026-04-07T07:48:18.670355-07:00",
+      "last_attempt_at": "2026-04-08T07:48:31.429053-07:00",
+      "last_success_at": "2026-04-08T07:48:31.429053-07:00",
       "notes": [],
       "errors": []
     },
@@ -153,13 +157,13 @@
       "source_name": "Turner Construction",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
       "status": "ok",
-      "total_fetched": 215,
+      "total_fetched": 214,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-07T07:48:18.670355-07:00",
-      "last_success_at": "2026-04-07T07:48:18.670355-07:00",
+      "last_attempt_at": "2026-04-08T07:48:31.429053-07:00",
+      "last_success_at": "2026-04-08T07:48:31.429053-07:00",
       "notes": [],
       "errors": []
     },
@@ -173,8 +177,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-07T07:48:18.670355-07:00",
-      "last_success_at": "2026-04-07T07:48:18.670355-07:00",
+      "last_attempt_at": "2026-04-08T07:48:31.429053-07:00",
+      "last_success_at": "2026-04-08T07:48:31.429053-07:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],
