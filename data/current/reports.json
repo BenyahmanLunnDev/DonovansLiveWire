@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T07:07:15.694881-07:00",
+  "generated_at": "2026-04-19T07:05:46.822361-07:00",
   "reports": [
     {
       "source_key": "cei",
@@ -11,8 +11,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-18T07:04:43.801781-07:00",
-      "last_success_at": "2026-04-18T07:04:43.801781-07:00",
+      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
       "notes": [],
       "errors": []
     },
@@ -26,8 +26,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-18T07:04:43.801781-07:00",
-      "last_success_at": "2026-04-18T07:04:43.801781-07:00",
+      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
       "notes": [],
       "errors": []
     },
@@ -36,13 +36,13 @@
       "source_name": "Bergelectric",
       "source_url": "https://www.bergelectric.com/careers/",
       "status": "ok",
-      "total_fetched": 46,
+      "total_fetched": 44,
       "total_relevant": 8,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-18T07:04:43.801781-07:00",
-      "last_success_at": "2026-04-18T07:04:43.801781-07:00",
+      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
       "notes": [],
       "errors": []
     },
@@ -56,8 +56,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-18T07:04:43.801781-07:00",
-      "last_success_at": "2026-04-18T07:04:43.801781-07:00",
+      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
       "notes": [],
       "errors": []
     },
@@ -71,8 +71,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-18T07:04:43.801781-07:00",
-      "last_success_at": "2026-04-18T07:04:43.801781-07:00",
+      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
       "notes": [
         "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
         "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
@@ -90,8 +90,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-18T07:04:43.801781-07:00",
-      "last_success_at": "2026-04-18T07:04:43.801781-07:00",
+      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
       "notes": [
         "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
         "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
@@ -103,20 +103,21 @@
       "source_key": "californiaapprenticeship",
       "source_name": "California DIR Apprenticeship",
       "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
-      "status": "error",
-      "total_fetched": 0,
+      "status": "ok",
+      "total_fetched": 34,
       "total_relevant": 34,
-      "stale_relevant_count": 34,
+      "stale_relevant_count": 0,
       "used_browser": false,
-      "serving_stale": true,
-      "last_attempt_at": "2026-04-18T07:04:43.801781-07:00",
-      "last_success_at": "2026-04-17T07:23:10.642732-07:00",
+      "serving_stale": false,
+      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
       "notes": [
-        "Serving 34 last-known-good lead(s) until this source recovers."
+        "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
+        "County coverage was aggregated across 58 California county searches.",
+        "These California records are shown as official pathways to check directly, not confirmed-open application windows.",
+        "Source recovered in this run after a previous outage."
       ],
-      "errors": [
-        "503 Server Error: Service Unavailable for url: https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=GLENNC&varType=22&Submit=Search"
-      ]
+      "errors": []
     },
     {
       "source_key": "oeg",
@@ -128,8 +129,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-18T07:04:43.801781-07:00",
-      "last_success_at": "2026-04-18T07:04:43.801781-07:00",
+      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
       "notes": [],
       "errors": []
     },
@@ -143,8 +144,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-18T07:04:43.801781-07:00",
-      "last_success_at": "2026-04-18T07:04:43.801781-07:00",
+      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
       "notes": [],
       "errors": []
     },
@@ -158,8 +159,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-18T07:04:43.801781-07:00",
-      "last_success_at": "2026-04-18T07:04:43.801781-07:00",
+      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
       "notes": [],
       "errors": []
     },
@@ -173,8 +174,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-18T07:04:43.801781-07:00",
-      "last_success_at": "2026-04-18T07:04:43.801781-07:00",
+      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],
