@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-04-20T07:57:13.069785-07:00",
-  "counts": {
-    "active_relevant": 81,
-    "fresh_active_relevant": 81,
-    "stale_active_relevant": 0,
-    "expired_relevant": 5
-  },
+  "generated_at": "2026-04-20T07:59:51.898252-07:00",
+  "timezone": "America/Los_Angeles",
   "jobs": [
     {
       "job_key": "washingtonapprenticeship:940ba86618c4d231993c846b98af0a49d9d6163a",

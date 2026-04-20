@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T07:05:46.822361-07:00",
+  "generated_at": "2026-04-20T07:59:51.898252-07:00",
   "reports": [
     {
       "source_key": "cei",
@@ -11,8 +11,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
-      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_attempt_at": "2026-04-20T07:57:13.069785-07:00",
+      "last_success_at": "2026-04-20T07:57:13.069785-07:00",
       "notes": [],
       "errors": []
     },
@@ -26,8 +26,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
-      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_attempt_at": "2026-04-20T07:57:13.069785-07:00",
+      "last_success_at": "2026-04-20T07:57:13.069785-07:00",
       "notes": [],
       "errors": []
     },
@@ -36,13 +36,13 @@
       "source_name": "Bergelectric",
       "source_url": "https://www.bergelectric.com/careers/",
       "status": "ok",
-      "total_fetched": 44,
+      "total_fetched": 43,
       "total_relevant": 8,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
-      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_attempt_at": "2026-04-20T07:57:13.069785-07:00",
+      "last_success_at": "2026-04-20T07:57:13.069785-07:00",
       "notes": [],
       "errors": []
     },
@@ -56,8 +56,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
-      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_attempt_at": "2026-04-20T07:57:13.069785-07:00",
+      "last_success_at": "2026-04-20T07:57:13.069785-07:00",
       "notes": [],
       "errors": []
     },
@@ -71,8 +71,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
-      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_attempt_at": "2026-04-20T07:57:13.069785-07:00",
+      "last_success_at": "2026-04-20T07:57:13.069785-07:00",
       "notes": [
         "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
         "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
@@ -90,8 +90,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
-      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_attempt_at": "2026-04-20T07:57:13.069785-07:00",
+      "last_success_at": "2026-04-20T07:57:13.069785-07:00",
       "notes": [
         "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
         "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
@@ -109,13 +109,12 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
-      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_attempt_at": "2026-04-20T07:57:13.069785-07:00",
+      "last_success_at": "2026-04-20T07:57:13.069785-07:00",
       "notes": [
         "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
         "County coverage was aggregated across 58 California county searches.",
-        "These California records are shown as official pathways to check directly, not confirmed-open application windows.",
-        "Source recovered in this run after a previous outage."
+        "These California records are shown as official pathways to check directly, not confirmed-open application windows."
       ],
       "errors": []
     },
@@ -129,8 +128,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
-      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_attempt_at": "2026-04-20T07:57:13.069785-07:00",
+      "last_success_at": "2026-04-20T07:57:13.069785-07:00",
       "notes": [],
       "errors": []
     },
@@ -139,13 +138,13 @@
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
-      "total_fetched": 102,
+      "total_fetched": 103,
       "total_relevant": 3,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
-      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_attempt_at": "2026-04-20T07:57:13.069785-07:00",
+      "last_success_at": "2026-04-20T07:57:13.069785-07:00",
       "notes": [],
       "errors": []
     },
@@ -159,8 +158,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
-      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_attempt_at": "2026-04-20T07:57:13.069785-07:00",
+      "last_success_at": "2026-04-20T07:57:13.069785-07:00",
       "notes": [],
       "errors": []
     },
@@ -174,8 +173,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-04-19T07:03:28.213599-07:00",
-      "last_success_at": "2026-04-19T07:03:28.213599-07:00",
+      "last_attempt_at": "2026-04-20T07:57:13.069785-07:00",
+      "last_success_at": "2026-04-20T07:57:13.069785-07:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],
