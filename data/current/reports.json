@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T09:16:19.475695-07:00",
+  "generated_at": "2026-06-20T08:10:10.806633-07:00",
   "reports": [
     {
       "source_key": "cei",
@@ -11,8 +11,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-06-19T09:12:24.151775-07:00",
-      "last_success_at": "2026-06-19T09:12:24.151775-07:00",
+      "last_attempt_at": "2026-06-20T08:08:22.273407-07:00",
+      "last_success_at": "2026-06-20T08:08:22.273407-07:00",
       "notes": [],
       "errors": []
     },
@@ -26,8 +26,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-06-19T09:12:24.151775-07:00",
-      "last_success_at": "2026-06-19T09:12:24.151775-07:00",
+      "last_attempt_at": "2026-06-20T08:08:22.273407-07:00",
+      "last_success_at": "2026-06-20T08:08:22.273407-07:00",
       "notes": [],
       "errors": []
     },
@@ -41,8 +41,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-06-19T09:12:24.151775-07:00",
-      "last_success_at": "2026-06-19T09:12:24.151775-07:00",
+      "last_attempt_at": "2026-06-20T08:08:22.273407-07:00",
+      "last_success_at": "2026-06-20T08:08:22.273407-07:00",
       "notes": [],
       "errors": []
     },
@@ -51,13 +51,13 @@
       "source_name": "PRIME Electric",
       "source_url": "https://www.primeelectric.com/careers/",
       "status": "ok",
-      "total_fetched": 33,
+      "total_fetched": 34,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-06-19T09:12:24.151775-07:00",
-      "last_success_at": "2026-06-19T09:12:24.151775-07:00",
+      "last_attempt_at": "2026-06-20T08:08:22.273407-07:00",
+      "last_success_at": "2026-06-20T08:08:22.273407-07:00",
       "notes": [],
       "errors": []
     },
@@ -71,8 +71,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-06-19T09:12:24.151775-07:00",
-      "last_success_at": "2026-06-19T09:12:24.151775-07:00",
+      "last_attempt_at": "2026-06-20T08:08:22.273407-07:00",
+      "last_success_at": "2026-06-20T08:08:22.273407-07:00",
       "notes": [
         "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
         "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
@@ -90,8 +90,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-06-19T09:12:24.151775-07:00",
-      "last_success_at": "2026-06-19T09:12:24.151775-07:00",
+      "last_attempt_at": "2026-06-20T08:08:22.273407-07:00",
+      "last_success_at": "2026-06-20T08:08:22.273407-07:00",
       "notes": [
         "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
         "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
@@ -109,8 +109,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-06-19T09:12:24.151775-07:00",
-      "last_success_at": "2026-06-19T09:12:24.151775-07:00",
+      "last_attempt_at": "2026-06-20T08:08:22.273407-07:00",
+      "last_success_at": "2026-06-20T08:08:22.273407-07:00",
       "notes": [
         "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
         "County coverage was aggregated across 58 California county searches.",
@@ -122,31 +122,31 @@
       "source_key": "oeg",
       "source_name": "OEG",
       "source_url": "https://oeg.us.com/careers/",
-      "status": "error",
-      "total_fetched": 0,
+      "status": "ok",
+      "total_fetched": 19,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-06-19T09:12:24.151775-07:00",
-      "last_success_at": "2026-06-16T11:07:38.040998-07:00",
-      "notes": [],
-      "errors": [
-        "Command '['/opt/hostedtoolcache/setup-chrome/chromium/1649681/x64/chrome', '--headless=new', '--disable-gpu', '--disable-dev-shm-usage', '--disable-software-rasterizer', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-breakpad', '--disable-extensions', '--disable-features=Translate,BackForwardCache', '--hide-scrollbars', '--mute-audio', '--no-first-run', '--no-default-browser-check', '--no-sandbox', '--user-data-dir=/tmp/wireman-browser-awzr73cz', '--virtual-time-budget=12000', '--dump-dom', 'https://everus.rec.pro.ukg.net/MDU1500MDUC/JobBoard/fa8383b2-655f-4d78-9141-678949d846e1/?q=&o=postedDateDesc&w=&wc=&we=&wpst=']' timed out after 120 seconds"
-      ]
+      "last_attempt_at": "2026-06-20T08:08:22.273407-07:00",
+      "last_success_at": "2026-06-20T08:08:22.273407-07:00",
+      "notes": [
+        "Source recovered in this run after a previous outage."
+      ],
+      "errors": []
     },
     {
       "source_key": "mortenson",
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
-      "total_fetched": 105,
+      "total_fetched": 104,
       "total_relevant": 4,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-06-19T09:12:24.151775-07:00",
-      "last_success_at": "2026-06-19T09:12:24.151775-07:00",
+      "last_attempt_at": "2026-06-20T08:08:22.273407-07:00",
+      "last_success_at": "2026-06-20T08:08:22.273407-07:00",
       "notes": [],
       "errors": []
     },
@@ -160,8 +160,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-06-19T09:12:24.151775-07:00",
-      "last_success_at": "2026-06-19T09:12:24.151775-07:00",
+      "last_attempt_at": "2026-06-20T08:08:22.273407-07:00",
+      "last_success_at": "2026-06-20T08:08:22.273407-07:00",
       "notes": [],
       "errors": []
     },
@@ -175,8 +175,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-06-19T09:12:24.151775-07:00",
-      "last_success_at": "2026-06-19T09:12:24.151775-07:00",
+      "last_attempt_at": "2026-06-20T08:08:22.273407-07:00",
+      "last_success_at": "2026-06-20T08:08:22.273407-07:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],
