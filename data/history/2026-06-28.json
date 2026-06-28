@@ -36374,5 +36374,186 @@
       "expired_on": "2026-06-18",
       "seen_count": 6
     }
+  ],
+  "reports": [
+    {
+      "source_key": "cei",
+      "source_name": "Cupertino Electric",
+      "source_url": "https://www.cei.com/careers/current-openings",
+      "status": "ok",
+      "total_fetched": 98,
+      "total_relevant": 0,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-06-28T07:54:28.751381-07:00",
+      "last_success_at": "2026-06-28T07:54:28.751381-07:00",
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "emcor",
+      "source_name": "EMCOR Group",
+      "source_url": "https://emcorgroup.com/careers/trade-apprenticeships",
+      "status": "ok",
+      "total_fetched": 103,
+      "total_relevant": 16,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-06-28T07:54:28.751381-07:00",
+      "last_success_at": "2026-06-28T07:54:28.751381-07:00",
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "bergelectric",
+      "source_name": "Bergelectric",
+      "source_url": "https://www.bergelectric.com/careers/",
+      "status": "ok",
+      "total_fetched": 35,
+      "total_relevant": 5,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-06-28T07:54:28.751381-07:00",
+      "last_success_at": "2026-06-28T07:54:28.751381-07:00",
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "primeelectric",
+      "source_name": "PRIME Electric",
+      "source_url": "https://www.primeelectric.com/careers/",
+      "status": "ok",
+      "total_fetched": 36,
+      "total_relevant": 0,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-06-28T07:54:28.751381-07:00",
+      "last_success_at": "2026-06-28T07:54:28.751381-07:00",
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "oregonapprenticeship",
+      "source_name": "Oregon Apprenticeship",
+      "source_url": "https://oregonapprenticeship.org/search-openings/",
+      "status": "ok",
+      "total_fetched": 14,
+      "total_relevant": 14,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-06-28T07:54:28.751381-07:00",
+      "last_success_at": "2026-06-28T07:54:28.751381-07:00",
+      "notes": [
+        "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
+        "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
+        "NIETC lists the Inside Program as closed due to the current work slowdown and pause on new apprentice classes. Updated 5/1/26."
+      ],
+      "errors": []
+    },
+    {
+      "source_key": "washingtonapprenticeship",
+      "source_name": "Washington L&I Apprenticeship",
+      "source_url": "https://secure.lni.wa.gov/arts-public/",
+      "status": "error",
+      "total_fetched": 0,
+      "total_relevant": 10,
+      "stale_relevant_count": 10,
+      "used_browser": false,
+      "serving_stale": true,
+      "last_attempt_at": "2026-06-28T07:54:28.751381-07:00",
+      "last_success_at": "2026-06-27T07:52:28.612153-07:00",
+      "notes": [
+        "Serving 10 last-known-good lead(s) until this source recovers."
+      ],
+      "errors": [
+        "Washington L&I request failed after 3 attempts for api/ARTS/ExternalProgramOccupationLookup: 503 Server Error: Service Unavailable for url: https://secure.lni.wa.gov/home/LocalResponseRedirect.aspx?TAM_OP=error&USERNAME=unauthenticated&ERROR_CODE=0x38cf04d7&ERROR_TEXT=DPWWA1239E%20%20%20A%20third-party%20server%20is%20not%20responding.%20%20Possible%20causes%3A%20the%20server%20is%20down%2C%20there%20is%20a%20hung%20application%20on%20the%20server%2C%20or%20network%20problems.%20%20This%20is%20not%20a%20problem%20with%20the%20WebSEAL%20server.&URL=%2Farts-public%2FGatewayProxy%2FUiProxy.aspx%3Fop%3DUiGatewayRestfulOperation"
+      ]
+    },
+    {
+      "source_key": "californiaapprenticeship",
+      "source_name": "California DIR Apprenticeship",
+      "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
+      "status": "ok",
+      "total_fetched": 34,
+      "total_relevant": 34,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-06-28T07:54:28.751381-07:00",
+      "last_success_at": "2026-06-28T07:54:28.751381-07:00",
+      "notes": [
+        "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
+        "County coverage was aggregated across 58 California county searches.",
+        "These California records are shown as official pathways to check directly, not confirmed-open application windows."
+      ],
+      "errors": []
+    },
+    {
+      "source_key": "oeg",
+      "source_name": "OEG",
+      "source_url": "https://oeg.us.com/careers/",
+      "status": "ok",
+      "total_fetched": 18,
+      "total_relevant": 0,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-06-28T07:54:28.751381-07:00",
+      "last_success_at": "2026-06-28T07:54:28.751381-07:00",
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "mortenson",
+      "source_name": "Mortenson",
+      "source_url": "https://www.mortenson.com/careers/data-center",
+      "status": "ok",
+      "total_fetched": 110,
+      "total_relevant": 5,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-06-28T07:54:28.751381-07:00",
+      "last_success_at": "2026-06-28T07:54:28.751381-07:00",
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "turner",
+      "source_name": "Turner Construction",
+      "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
+      "status": "ok",
+      "total_fetched": 224,
+      "total_relevant": 0,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-06-28T07:54:28.751381-07:00",
+      "last_success_at": "2026-06-28T07:54:28.751381-07:00",
+      "notes": [],
+      "errors": []
+    },
+    {
+      "source_key": "kiewit",
+      "source_name": "Kiewit",
+      "source_url": "https://join.kiewit.com/union-craft-us/",
+      "status": "warning",
+      "total_fetched": 0,
+      "total_relevant": 0,
+      "stale_relevant_count": 0,
+      "used_browser": false,
+      "serving_stale": false,
+      "last_attempt_at": "2026-06-28T07:54:28.751381-07:00",
+      "last_success_at": "2026-06-28T07:54:28.751381-07:00",
+      "notes": [
+        "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
+      ],
+      "errors": []
+    }
   ]
 }
