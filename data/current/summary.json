@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T08:48:24.399699-07:00",
+  "generated_at": "2026-07-14T08:00:17.110684-07:00",
   "active_relevant": 84,
-  "fresh_active_relevant": 84,
-  "stale_active_relevant": 0,
-  "expired_relevant": 12
+  "fresh_active_relevant": 50,
+  "stale_active_relevant": 34,
+  "expired_relevant": 10
 }
