@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-14T08:04:52.620000-07:00",
+  "generated_at": "2026-07-15T08:02:36.093016-07:00",
   "reports": [
     {
       "source_key": "cei",
       "source_name": "Cupertino Electric",
       "source_url": "https://www.cei.com/careers/current-openings",
       "status": "ok",
-      "total_fetched": 98,
+      "total_fetched": 100,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-07-14T08:00:17.110684-07:00",
-      "last_success_at": "2026-07-14T08:00:17.110684-07:00",
+      "last_attempt_at": "2026-07-15T07:59:27.443209-07:00",
+      "last_success_at": "2026-07-15T07:59:27.443209-07:00",
       "notes": [],
       "errors": []
     },
@@ -26,8 +26,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-07-14T08:00:17.110684-07:00",
-      "last_success_at": "2026-07-14T08:00:17.110684-07:00",
+      "last_attempt_at": "2026-07-15T07:59:27.443209-07:00",
+      "last_success_at": "2026-07-15T07:59:27.443209-07:00",
       "notes": [],
       "errors": []
     },
@@ -36,13 +36,13 @@
       "source_name": "Bergelectric",
       "source_url": "https://www.bergelectric.com/careers/",
       "status": "ok",
-      "total_fetched": 31,
+      "total_fetched": 32,
       "total_relevant": 5,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-07-14T08:00:17.110684-07:00",
-      "last_success_at": "2026-07-14T08:00:17.110684-07:00",
+      "last_attempt_at": "2026-07-15T07:59:27.443209-07:00",
+      "last_success_at": "2026-07-15T07:59:27.443209-07:00",
       "notes": [],
       "errors": []
     },
@@ -51,13 +51,13 @@
       "source_name": "PRIME Electric",
       "source_url": "https://www.primeelectric.com/careers/",
       "status": "ok",
-      "total_fetched": 37,
+      "total_fetched": 35,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-07-14T08:00:17.110684-07:00",
-      "last_success_at": "2026-07-14T08:00:17.110684-07:00",
+      "last_attempt_at": "2026-07-15T07:59:27.443209-07:00",
+      "last_success_at": "2026-07-15T07:59:27.443209-07:00",
       "notes": [],
       "errors": []
     },
@@ -71,8 +71,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-07-14T08:00:17.110684-07:00",
-      "last_success_at": "2026-07-14T08:00:17.110684-07:00",
+      "last_attempt_at": "2026-07-15T07:59:27.443209-07:00",
+      "last_success_at": "2026-07-15T07:59:27.443209-07:00",
       "notes": [
         "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
         "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
@@ -90,8 +90,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-07-14T08:00:17.110684-07:00",
-      "last_success_at": "2026-07-14T08:00:17.110684-07:00",
+      "last_attempt_at": "2026-07-15T07:59:27.443209-07:00",
+      "last_success_at": "2026-07-15T07:59:27.443209-07:00",
       "notes": [
         "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
         "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
@@ -103,20 +103,21 @@
       "source_key": "californiaapprenticeship",
       "source_name": "California DIR Apprenticeship",
       "source_url": "https://www.dir.ca.gov/Databases/das/pwaddrstart.asp",
-      "status": "error",
-      "total_fetched": 0,
+      "status": "ok",
+      "total_fetched": 34,
       "total_relevant": 34,
-      "stale_relevant_count": 34,
+      "stale_relevant_count": 0,
       "used_browser": false,
-      "serving_stale": true,
-      "last_attempt_at": "2026-07-14T08:00:17.110684-07:00",
-      "last_success_at": "2026-07-13T08:48:24.399699-07:00",
+      "serving_stale": false,
+      "last_attempt_at": "2026-07-15T07:59:27.443209-07:00",
+      "last_success_at": "2026-07-15T07:59:27.443209-07:00",
       "notes": [
-        "Serving 34 last-known-good lead(s) until this source recovers."
+        "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
+        "County coverage was aggregated across 58 California county searches.",
+        "These California records are shown as official pathways to check directly, not confirmed-open application windows.",
+        "Source recovered in this run after a previous outage."
       ],
-      "errors": [
-        "503 Server Error: Service Unavailable for url: https://www.dir.ca.gov/Databases/das/results_pwadd.asp?varCounty=DEL+NORTEA&varType=22&Submit=Search"
-      ]
+      "errors": []
     },
     {
       "source_key": "oeg",
@@ -128,8 +129,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-07-14T08:00:17.110684-07:00",
-      "last_success_at": "2026-07-14T08:00:17.110684-07:00",
+      "last_attempt_at": "2026-07-15T07:59:27.443209-07:00",
+      "last_success_at": "2026-07-15T07:59:27.443209-07:00",
       "notes": [],
       "errors": []
     },
@@ -143,8 +144,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-07-14T08:00:17.110684-07:00",
-      "last_success_at": "2026-07-14T08:00:17.110684-07:00",
+      "last_attempt_at": "2026-07-15T07:59:27.443209-07:00",
+      "last_success_at": "2026-07-15T07:59:27.443209-07:00",
       "notes": [],
       "errors": []
     },
@@ -153,16 +154,14 @@
       "source_name": "Turner Construction",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
       "status": "ok",
-      "total_fetched": 214,
+      "total_fetched": 216,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-07-14T08:00:17.110684-07:00",
-      "last_success_at": "2026-07-14T08:00:17.110684-07:00",
-      "notes": [
-        "Source recovered in this run after a previous outage."
-      ],
+      "last_attempt_at": "2026-07-15T07:59:27.443209-07:00",
+      "last_success_at": "2026-07-15T07:59:27.443209-07:00",
+      "notes": [],
       "errors": []
     },
     {
@@ -175,8 +174,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-07-14T08:00:17.110684-07:00",
-      "last_success_at": "2026-07-14T08:00:17.110684-07:00",
+      "last_attempt_at": "2026-07-15T07:59:27.443209-07:00",
+      "last_success_at": "2026-07-15T07:59:27.443209-07:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],
