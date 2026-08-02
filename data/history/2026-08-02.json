@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-08-02T07:41:30.654935-07:00",
-  "counts": {
-    "active_relevant": 84,
-    "fresh_active_relevant": 74,
-    "stale_active_relevant": 10,
-    "expired_relevant": 9
-  },
+  "generated_at": "2026-08-02T07:43:13.475859-07:00",
+  "timezone": "America/Los_Angeles",
   "jobs": [
     {
       "job_key": "oregonapprenticeship:edeed144a5ab2ff45e4982d63277c9b5bd3e663b",
