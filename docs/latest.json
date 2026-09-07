@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:10:33.346276-07:00",
+  "generated_at": "2026-09-07T11:13:47.436016-07:00",
   "counts": {
     "active_relevant": 83,
     "fresh_active_relevant": 60,
@@ -60,9 +60,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 146
+      "seen_count": 147
     },
     {
       "job_key": "washingtonapprenticeship:1d513c0bcbe33b2e7440e5e14d0b22ef95c9d673",
@@ -132,9 +132,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 146
+      "seen_count": 147
     },
     {
       "job_key": "oregonapprenticeship:edeed144a5ab2ff45e4982d63277c9b5bd3e663b",
@@ -195,9 +195,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "oregonapprenticeship:a1b0851b8964bec4a2873826b1cfe6acaf7f6e88",
@@ -256,9 +256,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "oregonapprenticeship:b7bfcb8bc0272ffc162af6e5e3f03ed952920b68",
@@ -314,9 +314,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "washingtonapprenticeship:13682ac418603aa0966369d46bbf282f562acf47",
@@ -375,9 +375,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 146
+      "seen_count": 147
     },
     {
       "job_key": "washingtonapprenticeship:2a459380709e2fe4ac2dae5733c73225ff6cfee1",
@@ -439,9 +439,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 146
+      "seen_count": 147
     },
     {
       "job_key": "washingtonapprenticeship:95e815d1541bf6f358cfffbe66ab3af0d0c09d09",
@@ -498,9 +498,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 146
+      "seen_count": 147
     },
     {
       "job_key": "oregonapprenticeship:e64e124d466556c21b282480fddba22dd9e2eb1c",
@@ -558,9 +558,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "oregonapprenticeship:8df18d0670116b8d860f06b85ac8fb88f70f6612",
@@ -614,9 +614,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "oregonapprenticeship:fb77797930028312de8c85687b51f8623ac1b6f9",
@@ -668,9 +668,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "oregonapprenticeship:31b8d89c06d98ae58bbd52f91ff5d5fcdb9a0366",
@@ -723,9 +723,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "oregonapprenticeship:6da990252fc5ee61436a91dc21811378883643d1",
@@ -779,9 +779,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "oregonapprenticeship:233c7ac6005ac2642d5ebfb61c2215ada634c38a",
@@ -831,9 +831,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "oregonapprenticeship:22802c71aff52fed4d8e92f365e99e812f08439b",
@@ -893,9 +893,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "oregonapprenticeship:f813ebccba322437bafc2ee879936e99718b93f2",
@@ -952,9 +952,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "oregonapprenticeship:431f94e59837e4ea63a5178f5bd4bb77d2e6c622",
@@ -1006,9 +1006,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "oregonapprenticeship:6d0d77743cacfcf9ae2d345c819501361806b1a1",
@@ -1061,9 +1061,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "washingtonapprenticeship:d869b04564bc4b4c6adcf3ad6f00e45c1150bc41",
@@ -1132,9 +1132,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 146
+      "seen_count": 147
     },
     {
       "job_key": "washingtonapprenticeship:f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1",
@@ -1204,9 +1204,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 146
+      "seen_count": 147
     },
     {
       "job_key": "washingtonapprenticeship:5ec475005d2a5e68419080231b038c154aefaeed",
@@ -1271,9 +1271,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 146
+      "seen_count": 147
     },
     {
       "job_key": "washingtonapprenticeship:579e06390ad287f4684215440d340ed487da63dd",
@@ -1336,9 +1336,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 146
+      "seen_count": 147
     },
     {
       "job_key": "washingtonapprenticeship:c3780f1bf13c6a9506ae61d45f775ef2a2a515c4",
@@ -1396,9 +1396,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 146
+      "seen_count": 147
     },
     {
       "job_key": "oregonapprenticeship:12f6bfeba768afb1faa70459e5e36349b930e84b",
@@ -1450,9 +1450,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 152
+      "seen_count": 153
     },
     {
       "job_key": "californiaapprenticeship:2986a32c9734c8fe68e28f59d33744b39cfba790",
@@ -1523,9 +1523,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:9ea8288489f523bf3a8a417c18d0982ca90bc7b8",
@@ -1574,9 +1574,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:4dba0d0686e2d4bb5a8ff84612dab13537da2397",
@@ -1624,9 +1624,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-27",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 70
+      "seen_count": 71
     },
     {
       "job_key": "californiaapprenticeship:215d505dc0cd8554688b809a3e2b89da372ce51d",
@@ -1678,9 +1678,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:76746aa9b0f61124f7e42e014bc2c9b95ff173a4",
@@ -1737,9 +1737,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:e0442cc2410c0a992376f1b9660f688c5f248272",
@@ -1797,9 +1797,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:40a21bf1841c7e9cdd60399c1a065dafe6c62cc1",
@@ -1908,9 +1908,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:90069e6bcc339499fc026b5dbad7d855e660a576",
@@ -2019,9 +2019,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:142c0a437c3521fe478cf4f4ae044457291e4231",
@@ -2068,9 +2068,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:0c3df67f96720fc7ef7fcf14afa12bb60a637fa3",
@@ -2118,9 +2118,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:9351d0ceae784fc840351bc26c4bbe36b2572f08",
@@ -2170,9 +2170,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-24",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 73
+      "seen_count": 74
     },
     {
       "job_key": "californiaapprenticeship:d96e943bf2e2de104bf0d52d104a9092197d87bd",
@@ -2222,9 +2222,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:214f9647f8e88ade5371876155e777644fdc54e8",
@@ -2270,9 +2270,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:f67b7418cd337016327fee35a7ca5a346da89eb5",
@@ -2319,9 +2319,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:b499f5e46f147e80ca498d667ad4b8932c0b1517",
@@ -2369,9 +2369,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:a2f01e5161fccf4ed4bf868cc9747b4ade98b3f4",
@@ -2418,9 +2418,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:7c689288595bb442f4700b2658482b2a35301d04",
@@ -2467,9 +2467,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:ef4bd7be57172a04ce8c39615835517e3e8034ff",
@@ -2516,9 +2516,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:e9538eeae68bb2ffe7c43c8df17ee9967ad0cfa3",
@@ -2565,9 +2565,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:f780f402bb3c27e98300f3ae1cc9aba162624cca",
@@ -2614,9 +2614,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:7ac98991a87c594892466f32a3c7dc3d6bda2b54",
@@ -2669,9 +2669,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:e8df8421c98e3858191e880563cfd876b1dbcb3a",
@@ -2718,9 +2718,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:b8f3f36d42a9896d7fc58cff01e0f0dc1d7baf80",
@@ -2769,9 +2769,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:1634f6e51e5997c5e00f479a1d0a67a4050e5029",
@@ -2820,9 +2820,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:cc2f8aafd820969644b0005365407c6809ef4413",
@@ -2870,9 +2870,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:41f23cb9cbe5e7c429ddfac831336b29b24c2e5a",
@@ -2919,9 +2919,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:99f18b0d44925f6dce9a8806748b2c5c43a6d9b1",
@@ -2969,9 +2969,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:8f0802ee194bff7b2f58b58b65aa08e15cfb21c4",
@@ -3018,9 +3018,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:bf7a392357be5b14e9f03d8940dbba106f8aed10",
@@ -3067,9 +3067,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:80f150cedd02aa4bdffa3fc9856033779019bfb7",
@@ -3115,9 +3115,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:b4c36d1cc29999cbca7420c6f3ba98150150c3d4",
@@ -3165,9 +3165,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "californiaapprenticeship:b379bbd11547d193f62d9fc25d7053da2110da82",
@@ -3218,9 +3218,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "californiaapprenticeship:ca2bed2f3ca03ced975516a103349477e9aee041",
@@ -3269,9 +3269,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 104
+      "seen_count": 105
     },
     {
       "job_key": "californiaapprenticeship:4439a88ec3e48c83c19f215f2a3264ece53c705a",
@@ -3318,9 +3318,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "mortenson:6066ded182679e5704966029994912072f6c6917",
@@ -3352,9 +3352,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:b817ea9aec93de659e35019b92cf940a92cca907",
@@ -3387,9 +3387,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-26",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 44
+      "seen_count": 45
     },
     {
       "job_key": "primeelectric:95b0685952d0e51afdccda5b2b0307ec1a5fc397",
@@ -3430,9 +3430,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 156
+      "seen_count": 157
     },
     {
       "job_key": "mortenson:ed2c347a3c0ff9a36a157599391b1d8e5dafa553",
@@ -3465,9 +3465,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:946bae8ec985d2c54ccdd4ec18bf463c6ea12016",
@@ -3500,9 +3500,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 54
+      "seen_count": 55
     },
     {
       "job_key": "mortenson:5309ce4faf5ec98092c20a6a6d3ebc4ec947aa4a",
@@ -3535,9 +3535,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "mortenson:d59c57e806014bd733814a0e1c61211301445f78",
@@ -3577,9 +3577,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:5bf43deabdfc14f7db7f3d6e2582343260c54a9c",
@@ -3619,9 +3619,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:6d0739d062daf0f1fe8fcbc059b8216e05e4480c",
@@ -3655,9 +3655,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 17
+      "seen_count": 18
     },
     {
       "job_key": "mortenson:0e691639b5c7e9805d6012b342a4a430a2670753",
@@ -3691,9 +3691,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:a07677d87fb233d6612381c9a5ceb1eb71eff28f",
@@ -3727,9 +3727,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 160
+      "seen_count": 161
     },
     {
       "job_key": "turner:121d33a9e58af15b117e2bff4c5f9c5b111c93a9",
@@ -3769,9 +3769,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 75
+      "seen_count": 76
     },
     {
       "job_key": "turner:b486502f6d8a3bcdc5da35f22b1be480d1f8abfd",
@@ -3811,9 +3811,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 75
+      "seen_count": 76
     },
     {
       "job_key": "cei:9a5f571a5f1aa8c93470ce6ff6b1b731fd0088a7",
@@ -3843,9 +3843,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 45
+      "seen_count": 46
     },
     {
       "job_key": "mortenson:19aeaba427becb0950f95780c3b8d6e325890f40",
@@ -3875,9 +3875,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 160
+      "seen_count": 161
     },
     {
       "job_key": "mortenson:56b034f539021540e8c36f3fb9e7c5cae8d31a6a",
@@ -3907,9 +3907,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 38
+      "seen_count": 39
     },
     {
       "job_key": "turner:2c2e8db9faa7752ed22e5cc87ba0a73d07c51b91",
@@ -3946,9 +3946,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-14",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 82
+      "seen_count": 83
     },
     {
       "job_key": "turner:ad7ec5aeae14ad299af04c09ef483252b273e356",
@@ -3980,9 +3980,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-27",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 69
+      "seen_count": 70
     },
     {
       "job_key": "cei:65396463d4056ff4ffcd473d135af58ec8368673",
@@ -4012,9 +4012,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 45
+      "seen_count": 46
     },
     {
       "job_key": "mortenson:96a1d52d80a2f4ec78418b4367806cf30b4d8054",
@@ -4045,9 +4045,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 54
+      "seen_count": 55
     },
     {
       "job_key": "mortenson:b570c99564b30b6441a7c295c3db95ed1e752f70",
@@ -4078,9 +4078,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 37
+      "seen_count": 38
     },
     {
       "job_key": "mortenson:11704b94897081080c4b11ba94dd1d8ccba59567",
@@ -4111,9 +4111,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 25
+      "seen_count": 26
     },
     {
       "job_key": "mortenson:68b9da1e6dc0efe5b68f661cfac4f14c548c1c5d",
@@ -4144,9 +4144,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-26",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 31
+      "seen_count": 32
     },
     {
       "job_key": "mortenson:0c2d186e2a409d21d902ed2a1cdacb3c9128adf6",
@@ -4177,9 +4177,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 128
+      "seen_count": 129
     },
     {
       "job_key": "mortenson:3884b4145d2309f49e44de8a13766b94ecb70316",
@@ -4210,9 +4210,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 160
+      "seen_count": 161
     },
     {
       "job_key": "mortenson:2ccba10f9387a11aedeb408e8bda16d2194afc99",
@@ -4243,9 +4243,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-18",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 19
+      "seen_count": 20
     },
     {
       "job_key": "mortenson:c0d3d63198a8b3c2ce8ed0b85bc1f8692c116429",
@@ -4276,9 +4276,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 17
+      "seen_count": 18
     },
     {
       "job_key": "primeelectric:96a231140f04f269e670cc68b9c6ed2be444cd48",
@@ -4315,9 +4315,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "primeelectric:bcdbbca57d2d2152b9eab370a5f13996e7e7acba",
@@ -4354,9 +4354,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:71d4a460340f3b4355a47a2891c09416856dae79",
@@ -4395,9 +4395,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:40998ac2de05621a271e73ebac2f0417a0811a65",
@@ -4436,9 +4436,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 25
+      "seen_count": 26
     },
     {
       "job_key": "turner:07c68f4ffac9eb4a3e0ba5bf5e5aa249a478bd44",
@@ -4477,9 +4477,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-18",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "primeelectric:889e9fb019976f348b377393dec78a12d43d13e5",
@@ -4512,9 +4512,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:961fe3b79d54fd61fc4770c4c7a807ed50388aff",
@@ -4550,9 +4550,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:bd5903b7d9a3cb0392f3b8e24a1ff8c5fdf95838",
@@ -4588,9 +4588,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "cei:c98890fcdaba4d0f2bc74765ef9689f21c201a27",
@@ -4623,9 +4623,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:dcf7301c0b72697cb8c85e9dec08c4281988509a",
@@ -4662,9 +4662,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-17",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 113
+      "seen_count": 114
     },
     {
       "job_key": "primeelectric:47eb3b54ec52e771cdd5f5866fc114ef9c1ef433",
@@ -4696,9 +4696,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "primeelectric:fb136b2b40b517a7d1b2c3c74c10595cce66e182",
@@ -4738,9 +4738,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 156
+      "seen_count": 157
     },
     {
       "job_key": "turner:1368861a79db9a28434bf9fe5a24d277c6f62438",
@@ -4771,9 +4771,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-11",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 58
+      "seen_count": 59
     },
     {
       "job_key": "turner:21b324dff23e74f547554a7e1155c1cc1fd8ad87",
@@ -4808,9 +4808,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-24",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 45
+      "seen_count": 46
     },
     {
       "job_key": "turner:95df57a9e4afa2ce0ac3705eb3ef4607025c504d",
@@ -4845,9 +4845,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-12",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 84
+      "seen_count": 85
     },
     {
       "job_key": "oeg:51193f323a42d567e5ce53e6be1ee4613b21b9c5",
@@ -4883,9 +4883,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 17
+      "seen_count": 18
     },
     {
       "job_key": "turner:5a8c21f3d17c68dcb3afd0ae0bef61e53e21030f",
@@ -4920,9 +4920,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 25
+      "seen_count": 26
     },
     {
       "job_key": "cei:80fdce57c0badb416603848884099189de4df528",
@@ -4955,9 +4955,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:e8ba731066be00b04fd7cdc817e2be74f788ccaa",
@@ -4990,9 +4990,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:950565bb8eec4bfe9c025cd52a7dfb942a0044a0",
@@ -5020,9 +5020,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:cd1cd086f4291eb5da9e592c41597d973242523c",
@@ -5050,9 +5050,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 146
+      "seen_count": 147
     },
     {
       "job_key": "cei:5214110b9f031ac462da711c2ceb3aad9397eed2",
@@ -5080,9 +5080,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 130
+      "seen_count": 131
     },
     {
       "job_key": "cei:0ab2faeafafac0b733e35b00cd2b0c5c4c86592c",
@@ -5110,9 +5110,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 130
+      "seen_count": 131
     },
     {
       "job_key": "cei:7df201358824dcc1d81c2ef0be5ca367586fba8d",
@@ -5140,9 +5140,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 125
+      "seen_count": 126
     },
     {
       "job_key": "cei:07a31ffd4499977287f13da18fd3a8269be003ca",
@@ -5170,9 +5170,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 19
+      "seen_count": 20
     },
     {
       "job_key": "cei:3dc291c5e61de7982730c703c73ff13114149396",
@@ -5200,9 +5200,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "turner:6fa87a8ed3b25d1a3e5f8685785636417637fcfd",
@@ -5231,9 +5231,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:edb3914c00728f5ffde169df00d54d345a44e3dd",
@@ -5263,9 +5263,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:4d82cda44b9f13eb149927cd863048ab237b4604",
@@ -5295,9 +5295,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 37
+      "seen_count": 38
     },
     {
       "job_key": "mortenson:ae4b2d4dc3dfe21ab64ff6a3faf229733ca3ccc5",
@@ -5329,9 +5329,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-27",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 121
+      "seen_count": 122
     },
     {
       "job_key": "primeelectric:cbdc2205e518ddb1a2e63d280af590c2ce63bd5a",
@@ -5370,9 +5370,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 38
+      "seen_count": 39
     },
     {
       "job_key": "turner:2e2a7fb755bb914154c77e4f157dbb24b424e6d2",
@@ -5406,9 +5406,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "primeelectric:632440b9dfea9d4c0391aa1fb80cb2a624fc5af0",
@@ -5446,9 +5446,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 156
+      "seen_count": 157
     },
     {
       "job_key": "mortenson:9ab4e74654fed9985bf0bae5e875f881018ba4f2",
@@ -5482,9 +5482,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-06",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "job_key": "mortenson:93b82eac5e600ca56c885addd8207838ff3cb067",
@@ -5518,9 +5518,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:963e7929d5d0ba87ab75307f673bf84131173924",
@@ -5554,9 +5554,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:ded44110c105c7c09aac7f6f2ea605f95f48ea4d",
@@ -5595,9 +5595,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "cei:b2b521c34a26f4f3cab0d7698c642a9cc90f7301",
@@ -5629,9 +5629,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:07320f116aae281bd94945a7d9668703d9601c58",
@@ -5663,9 +5663,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:a14390124ba4bec23bc3d781f0e58e0374751f60",
@@ -5697,9 +5697,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:a15ceec9a0b4e12979dd6d9b591b4f407dfb81b3",
@@ -5731,9 +5731,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:b2aef5c32a28463f6baad2e8415adb2902d78c04",
@@ -5765,9 +5765,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:810229eceac34d4e76d2d185598c9f9a883c0359",
@@ -5799,9 +5799,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:aee0c6a03f5d9c854dab96495c95b136af7728da",
@@ -5835,9 +5835,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:eaeb77617a57d090b3c39de4500470af6a3e4996",
@@ -5871,9 +5871,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-14",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 82
+      "seen_count": 83
     },
     {
       "job_key": "mortenson:31a9e9420edfdd3de0d558cb53143fe11fc7da88",
@@ -5904,9 +5904,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:47c469e9c624c956017dcf150a8faaa0dc876916",
@@ -5937,9 +5937,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "mortenson:b3fb815173a8223d59ac999055a547d01c7a2f93",
@@ -5974,9 +5974,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 160
+      "seen_count": 161
     },
     {
       "job_key": "turner:5fe0d205cf42b9dbdb49eef5cee74c970b96d10d",
@@ -6010,9 +6010,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 96
+      "seen_count": 97
     },
     {
       "job_key": "cei:916445cdb9872a6ca6e7c637c85ca39c1c98f951",
@@ -6039,9 +6039,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:d7f874ddfd713623df8e5c254fdda81f996c69d5",
@@ -6068,9 +6068,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "job_key": "turner:78309b844b4af0f254fd7fbf1869ef62b15884fb",
@@ -6102,9 +6102,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:da42a19acaaad3a41163c01af1acc1fba10edbcd",
@@ -6136,9 +6136,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:bc1f2aa0db15776bf09bfd7429875cc65dfb0cc5",
@@ -6170,9 +6170,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:cd8d9265b07ac17f3897ca9ba6156e17541d4820",
@@ -6204,9 +6204,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:543f8a886ff128e2c7f38f92ff4e4ef7fd3cf354",
@@ -6238,9 +6238,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:ebf598d223dd1b58eaeefa34ba5fc49bfc08c56f",
@@ -6272,9 +6272,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 63
+      "seen_count": 64
     },
     {
       "job_key": "turner:017f30b327e18b4298c997c50386fa1af3472c74",
@@ -6306,9 +6306,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:d49c64b09d41e79f56ea010334b9f2443d4976e0",
@@ -6340,9 +6340,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 32
+      "seen_count": 33
     },
     {
       "job_key": "turner:85ece400253f92ff79fe8dafb87406d0882a528a",
@@ -6374,9 +6374,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "turner:775fc00e1a9f39f3e13c80ef759cf5e2361059e1",
@@ -6408,9 +6408,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:3139e34bbe345c153c9436c7345d8e4cc8d0d811",
@@ -6442,9 +6442,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "mortenson:e7e1b22e2d825545af48d372f0cb411579d2e756",
@@ -6480,9 +6480,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 160
+      "seen_count": 161
     },
     {
       "job_key": "mortenson:ac55899be9b5aa63f41953e1e3e792a7f09a69e1",
@@ -6513,9 +6513,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-17",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 84
+      "seen_count": 85
     },
     {
       "job_key": "mortenson:45344b79dd3eeb15ade97632a115b27aeeb8674a",
@@ -6546,9 +6546,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 61
+      "seen_count": 62
     },
     {
       "job_key": "mortenson:3af4a8c28042406faf4d864fde01e59982a08247",
@@ -6579,9 +6579,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 105
+      "seen_count": 106
     },
     {
       "job_key": "mortenson:9668f471b0ed8a96485ae82e945d317f42bf6bdf",
@@ -6612,9 +6612,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-28",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 73
+      "seen_count": 74
     },
     {
       "job_key": "mortenson:62076c90c24cd4afe92fe3ac7e71bdb103b6e4d9",
@@ -6645,9 +6645,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-18",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "mortenson:303ce25fd573589209cea382e2b9dab43704d6a1",
@@ -6678,9 +6678,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-12",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 58
+      "seen_count": 59
     },
     {
       "job_key": "turner:99eff9c71f853c2fbd4c80e2409edf4ba9b05923",
@@ -6710,9 +6710,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:b73819a7e2227bda306f42ddd029c72406b1f55a",
@@ -6742,9 +6742,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "oeg:00a6aca27a3a188b7cdeec0d80a3f3d43a423103",
@@ -6778,9 +6778,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "primeelectric:6ab56262435c2fc79316e910da60741c1fc11553",
@@ -6818,9 +6818,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 156
+      "seen_count": 157
     },
     {
       "job_key": "turner:2c303d1d911edaa11812b3bec0b94d0046d43b87",
@@ -6861,9 +6861,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-07",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 118
+      "seen_count": 119
     },
     {
       "job_key": "cei:eb5c2aa7eedb094623eb1c06b7c1531c4e09faa0",
@@ -6892,9 +6892,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:f9adcb70933ff4ebdd3ddcf2aa4cac4c4a37d6b6",
@@ -6926,9 +6926,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:a99a233ea65a377042e35697ce0dc676d1b8555b",
@@ -6960,9 +6960,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:1394c44a66dd4f615e6429a47df5cc4b8257db54",
@@ -6994,9 +6994,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:326f92f1fe6bea60e524ebae37099c660c95dd31",
@@ -7028,9 +7028,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 52
+      "seen_count": 53
     },
     {
       "job_key": "mortenson:268fea26d2a5daa03729d6762c662051a3cac151",
@@ -7062,9 +7062,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:3be6fef06e58dc4e428fe79897226ea38a3a3ff6",
@@ -7096,9 +7096,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 80
+      "seen_count": 81
     },
     {
       "job_key": "mortenson:3a8f29faf96304f39a6f79c29cfa0165c6660000",
@@ -7130,9 +7130,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 52
+      "seen_count": 53
     },
     {
       "job_key": "mortenson:d2279369677ad6864c73c09f5c95d971e009855e",
@@ -7164,9 +7164,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 54
+      "seen_count": 55
     },
     {
       "job_key": "mortenson:7fff6e4e7264b28313683b3ca10b47dd2d9458ab",
@@ -7198,9 +7198,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:a31134e54bc061d26576e8e4c36d3b0c92388eca",
@@ -7232,9 +7232,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 54
+      "seen_count": 55
     },
     {
       "job_key": "mortenson:cfdd10899c571efe27452620fd9a4004b320279e",
@@ -7266,9 +7266,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 30
+      "seen_count": 31
     },
     {
       "job_key": "mortenson:eb5d669296f92a0ed427a5b515ff3bf71ba73f94",
@@ -7300,9 +7300,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:e464642610ecdfdb4009dac2035c044dfb0ae8c3",
@@ -7334,9 +7334,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 78
+      "seen_count": 79
     },
     {
       "job_key": "mortenson:c1e7b5e9483e4b7afef3b99d740159351803e80f",
@@ -7368,9 +7368,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-10",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 93
+      "seen_count": 94
     },
     {
       "job_key": "mortenson:2e3806a704eefa3a095ababb60ecf98e732c8603",
@@ -7402,9 +7402,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-28",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 69
+      "seen_count": 70
     },
     {
       "job_key": "mortenson:d95552ebc33f4acbc3dd07b29216f57bab2f62bf",
@@ -7436,9 +7436,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-28",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 73
+      "seen_count": 74
     },
     {
       "job_key": "mortenson:37cece8005828c39b9a847b4a9d15cda1fb45628",
@@ -7470,9 +7470,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-18",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 83
+      "seen_count": 84
     },
     {
       "job_key": "mortenson:eda3766b152209a67e7619a000c1c26bf952e9b8",
@@ -7504,9 +7504,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 47
+      "seen_count": 48
     },
     {
       "job_key": "mortenson:8feeded06e993b645a3458fa920eeac8a60117f2",
@@ -7538,9 +7538,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-28",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 102
+      "seen_count": 103
     },
     {
       "job_key": "mortenson:9db424f73cb1bd1135ee6fc0f6ab1b7b270b75c7",
@@ -7572,9 +7572,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 160
+      "seen_count": 161
     },
     {
       "job_key": "turner:379b9a2a2f8c5b32bd8d65a38a097207cc2fd58d",
@@ -7604,9 +7604,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 11
+      "seen_count": 12
     },
     {
       "job_key": "turner:7d4908484d7ff977bdbfdd3813675700d211766c",
@@ -7639,9 +7639,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:9ad5478f41ebd7019522d48985ba55c2060cd606",
@@ -7676,9 +7676,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 30
+      "seen_count": 31
     },
     {
       "job_key": "primeelectric:df9ab91747d9eaf0458f49da0d5247662b8b5e18",
@@ -7717,9 +7717,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-28",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "primeelectric:0f32de1efce1a775b8971f0780e548c595201454",
@@ -7758,9 +7758,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:1ede90bd43b6d18e454acf31b2a68ecd7df068ac",
@@ -7795,9 +7795,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 31
+      "seen_count": 32
     },
     {
       "job_key": "turner:263023f85777eba583d92808437a11bc3edf7cf9",
@@ -7838,9 +7838,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "mortenson:2c798ccdbe2daf881ad0c2723eb3247b5aa82a93",
@@ -7870,9 +7870,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 14
+      "seen_count": 15
     },
     {
       "job_key": "mortenson:9553ef08f6d9ef8125fcfaa2474f244f12d7d2b6",
@@ -7902,9 +7902,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "mortenson:a566e3b9df003cb58539803d8994b3b0d282c179",
@@ -7934,9 +7934,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "mortenson:42b28c4f95f54bb371a37b8924e54eedc045b8e1",
@@ -7966,9 +7966,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:9ce79f0da4e158b08bf704d7fd63c2ab99b6e593",
@@ -7998,9 +7998,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "mortenson:deb1ed857f1f922c2bd9eb591af9f8e7d8453cc7",
@@ -8030,9 +8030,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "oeg:69ffe7ce69264c14f83080ff8c9a3378b910a500",
@@ -8062,9 +8062,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-13",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "oeg:fa6be305efa39ae81246becc94975461631d5b8e",
@@ -8094,9 +8094,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "oeg:6ba3d8cf857fb8759927713ee6eecae10f0cdf4b",
@@ -8126,9 +8126,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:279d44ae85b32360e496b97675d1e4b182d032a1",
@@ -8157,9 +8157,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:3523dff89467728e9d7b1f24867b4ce2940c4e41",
@@ -8188,9 +8188,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:130dbef395a8b06562bb0e0e380075ac73491b39",
@@ -8219,9 +8219,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-17",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 23
+      "seen_count": 24
     },
     {
       "job_key": "turner:ec20ef7d365ac361b3a7970d329d9b4e93d67f40",
@@ -8250,9 +8250,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:b5df61ee34f5cf4c03f8bde21a9617f9f4eb9280",
@@ -8281,9 +8281,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 37
+      "seen_count": 38
     },
     {
       "job_key": "turner:032ef8977563a02eab4ff43e0c99c28be8329a76",
@@ -8312,9 +8312,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:c9c86ac1a24b5d6e503abbefbbe46fab7f971068",
@@ -8343,9 +8343,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:af339d1ac495e7e2b6ce35d34a9f30ffd0a1af6b",
@@ -8374,9 +8374,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:e4be0197cb0ad620427d304482d50c0c4998278e",
@@ -8405,9 +8405,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:6fd4914a78364ab247cc79843a8763a04e04333f",
@@ -8436,9 +8436,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-14",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 82
+      "seen_count": 83
     },
     {
       "job_key": "turner:92dfb83126a82f842357931f82692060b19a3f2d",
@@ -8467,9 +8467,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:c5458a5588e717763de9fb6163d876a2bec07d3e",
@@ -8498,9 +8498,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:1820231d1da66758189b3e249faf74226a3614c3",
@@ -8529,9 +8529,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:50c6354ef9370d8acf5640d49a92380c71d49f21",
@@ -8560,9 +8560,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:5e3d6507d1c6c4e3e669f87678290dec888449e3",
@@ -8591,9 +8591,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 37
+      "seen_count": 38
     },
     {
       "job_key": "turner:2c2dc9c4ff6d1101f6c369cec9f32b0aa3888467",
@@ -8622,9 +8622,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:2e16ae4d5228b8ac57d81244754f228cc17f40fc",
@@ -8653,9 +8653,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-06",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 33
+      "seen_count": 34
     },
     {
       "job_key": "turner:c13d409c8ab0d4df5d637ef667ab02f077e5822f",
@@ -8684,9 +8684,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:9e609833e19725c3a579df694980183d9ff36f79",
@@ -8720,9 +8720,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 125
+      "seen_count": 126
     },
     {
       "job_key": "turner:9d1de1e995d77b6eb8c37050fec0cf98c59027e2",
@@ -8751,9 +8751,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "job_key": "turner:e034e9b741e48821b1cf0ba132ae63f076dc92b2",
@@ -8782,9 +8782,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "oeg:4c8af6e0ed1e346820b43278ddd3f373616ec1cf",
@@ -8819,9 +8819,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 28
+      "seen_count": 29
     },
     {
       "job_key": "primeelectric:fa93920aaf4da67303b54a1d4d7b16e692fd84bb",
@@ -8858,9 +8858,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 29
+      "seen_count": 30
     },
     {
       "job_key": "turner:0ad889d8f521b9899c1208071f0f7787342b36d2",
@@ -8898,9 +8898,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 10
+      "seen_count": 11
     },
     {
       "job_key": "turner:e819e663a8ff4e63f6c8f121e7c5e45f39de32f8",
@@ -8941,9 +8941,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "cei:4bb63ebdf5f83fa914497686b6ada4197048b5f6",
@@ -8971,9 +8971,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 11
+      "seen_count": 12
     },
     {
       "job_key": "primeelectric:ffc56fc9c57c6e839b879d5c2b71a9dd41151ef7",
@@ -9008,9 +9008,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 72
+      "seen_count": 73
     },
     {
       "job_key": "mortenson:fcf7c09f95a19ee3c5840a821bdef01f4950821a",
@@ -9046,9 +9046,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 98
+      "seen_count": 99
     },
     {
       "job_key": "mortenson:f5ed941413c2343f20c69ad28a0788df3e2b8597",
@@ -9084,9 +9084,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:9a4adf00c911b7bd6e8a274c86819fcb9ec02833",
@@ -9123,9 +9123,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-06",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 89
+      "seen_count": 90
     },
     {
       "job_key": "cei:954246e49a807857531f64c5f22f7681913529fc",
@@ -9160,9 +9160,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:cf9dc3bbca75cb990c30618e1c3391be52ccb934",
@@ -9200,9 +9200,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:92b7e40dba41100c805b39dec5d41522075f1c3b",
@@ -9236,9 +9236,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:3223d96ac82620220912adf3e300c23954130e08",
@@ -9272,9 +9272,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "primeelectric:a540a25a5015ef5874578a5b664aca5bd5f8e0fd",
@@ -9312,9 +9312,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 38
+      "seen_count": 39
     },
     {
       "job_key": "primeelectric:9b6adf0505520175513de40798bd36bfbef6beec",
@@ -9352,9 +9352,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-06",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 34
+      "seen_count": 35
     },
     {
       "job_key": "turner:5040e28d2b6142cfc491252cf7b6cff5815257aa",
@@ -9384,9 +9384,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-07",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 89
+      "seen_count": 90
     },
     {
       "job_key": "turner:375c11721fc6f6428d4d26120665966d0968ab92",
@@ -9416,9 +9416,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-07",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 89
+      "seen_count": 90
     },
     {
       "job_key": "turner:f2491f1b69ceb50c866e2df8431126ab81bf4e6a",
@@ -9453,9 +9453,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:4d711df67f44fa35a4e6e2fc7b4daad8ebb9115c",
@@ -9487,9 +9487,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:154541a6a7f9465b82329caa20858c2e64914e81",
@@ -9521,9 +9521,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "cei:125933c2d2dfea5750ece998e127e97053fff0b9",
@@ -9557,9 +9557,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "oeg:2ee3d26296fd35118e169274dc1244432c9bbf9e",
@@ -9590,9 +9590,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-12",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 52
+      "seen_count": 53
     },
     {
       "job_key": "turner:b100ff946b5aabee638b1aff7b71523c1e9b61e8",
@@ -9622,9 +9622,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:9a51960a1922ca077aebaac423fe805402aa9db3",
@@ -9661,9 +9661,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-15",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 81
+      "seen_count": 82
     },
     {
       "job_key": "primeelectric:6fd71cef46458595d51c0e0ef3caa09eabfbeb39",
@@ -9704,9 +9704,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 151
+      "seen_count": 152
     },
     {
       "job_key": "primeelectric:58a1a895035518484eece2eb416adbb05aaa44cc",
@@ -9747,9 +9747,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 156
+      "seen_count": 157
     },
     {
       "job_key": "cei:c05a79c4d273aa72f5728d7571eaafbed1869c4d",
@@ -9778,9 +9778,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:3c7b6b5a526038d2d86be652f76cd33742f41c66",
@@ -9809,9 +9809,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "cei:eb9dd0ae3e37ac8b7c99ec7b1bfb71dfdf2d1fd1",
@@ -9840,9 +9840,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-28",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "cei:6d97a52fd0bfdb8f1313e019f36eda96f1a56860",
@@ -9871,9 +9871,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "cei:1b941e84fab518f061f7a400702a9cc7ba4dcfec",
@@ -9902,9 +9902,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "cei:6ee6f24c9738d7e40f8ef1b66438802561cf0819",
@@ -9933,9 +9933,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "cei:f2eefd3f64a83ff9b4b7cb543e8e28e816446b24",
@@ -9964,9 +9964,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-24",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "turner:dd0f0851cf08a718ac29c98d93649ddb759e0bd2",
@@ -10004,9 +10004,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "cei:fff06a93d495c6f14f65b8968ededeabf500ff64",
@@ -10035,9 +10035,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:21548421797e0548ad2a4194a4dc01713dd65001",
@@ -10072,9 +10072,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "cei:15967712f04f33bc0bb158097284a0bfb237fdf3",
@@ -10105,9 +10105,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:ee92057cd472f4dc836e1368718b7a743d2de70b",
@@ -10144,9 +10144,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 31
+      "seen_count": 32
     },
     {
       "job_key": "mortenson:7800e417fc4f1de252ffa7cb0b6551d07be8a43f",
@@ -10179,9 +10179,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-01",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 99
+      "seen_count": 100
     },
     {
       "job_key": "mortenson:e454b398036872660bb4b88d0b5125e247eeaddd",
@@ -10214,9 +10214,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 78
+      "seen_count": 79
     },
     {
       "job_key": "cei:4265c230869194793694e3505d155ad9509c34af",
@@ -10248,9 +10248,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:072a53e3cbb67593c8122f93ee85798bb5f852a3",
@@ -10286,9 +10286,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-27",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 43
+      "seen_count": 44
     },
     {
       "job_key": "turner:eca8332a4606bcafc993fbf35365e7d5a574f01a",
@@ -10324,9 +10324,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 17
+      "seen_count": 18
     },
     {
       "job_key": "turner:dad51942d9e10b71dcca872da54aac717fa1cef2",
@@ -10366,9 +10366,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "turner:3d989cca701d81d9144564f303e827875fbb918e",
@@ -10408,9 +10408,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 66
+      "seen_count": 67
     },
     {
       "job_key": "cei:315335b59e5d2121d9fd0bcd66f2fa976fda6b7e",
@@ -10446,9 +10446,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:0bd1fa8b8830b1e38fadcf238195e1fc40956a9e",
@@ -10481,9 +10481,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-01",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "turner:86527359486feb5eb31e92609b4cc1ee4a2fe21e",
@@ -10518,9 +10518,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-06",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 90
+      "seen_count": 91
     },
     {
       "job_key": "cei:86c4a957e909a8ec2de6db2df33469dca374f80d",
@@ -10551,9 +10551,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-24",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 39
+      "seen_count": 40
     },
     {
       "job_key": "cei:dd3014a722827cd796cda7bed0f5bf7c652581b0",
@@ -10587,9 +10587,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 25
+      "seen_count": 26
     },
     {
       "job_key": "turner:92eeedc0c509d3a93ff64016b2b2cdcfac6b7198",
@@ -10625,9 +10625,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:e00dfb1e9f99743cfc0d529783c1ad5ef5004cd6",
@@ -10663,9 +10663,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "cei:826681b47001921101c6356f878caa497233ea7f",
@@ -10695,9 +10695,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:a9ed0a2f25e01998850ba587531bd6866fdf3a4a",
@@ -10727,9 +10727,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-06",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "job_key": "mortenson:e2d8eb3af7ade01d22664214d3b1998ee9cf0b3e",
@@ -10763,9 +10763,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:5166b7d8ddd5898d8f0bb3c84dd3a5f1798b4bdf",
@@ -10801,9 +10801,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:d9c038e6fe706fdcd2f64f5e40df234cf00e423b",
@@ -10839,9 +10839,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 160
+      "seen_count": 161
     },
     {
       "job_key": "mortenson:a4aef7acde833f3a3232bbbcd7217cb169525239",
@@ -10872,9 +10872,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 100
+      "seen_count": 101
     },
     {
       "job_key": "primeelectric:74fb8860a418754f49c2ec1ec3101c0a0d71f4a9",
@@ -10913,9 +10913,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 156
+      "seen_count": 157
     },
     {
       "job_key": "turner:d549e470005491351819010144fe40e849c1a67d",
@@ -10948,9 +10948,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:7b082c279e20a73529abcf319cce628ba2b04d40",
@@ -10988,9 +10988,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "job_key": "turner:e1cdf5c7ab385406da908ac62ce7c69779d5e8fe",
@@ -11029,9 +11029,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:e43d5d1470d2e1b868120e23e3f3a8a7aaed6964",
@@ -11070,9 +11070,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:f64067615f93daca234dbd8e1fa20f53ee1bbbd3",
@@ -11111,9 +11111,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:38fa44c8d1ab6f39fab9650cdf2731815047ee94",
@@ -11144,9 +11144,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:320f9842f6972c84bbe9a36427849377c256d5f1",
@@ -11177,9 +11177,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:09b53398c4b1850790c34b2cde03f2f498c6f9cc",
@@ -11213,9 +11213,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 100
+      "seen_count": 101
     },
     {
       "job_key": "turner:d8dcd0169f5ce9696c6defb8fe23ea759c5160ff",
@@ -11253,9 +11253,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "cei:cded8ffe1530420bb83a4cfabe98096a5366ee77",
@@ -11283,9 +11283,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 29
+      "seen_count": 30
     },
     {
       "job_key": "oeg:a555bd2b99e9773b53a9dbfdb156ac7380f90870",
@@ -11319,9 +11319,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:c604843d6bfabf7fbfa1d91239591b6c2b160d53",
@@ -11357,9 +11357,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:9f4c639c1d6d0724953c6c3c6244f7c20239ee01",
@@ -11396,9 +11396,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "oeg:f9141ff90a653853978e0fa5e695aefb87f440c8",
@@ -11433,9 +11433,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "job_key": "turner:54c95fede55483fd43ac2eb9d90feba2d40b2c4b",
@@ -11468,9 +11468,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-16",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 109
+      "seen_count": 110
     },
     {
       "job_key": "turner:c49e97b83d74dd2b16e4416083711e0724ca3f83",
@@ -11503,9 +11503,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 30
+      "seen_count": 31
     },
     {
       "job_key": "mortenson:58a37635172d73c9538babd8799cd26c2ea14620",
@@ -11539,9 +11539,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:c7b9ce4f8018516747f0496b372f9f4975d324c1",
@@ -11575,9 +11575,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:f556024d827b2910c430b4d0067ac5aac0fc7c4c",
@@ -11611,9 +11611,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-24",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "mortenson:ddf601d900de7d3093e3396fb18881c49b018e87",
@@ -11647,9 +11647,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:c80c17842c72eb8599e3fb8ea5834b2b59f11cc2",
@@ -11683,9 +11683,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:1f455bb05bf043fa5a60574e0e2c5ba0e8581db9",
@@ -11719,9 +11719,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:face11a84b08926b066bfb527f2e19744d322498",
@@ -11755,9 +11755,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "job_key": "mortenson:370849be0d4249d85a9b50e08e3a6f2e52961198",
@@ -11791,9 +11791,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 82
+      "seen_count": 83
     },
     {
       "job_key": "mortenson:c371df978c0f1861b16269a81c69799eb73db7eb",
@@ -11827,9 +11827,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-24",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 46
+      "seen_count": 47
     },
     {
       "job_key": "turner:f15606f0987604e547def51c0a0cb89c44c081de",
@@ -11868,9 +11868,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:f3dc9e24edebe4653778aa9bb2157cb89aa9296d",
@@ -11908,9 +11908,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 32
+      "seen_count": 33
     },
     {
       "job_key": "turner:6460d1a779f7f488fed4430c9ffa9b309767daca",
@@ -11948,9 +11948,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:b97eb63a1cefae626060589d83f023040fd55c15",
@@ -11988,9 +11988,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:62156c56740b54836a37988ebf4e8ccb6fc38df7",
@@ -12028,9 +12028,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "cei:939646fba4fc06a6d948d23e77a6b1a104dcda3c",
@@ -12064,9 +12064,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:05a06fc06e3e5fbf74a5df3ef2cddd84536526f2",
@@ -12101,9 +12101,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-26",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 44
+      "seen_count": 45
     },
     {
       "job_key": "mortenson:d22cb21d51e36811e3a5bd33aa0fc44a0de410df",
@@ -12138,9 +12138,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "oeg:419ceb1d171e037604ae2cbca0d3eacabbf5c1c8",
@@ -12175,9 +12175,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-12",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 76
+      "seen_count": 77
     },
     {
       "job_key": "primeelectric:732dcb14a47eb9f267b110ab82d9cc9f6113a584",
@@ -12217,9 +12217,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-24",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "primeelectric:087ec4d8a853c167b89443b23edefd892dd3c60f",
@@ -12259,9 +12259,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 156
+      "seen_count": 157
     },
     {
       "job_key": "cei:8da4adc572a27c6e0ad812418f3f1923f0d67bce",
@@ -12291,9 +12291,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 65
+      "seen_count": 66
     },
     {
       "job_key": "turner:964f7836a5e0e0a09cdcfa3d6bf6e6c24e8c2c05",
@@ -12323,9 +12323,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-26",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 70
+      "seen_count": 71
     },
     {
       "job_key": "turner:cf05f92e0ee525ba47743ddf1044f2e8fffd02ef",
@@ -12360,9 +12360,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 77
+      "seen_count": 78
     },
     {
       "job_key": "turner:f3bd28c02f68fb8516ab159868c0a42b720b63dc",
@@ -12395,9 +12395,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:7ffe4c6772092b31f8ec18e1fb90cbfde3d28a6b",
@@ -12430,9 +12430,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 95
+      "seen_count": 96
     },
     {
       "job_key": "turner:24519a99dce44f1a7eadcb5d7b1a30778dd2d18f",
@@ -12465,9 +12465,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:f54c299abf23b46a3947c5ea2290ee24c67e4af2",
@@ -12500,9 +12500,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-22",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 47
+      "seen_count": 48
     },
     {
       "job_key": "turner:91a08f755e8bc9a3fe677fc528f98473e8b07cb1",
@@ -12535,9 +12535,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 95
+      "seen_count": 96
     },
     {
       "job_key": "turner:6880b2a06d75139b9a3ebeadbb2fde23ef68d4ab",
@@ -12570,9 +12570,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-07",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 118
+      "seen_count": 119
     },
     {
       "job_key": "turner:6aa23d15d3e8b9abe3a4fa4a787daa236516c336",
@@ -12605,9 +12605,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 63
+      "seen_count": 64
     },
     {
       "job_key": "turner:912ce064da64fd34c572e7424d59e44b6278b79f",
@@ -12642,9 +12642,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 96
+      "seen_count": 97
     },
     {
       "job_key": "turner:07999f3d6bcc433719f8bee37f9808bda7465a16",
@@ -12677,9 +12677,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 11
+      "seen_count": 12
     },
     {
       "job_key": "turner:d88becd13adab3ee4f23fdd357630ababfa0537d",
@@ -12719,9 +12719,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-22",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 74
+      "seen_count": 75
     },
     {
       "job_key": "turner:5e90d1af8184d2ff992e205e8a6eec96dcd18cf0",
@@ -12761,9 +12761,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:152b5d144fd0a4997229dc4491299a567aee4b17",
@@ -12803,9 +12803,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:f16bc139c600d5b236d3ca544890feccd578474d",
@@ -12838,9 +12838,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-15",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 81
+      "seen_count": 82
     },
     {
       "job_key": "mortenson:d6cf916e202808460eeeebf9d9ee16198a3bbdff",
@@ -12877,9 +12877,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:1c2b22e94b01b445a18485e4c6a3958bdf595daf",
@@ -12916,9 +12916,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:5b8362671e4361b5085acb0511c72a380f6a6003",
@@ -12955,9 +12955,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:88ee1be52453c55e85e8a4669950ae21691ed606",
@@ -12987,9 +12987,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 91
+      "seen_count": 92
     },
     {
       "job_key": "turner:2687aeaf8e6f4b010386066e4f59d40671b99bfd",
@@ -13019,9 +13019,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:2c68644a2d4e1425f45ff9eff99da8d5eb43a4c6",
@@ -13056,9 +13056,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 125
+      "seen_count": 126
     },
     {
       "job_key": "turner:a1f4bc30c26adacca135439e250ad0e27145e920",
@@ -13092,9 +13092,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:477f99280e027cefbcc12b059cc1a88fa12e3f8e",
@@ -13133,9 +13133,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:b5eb5c6f9b4db25c26358ae5851ba6f6dd37cc80",
@@ -13172,9 +13172,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:88d4981156ace7e475d95b2ef347c8a34a7ec699",
@@ -13211,9 +13211,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 31
+      "seen_count": 32
     },
     {
       "job_key": "turner:a35ee3aeb958672f4c97c8e217d868b7f7b0fbcb",
@@ -13248,9 +13248,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-01",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "turner:3e5911fc7517d7eeec5b9b5af0b952897fe14234",
@@ -13286,9 +13286,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-08",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 88
+      "seen_count": 89
     },
     {
       "job_key": "cei:120481804de9dacee82715ce1ade5e584e272695",
@@ -13321,9 +13321,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 45
+      "seen_count": 46
     },
     {
       "job_key": "turner:353d920941f6de6b523e9da5367c3b24c9581bc5",
@@ -13353,9 +13353,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "turner:a2beb556adb59a0754e57d233fa2161fa711fa83",
@@ -13385,9 +13385,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:037c97161a62ba95ebf6b1fed397549c6ac5dbcc",
@@ -13417,9 +13417,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "cei:886de9f67cbd6266f30ebe70277e37db21ba4118",
@@ -13456,9 +13456,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-16",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 25
     },
     {
       "job_key": "cei:4ec5fc85f2871c2219213f2243a4df7d7327fd75",
@@ -13495,9 +13495,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 160
+      "seen_count": 161
     },
     {
       "job_key": "mortenson:6f8b7e4345230350f5fab47cb2d0e4b082ac24d3",
@@ -13531,9 +13531,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "job_key": "mortenson:776e72edcd3e9615d4cf80a4472560e52630a923",
@@ -13567,9 +13567,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 133
+      "seen_count": 134
     },
     {
       "job_key": "cei:ea66d98c6a0ab9a2cc93dfb773bd9693f9c797c4",
@@ -13601,9 +13601,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-17",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 53
+      "seen_count": 54
     },
     {
       "job_key": "turner:2eb81fc826ef8b59a8b2bfa77c8f1249b59525b7",
@@ -13633,9 +13633,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "primeelectric:18235a74a2799139ea00b5b58b59afc3b6e49d0c",
@@ -13674,9 +13674,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:00fc1e7d12aab571a1a5e4f5973071e190677f8c",
@@ -13710,9 +13710,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 100
+      "seen_count": 101
     },
     {
       "job_key": "cei:e43eba36476b11398199060b86cf71707e000eb8",
@@ -13742,9 +13742,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:1d9f66b404c23e9aed27b3455f3eee87a994ef03",
@@ -13779,9 +13779,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:be72deef60e572804eb65bb4d494ed1db9468f3c",
@@ -13815,9 +13815,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:11863ef5e63602deec0a3aa80d1d09da10e6db50",
@@ -13858,9 +13858,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:3f0c984b3a8d604093c8e17f57aab81adf58dbd0",
@@ -13901,9 +13901,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:b239ed9a40e09a98a5dc7a1ae062cf252e5c9f1b",
@@ -13944,9 +13944,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:1eae00c2c67a0baaf8bee7984aa7b0ffaf9d5641",
@@ -13956,7 +13956,7 @@
       "title": "SPO Traveling Superintendent - Drywall",
       "detail_url": "https://turnerconstruction.csod.com/ux/ats/careersite/4/home?c=turnerconstruction#/requisition/20078",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
-      "location": "Monroe, LA; Dallas, TX; Buffalo, NY; Augusta, GA; Lebanon, IN; Port Washington, WI",
+      "location": "Buffalo, NY; Augusta, GA; Lebanon, IN; Port Washington, WI; Monroe, LA; Dallas, TX",
       "posted_date": "5/8/2026",
       "description": "Position Description: Plan, forecast, lead, direct, and coordinate work of Self-Perform Operations (SPO) staff, subcontractors, and suppliers on Self-Perform Operations (SPO) drywall and general Trades projects. Oversee and confirm implementation of planned work for adherence to contracted scope for safety, schedule sequence, quality of work performed, and production planning and tracking. Supervise Trade labor in drywall or other areas of responsibility. Essential Duties Key Responsibilities: Sequence work to meet project schedule and estimated productivity; communicate with Project Superintendent to incorporate Self- Perform Operations (SPO) activities, durations, and flow into project schedule. Establish production requirements with Trades Foreperson and measure results weekly, oversee progress to promote coordinated project operations, and adjust work practices and crew assignments, to boost production where possible. Monitor and report installed quantities and percentage of completion for SPO tasks and share findings at scheduled production meetings. Monitor jobsite deliveries for approved materials at the time and quantities as defined in project schedule. Assist General Superintendent and/or Trades Manager with hiring and termination decisions related to Trade labor. Develop and maintain relationships with various labor sources to identify qualified labor to fulfill project staffing needs. Plan, communicate, and implement performance of work related to scheduling, delivery, logistics, quality control, and SPO Trade staffing levels. Resolve local area problems related to procedures, precedence, design clarifications, adequate labor, and equipment schedule. Develop and implement SPO safety plan in compliance with company standards and safety codes and regulations. Make available Job Hazard Analysis to Forepersons to enable quality daily pre-task planning. Supervise and oversee work of Trade forepersons; provide constructive development feedback and contribute to complete performance appraisals. Investigate, communicate, and resolve field issues with Owners, Owner\u2019s Representatives, Architects, and/or Engineers. Manage monthly estimate of work completed, payrolls, material invoices, and subcontractor payment applications. Manage installation of work in compliance with approved contract documents. Monitor and confirm accuracy of take-off work and manage\u2026",
       "source_context": "Turner labor and skilled trade careers API",
@@ -13982,9 +13982,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 87
+      "seen_count": 88
     },
     {
       "job_key": "turner:5dda61ffe04677b923fbd0d66573dc6e7fddd552",
@@ -14019,9 +14019,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 125
+      "seen_count": 126
     },
     {
       "job_key": "turner:4186521344d9c4fb9f84847b32bbfaca8c5c6de4",
@@ -14053,9 +14053,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "primeelectric:138b1ddf9929ea37b89dbe5a81e20e038d717e98",
@@ -14096,9 +14096,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-22",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 48
+      "seen_count": 49
     },
     {
       "job_key": "mortenson:b8e2d179a9b5433a1c5fa3c3f4656fd3aeb1924a",
@@ -14133,9 +14133,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:c7a3b5b7bd089c7a8ae7a639f4889f4812a4c7a9",
@@ -14166,9 +14166,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 37
+      "seen_count": 38
     },
     {
       "job_key": "mortenson:9de61ec1fef4c16ae2ea2e44c2d4ab711a6c9976",
@@ -14199,9 +14199,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 37
+      "seen_count": 38
     },
     {
       "job_key": "turner:774f8c6bb63b9447bc58a0f67ea8e00ea598a067",
@@ -14231,9 +14231,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-13",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 56
+      "seen_count": 57
     },
     {
       "job_key": "turner:fefc6ada54275f10aecba21b156e3c60a73f1d05",
@@ -14263,9 +14263,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:a804c4cbeb77af289404fc8e25efbc458f8cbdd4",
@@ -14295,9 +14295,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:2c203a8d4a3e0b5e0b668af68f08433314f8ae47",
@@ -14327,9 +14327,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:e1fb6bee30fb3aa6e01c7bbf106ba0a3656f6d78",
@@ -14359,9 +14359,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:d114cdea7d94c0f21feb71dae87d741371eccf0e",
@@ -14391,9 +14391,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:baa1d7525c304ec81505cc0165033fafb81135e3",
@@ -14423,9 +14423,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:598b7e30628c54fc843c98867a93576fc751f896",
@@ -14455,9 +14455,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:7f908c84f978e0f9954d62b882f1bc3f6f21aff3",
@@ -14487,9 +14487,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:533c4639bc0815194eb5819caec27b1ffe1197b6",
@@ -14519,9 +14519,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 44
+      "seen_count": 45
     },
     {
       "job_key": "turner:38e100e0dab5be3e0b5e02513efb6f63f3c25a2c",
@@ -14551,9 +14551,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 116
+      "seen_count": 117
     },
     {
       "job_key": "turner:50cfd46be2e0d27b55bb06938baff53ecf376fa0",
@@ -14583,9 +14583,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 64
+      "seen_count": 65
     },
     {
       "job_key": "turner:6358eeb99cbd464699a68ea1ee9b631906e69852",
@@ -14615,9 +14615,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:b09f858bb72a205eb3e2bb16e05da833f0a51cf0",
@@ -14647,9 +14647,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:c6dc7ebdb9f2ee6aead8fe4ff65aa86923eeba81",
@@ -14679,9 +14679,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:d55c71a4c52d9716ae318e3c24ce12332c767f5b",
@@ -14711,9 +14711,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-11",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 58
+      "seen_count": 59
     },
     {
       "job_key": "turner:563ead2d4c18e9e229a7ab82ad2db5bf302adf94",
@@ -14743,9 +14743,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 64
+      "seen_count": 65
     },
     {
       "job_key": "turner:c9b20d8063ad9332b150d68ced73e90b29519c24",
@@ -14775,9 +14775,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:83bf67c80af1c807e17bb8b8053337a2e52bca2b",
@@ -14807,9 +14807,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:ec8b0aeaf1a6f2caf4b38470fd801aa5e05ba2cd",
@@ -14839,9 +14839,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:06c0b060e343962404c698355967066a872cc482",
@@ -14871,9 +14871,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:9a5e9dc16d396925018f532705c44e795329d54c",
@@ -14910,9 +14910,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 17
+      "seen_count": 18
     },
     {
       "job_key": "oeg:e77c283347c0f9c0b90cbf9834d88a52b8cb52b6",
@@ -14947,9 +14947,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:8f3a8cfe13bd0dfd4247f410c0222ae57f9d7828",
@@ -14984,9 +14984,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "turner:55d09cba523bc759abeb4a841f7649d1f6710395",
@@ -15026,9 +15026,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "mortenson:0525242c3406d7226e4081640042c7c938932cc3",
@@ -15064,9 +15064,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 100
+      "seen_count": 101
     },
     {
       "job_key": "mortenson:0cc20c45f2473cc32624d8a85eb9cd396b609552",
@@ -15101,9 +15101,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:c3830ff5ade29f4cc89ae2804f7b82920f367779",
@@ -15137,9 +15137,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 11
+      "seen_count": 12
     },
     {
       "job_key": "cei:f63152f6e56a6d75719a79bba52b4c1358c86bf0",
@@ -15176,9 +15176,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:4ee7b44180902f4fe02bb64f9848201c70e22afd",
@@ -15211,9 +15211,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 1
+      "seen_count": 2
     },
     {
       "job_key": "turner:0381f426243b7a38c342d1f362b659d8c0f90be1",
@@ -15250,9 +15250,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:c8d6721ed13f875503e91bd2a2ff93e0f93325fc",
@@ -15288,9 +15288,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 125
+      "seen_count": 126
     },
     {
       "job_key": "cei:1f7b5ff864d642cea406f3d2077f5af153a1b77b",
@@ -15323,9 +15323,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:5a1bdc5ddf8cc6e45fd13bcc5fdd8e72f671710f",
@@ -15358,9 +15358,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:d01e54af66438a8ab500f17deffc105aa2700f4c",
@@ -15393,9 +15393,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-26",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 44
+      "seen_count": 45
     },
     {
       "job_key": "turner:8b42bc0b696b359c701295580902cddb5e2576fe",
@@ -15429,9 +15429,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-06",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 90
+      "seen_count": 91
     },
     {
       "job_key": "turner:8ec88902e1ef3d8cb55d281eb3eb1796018d86e8",
@@ -15465,9 +15465,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:56390938ffa51ec1f83df169074e0a2a6b5f1ad3",
@@ -15501,9 +15501,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:b8ce7d8b246cce6610f4693dddbf7aa65cf938b9",
@@ -15536,9 +15536,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "mortenson:542b8d61b6d702050beabee6ee6e252f4eb584a6",
@@ -15572,9 +15572,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:23757db972b47bccab0cf1bb95dfd25739b2e438",
@@ -15609,9 +15609,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "turner:4d361906cfe2cd2ce29a0acf9cc375046e26675e",
@@ -15648,9 +15648,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "primeelectric:2dd99b083a3b438c879c09d36369d96ba76369b2",
@@ -15690,9 +15690,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 31
+      "seen_count": 32
     },
     {
       "job_key": "primeelectric:2177f0758101c778c3bd735158d2a4f6590afd32",
@@ -15732,9 +15732,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 156
+      "seen_count": 157
     },
     {
       "job_key": "primeelectric:3f3beb7200dd19a4fdb258091552461801917a21",
@@ -15774,9 +15774,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "primeelectric:070f2363c8706afe382301334a1b27db4c52d908",
@@ -15816,9 +15816,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "primeelectric:34231f585cff6f2f6444bdb627fdb53668665c00",
@@ -15858,9 +15858,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 156
+      "seen_count": 157
     },
     {
       "job_key": "primeelectric:128e6587d3c52c01ef4d990185b6c5943e8a13a1",
@@ -15900,9 +15900,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 156
+      "seen_count": 157
     },
     {
       "job_key": "primeelectric:ea4d78482ae48f71a53eb1e7c3a093e844389925",
@@ -15942,9 +15942,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-27",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 74
+      "seen_count": 75
     },
     {
       "job_key": "primeelectric:f9b88ff0f9aaad90f471b8b70d4aaba8b6534eff",
@@ -15984,9 +15984,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 80
+      "seen_count": 81
     },
     {
       "job_key": "primeelectric:8604b1e16f25a9476517ba66151135c854e94edc",
@@ -16026,9 +16026,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 80
+      "seen_count": 81
     },
     {
       "job_key": "primeelectric:8d6c2a5f513b76ab789c52158abde30bd43ad24e",
@@ -16068,9 +16068,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "primeelectric:1d1ff89f5c8626413494f9da4b5ffc31a2558bc0",
@@ -16110,9 +16110,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 82
+      "seen_count": 83
     },
     {
       "job_key": "primeelectric:5e6851f0ec0ac15b4da373b24387e49444ce2fd3",
@@ -16152,9 +16152,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 156
+      "seen_count": 157
     },
     {
       "job_key": "primeelectric:f3e8bed33d2e175edce28511c800be252d5f64bf",
@@ -16194,9 +16194,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-27",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 74
+      "seen_count": 75
     },
     {
       "job_key": "primeelectric:14cc1e3a26622a21c5fdd72b1a4639392f3349b8",
@@ -16236,9 +16236,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-27",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 74
+      "seen_count": 75
     },
     {
       "job_key": "primeelectric:33f5860d6f7d9d7b00be50cba3ba48c1e8635477",
@@ -16278,9 +16278,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "primeelectric:4ea8dc96c3e7acedc9220d311e33b9fe8e6f760a",
@@ -16320,9 +16320,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-15",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 115
+      "seen_count": 116
     },
     {
       "job_key": "turner:b5a4cf5b32d8ee9a71d5b6b1c0185e413eb0c311",
@@ -16354,9 +16354,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 63
+      "seen_count": 64
     },
     {
       "job_key": "mortenson:50962c81ccd1792ca6c07dc7cc713b5407d2102a",
@@ -16388,9 +16388,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:34f3b4bd3c0cf12267066eabe507ead8405539fa",
@@ -16422,9 +16422,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:aeac767636e1b3762e393be37f2ba06176ec3b79",
@@ -16456,9 +16456,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-28",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 12
+      "seen_count": 13
     },
     {
       "job_key": "turner:dedb911b5286fb04516ae282597dfe85721c0916",
@@ -16489,9 +16489,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:9a46c489b621e43074fd8b25303ceb70f56fc655",
@@ -16526,9 +16526,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-24",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "turner:8b5626f4ed245fd65936c53ce364694b04f330cb",
@@ -16559,9 +16559,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "turner:3b5caf3c12f84b221afbf8764cd321d1709864a6",
@@ -16592,9 +16592,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 122
+      "seen_count": 123
     },
     {
       "job_key": "mortenson:523d4f8010101d606663de74d3f91d80cb6d5bf5",
@@ -16632,9 +16632,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:f3b44197f447f6ec453dd3aca743eb9e349cb57d",
@@ -16670,9 +16670,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-06",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 62
+      "seen_count": 63
     },
     {
       "job_key": "mortenson:4bd9cf6d3e536719fe5e356963793fd7a790dd3d",
@@ -16707,9 +16707,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 62
+      "seen_count": 63
     },
     {
       "job_key": "turner:32bc19e783852d185a629a2313fea43a3516088b",
@@ -16745,9 +16745,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-01",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "turner:a218b1f0cbbbe7a3d2a787bd7824a8d2f9fab6bc",
@@ -16783,9 +16783,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:38a952eb6a9f91432fa1e8a7076cfe8b5b3c2fea",
@@ -16821,9 +16821,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 125
+      "seen_count": 126
     },
     {
       "job_key": "turner:effca14b644ac986303d9b37b0242ff8f26299e0",
@@ -16858,9 +16858,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:f7be776055206c4b5b71b057f82a3b55be553b55",
@@ -16893,9 +16893,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:947a91e59e6a997848fadfb6d7837cbbdfe712ee",
@@ -16927,9 +16927,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 53
+      "seen_count": 54
     },
     {
       "job_key": "turner:d3e44be348232ffb10feac9deacbd7ed70aa34df",
@@ -16965,9 +16965,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "cei:93276ebb6e1db79e97470b65b4a4b92135b4d2b7",
@@ -16998,9 +16998,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-31",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 9
+      "seen_count": 10
     },
     {
       "job_key": "mortenson:7e014c5b29b420db8931603808294678c6ba5f41",
@@ -17032,9 +17032,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:025bef51643e9b3ac90dbebf2b0a31c8ede88ae5",
@@ -17066,9 +17066,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-15",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 55
+      "seen_count": 56
     },
     {
       "job_key": "mortenson:7ecece6faca517684563969426edcd6ec65107d2",
@@ -17100,9 +17100,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-24",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "mortenson:1cdbc239d0c15da841dc283383a4f468265bbd64",
@@ -17134,9 +17134,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 21
+      "seen_count": 22
     },
     {
       "job_key": "turner:6ae763cfed41e8ff4ff40105144e515a0e6cc7b5",
@@ -17169,9 +17169,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 30
+      "seen_count": 31
     },
     {
       "job_key": "turner:fbabca5f0e644370f6b66f721313053d341a2b4c",
@@ -17202,9 +17202,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:fb703dd385144c747b371a7c91b11be1c87a2aa7",
@@ -17235,9 +17235,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:55b54ea3b7fa7740528bdefaaafc1d7d2aee22ee",
@@ -17273,9 +17273,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-26",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 70
+      "seen_count": 71
     },
     {
       "job_key": "turner:656b3122d58b71df63a54cedb47c2ee2b9b47c21",
@@ -17311,9 +17311,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:699c8f7f1e5a06c2890502378c3e66395ae6060b",
@@ -17355,9 +17355,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 63
+      "seen_count": 64
     },
     {
       "job_key": "turner:143dfdc70eeb80e993d5300703ad1104bc93e865",
@@ -17389,9 +17389,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 53
+      "seen_count": 54
     },
     {
       "job_key": "turner:b7c063a2bfc3463c33eb49d787e9b75d7ab6f3c2",
@@ -17423,9 +17423,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-07",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 89
+      "seen_count": 90
     },
     {
       "job_key": "cei:192506a3f4dc789e19e50863ba5934c82816c3b4",
@@ -17456,9 +17456,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "turner:9bf16d5db0237639aadaa5053cfff5dd6edf6eaf",
@@ -17495,9 +17495,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 93
+      "seen_count": 94
     },
     {
       "job_key": "cei:b392a9fe45660fe62e0348b9cdf86889131b5023",
@@ -17533,9 +17533,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:82daf151992ec7635a43e08cf0caefe58bdbf1aa",
@@ -17568,9 +17568,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 32
+      "seen_count": 33
     },
     {
       "job_key": "turner:0cf11ae7106f154ec224025e1927f31416443bb4",
@@ -17606,9 +17606,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "primeelectric:0fda504a15fa5c503e1e6c1ba89c35fd45e96466",
@@ -17649,9 +17649,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 111
+      "seen_count": 112
     },
     {
       "job_key": "primeelectric:ce31962a75f0af0ebc9a9957a9322eda1e376df3",
@@ -17686,9 +17686,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "primeelectric:519d6e273e32891a82c61370a250a43148e35b94",
@@ -17729,9 +17729,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "primeelectric:84539f390231cfae89f4acf5691333ecae5b0519",
@@ -17772,9 +17772,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-24",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 46
+      "seen_count": 47
     },
     {
       "job_key": "oeg:1a4f8655b61da40d72c6f3903110746ec9814957",
@@ -17807,9 +17807,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 37
+      "seen_count": 38
     },
     {
       "job_key": "primeelectric:0f854fa68f4e100eabc69397c8990f11cfa7a1a8",
@@ -17850,9 +17850,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 57
+      "seen_count": 58
     },
     {
       "job_key": "turner:f257c0882b298388daf9ea3f508e45565d727c95",
@@ -17884,9 +17884,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 50
+      "seen_count": 51
     },
     {
       "job_key": "mortenson:6663b8f55c51ab37d45b711b09fc6e0a1dc3d5ba",
@@ -17918,9 +17918,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:ba9f9707af9c470df527e3c5aae4e2d63acd2c39",
@@ -17954,9 +17954,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-27",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 142
+      "seen_count": 143
     },
     {
       "job_key": "cei:98a095c92a6fe4bcb0ebdc3107feaa2d3518a132",
@@ -17987,9 +17987,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 38
+      "seen_count": 39
     },
     {
       "job_key": "cei:8a46b7e2c2ff6f4d89d2574f2fb5a8d0cc2f4758",
@@ -18020,9 +18020,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:3448c13f9bc9840d3bae900059869bf4e17ea65b",
@@ -18053,9 +18053,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 38
+      "seen_count": 39
     },
     {
       "job_key": "cei:b5952fe650e4bc4404bd69d527d805765c7c3c64",
@@ -18086,9 +18086,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "cei:d36650eedf11ccd47e75fbac9e12d250e9f49d8e",
@@ -18119,9 +18119,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "cei:5191f41a62459c75967683e5e5c7e384ae710af8",
@@ -18151,9 +18151,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-24",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 16
+      "seen_count": 17
     },
     {
       "job_key": "turner:abe6a48d22ee118c77138f053175868b8d682bd9",
@@ -18188,9 +18188,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-04-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 100
+      "seen_count": 101
     },
     {
       "job_key": "cei:fc3aa50e5ca320a58f904009fdbfbb4d84f3f156",
@@ -18225,9 +18225,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 68
+      "seen_count": 69
     },
     {
       "job_key": "turner:0c996c452d13520e18b9b988c1c5d35123312673",
@@ -18263,9 +18263,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "mortenson:ff948c26ee9a28323562be1ec5f9ee00fe88c7bd",
@@ -18303,9 +18303,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:25062c652c35a5c0dfd3b5ad02b183fd4330cde4",
@@ -18343,9 +18343,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "primeelectric:92861b43ffa7cd41f3b715a42e94cceb2c122415",
@@ -18385,9 +18385,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-13",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 57
+      "seen_count": 58
     },
     {
       "job_key": "mortenson:85954dff1db642d3b20b34c0e2482e26914881a8",
@@ -18426,9 +18426,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:37e8c589d6eff9c0dbd0a9b4930a3dd6979f528d",
@@ -18467,9 +18467,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:f28d57fa3c4093d49e8f83ba86f3cc22283f74de",
@@ -18501,9 +18501,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:9f8f61f58bce4e4b55a0574be26a4d40fc52eca4",
@@ -18535,9 +18535,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 160
+      "seen_count": 161
     },
     {
       "job_key": "mortenson:ba5c4376b2c445fd0987621f88ce5a7f7896f0c7",
@@ -18569,9 +18569,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 29
+      "seen_count": 30
     },
     {
       "job_key": "turner:90d3f8c8c2de9f013d0434eca9a964bb41586bef",
@@ -18602,9 +18602,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:ef630b46f1d3ed78629bb028edf8d54f57b6d944",
@@ -18634,9 +18634,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 60
+      "seen_count": 61
     },
     {
       "job_key": "cei:b572e589750c17722b1b02289549efea9bfe9c65",
@@ -18666,9 +18666,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:6a22526739c4251a7339c0fee2bde08157016698",
@@ -18705,9 +18705,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:befd1682e97004807f6da9ef75e305ba87ba839d",
@@ -18745,9 +18745,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-25",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 15
+      "seen_count": 16
     },
     {
       "job_key": "mortenson:f0c070d8ee8ff98960d67921a0c5e9224cca42d1",
@@ -18782,9 +18782,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 54
+      "seen_count": 55
     },
     {
       "job_key": "mortenson:95cdd41e3cb9472edc9bea1ff41b513daa3d1d9e",
@@ -18817,9 +18817,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:6beaac7dedbb67ac05252cb02a76a3b26cc0da15",
@@ -18852,9 +18852,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-06",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "job_key": "turner:7746a9ad726e4cdf900f325dc34f79393949b8c3",
@@ -18892,9 +18892,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:93b9bb232fcd99debf98edf00c41e5d76e6cea78",
@@ -18925,9 +18925,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:e259b8726c6a4883e95b613ce34dd64f871501fe",
@@ -18960,9 +18960,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-16",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 24
+      "seen_count": 25
     },
     {
       "job_key": "mortenson:de724084ba09584a61bfa521a1bfb281d81b6fa8",
@@ -18995,9 +18995,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-15",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 25
+      "seen_count": 26
     },
     {
       "job_key": "mortenson:a32f965fb9683ea8a7b5b523115d48a6415f118b",
@@ -19030,9 +19030,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "mortenson:dff380baa4dd4197b942861dbe018ccd97426664",
@@ -19065,9 +19065,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:7b7cb274aa617c16c3ae8a0acee9d22663ea9724",
@@ -19100,9 +19100,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 54
+      "seen_count": 55
     },
     {
       "job_key": "turner:ec2d7ed3aabba6213632ac9f4a270221256ba484",
@@ -19134,9 +19134,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:de887924f854a7c178c3b701112beedd87c2bd51",
@@ -19168,9 +19168,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 63
+      "seen_count": 64
     },
     {
       "job_key": "turner:e6f0b94343efd373ad967efc278a6d91229916de",
@@ -19209,9 +19209,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:4bf7fcc591e7d9bfa7bf02dcd307d91c7ea0520a",
@@ -19243,9 +19243,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 63
+      "seen_count": 64
     },
     {
       "job_key": "cei:ad70bd5d2d60ebdf8559ed74cb286fd4f1bdc9e7",
@@ -19281,9 +19281,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:8f3566a2e0bb361a6199d5aae7b1e2a06dca67a6",
@@ -19319,9 +19319,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 4
+      "seen_count": 5
     },
     {
       "job_key": "turner:9aa4e132e323077593704582a588555eb9dfbe49",
@@ -19357,9 +19357,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "oeg:bda46f6e43d969500caecc29248a57c186dfd279",
@@ -19392,9 +19392,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-01",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "turner:06d30ac79662d2c260ab219f4aa2de8f55205b43",
@@ -19430,9 +19430,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-29",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 131
+      "seen_count": 132
     },
     {
       "job_key": "turner:1cf47b6e077167d3e6466ce8cd864a64709c62bc",
@@ -19469,9 +19469,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "turner:ac878fbc54c797bfe3f29956f3eb5c1a00f0934e",
@@ -19508,9 +19508,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-01",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 8
+      "seen_count": 9
     },
     {
       "job_key": "cei:c781fb06f556e037b40d5fc6e67f990dfd1b4aef",
@@ -19541,9 +19541,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-08-04",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 5
+      "seen_count": 6
     },
     {
       "job_key": "cei:e4ffa39f75a263a5785c905baa8050e47cb4b4f4",
@@ -19574,9 +19574,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "cei:6e969919e4ece4a5b6adfea5ff49129981f2246d",
@@ -19607,9 +19607,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 38
+      "seen_count": 39
     },
     {
       "job_key": "cei:cc0e33cba2cc6aa2204715923a0a44dfd60c3feb",
@@ -19640,9 +19640,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-18",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 22
+      "seen_count": 23
     },
     {
       "job_key": "turner:486dbeaa1ea25bc0f909783c4aa22a71a258b487",
@@ -19679,9 +19679,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-03-31",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 125
+      "seen_count": 126
     },
     {
       "job_key": "cei:2e773fc9d79233353e6b249913aac34004245b5f",
@@ -19718,9 +19718,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-21",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 3
+      "seen_count": 4
     },
     {
       "job_key": "mortenson:d1c2ff2aa6d4fd1324a0063788e678fe3b672329",
@@ -19753,9 +19753,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:10cacfd0688603247cefc4d4108d2bc6b4ef5b93",
@@ -19788,9 +19788,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "oeg:efb8dcd948b1ea7b702dc384a8316f920cd8bb64",
@@ -19824,9 +19824,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 17
+      "seen_count": 18
     },
     {
       "job_key": "oeg:ed7c9e46896d7cadb39f48992b946fa385382420",
@@ -19860,9 +19860,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-05-09",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 76
+      "seen_count": 77
     },
     {
       "job_key": "mortenson:0650cf73bba66bf939576e6d7d9df370f57fcb8d",
@@ -19896,9 +19896,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "mortenson:7a351f4c4ad662470bfccea58feae467a7efa6dd",
@@ -19932,9 +19932,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-06-19",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 51
+      "seen_count": 52
     },
     {
       "job_key": "cei:3fb41f0ab3ed764a79f0222f446ef33191ae137f",
@@ -19971,9 +19971,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-07-14",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 26
+      "seen_count": 27
     },
     {
       "job_key": "mortenson:0ff29a238d3430643db7ea85f464a5e8cb4966e2",
@@ -20007,9 +20007,9 @@
       "stale_source": false,
       "stale_since": "",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-06",
+      "last_seen": "2026-09-07",
       "expired_on": "",
-      "seen_count": 2
+      "seen_count": 3
     },
     {
       "job_key": "emcor:67f5ff58a7d5cbcef981fbedaba1cca742de7a50",
@@ -30379,8 +30379,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-09-06T09:10:33.346276-07:00",
-      "last_success_at": "2026-09-06T09:10:33.346276-07:00",
+      "last_attempt_at": "2026-09-07T11:13:47.436016-07:00",
+      "last_success_at": "2026-09-07T11:13:47.436016-07:00",
       "notes": [],
       "errors": []
     },
@@ -30394,7 +30394,7 @@
       "stale_relevant_count": 18,
       "used_browser": false,
       "serving_stale": true,
-      "last_attempt_at": "2026-09-06T09:10:33.346276-07:00",
+      "last_attempt_at": "2026-09-07T11:13:47.436016-07:00",
       "last_success_at": "2026-08-06T08:23:36.267188-07:00",
       "notes": [
         "Serving 18 last-known-good lead(s) until this source recovers."
@@ -30413,7 +30413,7 @@
       "stale_relevant_count": 5,
       "used_browser": false,
       "serving_stale": true,
-      "last_attempt_at": "2026-09-06T09:10:33.346276-07:00",
+      "last_attempt_at": "2026-09-07T11:13:47.436016-07:00",
       "last_success_at": "2026-08-06T08:23:36.267188-07:00",
       "notes": [
         "Serving 5 last-known-good lead(s) until this source recovers."
@@ -30432,8 +30432,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-09-06T09:10:33.346276-07:00",
-      "last_success_at": "2026-09-06T09:10:33.346276-07:00",
+      "last_attempt_at": "2026-09-07T11:13:47.436016-07:00",
+      "last_success_at": "2026-09-07T11:13:47.436016-07:00",
       "notes": [],
       "errors": []
     },
@@ -30447,8 +30447,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-09-06T09:10:33.346276-07:00",
-      "last_success_at": "2026-09-06T09:10:33.346276-07:00",
+      "last_attempt_at": "2026-09-07T11:13:47.436016-07:00",
+      "last_success_at": "2026-09-07T11:13:47.436016-07:00",
       "notes": [
         "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
         "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
@@ -30466,8 +30466,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-09-06T09:10:33.346276-07:00",
-      "last_success_at": "2026-09-06T09:10:33.346276-07:00",
+      "last_attempt_at": "2026-09-07T11:13:47.436016-07:00",
+      "last_success_at": "2026-09-07T11:13:47.436016-07:00",
       "notes": [
         "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
         "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
@@ -30485,8 +30485,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-09-06T09:10:33.346276-07:00",
-      "last_success_at": "2026-09-06T09:10:33.346276-07:00",
+      "last_attempt_at": "2026-09-07T11:13:47.436016-07:00",
+      "last_success_at": "2026-09-07T11:13:47.436016-07:00",
       "notes": [
         "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
         "County coverage was aggregated across 58 California county searches.",
@@ -30504,8 +30504,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-09-06T09:10:33.346276-07:00",
-      "last_success_at": "2026-09-06T09:10:33.346276-07:00",
+      "last_attempt_at": "2026-09-07T11:13:47.436016-07:00",
+      "last_success_at": "2026-09-07T11:13:47.436016-07:00",
       "notes": [],
       "errors": []
     },
@@ -30519,8 +30519,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-09-06T09:10:33.346276-07:00",
-      "last_success_at": "2026-09-06T09:10:33.346276-07:00",
+      "last_attempt_at": "2026-09-07T11:13:47.436016-07:00",
+      "last_success_at": "2026-09-07T11:13:47.436016-07:00",
       "notes": [],
       "errors": []
     },
@@ -30534,8 +30534,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-09-06T09:10:33.346276-07:00",
-      "last_success_at": "2026-09-06T09:10:33.346276-07:00",
+      "last_attempt_at": "2026-09-07T11:13:47.436016-07:00",
+      "last_success_at": "2026-09-07T11:13:47.436016-07:00",
       "notes": [],
       "errors": []
     },
@@ -30549,8 +30549,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-09-06T09:10:33.346276-07:00",
-      "last_success_at": "2026-09-06T09:10:33.346276-07:00",
+      "last_attempt_at": "2026-09-07T11:13:47.436016-07:00",
+      "last_success_at": "2026-09-07T11:13:47.436016-07:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],
