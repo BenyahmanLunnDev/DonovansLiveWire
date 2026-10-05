@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:32:14.212473-07:00",
+  "generated_at": "2026-10-05T14:17:02.419286-07:00",
   "reports": [
     {
       "source_key": "cei",
@@ -11,8 +11,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-04T10:31:17.007929-07:00",
-      "last_success_at": "2026-10-04T10:31:17.007929-07:00",
+      "last_attempt_at": "2026-10-05T14:15:19.551730-07:00",
+      "last_success_at": "2026-10-05T14:15:19.551730-07:00",
       "notes": [],
       "errors": []
     },
@@ -26,7 +26,7 @@
       "stale_relevant_count": 18,
       "used_browser": false,
       "serving_stale": true,
-      "last_attempt_at": "2026-10-04T10:31:17.007929-07:00",
+      "last_attempt_at": "2026-10-05T14:15:19.551730-07:00",
       "last_success_at": "2026-08-06T08:23:36.267188-07:00",
       "notes": [
         "Serving 18 last-known-good lead(s) until this source recovers."
@@ -45,7 +45,7 @@
       "stale_relevant_count": 5,
       "used_browser": false,
       "serving_stale": true,
-      "last_attempt_at": "2026-10-04T10:31:17.007929-07:00",
+      "last_attempt_at": "2026-10-05T14:15:19.551730-07:00",
       "last_success_at": "2026-08-06T08:23:36.267188-07:00",
       "notes": [
         "Serving 5 last-known-good lead(s) until this source recovers."
@@ -64,8 +64,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-04T10:31:17.007929-07:00",
-      "last_success_at": "2026-10-04T10:31:17.007929-07:00",
+      "last_attempt_at": "2026-10-05T14:15:19.551730-07:00",
+      "last_success_at": "2026-10-05T14:15:19.551730-07:00",
       "notes": [],
       "errors": []
     },
@@ -73,20 +73,20 @@
       "source_key": "oregonapprenticeship",
       "source_name": "Oregon Apprenticeship",
       "source_url": "https://oregonapprenticeship.org/search-openings/",
-      "status": "ok",
-      "total_fetched": 14,
+      "status": "error",
+      "total_fetched": 0,
       "total_relevant": 14,
-      "stale_relevant_count": 0,
+      "stale_relevant_count": 14,
       "used_browser": false,
-      "serving_stale": false,
-      "last_attempt_at": "2026-10-04T10:31:17.007929-07:00",
+      "serving_stale": true,
+      "last_attempt_at": "2026-10-05T14:15:19.551730-07:00",
       "last_success_at": "2026-10-04T10:31:17.007929-07:00",
       "notes": [
-        "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
-        "Skipped 1 committee entry where a direct committee page currently says applications are closed or paused.",
-        "NIETC lists the Inside Program as closed. Updated 8/28/26."
+        "Serving 14 last-known-good lead(s) until this source recovers."
       ],
-      "errors": []
+      "errors": [
+        "404 Client Error: Not Found for url: https://area1jatc.us/Applications"
+      ]
     },
     {
       "source_key": "washingtonapprenticeship",
@@ -98,8 +98,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-04T10:31:17.007929-07:00",
-      "last_success_at": "2026-10-04T10:31:17.007929-07:00",
+      "last_attempt_at": "2026-10-05T14:15:19.551730-07:00",
+      "last_success_at": "2026-10-05T14:15:19.551730-07:00",
       "notes": [
         "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
         "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
@@ -117,8 +117,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-04T10:31:17.007929-07:00",
-      "last_success_at": "2026-10-04T10:31:17.007929-07:00",
+      "last_attempt_at": "2026-10-05T14:15:19.551730-07:00",
+      "last_success_at": "2026-10-05T14:15:19.551730-07:00",
       "notes": [
         "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
         "County coverage was aggregated across 58 California county searches.",
@@ -131,13 +131,13 @@
       "source_name": "OEG",
       "source_url": "https://oeg.us.com/careers/",
       "status": "ok",
-      "total_fetched": 25,
+      "total_fetched": 24,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-04T10:31:17.007929-07:00",
-      "last_success_at": "2026-10-04T10:31:17.007929-07:00",
+      "last_attempt_at": "2026-10-05T14:15:19.551730-07:00",
+      "last_success_at": "2026-10-05T14:15:19.551730-07:00",
       "notes": [],
       "errors": []
     },
@@ -146,13 +146,13 @@
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
-      "total_fetched": 124,
+      "total_fetched": 123,
       "total_relevant": 1,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-04T10:31:17.007929-07:00",
-      "last_success_at": "2026-10-04T10:31:17.007929-07:00",
+      "last_attempt_at": "2026-10-05T14:15:19.551730-07:00",
+      "last_success_at": "2026-10-05T14:15:19.551730-07:00",
       "notes": [],
       "errors": []
     },
@@ -161,13 +161,13 @@
       "source_name": "Turner Construction",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
       "status": "ok",
-      "total_fetched": 210,
+      "total_fetched": 207,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-04T10:31:17.007929-07:00",
-      "last_success_at": "2026-10-04T10:31:17.007929-07:00",
+      "last_attempt_at": "2026-10-05T14:15:19.551730-07:00",
+      "last_success_at": "2026-10-05T14:15:19.551730-07:00",
       "notes": [],
       "errors": []
     },
@@ -181,8 +181,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-04T10:31:17.007929-07:00",
-      "last_success_at": "2026-10-04T10:31:17.007929-07:00",
+      "last_attempt_at": "2026-10-05T14:15:19.551730-07:00",
+      "last_success_at": "2026-10-05T14:15:19.551730-07:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],
