@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:54:21.899577-07:00",
+  "generated_at": "2026-10-07T12:19:55.960565-07:00",
   "reports": [
     {
       "source_key": "cei",
@@ -11,8 +11,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-06T11:53:03.648483-07:00",
-      "last_success_at": "2026-10-06T11:53:03.648483-07:00",
+      "last_attempt_at": "2026-10-07T12:18:22.605576-07:00",
+      "last_success_at": "2026-10-07T12:18:22.605576-07:00",
       "notes": [],
       "errors": []
     },
@@ -26,7 +26,7 @@
       "stale_relevant_count": 18,
       "used_browser": false,
       "serving_stale": true,
-      "last_attempt_at": "2026-10-06T11:53:03.648483-07:00",
+      "last_attempt_at": "2026-10-07T12:18:22.605576-07:00",
       "last_success_at": "2026-08-06T08:23:36.267188-07:00",
       "notes": [
         "Serving 18 last-known-good lead(s) until this source recovers."
@@ -45,7 +45,7 @@
       "stale_relevant_count": 5,
       "used_browser": false,
       "serving_stale": true,
-      "last_attempt_at": "2026-10-06T11:53:03.648483-07:00",
+      "last_attempt_at": "2026-10-07T12:18:22.605576-07:00",
       "last_success_at": "2026-08-06T08:23:36.267188-07:00",
       "notes": [
         "Serving 5 last-known-good lead(s) until this source recovers."
@@ -59,13 +59,13 @@
       "source_name": "PRIME Electric",
       "source_url": "https://www.primeelectric.com/careers/",
       "status": "ok",
-      "total_fetched": 50,
+      "total_fetched": 52,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-06T11:53:03.648483-07:00",
-      "last_success_at": "2026-10-06T11:53:03.648483-07:00",
+      "last_attempt_at": "2026-10-07T12:18:22.605576-07:00",
+      "last_success_at": "2026-10-07T12:18:22.605576-07:00",
       "notes": [],
       "errors": []
     },
@@ -79,13 +79,12 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-06T11:53:03.648483-07:00",
-      "last_success_at": "2026-10-06T11:53:03.648483-07:00",
+      "last_attempt_at": "2026-10-07T12:18:22.605576-07:00",
+      "last_success_at": "2026-10-07T12:18:22.605576-07:00",
       "notes": [
         "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
         "Skipped 2 committee entry where a direct committee page currently says applications are closed or paused.",
-        "NIETC lists the Inside Program as closed. Updated 8/28/26.",
-        "Source recovered in this run after a previous outage."
+        "NIETC lists the Inside Program as closed. Updated 8/28/26."
       ],
       "errors": []
     },
@@ -99,8 +98,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-06T11:53:03.648483-07:00",
-      "last_success_at": "2026-10-06T11:53:03.648483-07:00",
+      "last_attempt_at": "2026-10-07T12:18:22.605576-07:00",
+      "last_success_at": "2026-10-07T12:18:22.605576-07:00",
       "notes": [
         "Washington L&I currently lists 10 inside wireman / inside electrician pathways from the public directory.",
         "3 Washington pathways explicitly cover Oregon counties or Oregon-wide service areas.",
@@ -118,8 +117,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-06T11:53:03.648483-07:00",
-      "last_success_at": "2026-10-06T11:53:03.648483-07:00",
+      "last_attempt_at": "2026-10-07T12:18:22.605576-07:00",
+      "last_success_at": "2026-10-07T12:18:22.605576-07:00",
       "notes": [
         "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
         "County coverage was aggregated across 58 California county searches.",
@@ -132,13 +131,13 @@
       "source_name": "OEG",
       "source_url": "https://oeg.us.com/careers/",
       "status": "ok",
-      "total_fetched": 24,
+      "total_fetched": 22,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-06T11:53:03.648483-07:00",
-      "last_success_at": "2026-10-06T11:53:03.648483-07:00",
+      "last_attempt_at": "2026-10-07T12:18:22.605576-07:00",
+      "last_success_at": "2026-10-07T12:18:22.605576-07:00",
       "notes": [],
       "errors": []
     },
@@ -147,13 +146,13 @@
       "source_name": "Mortenson",
       "source_url": "https://www.mortenson.com/careers/data-center",
       "status": "ok",
-      "total_fetched": 124,
+      "total_fetched": 123,
       "total_relevant": 1,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-06T11:53:03.648483-07:00",
-      "last_success_at": "2026-10-06T11:53:03.648483-07:00",
+      "last_attempt_at": "2026-10-07T12:18:22.605576-07:00",
+      "last_success_at": "2026-10-07T12:18:22.605576-07:00",
       "notes": [],
       "errors": []
     },
@@ -167,8 +166,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-06T11:53:03.648483-07:00",
-      "last_success_at": "2026-10-06T11:53:03.648483-07:00",
+      "last_attempt_at": "2026-10-07T12:18:22.605576-07:00",
+      "last_success_at": "2026-10-07T12:18:22.605576-07:00",
       "notes": [],
       "errors": []
     },
@@ -182,8 +181,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-10-06T11:53:03.648483-07:00",
-      "last_success_at": "2026-10-06T11:53:03.648483-07:00",
+      "last_attempt_at": "2026-10-07T12:18:22.605576-07:00",
+      "last_success_at": "2026-10-07T12:18:22.605576-07:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],
