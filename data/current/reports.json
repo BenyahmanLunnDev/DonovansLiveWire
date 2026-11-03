@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-02T14:47:01.267998-08:00",
+  "generated_at": "2026-11-03T12:30:44.471603-08:00",
   "reports": [
     {
       "source_key": "cei",
       "source_name": "Cupertino Electric",
       "source_url": "https://www.cei.com/careers/current-openings",
       "status": "ok",
-      "total_fetched": 86,
+      "total_fetched": 84,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-11-02T14:44:53.384164-08:00",
-      "last_success_at": "2026-11-02T14:44:53.384164-08:00",
+      "last_attempt_at": "2026-11-03T12:28:55.927481-08:00",
+      "last_success_at": "2026-11-03T12:28:55.927481-08:00",
       "notes": [],
       "errors": []
     },
@@ -26,7 +26,7 @@
       "stale_relevant_count": 18,
       "used_browser": false,
       "serving_stale": true,
-      "last_attempt_at": "2026-11-02T14:44:53.384164-08:00",
+      "last_attempt_at": "2026-11-03T12:28:55.927481-08:00",
       "last_success_at": "2026-08-06T08:23:36.267188-07:00",
       "notes": [
         "Serving 18 last-known-good lead(s) until this source recovers."
@@ -45,7 +45,7 @@
       "stale_relevant_count": 5,
       "used_browser": false,
       "serving_stale": true,
-      "last_attempt_at": "2026-11-02T14:44:53.384164-08:00",
+      "last_attempt_at": "2026-11-03T12:28:55.927481-08:00",
       "last_success_at": "2026-08-06T08:23:36.267188-07:00",
       "notes": [
         "Serving 5 last-known-good lead(s) until this source recovers."
@@ -59,13 +59,13 @@
       "source_name": "PRIME Electric",
       "source_url": "https://www.primeelectric.com/careers/",
       "status": "ok",
-      "total_fetched": 67,
+      "total_fetched": 66,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-11-02T14:44:53.384164-08:00",
-      "last_success_at": "2026-11-02T14:44:53.384164-08:00",
+      "last_attempt_at": "2026-11-03T12:28:55.927481-08:00",
+      "last_success_at": "2026-11-03T12:28:55.927481-08:00",
       "notes": [],
       "errors": []
     },
@@ -79,8 +79,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-11-02T14:44:53.384164-08:00",
-      "last_success_at": "2026-11-02T14:44:53.384164-08:00",
+      "last_attempt_at": "2026-11-03T12:28:55.927481-08:00",
+      "last_success_at": "2026-11-03T12:28:55.927481-08:00",
       "notes": [
         "Oregon Apprenticeship currently marks 15 Inside Electrician program entries as open statewide.",
         "Skipped 2 committee entry where a direct committee page currently says applications are closed or paused.",
@@ -98,7 +98,7 @@
       "stale_relevant_count": 10,
       "used_browser": false,
       "serving_stale": true,
-      "last_attempt_at": "2026-11-02T14:44:53.384164-08:00",
+      "last_attempt_at": "2026-11-03T12:28:55.927481-08:00",
       "last_success_at": "2026-10-31T10:39:53.788842-07:00",
       "notes": [
         "Serving 10 last-known-good lead(s) until this source recovers."
@@ -117,8 +117,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-11-02T14:44:53.384164-08:00",
-      "last_success_at": "2026-11-02T14:44:53.384164-08:00",
+      "last_attempt_at": "2026-11-03T12:28:55.927481-08:00",
+      "last_success_at": "2026-11-03T12:28:55.927481-08:00",
       "notes": [
         "California DIR public works search currently lists 34 unique Electrical & Electronic apprenticeship sponsors.",
         "County coverage was aggregated across 58 California county searches.",
@@ -136,8 +136,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-11-02T14:44:53.384164-08:00",
-      "last_success_at": "2026-11-02T14:44:53.384164-08:00",
+      "last_attempt_at": "2026-11-03T12:28:55.927481-08:00",
+      "last_success_at": "2026-11-03T12:28:55.927481-08:00",
       "notes": [],
       "errors": []
     },
@@ -151,8 +151,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-11-02T14:44:53.384164-08:00",
-      "last_success_at": "2026-11-02T14:44:53.384164-08:00",
+      "last_attempt_at": "2026-11-03T12:28:55.927481-08:00",
+      "last_success_at": "2026-11-03T12:28:55.927481-08:00",
       "notes": [],
       "errors": []
     },
@@ -161,13 +161,13 @@
       "source_name": "Turner Construction",
       "source_url": "https://www.turnerconstruction.com/careers/labor-and-skilled-trade-professionals",
       "status": "ok",
-      "total_fetched": 194,
+      "total_fetched": 196,
       "total_relevant": 0,
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-11-02T14:44:53.384164-08:00",
-      "last_success_at": "2026-11-02T14:44:53.384164-08:00",
+      "last_attempt_at": "2026-11-03T12:28:55.927481-08:00",
+      "last_success_at": "2026-11-03T12:28:55.927481-08:00",
       "notes": [],
       "errors": []
     },
@@ -181,8 +181,8 @@
       "stale_relevant_count": 0,
       "used_browser": false,
       "serving_stale": false,
-      "last_attempt_at": "2026-11-02T14:44:53.384164-08:00",
-      "last_success_at": "2026-11-02T14:44:53.384164-08:00",
+      "last_attempt_at": "2026-11-03T12:28:55.927481-08:00",
+      "last_success_at": "2026-11-03T12:28:55.927481-08:00",
       "notes": [
         "The Kiewit union craft page currently behaves like an interest form rather than an openings feed."
       ],
